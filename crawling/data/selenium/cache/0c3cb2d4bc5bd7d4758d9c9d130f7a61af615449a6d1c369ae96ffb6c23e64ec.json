@@ -1,0 +1,532 @@
+{
+  "entities": {
+    "Q509214": {
+      "type": "item",
+      "id": "Q509214",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "바스티타스 보레알리스"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "e802d44c6a4c9007e3a34630f2dab492f46db9aa",
+              "datavalue": {
+                "value": "Vastitas Borealis",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q509214$8D98C0F5-A986-4ECF-B4A7-68D9422A776D",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P376": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P376",
+              "hash": "bd838695900ae63ace2ed11fa4a3800cbcbdf065",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 111,
+                  "id": "Q111"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q509214$72ae8d27-4f2e-d4f0-fe60-7dbe4c14d793",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "847b1119f260378f0db863bd307ac01c01567fa9",
+              "datavalue": {
+                "value": "/m/0782f_",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q509214$69BCC9F2-66BD-48FF-BBED-A8BBD970DFFF",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P625": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P625",
+              "hash": "0836c16d422c0cb5033491984312b002f215f2d3",
+              "datavalue": {
+                "value": {
+                  "latitude": 87.73,
+                  "longitude": 32.53,
+                  "altitude": null,
+                  "precision": 0.01,
+                  "globe": "http://www.wikidata.org/entity/Q111"
+                },
+                "type": "globecoordinate"
+              },
+              "datatype": "globe-coordinate"
+            },
+            "type": "statement",
+            "id": "Q509214$074BDCBF-D099-400C-8F9E-359E374673DB",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "11d7e7603287e4be5c7d8f532322692018e68ba3",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "7f25fe6e10be365ff37f7d4a9b5ee361917a20c5",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 24033439,
+                          "id": "Q24033439"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "45fe88c208e79d31361aaf86962e4b367801484e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 160091,
+                  "id": "Q160091"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q509214$AF08F85F-3E7F-444E-B1DF-4DA110993BBB",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "8aa64dbdbc6e5248e70e20498f5155d614373d05",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3555010,
+                  "id": "Q3555010"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q509214$3EE9CFE1-9177-43C3-9351-E5D0B925E071",
+            "rank": "normal"
+          }
+        ],
+        "P276": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P276",
+              "hash": "80631a89e6d61b3bd5570d745dcf84186dfe4606",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3129187,
+                  "id": "Q3129187"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q509214$3ECFC751-DE89-40FC-8146-338DA6695EC7",
+            "rank": "normal"
+          }
+        ],
+        "P2824": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2824",
+              "hash": "7489d25ba8f9e76f58691c60059ac87a7bf0df51",
+              "datavalue": {
+                "value": "6333",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q509214$B14D87C9-4EF5-4BF4-BED6-2F49E94D9764",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "b0bbf5b9bd75e08242b4b515a59a9edf06795556",
+              "datavalue": {
+                "value": "Phoenix mission horizon stitched high definition.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q509214$1718bce2-4b5e-9d0f-c56c-e91ba4dda79b",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "87d23a92106aee5a4b69f92e67f47f630f99a2ad",
+              "datavalue": {
+                "value": "place/Vastitas-Borealis",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "c3529a7eefeebf0bbd76e546e6a724a674db203f",
+                  "datavalue": {
+                    "value": "Vastitas Borealis",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P2093": [
+                {
+                  "snaktype": "value",
+                  "property": "P2093",
+                  "hash": "cbaddeb9da14e23596851b17dee4c77c60d7a7cd",
+                  "datavalue": {
+                    "value": "Michael H. Carr",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P2093"
+            ],
+            "id": "Q509214$853A5F4F-8194-4C7E-8C41-F042F9F5F93A",
+            "rank": "normal"
+          }
+        ],
+        "P2043": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2043",
+              "hash": "5b1db9639433308240a808ceaed4d7322d8b0266",
+              "datavalue": {
+                "value": {
+                  "amount": "+2003",
+                  "unit": "http://www.wikidata.org/entity/Q828224"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q509214$68634CF1-4CDF-4E21-AA51-B33AC629910A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "11d7e7603287e4be5c7d8f532322692018e68ba3",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "7f25fe6e10be365ff37f7d4a9b5ee361917a20c5",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 24033439,
+                          "id": "Q24033439"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P242": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P242",
+              "hash": "37b31888dc44b0576d2eb73df03e47689c4b1ab6",
+              "datavalue": {
+                "value": "MarsTopoMap-PIA02031 modest.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q509214$5bb5dc20-489d-c04d-f109-df0fef1448e4",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "alswiki": {
+          "site": "alswiki",
+          "title": "Vastitas Borealis",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "فاستيتاس بورياليس",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Vastitas Borealis",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Vastitas Borealis",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Vastitas Borealis",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Vastitas Borealis",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Vastitas Borealis",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Vastitas Borealis",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "کویره شمالی",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Vastitas Borealis",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Vastitas Borealis",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Vastitas Borealis",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Vastitas Borealis",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Մեծ հյուսիսային հարթավայր",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Vastitas Borealis",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Vastitas Borealis",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "바스티타스 보레알리스",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Vastitas Borealis",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Vastitas Borealis",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Vastitas Borealis",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Vastitas Borealis",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Великая Северная равнина",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Vastitas Borealis",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Vastitas Borealis",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "北方大平原",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "北方荒原",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

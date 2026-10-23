@@ -1,0 +1,682 @@
+{
+  "entities": {
+    "Q5864": {
+      "type": "item",
+      "id": "Q5864",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "G형 주계열성"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "별 분류"
+        }
+      },
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "황색 왜성"
+          }
+        ]
+      },
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "f2bf608b30e63e20389f20d183a9323a3bd89516",
+              "datavalue": {
+                "value": "Yellow dwarfs",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q5864$79680E6C-D258-4B77-BDEB-F7E2024D44B7",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "a0596861091884dea3b79bfe16778dc72c60022f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7217188,
+                  "id": "Q7217188"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q5864$20F2A47A-2ED8-4888-ACDE-C22C73288EC7",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "8362b6517857638f7fe4ac24023655ead9c38f1b",
+              "datavalue": {
+                "value": "/m/02lwbp",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5864$78D63517-3852-45D8-AB87-A21F744F88C7",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3827": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3827",
+              "hash": "414bbcd414b2bac7c0bb5bf42279838131f88e04",
+              "datavalue": {
+                "value": "yellow-dwarfs",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5864$31EC9D26-FE01-448F-B1C7-926A6F078EA5",
+            "rank": "normal"
+          }
+        ],
+        "P4466": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4466",
+              "hash": "e759910d1eb26418e9e6c28627d55f6b5a985dd3",
+              "datavalue": {
+                "value": "556",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5864$8584b1d7-421d-8647-3cbf-971288bff334",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "0908e0898bb312cf61d6263ad38409ea1b489693",
+              "datavalue": {
+                "value": "topic/G2-V-star",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "404d9b90672546ffb9ca0cef9025b77c11ec00c6",
+                  "datavalue": {
+                    "value": "G2 V star",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q5864$F27CD883-7D80-4020-82C0-E826FB0609A8",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "4c8078ff7b898861f3a88d0bd17491cf097c76fb",
+              "datavalue": {
+                "value": "32357836",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5864$4BACB405-7839-4144-AEAB-59C3A2E74CEF",
+            "rank": "normal"
+          }
+        ],
+        "P10376": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "c1f4a0903bdec25e34e2e8fcdfba951e165ab743",
+              "datavalue": {
+                "value": "physics-and-astronomy/g-dwarf-stars",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5864$2c04dc6c-46fc-a289-4231-a441152c5d49",
+            "rank": "normal"
+          }
+        ],
+        "P12800": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12800",
+              "hash": "7dfb92bef253bdbb9e1186b3caf7638cd46c90c8",
+              "datavalue": {
+                "value": "fr:Naine_jaune",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5864$9E7BEC63-5921-495B-825D-EEA8255D3371",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12800",
+              "hash": "d2a0886a70034cca60f94727cf5f862f0be90bd1",
+              "datavalue": {
+                "value": "it:Nana_gialla",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5864$d1e0d19c-4e0b-0457-8f93-770945e1a858",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "35115544e8a5a46fdfdbbb0b886b7b8e97abdf8d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1007122,
+                  "id": "Q1007122"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q5864$7d239ee5-45c0-51b1-66a0-ea487ece191b",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "7c6dbf84adf441d849d174a382e44815f3b9b831",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 244393,
+                  "id": "Q244393"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q5864$43A38887-F4DF-48EC-8F48-61197130559D",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "c580bbc0a91691ca3dd13600fc6f87f83192fb17",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 179600,
+                  "id": "Q179600"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q5864$0020652a-4d98-b290-f020-46f56af7a0f6",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "b6d0b60e2a342f7340794353340d54a640e1ccd6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 17444909,
+                  "id": "Q17444909"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q5864$16d0dfcc-466c-9d0d-d708-0c019874c44e",
+            "rank": "normal"
+          }
+        ],
+        "P361": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P361",
+              "hash": "cf3013cb03029a86285d6d0f6f0af7c492a9ce5a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3450,
+                  "id": "Q3450"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q5864$f4eb48c5-4d0e-9ec3-8d72-0559dfb2289b",
+            "rank": "normal"
+          }
+        ],
+        "P11408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11408",
+              "hash": "402ed24ac35eea18aa08c77f5b483c94203b4fa7",
+              "datavalue": {
+                "value": "G型主系列星",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5864$12aa96ee-41f5-aa45-9164-fba788b46318",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Geeldwerg",
+          "badges": []
+        },
+        "anwiki": {
+          "site": "anwiki",
+          "title": "Nana amariella",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "نجوم التتابع الرئيس من النوع G",
+          "badges": []
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Estrella de tipu-G de la secuencia principal",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "G tipli əsas ardıcıllıq ulduzu",
+          "badges": []
+        },
+        "be_x_oldwiki": {
+          "site": "be_x_oldwiki",
+          "title": "Жоўты карлік",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Жоўты карлік",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Жълто джудже",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Nan groc",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Žlutý trpaslík",
+          "badges": []
+        },
+        "cvwiki": {
+          "site": "cvwiki",
+          "title": "Сарă карлик",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Gelber Zwerg",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "G-type main-sequence star",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Flava nano",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Estrella de tipo-G de la secuencia principal",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Kollane kääbus",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Nano hori",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "ستاره نوع جی رشته اصلی",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "G-tyypin pääsarjan tähti",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Naine jaune",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "כוכב הסדרה הראשית מסוג G",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "G श्रेणी का मुख्य-अनुक्रम तारा",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Դեղին թզուկ",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Bintang deret utama tipe-G",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Nana gialla",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "G型主系列星",
+          "badges": []
+        },
+        "kabwiki": {
+          "site": "kabwiki",
+          "title": "Agezlan awraɣ",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "G-ტიპის მთავარი მიმდევრობის ვარსკვლავი",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "G형 주계열성",
+          "badges": []
+        },
+        "lawiki": {
+          "site": "lawiki",
+          "title": "Pumilio flava",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Gielen Zwerg",
+          "badges": []
+        },
+        "liwiki": {
+          "site": "liwiki",
+          "title": "G-klasse staar",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Geltonoji nykštukė",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Dzeltenais punduris",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Жолто џуџе",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Bintang jujukan utama jenis G",
+          "badges": []
+        },
+        "mywiki": {
+          "site": "mywiki",
+          "title": "ကြယ်ပုဝါ",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Hoofdreeksster type G",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Gul dverg",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Żółty karzeł",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Anã amarela",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Pitică galbenă",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Жёлтый карлик",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "G-type main-sequence star",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Žltý trpaslík",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "GV-stjärna",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "ดาวแคระเหลือง",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Sarı cüce",
+          "badges": []
+        },
+        "ttwiki": {
+          "site": "ttwiki",
+          "title": "Сары кәрлә",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Жовтий карлик",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Sao dãy chính loại G",
+          "badges": []
+        },
+        "zh_classicalwiki": {
+          "site": "zh_classicalwiki",
+          "title": "黃矮星",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "黃矮星",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "G型主序星",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

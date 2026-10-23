@@ -1,0 +1,428 @@
+{
+  "entities": {
+    "Q797219": {
+      "type": "item",
+      "id": "Q797219",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "용자리 BY형 변광성"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "380938734b571139263885da31b8462c9af76aad",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8285352,
+                  "id": "Q8285352"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q797219$C7641F0B-539A-483A-B03C-705A23BED27F",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "8219002355af4c068df3cbdc4b3167e55888d607",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2168098,
+                  "id": "Q2168098"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q797219$2311d3f3-4c85-a344-531d-8e89d3cb8999",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "b34c16f015a51a41d3b835fcfbc2ee06cd09a19f",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "bc86cd527b0abfce72c01eb39d76a1ef16010f06",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 222662,
+                          "id": "Q222662"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "0204288a5e25d3408547116ab3b2669438604415",
+                      "datavalue": {
+                        "value": "http://www.sai.msu.su/gcvs/gcvs/iii/vartype.txt",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P407": [
+                    {
+                      "snaktype": "value",
+                      "property": "P407",
+                      "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 1860,
+                          "id": "Q1860"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "0c112f1b9df903be023362db71dde8fe1f78d718",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2009-02-12T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P854",
+                  "P407",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "c4994017f21e926d9b353d9e1c5a17490659f102",
+              "datavalue": {
+                "value": "/m/07zkp8",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q797219$78BCFA53-D5EE-45D6-AA50-B6D24FCE7C1C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P138",
+              "hash": "758b885bc77b8806a792dbae36e37b1eb6570403",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2660608,
+                  "id": "Q2660608"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q797219$8c516337-4408-c05d-77da-eab9ed3020d8",
+            "rank": "normal"
+          }
+        ],
+        "P528": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P528",
+              "hash": "a7ac526b16b2c48ca84d444f09f0664d4464dd53",
+              "datavalue": {
+                "value": "BY",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P972": [
+                {
+                  "snaktype": "value",
+                  "property": "P972",
+                  "hash": "c5a4f912362921c7a08383c59d0916f458c51b01",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 222662,
+                      "id": "Q222662"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P972"
+            ],
+            "id": "Q797219$efefd5ef-498f-829f-9292-39cbf694c756",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "b6d0b60e2a342f7340794353340d54a640e1ccd6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 17444909,
+                  "id": "Q17444909"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q797219$4C6B3F10-503D-434F-8FE8-49848497368D",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "314bc9fce79806dea74b6da91232cd4f12927d3a",
+              "datavalue": {
+                "value": "2775867399",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q797219$6BE7F7A8-6A3E-44BE-9DAB-94211822AF5E",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "0b44db5d72354120ff3af8ce34d8477de97cc3a9",
+              "datavalue": {
+                "value": "BY Draconis variable stars",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q797219$387341da-4ba9-cbbd-fd39-c107993a87ed",
+            "rank": "normal"
+          }
+        ],
+        "P11408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11408",
+              "hash": "128eccf92edf935ae7ddd375ea064b972de1c345",
+              "datavalue": {
+                "value": "りゅう座BY型変光星",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q797219$52d8a84d-49f8-ec03-7dfe-e7134547bb05",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Variable BY Draconis",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "BY-Draconis-Stern",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "BY Draconis variable",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Estrella variable BY Draconis",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "متغیر بی‌وای اژدها",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "BY Draconis -muuttuja",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Étoile variable de type BY Draconis",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "משתנה BY בדרקון",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Variabile BY Draconis",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "りゅう座BY型変光星",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "용자리 BY형 변광성",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Променлива ѕвезда од типот на BY Змеј",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Gwiazdy typu BY Draconis",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Variável BY Draconis",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Переменная типа BY Дракона",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "BY Draconis-variabel",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "BY Draconis değişeni",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Зоря типу BY Дракона",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "天龍座BY型變星",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

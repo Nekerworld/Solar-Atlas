@@ -1,0 +1,363 @@
+{
+  "entities": {
+    "Q11176": {
+      "type": "item",
+      "id": "Q11176",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "지구의 위성"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "4a144fdb235235801b5182dea64a03a9d566d21e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5961257,
+                  "id": "Q5961257"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q11176$0c62a0f1-4406-7670-c3da-3dca50070e5a",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "a881ecb2500baad7638787fe09fe321d8f4c0a0b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2537,
+                  "id": "Q2537"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11176$f709270e-4f08-295c-b3e5-23bbacf5eb6d",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "c2f6b6e3b5022e182b99cb86575b3249eda27522",
+              "datavalue": {
+                "value": "/m/05n02cb",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11176$B35A9ECE-9CFE-4180-95B2-CD7ADC320F3C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "c1a881e648a229183c86431e647eddcfb006637f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 25304430,
+                  "id": "Q25304430"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11176$884f4e75-4408-1c30-2da0-9e3bd96f600e",
+            "rank": "normal"
+          }
+        ],
+        "P8408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8408",
+              "hash": "48b6c15cc5e6018e8484041bf220fbff6be35259",
+              "datavalue": {
+                "value": "ClaimedMoonsOfEarth",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11176$3C4DD91F-1D19-4F5B-9218-5D764FB03BED",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64139102,
+                          "id": "Q64139102"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-07-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P397": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P397",
+              "hash": "1abea242d33c4366af60c847d29c1b86d422acf9",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2,
+                  "id": "Q2"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11176$8b92b95e-4762-b3b8-7ee7-be2e4419294e",
+            "rank": "normal"
+          }
+        ],
+        "P2581": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2581",
+              "hash": "43e009017340d5c77a3d499fc9152bdf552085ef",
+              "datavalue": {
+                "value": "03726606n",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11176$2c4197ae-48bb-4463-237f-90f552e1e12d",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Beweerde aardmane",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "أقمار الأرض الافتراضية",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Гіпатэтычныя натуральныя спадарожнікі Зямлі",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Satèl·lits hipotètics de la Terra",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Zweiter Erdmond",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Claimed moons of Earth",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Otros satélites naturales de la Tierra",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Maa väidetavad kuud",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Satellites hypothétiques de la Terre",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Satelit lain Bumi",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "月以外の地球の衛星",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "지구의 위성",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Bulan Bumi lain",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Outras luas da Terra",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Alți sateliți ai Pământului",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Гипотетические естественные спутники Земли",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Jordens hypotetiska månar",
+          "badges": []
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Pag-angkin ng mga buwan sa Daigdig",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Dünya'nın iddia edilen uyduları",
+          "badges": []
+        },
+        "tumwiki": {
+          "site": "tumwiki",
+          "title": "Ŵanyake ŵakuti mapulaneti ghanyake gha pa charu chapasi",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Гіпотетичні природні супутники Землі",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "地球其他衛星",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "地球的其他衛星",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

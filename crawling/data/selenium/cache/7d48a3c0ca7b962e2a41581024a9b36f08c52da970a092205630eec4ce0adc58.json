@@ -1,0 +1,1633 @@
+{
+  "entities": {
+    "Q839578": {
+      "type": "item",
+      "id": "Q839578",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "집단역학"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "68178bfd9b05c63796e5536a56ab82fa24240889",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 609298,
+                  "id": "Q609298"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q839578$0201dad5-4dff-bb2e-7af1-0825269011c4",
+            "rank": "normal"
+          }
+        ],
+        "P349": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P349",
+              "hash": "0d5c2b5a848cff972e8af8a9933826ad12a6531d",
+              "datavalue": {
+                "value": "00944915",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$32850EB1-3EBC-4D71-8ED1-877288E9CD3A",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "e76c66e64d5488087b59085f904842bb41294296",
+              "datavalue": {
+                "value": "/m/014sth",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$6A115DC7-35AA-4EC1-BBC1-524B9B0BC342",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3417",
+              "hash": "acbca39fc8f57e6787d79b589262140b864600e2",
+              "datavalue": {
+                "value": "Group-Dynamics",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$9A24F86E-C58B-4F58-9A68-821542CF1754",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3b0a5bb3c1f955edce73740124f7d935698092ad",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "3ac9682e789a3a3791d4fd088b265ea03abef101",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 51711,
+                          "id": "Q51711"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3827": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3827",
+              "hash": "6f25f5c8ce263ec08b9735ad8de81095fd3dbc56",
+              "datavalue": {
+                "value": "group-processes",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$6341A6C3-11A1-493B-9D80-3E83CAB034F9",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3827",
+              "hash": "bf7f494435754f2e63df4f4b847c132542461f54",
+              "datavalue": {
+                "value": "group-behavior",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$14502899-391A-4BBD-B8D5-B34E4D4C68BE",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3827",
+              "hash": "f8b2075bf06d3cb797b69de96b05ed8d36c16955",
+              "datavalue": {
+                "value": "group-dynamics",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$2E453143-F69E-49B7-9E21-13C4B41D71EB",
+            "rank": "normal"
+          }
+        ],
+        "P3219": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3219",
+              "hash": "6863f8259f3b5b2df736090b3368878e7770d736",
+              "datavalue": {
+                "value": "dynamique-de-groupe",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$37C918D0-B7F4-4C69-933B-1C96FD938CBA",
+            "rank": "normal"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "725cdad0e430b7b33fb1aea3a2215743cbb02c78",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 32540086,
+                  "id": "Q32540086"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q839578$F5FD6D50-5BE7-46F3-9275-3E8F9C94920D",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9cdd4f1d064faebc44a10fbd408afa604f3b89f6",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "16eef556b717b1b9c8e2599faef3af2af8537632",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 199700,
+                          "id": "Q199700"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "ef757d80cac4808da805b1434f0c50466e843acd",
+              "datavalue": {
+                "value": "4022392-9",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "0414d55a183c2a98b3b5b5d9006b6104699505d7",
+                  "datavalue": {
+                    "value": "Gruppendynamik",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q839578$8F35FF1E-D7A5-46AD-AF7F-FC7AE0C48A94",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "b41c58cb4316c786b31ad25d20f56417f88d8880",
+              "datavalue": {
+                "value": "topic/group-dynamics",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "c2e2d7680fa7f0c502aad1b0d5b03e74c028372c",
+                  "datavalue": {
+                    "value": "group dynamics",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q839578$87BA8089-6F2D-4515-821C-D5FBD6A7D754",
+            "rank": "normal"
+          }
+        ],
+        "P7033": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7033",
+              "hash": "c298f7d8cec1a2e1ab889f14058d6b792704e737",
+              "datavalue": {
+                "value": "scot/6721",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$F99456A4-C144-48C7-B67B-D38537195CE4",
+            "rank": "normal"
+          }
+        ],
+        "P1296": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1296",
+              "hash": "6f8aecbca7fe13aa712059c30b18c68705c78c86",
+              "datavalue": {
+                "value": "0099100",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$4A4BD829-1DAE-4ECB-80C7-64BE2C49155B",
+            "rank": "normal"
+          }
+        ],
+        "P5748": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5748",
+              "hash": "22bd656c2c401b622760a298707e1da87f25233b",
+              "datavalue": {
+                "value": "77.64",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$E8E0EFF0-7A6A-4BC9-8FD9-FF68247030F1",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "7f8f5e87d95e0f45be4c6e9e05179055d5cdf82a",
+              "datavalue": {
+                "value": "Moreno Sociogram 1st Grade.png",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q839578$B8D722B7-54FD-45C0-8A9D-467C35FC95A4",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "77f3b03f580175b244787141b8656328568ff9d3",
+              "datavalue": {
+                "value": "203803721",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$A4C889FC-B44F-4E9A-AEC2-B5196455A8C7",
+            "rank": "normal"
+          }
+        ],
+        "P8408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8408",
+              "hash": "eee7ff4164c00a8c8e94e8c454e54c36818c0e4a",
+              "datavalue": {
+                "value": "GroupProcess",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$5D223F54-3D9F-42C9-A451-9736A2671201",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64139102,
+                          "id": "Q64139102"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-07-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P5063": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5063",
+              "hash": "cf0a90f6a84810f6747dbd49f63259f6c18f8176",
+              "datavalue": {
+                "value": "i68854",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$6EF3FF33-B9D6-45C1-B601-CC61FA2073C7",
+            "rank": "normal"
+          }
+        ],
+        "P460": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P460",
+              "hash": "bf950fee856e5aad1e7463d1ed83aa6104a01404",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 102454136,
+                  "id": "Q102454136"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q839578$30af35fc-44c9-0819-e91f-4c9eab4b1df2",
+            "rank": "normal"
+          }
+        ],
+        "P2347": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2347",
+              "hash": "d8832f808b4e1e4d0a1642f458a44f959990ca29",
+              "datavalue": {
+                "value": "14765",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "6d0e2c0d7fa1464ded6e1826301410c8bad013f4",
+                  "datavalue": {
+                    "value": {
+                      "text": "joavkodynamihkka",
+                      "language": "se"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "cb58d617107f993f6e11bed4c0eba3b2d068be9b",
+                  "datavalue": {
+                    "value": {
+                      "text": "gruppdynamik",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "896026b9424864c4e9d91893370c5f1de88c368f",
+                  "datavalue": {
+                    "value": {
+                      "text": "group dynamics",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "cb460f33133ab491dacd992096a60df79096a114",
+                  "datavalue": {
+                    "value": {
+                      "text": "ryhmädynamiikka",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P14458": [
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "39df5711aae7238ecf65d2c91355e56df859846f",
+                  "datavalue": {
+                    "value": {
+                      "text": "grupprocess",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P14457",
+              "P14458"
+            ],
+            "id": "Q839578$01a9d9ad-4319-f3c3-9d0f-a1534bf81c9c",
+            "rank": "normal"
+          }
+        ],
+        "P527": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "d85bbade7c94f1c566112c84a3a2bbcb9ee17801",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 11024,
+                  "id": "Q11024"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q839578$07321047-4778-0e07-8a5b-5a3ec0be4b0c",
+            "rank": "normal"
+          }
+        ],
+        "P508": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P508",
+              "hash": "c9bc09a8a26dfcd863786fad629014fc24e2594c",
+              "datavalue": {
+                "value": "18486",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "6fac5a1cc898f853c887f842c485ad6c955afae1",
+                  "datavalue": {
+                    "value": "Dinamica di gruppo",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q839578$7257d1d4-4d49-4fbd-a569-2765953c42cb",
+            "rank": "normal"
+          }
+        ],
+        "P268": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P268",
+              "hash": "0a65d2100a82a276ac38fe65f8702fc3c4d78a46",
+              "datavalue": {
+                "value": "11931607s",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "13befb0a8668d573aeb22715d638b24ca9f8ce44",
+                  "datavalue": {
+                    "value": "Dynamique des groupes",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q839578$452aaaab-5f2a-4d60-8b46-2ea867850a53",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "6cec6194ed5387272edc529d00c25374facfa97a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "3b090a7bae73c288393b2c8b9846cc7ed9a58f91",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 16583225,
+                          "id": "Q16583225"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "5bdaa4182b8c361d4645914ab26692bccda7556b",
+                      "datavalue": {
+                        "value": "https://thes.bncf.firenze.sbn.it/termine.php?id=18486",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "09605b06f747dbbaf6e1418b14bc02970b818f18",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2021-06-14T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P950": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P950",
+              "hash": "d56c07960c365798adfd81078bb18f2daad3923b",
+              "datavalue": {
+                "value": "XX528200",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "fd495dfcb7838e2137955772c1f85a2c2c268086",
+                  "datavalue": {
+                    "value": "Dinámica de grupos",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q839578$f940c5ba-399f-444d-9b60-6166fd0fe9d9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "6cec6194ed5387272edc529d00c25374facfa97a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "3b090a7bae73c288393b2c8b9846cc7ed9a58f91",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 16583225,
+                          "id": "Q16583225"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "5bdaa4182b8c361d4645914ab26692bccda7556b",
+                      "datavalue": {
+                        "value": "https://thes.bncf.firenze.sbn.it/termine.php?id=18486",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "09605b06f747dbbaf6e1418b14bc02970b818f18",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2021-06-14T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P854",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "07f90256001fbeba7ca2adb8df51d89d150f8f67",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "f0094b041fc8f052ea2ba8614aa130e4dc59ce99",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 97285695,
+                          "id": "Q97285695"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "f5749e3a8641338fde01fd5b48823d07ffd4929f",
+                      "datavalue": {
+                        "value": {
+                          "text": "Registros de autoridad de \"Materia\" de la Biblioteca Nacional de España",
+                          "language": "es"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "68cb1f2679543f92423b7cbadc891a595dbdba89",
+                      "datavalue": {
+                        "value": "https://www.bne.es/media/datosgob/catalogo-autoridades/materia/materia-UTF8.zip",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "11f94d433f27563cf0d9161bfc4a8dd9ec756612",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-07-21T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P1476",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P10283": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "f809231fb8e213bd1472dedca78bc7760d2c166c",
+              "datavalue": {
+                "value": "C3019640506",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$89DEF3FB-C303-465B-A8A2-C6BB4B291A33",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c13ba4d7902ead2693f79396bc25bd35d4d14030",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "9d849882c1a82aebc881ac1581ee1e2d97db5798",
+              "datavalue": {
+                "value": "C2986275291",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$726A275F-1963-4316-9A8D-66EF7B69E8F8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c13ba4d7902ead2693f79396bc25bd35d4d14030",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P9513": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9513",
+              "hash": "c936432931690f96388f691d701be705b91eef36",
+              "datavalue": {
+                "value": "group-dynamics",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$4bd4ace8-41fc-4879-8a34-bc1911f6d317",
+            "rank": "normal"
+          }
+        ],
+        "P10565": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10565",
+              "hash": "47b0e8c69c450d90b16bf26a9e3efc894798d9ab",
+              "datavalue": {
+                "value": "35070",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$2EE60C46-3D0C-4BD7-8856-39065B7DACDC",
+            "rank": "normal"
+          }
+        ],
+        "P486": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P486",
+              "hash": "dc90886c4a40dbe85b870a4c6226ad0c1d077ee2",
+              "datavalue": {
+                "value": "D000092923",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4c3b443fca27e5719132bf64195f5233fffe3d29",
+                  "datavalue": {
+                    "value": "Group Dynamics",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q839578$6077b61c-468c-b449-0dff-79ec2ce38741",
+            "rank": "normal"
+          }
+        ],
+        "P672": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P672",
+              "hash": "00e0a82bac106675e0582fe7e0119ec427a87e9a",
+              "datavalue": {
+                "value": "F01.829.316.223",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "f97bdd7237087e3b4ef0317a17f30d3755546492",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 54912758,
+                      "id": "Q54912758"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4900"
+            ],
+            "id": "Q839578$a313bb44-4695-02de-d3c7-b901cc05eb8d",
+            "rank": "normal"
+          }
+        ],
+        "P9497": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9497",
+              "hash": "cb5092322931a67808b23646e7f1728bbac590cc",
+              "datavalue": {
+                "value": "3617",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$500FFAD4-BF85-41B9-9BCB-1E6160E9A3E8",
+            "rank": "normal"
+          }
+        ],
+        "P11514": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11514",
+              "hash": "b63f8733bc20ccfe9e13eaa0160ee5aae6ba1c16",
+              "datavalue": {
+                "value": "gruppovaia-dinamika-20afaa",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$ADEA45CD-ACD2-4AAF-93EF-58A9BE1642E3",
+            "rank": "normal"
+          }
+        ],
+        "P3916": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3916",
+              "hash": "77188eaac5c5642f8969911e2ccc9b9557022190",
+              "datavalue": {
+                "value": "concept7029",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$744BD665-5E8B-4420-A056-3279A39F2DFB",
+            "rank": "normal"
+          }
+        ],
+        "P4342": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4342",
+              "hash": "21323691e8a76ead8eb5bf0d9f8baf172950e7b3",
+              "datavalue": {
+                "value": "gruppedynamikk",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$C707D507-1E63-48D4-84E1-B2A7DB48C5FC",
+            "rank": "normal"
+          }
+        ],
+        "P12385": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12385",
+              "hash": "7c2958b025c226d7f8e0218259636f7ec6e7588f",
+              "datavalue": {
+                "value": "dinamica-de-grup",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$cf6c6add-364f-4ea3-ab0f-2167ddce8a40",
+            "rank": "normal"
+          }
+        ],
+        "P13277": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13277",
+              "hash": "d689c3fda8849c800cdf8547963dd6b7d51e6434",
+              "datavalue": {
+                "value": "966",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$c8340cf3-49b6-db15-5b28-eba778947b9f",
+            "rank": "normal"
+          }
+        ],
+        "P13591": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13591",
+              "hash": "1efe65ff36dcb2e361a7bd09925495a4b4204b9e",
+              "datavalue": {
+                "value": "concept/ed4883a2-ffdf-4c81-8189-4613a758c52a",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$E69A18DA-E547-45E8-AB65-C63C37730C28",
+            "rank": "normal"
+          }
+        ],
+        "P7666": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7666",
+              "hash": "71a43490de04f57e1addd922d2a4e6189f8b7db1",
+              "datavalue": {
+                "value": "grupes-dinamika",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$d4b91bf5-41ce-39f1-4bce-a73f5c335cf8",
+            "rank": "normal"
+          }
+        ],
+        "P1036": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1036",
+              "hash": "7c4ac1e4714f095e97b3265529ff5ba83ab90fa5",
+              "datavalue": {
+                "value": "302.3",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q839578$2DB7616D-8207-4844-805E-848C496DA0C3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "348913e4674120f97cd5595ce92b8c466711e4ed",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "019a50b7de741e0068bde41c9d9955b22a5de47b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 36578,
+                          "id": "Q36578"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P227": [
+                    {
+                      "snaktype": "value",
+                      "property": "P227",
+                      "hash": "ef757d80cac4808da805b1434f0c50466e843acd",
+                      "datavalue": {
+                        "value": "4022392-9",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "9c5e4cd814e272ef5594154b203b6deeeaa93f8f",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-11-23T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P227",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P14541": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14541",
+              "hash": "96d6b7e9c195349757baa57a35cb4431eda92513",
+              "datavalue": {
+                "value": "3zrxQI",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "060790f657c15796b8cf0f6315efa830f44c37e3",
+                  "datavalue": {
+                    "value": "群体动力学",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P5017": [
+                {
+                  "snaktype": "value",
+                  "property": "P5017",
+                  "hash": "4102f68ef6a3e38f38a98753d6cc1bfbff5c97c5",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-01-20T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P5017"
+            ],
+            "id": "Q839578$7B4298E9-666F-4EB9-AB45-8835C8EC4671",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "قوة محركة للجماعة",
+          "badges": []
+        },
+        "ckbwiki": {
+          "site": "ckbwiki",
+          "title": "جۆشی گرووپ",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Skupinová dynamika",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Gruppendynamik",
+          "badges": []
+        },
+        "dewikiquote": {
+          "site": "dewikiquote",
+          "title": "Gruppendynamik",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Group dynamics",
+          "badges": []
+        },
+        "enwikiquote": {
+          "site": "enwikiquote",
+          "title": "Group process",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Grupdinamiko",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Dinámica de grupos",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Grupidünaamika",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Talde-dinamika",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "پویایی گروهی",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Dynamique de groupe",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "דינמיקה קבוצתית",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "समूह गतिकी",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Csoportdinamika",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Խմբի դինամիկա",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Dinamika kelompok",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Psicologia dei gruppi",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "集団力学",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "집단역학",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Groepsdynamica",
+          "badges": []
+        },
+        "papwiki": {
+          "site": "papwiki",
+          "title": "Dinamica di grupo",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Dinâmica de grupo",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Групповая динамика",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Skupinová dynamika",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Skupinska dinamika",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Психологија групе",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Grupprocess",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "พลวัตกลุ่ม",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Grup dinamiği",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Групова динаміка",
+          "badges": []
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "Guruh dinamikasi",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "群體動力學",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "群体动力学",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

@@ -1,0 +1,953 @@
+{
+  "entities": {
+    "Q265392": {
+      "type": "item",
+      "id": "Q265392",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "근지구 천체"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "근일점이 1.3AU 미만인 천체"
+        }
+      },
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "NEO"
+          }
+        ]
+      },
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "0d638442f53010f99a0748a111749fc7d685ede7",
+              "datavalue": {
+                "value": "Near-Earth objects",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q265392$A60A4D16-18C6-4069-ABCB-D7C7E31CDBD9",
+            "rank": "normal"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "995546dcd2e7c0d44e05ba49004cd0cb86275071",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8374156,
+                  "id": "Q8374156"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q265392$00480A9C-C1A2-45A1-8A79-A365B954F70D",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "47ff901e05e0d05c9e3499dfb08f283c76a52800",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 193275,
+                  "id": "Q193275"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q265392$8941b050-47b7-3189-3ca1-da66529e0ff4",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "b8c3c29d108fa2c3ca11f01e588b24da7c9a4176",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 15782913,
+                  "id": "Q15782913"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q265392$397cbeaa-4542-1e5b-3d53-4b83fa5e2f25",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "7469f9b89d9cf9ca1d4789c687a56a0906795ce7",
+              "datavalue": {
+                "value": "/m/05f8s",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q265392$83388F3B-6722-4A98-AE31-93EAA05495F5",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P4466": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4466",
+              "hash": "32dee3af668ab8485c23ace849de7e29dfd95e2c",
+              "datavalue": {
+                "value": "1092",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q265392$345F2451-FC74-4430-B56E-88126A81DF37",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "dbabb0094e266d8fa57450b2893417c62b9eaf58",
+              "datavalue": {
+                "value": "topic/near-Earth-object",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "2714d16fbf28ef912d391f9b2998ff63812b050c",
+                  "datavalue": {
+                    "value": "near-Earth object",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q265392$C44C3360-66F9-46CB-AC2A-07E3FE11C61E",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "9eafbcd9c46f48f726cbe5314be838d60c78aa85",
+              "datavalue": {
+                "value": "topic/Earth-crossing-asteroid",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "a0aefbfbada4568f09001ac534a8ce3d1289b672",
+                  "datavalue": {
+                    "value": "Earth-crossing asteroid",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q265392$78E30663-21FF-4029-BACB-CF537B646D51",
+            "rank": "normal"
+          }
+        ],
+        "P244": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P244",
+              "hash": "823d1efa0c4d83da69c9f2407cbffd7451d371cc",
+              "datavalue": {
+                "value": "sh94008996",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q265392$7434f82f-42ea-0b20-86d7-def98018e73d",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "e3ea544d01fa856675d41c6c6d6dceea5cd637cc",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "76cab56c4e574e57ff754289c69b1c0651940027",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 131454,
+                          "id": "Q131454"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "32f1fa74c22554c4789cbe9f900348c8ec107308",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2019-06-01T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "11ed4d134d51cf26e4299b5c21c32e6115443265",
+              "datavalue": {
+                "value": "93623110",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q265392$5E8A3732-1D68-4F35-B7D1-103129A47F16",
+            "rank": "normal"
+          }
+        ],
+        "P8408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8408",
+              "hash": "94efc338a2baa2a78c4850e65b484169a84b04ea",
+              "datavalue": {
+                "value": "NearEarthObject",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q265392$A322B473-887E-40E9-8694-F1B55BEDF1FB",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64139102,
+                          "id": "Q64139102"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-07-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8189": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8189",
+              "hash": "a5b1b3a93fe0eac6702abe47bbbcc31340f07077",
+              "datavalue": {
+                "value": "987007563671805171",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "7124a5400542310145be5aae641fc9f0db7fc1be",
+                  "datavalue": {
+                    "value": {
+                      "text": "Near-earth asteroids",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "1189b3b165c4cbaae1bfcbffae211a5e3af11209",
+                  "datavalue": {
+                    "value": {
+                      "text": "אסטרואידים קרובי ארץ",
+                      "language": "he"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P14457"
+            ],
+            "id": "Q265392$3E2094D0-C086-4F32-AE82-D0CFC1436A01",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c8a47202c92936005b390eb36ddd267921b51f43",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "0ea73b3596b49258a7b7ec6495950779b99e875d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 188915,
+                          "id": "Q188915"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P10283": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "2d2988d2fcaf25e4c5befe77637fffb5eb91d2ef",
+              "datavalue": {
+                "value": "C93623110",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q265392$12AC3267-8207-4F2C-A0B4-1597142428A3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "e0b27d817c9a9b3247df341000fc490bafcba862",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1065": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1065",
+                      "hash": "3134281f51e2490f88272d53c56ee95d9cc24e2c",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20220125070108/https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P2960": [
+                    {
+                      "snaktype": "value",
+                      "property": "P2960",
+                      "hash": "f7ff3a0de7f9571ecb5e0740cba4122c6703e1ec",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854",
+                  "P1065",
+                  "P2960"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1813": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1813",
+              "hash": "219f62978c423cf4a24f3d9253b58873ec5a27e2",
+              "datavalue": {
+                "value": {
+                  "text": "NEO",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q265392$76672529-43bf-86c6-7a84-25f2861ba868",
+            "rank": "normal"
+          }
+        ],
+        "P10376": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "6fb32b18fdd47228c7e1c4b6c9453f3dfe298c78",
+              "datavalue": {
+                "value": "earth-and-planetary-sciences/near-earth-objects",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q265392$53fcb302-4235-c44e-f635-7d1e808deedd",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "b0bd841fbc43ee65884359186ff3be97ac7f38b1",
+              "datavalue": {
+                "value": "physics-and-astronomy/near-earth-objects",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q265392$ae76dc40-4de2-466d-d654-c7a751fb8ff8",
+            "rank": "normal"
+          }
+        ],
+        "P3222": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3222",
+              "hash": "ccc28de5eaac6672b30ecdaac1b3594f3f8e539f",
+              "datavalue": {
+                "value": "jordnära-objekt",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q265392$580F65C8-2A95-47AC-9B6D-7513B6F6528A",
+            "rank": "normal"
+          }
+        ],
+        "P8885": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8885",
+              "hash": "f7ff0dbc8e5aaef60e69f01e11267a5a07178639",
+              "datavalue": {
+                "value": "근지구천체",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q265392$4dc2c3cd-4a7f-a9a9-1532-e2f52a1119dd",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "289528427f83daef64d6565e5fc64f9b73df3355",
+              "datavalue": {
+                "value": "Comet Hartley 2.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2096": [
+                {
+                  "snaktype": "value",
+                  "property": "P2096",
+                  "hash": "ae98494a4bbcf8a98e73b9b5b36b4575d1269ff0",
+                  "datavalue": {
+                    "value": {
+                      "text": "comet 103P/Hartley, an example of a near-Earth object",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2096"
+            ],
+            "id": "Q265392$15fbd0ad-4d1e-496e-ff10-9398dd6e0d49",
+            "rank": "normal"
+          }
+        ],
+        "P242": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P242",
+              "hash": "081394f623b070c2b7b74b8cbcfb34bb5dcd58eb",
+              "datavalue": {
+                "value": "Potentially Hazardous Asteroids 2013.png",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q265392$d912b61a-4f0b-ba78-a5f9-a3821a72c5bd",
+            "rank": "normal"
+          }
+        ],
+        "P13591": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13591",
+              "hash": "9eff287d7968d7f60de3efd85192dab9f560f5b8",
+              "datavalue": {
+                "value": "concept/7fcbf4c9-b944-4ad8-a6ee-5ebd3dc43827",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q265392$A609F37A-1523-4B1B-94EA-7B1673CE6641",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Nabyaardevoorwerp",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "جرم قريب من الأرض",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "barwiki": {
+          "site": "barwiki",
+          "title": "Eadnohes Objekt",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Калязямны аб’ект",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Близкоземни астрономически обекти",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Objecte proper a la Terra",
+          "badges": []
+        },
+        "ckbwiki": {
+          "site": "ckbwiki",
+          "title": "تەنەکانی نزیک زەوی",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Nærjordsobjekt",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Erdnahes Objekt",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Γεωπλήσια αντικείμενα",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Near-Earth object",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Apud-tera objekto",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Objeto próximo a la Tierra",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Lurretik gertuko objektu",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "جرم نزدیک به زمین",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Objet géocroiseur",
+          "badges": []
+        },
+        "gawiki": {
+          "site": "gawiki",
+          "title": "Réad neas-Domhanda",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "גופים קרובי ארץ",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "पृथ्वी-समीप वस्तु",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Földközeli objektum",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Objek dekat Bumi",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Oggetto near-Earth",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "地球近傍天体",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "근지구 천체",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Äerdnoen Objet",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Близуземски тела",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Objek dekat Bumi",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Jordnære objekt",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Obiekty bliskie Ziemi",
+          "badges": []
+        },
+        "pswiki": {
+          "site": "pswiki",
+          "title": "ځمکې ته نږدې جسم",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Objetos próximos da Terra",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Obiecte din apropierea Pământului",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Околоземный объект",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Near-Earth object",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Jordnära objekt",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Kiolwa cha kukaribia Dunia",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "புவியருகு விண்பொருட்கள்",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Dünya'ya yakın cisim",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Навколоземні об'єкти",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Vật thể gần Trái Đất",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "近地天体",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

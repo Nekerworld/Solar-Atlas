@@ -1,0 +1,55 @@
+# Project-specific rules. The parent repository ignores *.json globally.
+# Keep the catalog, frontend manifests/config and reusable seed dataset.
+!/catalog/*.json
+!/frontend/*.json
+!/crawling/data/solar_v1/processed/*.json
+
+# Secrets (templates may be committed).
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Python environments and caches.
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# # Local databases and request-time documents. Rebuild from processed JSON.
+# /backend/chroma_db/
+# /backend/rag_runtime/
+# *.sqlite3
+# *.sqlite3-journal
+# *.sqlite3-wal
+# *.sqlite3-shm
+
+# # Collector responses, raw copies and resumable checkpoints.
+# # processed/ is intentionally retained for indexing on another computer.
+# /crawling/data/solar_v1/cache/
+# /crawling/data/solar_v1/raw/
+# /crawling/data/solar_v1/documents/
+# /crawling/data/solar_v1/items/
+
+# Frontend dependencies, generated bundles and browser-test files.
+node_modules/
+.npm-cache/
+dist/
+test-results/
+playwright-report/
+work/
+*.log
+.DS_Store
+Thumbs.db
+
+# Private Django conversation history (keep local files).
+/backend/db.sqlite3
+/backend/db.sqlite3-*
+/backend/rag_runtime/conversations/
+

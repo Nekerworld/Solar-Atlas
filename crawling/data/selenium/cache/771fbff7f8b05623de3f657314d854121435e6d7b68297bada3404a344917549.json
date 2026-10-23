@@ -1,0 +1,655 @@
+{
+  "entities": {
+    "Q651336": {
+      "type": "item",
+      "id": "Q651336",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "목성질량"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "9cd98efb5e691aa454185610793431969507b6bc",
+              "datavalue": {
+                "value": "/m/02wvjjb",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q651336$AB4EFAC9-2BF2-4420-8A74-2651C5F942AB",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "954edbd3fef27ce6396c0878a95c608ca4ed84af",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3647172,
+                  "id": "Q3647172"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q651336$265a37f3-486f-9786-e4b5-ed7545316262",
+            "rank": "normal"
+          }
+        ],
+        "P111": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P111",
+              "hash": "16653c4848e0552e9604edc668341bd5f95825a4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 11423,
+                  "id": "Q11423"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q651336$616ef05f-4325-49c2-2dc5-fd459180264d",
+            "rank": "normal"
+          }
+        ],
+        "P138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P138",
+              "hash": "aadb0a1c5f18686aa6abcab3a93916d95a0030a8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 319,
+                  "id": "Q319"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q651336$c7f77de7-44d5-f746-2545-4718a7204f08",
+            "rank": "normal"
+          }
+        ],
+        "P2370": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2370",
+              "hash": "638573c7ad0aa65faf208fc14d5ea47a04947a46",
+              "datavalue": {
+                "value": {
+                  "amount": "+1898130000000000000000000000",
+                  "unit": "http://www.wikidata.org/entity/Q11570",
+                  "upperBound": "+1898320000000000000000000000",
+                  "lowerBound": "+1897940000000000000000000000"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q651336$89647855-412b-8110-060c-ea401dfc0783",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "949992d5fe1270608cb4e8773805bb3d528d05c5",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a95bda7f6be0bbab866d4600cfede989e113c1ac",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/?planet_phys_par",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "293888642b4687a83c8b939294ec08d7c21eecbb",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2017-10-31T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1181": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1181",
+              "hash": "2ef3e0aaf5f4e2f3c200a6371f04d68f063eb52d",
+              "datavalue": {
+                "value": {
+                  "amount": "+1898130",
+                  "unit": "http://www.wikidata.org/entity/Q613726",
+                  "upperBound": "+1898320",
+                  "lowerBound": "+1897940"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q651336$D6BFFAB6-0C3F-4779-8370-D3ED47824DCD",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "68636263f65537490b86de016e21b96dbb4196f5",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "f149d6034036ed26de825026b38c601a9122b51b",
+                      "datavalue": {
+                        "value": "http://asa.usno.navy.mil/static/files/2016/Astronomical_Constants_2016.pdf",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P5061": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5061",
+              "hash": "a41bcd6ef3f0f0d3bbb83baaf1f084a134759d5c",
+              "datavalue": {
+                "value": {
+                  "text": "M_J",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q651336$e3bf5508-4c27-31a7-2e7b-c4778c8752d6",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5061",
+              "hash": "627f855cec7869cd0c96b1d0fe63bbf2f2bd219b",
+              "datavalue": {
+                "value": {
+                  "text": "M_J",
+                  "language": "ca"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q651336$9b18509d-4b68-5afc-61ad-087b39ca4908",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5061",
+              "hash": "b3b67ff1133837b3fdc135a2371dc47bb4cd8bda",
+              "datavalue": {
+                "value": {
+                  "text": "M<sub>J</sub>",
+                  "language": "ru"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q651336$37ab37d4-4bbe-f9f9-fa32-217a93f9c8f8",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5061",
+              "hash": "f0db0bd8d3737cf392b14eb483963ca7e42186b5",
+              "datavalue": {
+                "value": {
+                  "text": "M_J",
+                  "language": "mul"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q651336$9a71bb9f-4ea1-8711-057d-7ea8021273b1",
+            "rank": "normal"
+          }
+        ],
+        "P3921": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3921",
+              "hash": "a3949df1e4075a702eb8fa08a1af9496a709dee5",
+              "datavalue": {
+                "value": "wd:Q651336 p:P2370/psn:P2370 [wikibase:quantityAmount ?source; wikibase:quantityUnit ?base]. ?item p:P2370/psn:P2370 [wikibase:quantityAmount ?target; wikibase:quantityUnit ?base]. BIND(?source / ?target as ?value)",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q651336$EE38C86A-63F8-48E1-AA72-63B7AE6E8C76",
+            "rank": "normal"
+          }
+        ],
+        "P7007": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7007",
+              "hash": "0de85a17212bef99d8d9a2a862ff012489705a43",
+              "datavalue": {
+                "value": "\"JupiterMass\"",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q651336$b5d3266a-46d6-ba92-581a-1fb5daf7bcf6",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "2ec421713d5374d268f410139cbebf19d622112d",
+              "datavalue": {
+                "value": "153010378",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q651336$52EF9B45-0FAE-4B2D-94E0-A0B3426F7A8A",
+            "rank": "normal"
+          }
+        ],
+        "P10283": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "1c034ef69d07904f1d61c6be805d5ed3a7ffad5d",
+              "datavalue": {
+                "value": "C153010378",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q651336$F02CB22D-C70C-436D-8244-FE8167990FA6",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c13ba4d7902ead2693f79396bc25bd35d4d14030",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Jupitermassa",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "كتلة المشتري",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Massa joviana",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Jupitermasse",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Μάζα του Δία",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Jupiter mass",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Jupiter-maso",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Masa joviana",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "جرم مشتریایی",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Masse jovienne",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Masa de Xúpiter",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "מסת צדק",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "बृहस्पति द्रव्यमान",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Jupiterova masa",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Յուպիտերի զանգված",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Massa Jupiter",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Massa gioviana",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "木星質量",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "목성질량",
+          "badges": []
+        },
+        "lawiki": {
+          "site": "lawiki",
+          "title": "Massa Iovis",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Jupitermass",
+          "badges": []
+        },
+        "liwiki": {
+          "site": "liwiki",
+          "title": "Jupitermassa",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Јупитерова маса",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Jisim Musytari",
+          "badges": []
+        },
+        "mywiki": {
+          "site": "mywiki",
+          "title": "ဂျူပီတာ ဒြပ်ထု",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Jupitermassa",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Jupitermasse",
+          "badges": []
+        },
+        "ocwiki": {
+          "site": "ocwiki",
+          "title": "Massa joviana",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Masa Jowisza",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Massa de Júpiter",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Masă joviană",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Масса Юпитера",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Јупитерова маса",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Jupitermassa",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "มวลดาวพฤหัสบดี",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Jüpiter kütlesi",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Маса Юпітера",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Khối lượng Sao Mộc",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "木星質量",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

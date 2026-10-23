@@ -1,0 +1,964 @@
+{
+  "entities": {
+    "Q1322005": {
+      "type": "item",
+      "id": "Q1322005",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "자연 현상의 목록"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "3c225d16976f6d8d94a100f670391057821f4bda",
+              "datavalue": {
+                "value": "/m/05tt87",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1322005$77392811-D199-4274-B6C7-C7522BFD3064",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "7615c893d9701a3a8420e0d9245944512a1561f8",
+              "datavalue": {
+                "value": "Natural phenomena",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q1322005$65d925e0-4a24-a211-75f2-0692df2fc200",
+            "rank": "normal"
+          }
+        ],
+        "P1256": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1256",
+              "hash": "c0fcd64aa5a78d72bbdc4422ec5e2ac2cc030918",
+              "datavalue": {
+                "value": "22",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1322005$B7163491-124C-4F98-B8AA-42B412A3C7E3",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "172f93d1d4c33668a5ab8fc1719350cbf6138f86",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 483247,
+                  "id": "Q483247"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1322005$4b5352c3-4f68-d50e-a3d5-de23321c6d25",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "5d931672fdba0863cfb706adc09da8d9f01a7072",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1190554,
+                  "id": "Q1190554"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2241": [
+                {
+                  "snaktype": "value",
+                  "property": "P2241",
+                  "hash": "cbae4cc270287a48939ecce7e697f4cc27b9dac5",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 118134102,
+                      "id": "Q118134102"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2241"
+            ],
+            "id": "Q1322005$fd9de354-4993-4c15-1e66-4fec666fa451",
+            "rank": "deprecated"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "1786e20934b1fc9cf5842956bdf71a2197dfad6e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6809886,
+                  "id": "Q6809886"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1322005$8845F3E2-11D3-48AE-8D35-0B58FF663DF2",
+            "rank": "normal"
+          }
+        ],
+        "P1557": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1557",
+              "hash": "a728c0cc286ada87a856f02ddea400dc8c6bb8e0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 408891,
+                  "id": "Q408891"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1322005$8e02161a-4a19-a141-49c6-76c5ded1eaf0",
+            "rank": "normal"
+          }
+        ],
+        "P3417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3417",
+              "hash": "6c54d96c5109beec3371b751584d82672a4bbfc4",
+              "datavalue": {
+                "value": "Natural-Phenomenon-1",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1322005$3E3E7E3B-39E8-40EF-B0CB-BEBADCA63EA2",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3b0a5bb3c1f955edce73740124f7d935698092ad",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "3ac9682e789a3a3791d4fd088b265ea03abef101",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 51711,
+                          "id": "Q51711"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2581": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2581",
+              "hash": "bae22a471e61b687368164975f9cfc026d39eb51",
+              "datavalue": {
+                "value": "15903068n",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1322005$EAFAE385-B99E-474C-919C-9E6A5C0509A5",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "248ac337a217a5f5eed7139a82a4e60931611af0",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "25b816aab41db18565946259c950aed6de05dd1e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4837690,
+                          "id": "Q4837690"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3509": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3509",
+              "hash": "e90e1da7b4cb1e5316b92e0ead5e0d36739e27ed",
+              "datavalue": {
+                "value": "naturfenomen",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1322005$5059B14E-F3F6-4576-B472-F2CC515E5E58",
+            "rank": "normal"
+          }
+        ],
+        "P1014": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1014",
+              "hash": "cd89840af0ebefbef8f24facf8e226c8fff5daf1",
+              "datavalue": {
+                "value": "300162261",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1322005$22F08962-1FFE-44AF-8988-4F2C6B8A6161",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1014",
+              "hash": "11106180c7d1daa161e066ae284376aca2b046d6",
+              "datavalue": {
+                "value": "300404124",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1322005$9DDCD72D-8374-40DC-A3C0-590CCD05F79C",
+            "rank": "normal"
+          }
+        ],
+        "P1889": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "a2187acc50c91129883bea59ea634d995088d7c5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1970309,
+                  "id": "Q1970309"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1322005$39565c80-47fe-4a58-3e0d-b782c825d8b1",
+            "rank": "normal"
+          }
+        ],
+        "P361": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P361",
+              "hash": "04460c6159ca2228a3fdac733901e2e0673ad185",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7860,
+                  "id": "Q7860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1322005$19b3f71b-4637-430e-b4aa-f52e85dc5951",
+            "rank": "normal"
+          }
+        ],
+        "P2579": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2579",
+              "hash": "61e3183913abea84272b97193c3bec6769e195dc",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7991,
+                  "id": "Q7991"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1322005$4E081F52-733F-4F66-9E57-4846E4B0D12D",
+            "rank": "normal"
+          }
+        ],
+        "P2354": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2354",
+              "hash": "ccb5ab923c8403a9aed4768254c0e3ea7c1b9e65",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 65942121,
+                  "id": "Q65942121"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1322005$b6940622-46fa-b52a-a00c-e31721f6b0fa",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "ea1a70d9d660bd13189d3802efd9159a623cb2ae",
+              "datavalue": {
+                "value": "2776705579",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1322005$C669B8C7-1FA0-4F25-A486-D9449A1533CF",
+            "rank": "normal"
+          }
+        ],
+        "P8408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8408",
+              "hash": "7f57af36140c5a27efa218f87e0face866358704",
+              "datavalue": {
+                "value": "NaturalPhenomena",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1322005$F27012FC-E168-4FAF-AE0C-A194C27F35E6",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64139102,
+                          "id": "Q64139102"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-07-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P4839": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4839",
+              "hash": "1bb5f5fcf81632d10ff2531da55fe93c7f7b66e5",
+              "datavalue": {
+                "value": "Entity[\"Concept\", \"NaturalPhenomenon::gn6dt\"]",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1322005$C999C6C0-EEC9-4E29-B50A-5A934C3D8B85",
+            "rank": "normal"
+          }
+        ],
+        "P8313": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8313",
+              "hash": "d37ef03ff0ac21b0c639d4141e8e04c58869d857",
+              "datavalue": {
+                "value": "naturfænomen",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1322005$17212C91-4258-457D-81D7-722FCCD3A8FA",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "d7b522cde34f5a26010b2d81cb86433c04e2b3aa",
+              "datavalue": {
+                "value": "/g/122f21mw",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1322005$57DA8D5A-3FB9-49A5-BB15-8160928783E3",
+            "rank": "normal"
+          }
+        ],
+        "P691": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P691",
+              "hash": "c3a5ea905bf6ee39b303204ff3d0cd4722ce6069",
+              "datavalue": {
+                "value": "ph425900",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "6abe3f9bc882bb285a56cf6dd4c3d4b25cce524d",
+                  "datavalue": {
+                    "value": "přírodní jevy",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q1322005$07FDF83A-6D35-4835-B18D-FBF8DB09633D",
+            "rank": "normal"
+          }
+        ],
+        "P8168": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8168",
+              "hash": "a3da3e57b0cb107d3a6395c577cc7453f0d88719",
+              "datavalue": {
+                "value": "Q246097",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1322005$50738EB0-E337-4CE6-8F0D-0A6A136879B5",
+            "rank": "normal"
+          }
+        ],
+        "P527": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "a8e395e66a25fa7ab1619f32e70ea18e1c414f0f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 483247,
+                  "id": "Q483247"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1322005$a5163225-49de-90a1-35ba-0acc1db60d9a",
+            "rank": "normal"
+          }
+        ],
+        "P2347": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2347",
+              "hash": "d4eb3485514988045ba4542e644baddad865be7b",
+              "datavalue": {
+                "value": "24218",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "5f54b95d5c5c8a0ab0620af67d33c5a5258e8ace",
+                  "datavalue": {
+                    "value": {
+                      "text": "naturfenomen",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "5babf7a6ab34e846b24826a81b94770c84b1cbf0",
+                  "datavalue": {
+                    "value": {
+                      "text": "natural phenomena",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "9ad16270155b7cb8aef23e42b59f3a930f95c8b7",
+                  "datavalue": {
+                    "value": {
+                      "text": "luonddufenomenat",
+                      "language": "se"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "309d669e6d8216932d8cbe9ac00e8c8707090617",
+                  "datavalue": {
+                    "value": {
+                      "text": "luonnonilmiöt",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P14458": [
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "508beebe830c24948e8dad0b563e532d377a2f2d",
+                  "datavalue": {
+                    "value": {
+                      "text": "naturföreteelser",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P14457",
+              "P14458"
+            ],
+            "id": "Q1322005$C644FA45-FEB5-4484-84EB-FE27D96F4223",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2a5c7315a57203849c9455e1c2154c2f2e5ce700",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "7133f11674741f52cadaae6029068fad9cbb52e3",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 89345680,
+                          "id": "Q89345680"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "c815ceba0119b89d0f919ec7e56bf26e8e7a0f41",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-08-02T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P12596": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12596",
+              "hash": "96f8c8af10e3ad46333770175fc34a197ff24fb5",
+              "datavalue": {
+                "value": "147094",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1322005$0A086D7C-A48F-4B6D-9F50-2E47DFBA9854",
+            "rank": "normal"
+          }
+        ],
+        "P12800": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12800",
+              "hash": "7ed4f6334f1582c7fed418a2200696ed67e933e7",
+              "datavalue": {
+                "value": "it:Fenomeno_naturale",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1322005$D5EC08CB-649F-4932-B770-13E74498008C",
+            "rank": "normal"
+          }
+        ],
+        "P5063": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5063",
+              "hash": "956d4fb3075acaf5d588516ab77fd207cf415b10",
+              "datavalue": {
+                "value": "i97550",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1322005$7B007DA0-3F01-409F-981F-E405D13C93B9",
+            "rank": "normal"
+          }
+        ],
+        "P9322": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9322",
+              "hash": "9508fdea47ac799af91eb3724b0eac66c914ac80",
+              "datavalue": {
+                "value": "0299704-prirodni-jevy",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1322005$185E4F5D-0A24-4290-988B-700047816B44",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "ظاهرة طبيعية",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Fenomen natural",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Naturfænomen",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Naturerscheinung",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Φυσικό φαινόμενο",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Natura fenomeno",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Fenómeno natural",
+          "badges": []
+        },
+        "etwikiquote": {
+          "site": "etwikiquote",
+          "title": "Loodusnähtus",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Fenomeno natural",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Luonnonilmiö",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Phénomène naturel",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "תופעת טבע",
+          "badges": []
+        },
+        "hewikiquote": {
+          "site": "hewikiquote",
+          "title": "תופעת טבע",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Fenomena alam",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Náttúrumyndun",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "자연 현상의 목록",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Natuurverschijnsel",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Fenômeno natural",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Prírodný jav",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Naturfenomen",
+          "badges": []
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Likas na kaganapan",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Природне явище",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "自然現象",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

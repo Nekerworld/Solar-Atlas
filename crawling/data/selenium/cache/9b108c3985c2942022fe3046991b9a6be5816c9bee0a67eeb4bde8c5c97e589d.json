@@ -1,0 +1,581 @@
+{
+  "entities": {
+    "Q657829": {
+      "type": "item",
+      "id": "Q657829",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "소행성 위성"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "a881ecb2500baad7638787fe09fe321d8f4c0a0b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2537,
+                  "id": "Q2537"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q657829$e38f73f9-405f-f5c6-e09e-4eb4874dedbf",
+            "rank": "normal"
+          }
+        ],
+        "P361": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P361",
+              "hash": "af3533e7993c28274493165a7a16c36c07226a80",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 15053549,
+                  "id": "Q15053549"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2210": [
+                {
+                  "snaktype": "value",
+                  "property": "P2210",
+                  "hash": "e09fd762f14c539724cd6c4b7b5865b5c3f5b5b1",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1022867,
+                      "id": "Q1022867"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2210"
+            ],
+            "id": "Q657829$af82dd59-4c91-39a0-bb41-9c8b14fa8c67",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "5da30ef393ef4e09a56fb1d543b3c26102d1b724",
+              "datavalue": {
+                "value": "/m/01f4rb",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q657829$644FC886-95B3-4205-B943-AB6E65473793",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "5a01aed701a4107cb12b2f6ca6086d21d32f0a65",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8272864,
+                  "id": "Q8272864"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q657829$62289554-7F63-48DF-9A68-8B1997472373",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "a29a646602abf65105ed0f39a44231c962ece9ee",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "c6f1777471211df31724ac60175786f3872c83e9",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 177837,
+                          "id": "Q177837"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "69d3a61848b5eaf8dd2f8f37805ad988fea9817e",
+              "datavalue": {
+                "value": "145427134",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q657829$1B28F221-54B8-47E4-B017-5BF86D04E921",
+            "rank": "normal"
+          }
+        ],
+        "P6262": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6262",
+              "hash": "685fb640fa8f95df1b4f95704b7ea703708c34c6",
+              "datavalue": {
+                "value": "space:Asteroid_moon",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "d60ff2d8c144f7b67949b195450b9721f6484a97",
+                  "datavalue": {
+                    "value": "Asteroid moon",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "16260a708ec6b8d7443024fb8e51ba862fecaa0e",
+                  "datavalue": {
+                    "value": "1766",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407",
+              "P1810",
+              "P9675"
+            ],
+            "id": "Q657829$c873b4b7-4720-faa5-ed74-9b9a654c237a",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "b6d0b60e2a342f7340794353340d54a640e1ccd6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 17444909,
+                  "id": "Q17444909"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q657829$c1057f3c-48f6-ff6c-dbf3-fddce1b11e3f",
+            "rank": "normal"
+          }
+        ],
+        "P12086": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12086",
+              "hash": "662238572bba5074b6f45001628cb8a10a057874",
+              "datavalue": {
+                "value": "Planetoïdemaan",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "ca7988c1591a4be93d95b6ef13418e2dc473ff20",
+                  "datavalue": {
+                    "value": "157851",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P9675"
+            ],
+            "id": "Q657829$AA918330-7FCB-4E89-B435-842E51E470A3",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "ab40ca240093cf7d7949dbb16d81fee8657b62d4",
+              "datavalue": {
+                "value": "Dinkinesh-family-portrait-2.png",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q657829$1fc6b99d-4c03-65b0-d5be-2a830243719b",
+            "rank": "normal"
+          }
+        ],
+        "P9885": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9885",
+              "hash": "eef18338b067fa76421f4ab75bdddc99ab4758ff",
+              "datavalue": {
+                "value": "e39df471-a489-eb34-95ae-e2a613fbb64d",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q657829$d38541f3-4828-5f35-8e01-afffd40b7ece",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "07aac4b2729d9dd741818e1e06b1cebf335eb6dd",
+              "datavalue": {
+                "value": "Minor-planet moons",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q657829$dfc3bb07-4c2d-a967-d7ce-fca96d9d08c2",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Natuurlike satelliete van kleinplanete",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "قمر الكوكب الصغير",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Спадарожнік астэроіда",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Астероиден спътник",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Satèl·lit asteroidal",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Měsíc planetky",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Δορυφόροι μικρών πλανητών",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Minor-planet moon",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Satélite asteroidal",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "قمر ریزسیاره",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Pikkuplaneetan kuu",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Satellite de planète mineure",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Satélite asteroidal",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "लघु-ग्रह चंद्रमा",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Աստերոիդի արբանյակ",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Satelit planet minor",
+          "badges": []
+        },
+        "iowiki": {
+          "site": "iowiki",
+          "title": "Asteroidala satelito",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Loftsteinatungl",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Satellite asteroidale",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "小惑星の衛星",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "소행성 위성",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Астероидна месечина",
+          "badges": []
+        },
+        "mywiki": {
+          "site": "mywiki",
+          "title": "ဂြိုဟ်ငယ်လ",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Planetoïdemaan",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "Asteroidemåne",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Asteroidemåne",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Księżyc planetoidy",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Satélite de corpo menor do Sistema Solar",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Satelit al unei planete minore",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Спутник астероида",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Asteroid moon",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Mesiac planétky",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Asteroidna luna",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Asteroidmåne",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "ดาวบริวารดาวเคราะห์น้อย",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Küçük gezegen uydusu",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Супутники астероїдів",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Vệ tinh hành tinh vi hình",
+          "badges": []
+        },
+        "xmfwiki": {
+          "site": "xmfwiki",
+          "title": "ასტეროიდიშ ალმაშარე",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "小行星衛星",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

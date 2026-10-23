@@ -1,0 +1,400 @@
+{
+  "entities": {
+    "Q11826511": {
+      "type": "item",
+      "id": "Q11826511",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "과학 연구"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "6c6620c09a7c43fa07a3ca5b262af5db4f9e8c3d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 213051,
+                  "id": "Q213051"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11826511$b3d8c513-48fa-d139-df84-38a533fd4460",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "f83a9d10908b478038a0d6210d3786a80d32042f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 47461344,
+                  "id": "Q47461344"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11826511$13f651e5-4eca-5c8e-a5a1-f709f0865a96",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "7e7aa1cdead6e0e88c2cd975460d40d11fdbfbf9",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 13136,
+                  "id": "Q13136"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2241": [
+                {
+                  "snaktype": "value",
+                  "property": "P2241",
+                  "hash": "cbae4cc270287a48939ecce7e697f4cc27b9dac5",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 118134102,
+                      "id": "Q118134102"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P12208": [
+                {
+                  "snaktype": "value",
+                  "property": "P12208",
+                  "hash": "5237ec76145e5f0e00b401684d292a45cac778ed",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 13442814,
+                      "id": "Q13442814"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2241",
+              "P12208"
+            ],
+            "id": "Q11826511$a484316a-4526-c26e-4ffc-1c9e430eb535",
+            "rank": "deprecated"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "8939d5f355fde0a112fa00b6f3657e972a2e7654",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 10383930,
+                  "id": "Q10383930"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11826511$ae52fd1e-4848-1ff2-976a-59b9e946d94f",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "5b6d263e005f0aa1b4af53ed016e2beba464dc07",
+              "datavalue": {
+                "value": "Scientific literature",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q11826511$9555B5D1-FCA5-4BB9-BA51-6A3C08AD40E5",
+            "rank": "deprecated",
+            "references": [
+              {
+                "hash": "6091a063c218227216944ecaa9fb57c7d41b0b3d",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "95912276359e20926ff699e5c819e8126dbe02a0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 6399434,
+                          "id": "Q6399434"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "8f748b75c59153be601eaa84bfadfb5fa2d75a44",
+              "datavalue": {
+                "value": "Academic works about science",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q11826511$1189861b-4b1b-b879-bbba-f1f3a4f035a0",
+            "rank": "normal"
+          }
+        ],
+        "P828": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P828",
+              "hash": "2e9201bbaedfa6e3fdd71720af17b1e98a61b796",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 46857,
+                  "id": "Q46857"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11826511$7b7de72b-4261-2b57-2192-9481973b37b3",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P828",
+              "hash": "127a93431dfc1b2d875d1775b303ff5fa4ada0be",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 42240,
+                  "id": "Q42240"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11826511$8f0cbd49-4777-2511-68e6-8221e17d9435",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P828",
+              "hash": "7e512e8e09d9d535cb381e4692cb50b7bf5be154",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 11818468,
+                  "id": "Q11818468"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11826511$1427fe3e-4fd2-3ce7-4a57-9633f0a00e85",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "b11b3469b7f7d1a96ffc2b88d0968c06d193036b",
+              "datavalue": {
+                "value": "/g/120vhf8y",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11826511$E3941C2B-F02D-49DF-B5B7-DD1DB6407147",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "1bf0acd4f3ce9e42af4eb08a6e00ab7617b4f12c",
+              "datavalue": {
+                "value": "/g/120z6zpd",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11826511$1711201D-4A8E-4B5D-B80D-2FCBE22BC63E",
+            "rank": "normal"
+          }
+        ],
+        "P691": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P691",
+              "hash": "425b743282521ea8746e3d912c5dddab175950b4",
+              "datavalue": {
+                "value": "ph127363",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "56e26670b056076587887a5c0a5c3449903c4ba8",
+                  "datavalue": {
+                    "value": "vědecká práce",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11826511$02C14264-2BFB-43F4-A3B6-6B7563CB8C49",
+            "rank": "normal"
+          }
+        ],
+        "P460": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P460",
+              "hash": "c87d2c7f7e3f8bf81f371f22f4200171d12592a6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 10383930,
+                  "id": "Q10383930"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11826511$887095d0-4b16-c1a3-dc80-c4a834837803",
+            "rank": "normal"
+          }
+        ],
+        "P9322": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9322",
+              "hash": "1f32335f5d2621a6e3db4249142f99ab95b4e665",
+              "datavalue": {
+                "value": "0212540-vedecka-prace",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11826511$3AA96250-1B88-45BE-8066-718B2F3B81C6",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Wissenschaftliche Arbeit",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Scientific work",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "enwikiversity": {
+          "site": "enwikiversity",
+          "title": "Help:Paper",
+          "badges": []
+        },
+        "etwikiquote": {
+          "site": "etwikiquote",
+          "title": "Teadustöö",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Karya ilmiah",
+          "badges": []
+        },
+        "jvwiki": {
+          "site": "jvwiki",
+          "title": "Karya ilmiah",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Dzieło naukowe",
+          "badges": []
+        },
+        "suwiki": {
+          "site": "suwiki",
+          "title": "Karya Ilmiah",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

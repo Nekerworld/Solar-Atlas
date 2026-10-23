@@ -1,0 +1,609 @@
+{
+  "entities": {
+    "Q751989": {
+      "type": "item",
+      "id": "Q751989",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "천문 현상"
+        }
+      },
+      "descriptions": {},
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "천문현상"
+          }
+        ]
+      },
+      "claims": {
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "0d5c7883b96253a9a875c94a571be946cf4ed980",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7131177,
+                  "id": "Q7131177"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q751989$226ae131-4133-9ebc-f8bd-d6edcfac0286",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "961959e02cb4856c10ae7bc4759d7a3b80dd6c45",
+              "datavalue": {
+                "value": "Astronomical events",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q751989$00B48889-0DEC-41B3-AC99-FD9962D8EB44",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "29a18122f1ad61ce6ad532cdc6d76fc05fa5a012",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1322005,
+                  "id": "Q1322005"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q751989$0a920a55-4584-f876-6099-275c7ed32318",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "b3e5f41a467936d26daaece1e512e3e778bc86b1",
+              "datavalue": {
+                "value": "/m/02rhkz",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q751989$E40A5C82-CBDF-4C17-9ABD-1E100A7E4367",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "b0010f5a3150c4f54489ae3966a802f1f4d496a0",
+              "datavalue": {
+                "value": "4137012-0",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q751989$EA65B965-13D1-4F66-AA7B-CC9B11F0F237",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2581": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2581",
+              "hash": "67ddb12443847f4e3c118631d7786f3c6fa76ddc",
+              "datavalue": {
+                "value": "03386201n",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q751989$A82676A0-940C-4274-9F15-6D3BED8D157E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "248ac337a217a5f5eed7139a82a4e60931611af0",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "25b816aab41db18565946259c950aed6de05dd1e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4837690,
+                          "id": "Q4837690"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1424": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1424",
+              "hash": "6867118585754e702bb72440af6da69f183b5fa3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 13033955,
+                  "id": "Q13033955"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q751989$56a31ecb-44fa-7c29-0d87-94c3c3fa7982",
+            "rank": "normal"
+          }
+        ],
+        "P486": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P486",
+              "hash": "68d940067389aba000e6e59efef6332df565295f",
+              "datavalue": {
+                "value": "D055580",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "8f57dd4369cd233d033cc9c00eea82f2a9733cd3",
+                  "datavalue": {
+                    "value": "Astronomical Phenomena",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q751989$90773CFA-D253-417C-8ACD-3CEE07E94112",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "49c79fc197e4f547ba4eea8b6dca487ef7917818",
+              "datavalue": {
+                "value": "2776052673",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q751989$25E832DD-2501-42EE-82A3-A1AE6DEF04EB",
+            "rank": "normal"
+          }
+        ],
+        "P8408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8408",
+              "hash": "46240d70d1d7d7a021231c8431aeecfe63667720",
+              "datavalue": {
+                "value": "CelestialEvent",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q751989$C7E8A775-4BBE-4FD3-9EA1-4CBD2FC96163",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64139102,
+                          "id": "Q64139102"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-07-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3417",
+              "hash": "fea5dec7c628ceb78f666a33dfe3f13e99776436",
+              "datavalue": {
+                "value": "Celestial-Events",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q751989$8BE94B7A-771C-4C1D-9326-DFF28FCB6614",
+            "rank": "normal"
+          }
+        ],
+        "P1256": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1256",
+              "hash": "0361ab245e22150f7d0eea2067e36f91f143f6a1",
+              "datavalue": {
+                "value": "24E",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q751989$06C732A8-3B23-468A-B8E2-E016B6F0B067",
+            "rank": "normal"
+          }
+        ],
+        "P672": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P672",
+              "hash": "0c05ec8a3ad7b4b195da88aed4c1157abeccc418",
+              "datavalue": {
+                "value": "G01.060",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "a38151880316f7c9f3f559dc923cbd0517ebdf04",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1293220,
+                      "id": "Q1293220"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4900"
+            ],
+            "id": "Q751989$60c28eaa-4e88-31e3-b6d3-8f2541651555",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "1754d81acb2486f5eaa2b615bf79f2b091c698e4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1293220,
+                  "id": "Q1293220"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q751989$715c7f99-41f1-cd06-f3df-6e8a65ec13da",
+            "rank": "normal"
+          }
+        ],
+        "P11250": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11250",
+              "hash": "9c870888e2669562eda0806d16e37e151a0d2816",
+              "datavalue": {
+                "value": "shinto:Astronomical events",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "86c0444f6c91f6f2048a7d1480ab309f515da262",
+                  "datavalue": {
+                    "value": "428090",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P9675"
+            ],
+            "id": "Q751989$65B8EDD2-9CA7-4B8C-9A57-85877CD16BD3",
+            "rank": "normal"
+          }
+        ],
+        "P11408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11408",
+              "hash": "00caefbae88f2e07c975b3d7fc43d9aef9b12108",
+              "datavalue": {
+                "value": "天文現象",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q751989$5273c18c-4d45-945c-818a-98382f8ae3d8",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "9c458a8c355efc5671a155bbc99148a2ecd1fd47",
+              "datavalue": {
+                "value": "/g/121hf87f",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q751989$8A7BD6EF-86FE-4506-8456-584F5DC8015A",
+            "rank": "normal"
+          }
+        ],
+        "P6262": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6262",
+              "hash": "deb7e9591d1393b0471165655274d640e1c5f188",
+              "datavalue": {
+                "value": "shinto:Astronomical events",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q751989$1BB8450A-7757-4585-BF2D-BA71A06D6938",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "حدث فلكي",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "জ্যোতির্বৈজ্ঞানিক প্রপঞ্চ",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Astronomisches Ereignis",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Ουράνιο φαινόμενο",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "رویداد آسمانی",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "天文現象",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Astronomescht Ereegnes",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Peristiwa cakerawala",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Astronomisk begivenhet",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Zjawisko astronomiczne",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Sự kiện thiên thể",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "天文現象",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

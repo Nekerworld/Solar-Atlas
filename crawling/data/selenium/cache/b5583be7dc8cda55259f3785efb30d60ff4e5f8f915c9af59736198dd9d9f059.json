@@ -1,0 +1,1987 @@
+{
+  "entities": {
+    "Q185203": {
+      "type": "item",
+      "id": "Q185203",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "금성 일면통과"
+        }
+      },
+      "descriptions": {},
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "금성일식"
+          },
+          {
+            "language": "ko",
+            "value": "금성의 태양면 통과"
+          },
+          {
+            "language": "ko",
+            "value": "금성 일식"
+          }
+        ]
+      },
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "3b827657f64aa487836d32298f6fa666d8cea693",
+              "datavalue": {
+                "value": "Transits of Venus",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q185203$334EE28F-E67B-4515-9142-247122D6C9BF",
+            "rank": "normal"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "d909854a2c1da7f90387c8c72ac2a83bc3b17c8a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7269481,
+                  "id": "Q7269481"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q185203$5C98D7AC-EA2F-4140-BD8F-77385D81FD79",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "f5cdc1b8e72e239e3153fe9d73d4209d33915dc7",
+              "datavalue": {
+                "value": "/m/02yrx3",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q185203$471C0457-3381-49B1-B4B0-46E5AFA2AC28",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P61": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P61",
+              "hash": "8d9ac8e14cbfbc4916e5c24098387e723f94073a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 354631,
+                  "id": "Q354631"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P575": [
+                {
+                  "snaktype": "value",
+                  "property": "P575",
+                  "hash": "f5cbe8faffc1ff32600d2eac7bc79cde0ac54298",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1639-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P575"
+            ],
+            "id": "Q185203$a7963e14-48ae-e02a-7c84-d803561d3f2f",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "51e9b2ce443d9376663dc87b117e7926a15fef99",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "035f8e4b6d8120dfcd781290953e04e396a0deaa",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 19025604,
+                          "id": "Q19025604"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1343": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "eda63bed5c3d7a3460033092338ab321a2374c7f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2041543,
+                  "id": "Q2041543"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "1527b52451aa83d87167448a4094f0b5b92f364a",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 23875635,
+                      "id": "Q23875635"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "144a5e22ee07529e9ae4f538b4959475b9f8293b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 23859842,
+                      "id": "Q23859842"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q185203$9FE1D973-0267-4AB4-A6B9-5BA9CBA0547C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "1b4840e3461403430f123250526068c26943ed0c",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "02c98b3b846ae8864e638fe100af66f40e270cf8",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 23859842,
+                          "id": "Q23859842"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "920ea7bde2f387e207cf228725bc26bcff6b6420",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 112701478,
+                  "id": "Q112701478"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1433": [
+                {
+                  "snaktype": "value",
+                  "property": "P1433",
+                  "hash": "5b6211c15b8683ece995d60580a37fbbf6ceb615",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 655617,
+                      "id": "Q655617"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1433"
+            ],
+            "id": "Q185203$591db444-41d5-fad2-292e-39511035fc5d",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "1e87e0f7d2db06ab0ef5ccabd7c6275641f36553",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 867541,
+                  "id": "Q867541"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "eafcadf2419b0825b8892417142b3859cc3052ea",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 120367335,
+                      "id": "Q120367335"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q185203$48B4590C-D920-4B83-B43C-458CD16BCC33",
+            "rank": "normal"
+          }
+        ],
+        "P3417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3417",
+              "hash": "5ab15467a007bd21249dab27e3b686d0038ddf74",
+              "datavalue": {
+                "value": "Transits-of-Venus",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q185203$5B098C73-343A-4F8A-94B4-4FE8D63C62C9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3b0a5bb3c1f955edce73740124f7d935698092ad",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "3ac9682e789a3a3791d4fd088b265ea03abef101",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 51711,
+                          "id": "Q51711"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "57ca7c2b91a3ad08857fd9b2633662ed275f74b6",
+              "datavalue": {
+                "value": "Venustransit 2004-06-08 07-49.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2096": [
+                {
+                  "snaktype": "value",
+                  "property": "P2096",
+                  "hash": "33b5f3aee56ff35eef9512e0d7d6e65dd06a0637",
+                  "datavalue": {
+                    "value": {
+                      "text": "Trànsit de Venus del 2004",
+                      "language": "ca"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2096"
+            ],
+            "id": "Q185203$6a4754e4-4033-6f35-9071-ad122e77e8df",
+            "rank": "normal"
+          }
+        ],
+        "P244": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P244",
+              "hash": "826bad6b731e10f17e5c923b7f9938afd6971233",
+              "datavalue": {
+                "value": "sh85142778",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q185203$FDF72C23-2E62-4444-B92B-747026E21143",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ac5d47e9fbcc281bc0d27a205ae02e22ad24ce31",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "b560dc6b281a39d061e189d2eb299a426a06f1a2",
+                      "datavalue": {
+                        "value": "https://github.com/JohnMarkOckerbloom/ftl/blob/master/data/wikimap",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "0dcf4f64e93fdcc654e2c7534285881fe48b9f3d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2019-04-03T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1424": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1424",
+              "hash": "7d834a815d05eeb122d6f52b498b797d141f4c05",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 22786742,
+                  "id": "Q22786742"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q185203$bf574e27-e673-4a99-9772-fe86bda16bec",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "881228f3db86c5e54cf22a84a839c4a2c3a32d9c",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "36aeb5b3001c1c75217ebdf5f72e4be78205a310",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 22786742,
+                          "id": "Q22786742"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452"
+                ]
+              }
+            ]
+          }
+        ],
+        "P989": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P989",
+              "hash": "49d189d4944f288896bc1cd423b2df3e580ca478",
+              "datavalue": {
+                "value": "Transit of Venus.ogg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P10135": [
+                {
+                  "snaktype": "value",
+                  "property": "P10135",
+                  "hash": "ecb91a9d3afa90a5cd5680822382c00ec3f06190",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2012-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407",
+              "P10135"
+            ],
+            "id": "Q185203$CA4823DF-3177-4503-AAAD-2B5388B94EF3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "53191dc89130d9a0206e90c79a7edc4510fc9bf2",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "23cfdd4c55d8f6f7705c191f91ed1dc6d69e5ddb",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=Transit_of_Venus&oldid=917742308",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8408",
+              "hash": "3ad0618602e6e5e53dd28d3f8720f6c71c603c58",
+              "datavalue": {
+                "value": "TransitOfVenus",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q185203$1E029E74-C3E4-4E1D-9083-02ECA09432DA",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64139102,
+                          "id": "Q64139102"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-07-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P5019": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5019",
+              "hash": "b6a00f2f5b41eb73f354732dc17ab35bdb875ad9",
+              "datavalue": {
+                "value": "venustransit-astronomie",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q185203$22B8A005-10E5-4731-9CFB-AA01F6BE244C",
+            "rank": "normal"
+          }
+        ],
+        "P4342": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4342",
+              "hash": "222b761efaea482fd9382dbe41fca2092d386c47",
+              "datavalue": {
+                "value": "Venus-passasje",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q185203$898D9E5F-72D0-4AE2-9BCF-C261A7315729",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "3666a4b1f61888f182f512653e8a5585562d088a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6888,
+                  "id": "Q6888"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q185203$5ce8ce3f-43c9-b5a7-6837-bdd4a5e9461d",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "c048d00f6f52d1d412a42c62861cdd027eb0db29",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7556892,
+                  "id": "Q7556892"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q185203$598eb3d1-409d-b247-2fad-d2c9104069b1",
+            "rank": "normal"
+          }
+        ],
+        "P8189": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8189",
+              "hash": "afe232f8d11eddf48033730afff062bd0a26490b",
+              "datavalue": {
+                "value": "987007536549505171",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "afda07c12b218b3cb266d1d3e033f4e5ca6d3a10",
+                  "datavalue": {
+                    "value": {
+                      "text": "Venus (Planet) Transit",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "242f623b33e8ccf015dc0fe26b3b712615285d04",
+                  "datavalue": {
+                    "value": {
+                      "text": "נגה (כוכב לכת) מעבר",
+                      "language": "he"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P14457"
+            ],
+            "id": "Q185203$99227724-04F9-461B-B7E2-03D08769581F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c8a47202c92936005b390eb36ddd267921b51f43",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "0ea73b3596b49258a7b7ec6495950779b99e875d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 188915,
+                          "id": "Q188915"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8313": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8313",
+              "hash": "ce9fa1291680c3c0a877a0e93232955cb9d88700",
+              "datavalue": {
+                "value": "venuspassage",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q185203$D38F2CAA-43BC-4168-A0F2-1184886F81D3",
+            "rank": "normal"
+          }
+        ],
+        "P10": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10",
+              "hash": "b86f517d880aea65e6440e4e1621dec14c417e40",
+              "datavalue": {
+                "value": "2012 Venus Transit.ogv",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q185203$C03009B1-5A00-4DAD-B4DA-56A7BA3ADB33",
+            "rank": "normal"
+          }
+        ],
+        "P367": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P367",
+              "hash": "abb6f475e8170b4f94290c441df5fcc780962967",
+              "datavalue": {
+                "value": "Venus transit symbol.svg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q185203$9619daeb-4db7-5293-d23f-3b725a13fa43",
+            "rank": "normal"
+          }
+        ],
+        "P1617": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1617",
+              "hash": "f8b5e9ec8c7d5534c3240e1512e9fa8ee49722df",
+              "datavalue": {
+                "value": "18a7316f-c4cb-406a-a3de-890aae8f7166",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q185203$4FA50909-FE5C-4A5A-A850-BFBFEA627BB8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8582d8416671f1f2567247201bac753552435ca5",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "ea55dc6ac5c3ab77c77d4ae7979e3276d0d4cd20",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 18336371,
+                          "id": "Q18336371"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P585": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P585",
+              "hash": "c1e776ad016d21f1e3745990cb183cfb5e303462",
+              "datavalue": {
+                "value": {
+                  "time": "+1631-12-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 10,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "e2bcb02f63f4cc64fb83115e2b97b08f86a78e4f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 26951445,
+                      "id": "Q26951445"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q185203$980767c4-47f2-e21b-e7ef-3cd5e67fe011",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "51e9b2ce443d9376663dc87b117e7926a15fef99",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "035f8e4b6d8120dfcd781290953e04e396a0deaa",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 19025604,
+                          "id": "Q19025604"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P585",
+              "hash": "072c4c1a173ccce9f86de349487e9536e4e1e596",
+              "datavalue": {
+                "value": {
+                  "time": "+1639-12-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 10,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "b6a0ada1664aea9d7f6d6a72d55262fb2f8b3f88",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 3537644,
+                      "id": "Q3537644"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q185203$e442dadb-474a-7f0c-406b-bea54f4b7efb",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "51e9b2ce443d9376663dc87b117e7926a15fef99",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "035f8e4b6d8120dfcd781290953e04e396a0deaa",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 19025604,
+                          "id": "Q19025604"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P585",
+              "hash": "acbdf0f731a9c49c4803846b4b86e3867d3cddcc",
+              "datavalue": {
+                "value": {
+                  "time": "+1761-06-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 10,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "abda9a135b2e7a930be1226d9eecad28b2657dfd",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 3537641,
+                      "id": "Q3537641"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q185203$106add95-484e-faaa-aacc-1779a2f98696",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "51e9b2ce443d9376663dc87b117e7926a15fef99",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "035f8e4b6d8120dfcd781290953e04e396a0deaa",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 19025604,
+                          "id": "Q19025604"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P585",
+              "hash": "c8c03392d6ceb72c1c6c4d75b4c159233b4469c0",
+              "datavalue": {
+                "value": {
+                  "time": "+1769-06-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 10,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "2cce0799f6f285e1634a570a40514bb9b636a1ed",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 3537645,
+                      "id": "Q3537645"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q185203$b9f41380-4b26-3b85-4a2d-dcccfe0744e6",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "51e9b2ce443d9376663dc87b117e7926a15fef99",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "035f8e4b6d8120dfcd781290953e04e396a0deaa",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 19025604,
+                          "id": "Q19025604"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P585",
+              "hash": "e8c7fc353c6097a386abe685eab6c09a68899211",
+              "datavalue": {
+                "value": {
+                  "time": "+1874-12-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 10,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "b6ac8af7881467e9f2f19dd144fd36a3e4b6eb01",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 3537642,
+                      "id": "Q3537642"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q185203$18a2da19-4374-c31c-de28-cd604456406f",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "51e9b2ce443d9376663dc87b117e7926a15fef99",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "035f8e4b6d8120dfcd781290953e04e396a0deaa",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 19025604,
+                          "id": "Q19025604"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P585",
+              "hash": "d1dfbf5642e1fb0dd2c33ed76d17c4659bd92ef9",
+              "datavalue": {
+                "value": {
+                  "time": "+1882-12-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 10,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "d7bb8011850842af4791ac5bf7e60dc1509ea530",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 3537646,
+                      "id": "Q3537646"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q185203$fc6af1a3-486b-cf1d-a33c-33f1b2fd73de",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "203c55836887fd8ff1dab1a3e872daca9401fc4b",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "035f8e4b6d8120dfcd781290953e04e396a0deaa",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 19025604,
+                          "id": "Q19025604"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    },
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "c79e34e228265f4c898d6f59184118419018538b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 112701478,
+                          "id": "Q112701478"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P585",
+              "hash": "af8295c66b7f8018b7fabef1cdb7a3f0d8d8e654",
+              "datavalue": {
+                "value": {
+                  "time": "+2004-06-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 10,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "8af300f904b88159fa174f310229b161fd1bc1b9",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1148320,
+                      "id": "Q1148320"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q185203$81d7d48b-452f-e578-9473-9d80615e0e66",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "51e9b2ce443d9376663dc87b117e7926a15fef99",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "035f8e4b6d8120dfcd781290953e04e396a0deaa",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 19025604,
+                          "id": "Q19025604"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P585",
+              "hash": "8fb341e876dafb439c363e52a541f00ace6f0ab9",
+              "datavalue": {
+                "value": {
+                  "time": "+2012-06-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 10,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "db1c9b2a18c84570af4b1d84db19c15f35eae30c",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1201935,
+                      "id": "Q1201935"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q185203$04b9e186-4c3b-389b-1f7f-f433b44d017c",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "51e9b2ce443d9376663dc87b117e7926a15fef99",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "035f8e4b6d8120dfcd781290953e04e396a0deaa",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 19025604,
+                          "id": "Q19025604"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P585",
+              "hash": "c0553e1c063b218e05b0666a2ebceac0a9d35d1c",
+              "datavalue": {
+                "value": {
+                  "time": "+2117-12-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 10,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "11247223be00da3ff6e5f8334518e9b06079b103",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 4382104,
+                      "id": "Q4382104"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q185203$396c825b-481e-2515-7103-69d7d1794319",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "51e9b2ce443d9376663dc87b117e7926a15fef99",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "035f8e4b6d8120dfcd781290953e04e396a0deaa",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 19025604,
+                          "id": "Q19025604"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P585",
+              "hash": "4863122964fe30e2c4a301914e6300079e1bb2c7",
+              "datavalue": {
+                "value": {
+                  "time": "+2125-12-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 10,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "38464f21fa3101e052a0498d800241141dd144c2",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 26951540,
+                      "id": "Q26951540"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q185203$68155021-4ead-07e1-8f25-20406ef5d70a",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "51e9b2ce443d9376663dc87b117e7926a15fef99",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "035f8e4b6d8120dfcd781290953e04e396a0deaa",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 19025604,
+                          "id": "Q19025604"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P13591": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13591",
+              "hash": "33aac331311199b93c5ebed769f80278c688fadf",
+              "datavalue": {
+                "value": "concept/51425e09-9da6-4ec8-9b30-ce04296d690f",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q185203$B7BDEBD3-06AD-472E-9CDA-7E54E3F2A75A",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Venusoorgang",
+          "badges": []
+        },
+        "alswiki": {
+          "site": "alswiki",
+          "title": "Venustransit",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "عبور الزهرة",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Праходжанне Венеры па дыску Сонца",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Пасаж на Венера",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "শুক্র সরণ",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Trànsit de Venus",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Přechod Venuše",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Venuspassage",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Venustransit",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Διάβαση της Αφροδίτης",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Transit of Venus",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Pasado de Venuso",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Tránsito de Venus",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Artizarraren trantsitu",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "گذر زهره",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Venuksen ylikulku",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Transit de Vénus",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Tránsito de Venus",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "מעבר נוגה על פני השמש",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "शुक्र पारगमन",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Venerin prijelaz",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Transit Venus",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Transito di Venere",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "金星の太陽面通過",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "ვენერას ტრანზიტი",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "금성 일면통과",
+          "badges": []
+        },
+        "lawiki": {
+          "site": "lawiki",
+          "title": "Transitus Veneris",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Veneras pāriešana",
+          "badges": []
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "ശുക്രസംതരണം",
+          "badges": []
+        },
+        "mrwiki": {
+          "site": "mrwiki",
+          "title": "शुक्राचे अधिक्रमण",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Transit Zuhrah",
+          "badges": []
+        },
+        "newiki": {
+          "site": "newiki",
+          "title": "शुक्र सङ्क्रमण",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Venusovergang",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "Venuspassasje",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Venuspassasje",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Tranzyt Wenus",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Trânsito de Vênus",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Tranzitul lui Venus",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Прохождение Венеры по диску Солнца",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "scowiki": {
+          "site": "scowiki",
+          "title": "Transit o Venus",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Venerin prijelaz",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Transit of Venus",
+          "badges": []
+        },
+        "siwiki": {
+          "site": "siwiki",
+          "title": "සිකුරු සංක්‍රාන්තිය",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Prechod Venuše",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Prehod Venere",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Tranzit Venere",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Venuspassage",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Mpito wa Zuhura",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "வெள்ளிக் கோளின் சூரியக்கடப்பு",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "ดาวศุกร์ผ่านหน้าดวงอาทิตย์",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Venüs geçişi",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Проходження Венери перед диском Сонця",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Sự đi qua của Sao Kim",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "金星凌日",
+          "badges": []
+        },
+        "xmfwiki": {
+          "site": "xmfwiki",
+          "title": "მორღაშ ტრანზიტი",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "金星凌日",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "金星凌日",
+          "badges": [
+            "Q17437796"
+          ]
+        }
+      }
+    }
+  },
+  "success": 1
+}

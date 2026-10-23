@@ -1,0 +1,577 @@
+{
+  "entities": {
+    "Q21857994": {
+      "type": "item",
+      "id": "Q21857994",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "목성형 행성"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "목성, 토성, 천왕성, 해왕성이 속한다"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "5c575f5a3e80c963984b16834d9418da56a9f33f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 634,
+                  "id": "Q634"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q21857994$33de3d0d-4d7d-b2e5-b7c8-d9272b51fe8c",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "b6d0b60e2a342f7340794353340d54a640e1ccd6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 17444909,
+                  "id": "Q17444909"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q21857994$05ec0eb3-4ed8-f9bf-ea97-3a1cff3ae11b",
+            "rank": "normal"
+          }
+        ],
+        "P4466": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4466",
+              "hash": "95e6181ddc0fd7aea77af1046ae41987f6a13912",
+              "datavalue": {
+                "value": "509",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q21857994$FABDF0A4-31C9-42CB-80A5-0B0A0DC55FB9",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "004ae211d74449b325c45d346f0a06dfb4fa2cde",
+              "datavalue": {
+                "value": "science/giant-planet",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "8bc1264ada045e77664b39265da954dc9b4557dd",
+                  "datavalue": {
+                    "value": "giant planet",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q21857994$50CFB96B-483A-4B67-9301-42C1B7A7C053",
+            "rank": "normal"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "f68fa40af6e087d2bb58a2c905cca37eaf4dfa9f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6392646,
+                  "id": "Q6392646"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q21857994$08f3bc65-48c5-a463-8e0b-68f889e369fc",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "eb68ebeee2eae8e5c6c651cce72738c6aa18ccef",
+              "datavalue": {
+                "value": "2780118271",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q21857994$88ADBC3B-8685-4A3A-BDE5-B6C3478D8E9D",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "147ab87479ddf384718c6cccb47a59e45f82ba6b",
+              "datavalue": {
+                "value": "/m/03bpb",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q21857994$7F8A2A02-6DE6-4C0B-802B-D0129A6D3BFE",
+            "rank": "normal"
+          }
+        ],
+        "P10283": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "0830f635f7285fd0331a5ab2f4ba6aa759c0763e",
+              "datavalue": {
+                "value": "C2780118271",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q21857994$950F23DA-852F-4FFA-91FA-4E1A18110F9B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "e0b27d817c9a9b3247df341000fc490bafcba862",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1065": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1065",
+                      "hash": "3134281f51e2490f88272d53c56ee95d9cc24e2c",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20220125070108/https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P2960": [
+                    {
+                      "snaktype": "value",
+                      "property": "P2960",
+                      "hash": "f7ff3a0de7f9571ecb5e0740cba4122c6703e1ec",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854",
+                  "P1065",
+                  "P2960"
+                ]
+              }
+            ]
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "00b496ac67f4e373d604efa96d67772238693e90",
+              "datavalue": {
+                "value": "Jovian planets",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q21857994$8db0ed74-4f8f-7915-d6cb-9d0f8cbcdb09",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "e5d51eb3c89c63900bc3c2ef8fe717659b6affd5",
+              "datavalue": {
+                "value": "Gas giants in the solar system.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q21857994$0a3aee34-445c-0395-ae0d-2507d4d9a25b",
+            "rank": "normal"
+          }
+        ],
+        "P10380": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10380",
+              "hash": "1291992d7dd8dc864df2d9ce1f5da4798c5d707d",
+              "datavalue": {
+                "value": "giant-planets",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q21857994$f3b230a1-40de-d458-c780-12ad402e0d08",
+            "rank": "normal"
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "4a8ac2c77c6af0e9d6643a8c941efa961537f87d",
+              "datavalue": {
+                "value": "4522605-2",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q21857994$405964F3-9D67-4BA8-8613-06E3F68C15E9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "dff07e3ba5f1c42c9c205801803e8eb4a6942c8e",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "36d558700354b596f79376aa110f264256571b6d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-09-27T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Reuseplaneet",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "كوكب عملاق",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "كوكب عملاق",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Nəhəng planetlər",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Divovske planete",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Planeta gegant",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Riesenplanet",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Giant planet",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Giganta planedo",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Planeta gigante",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Planeta erraldoi",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "سیاره غول‌پیکر",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Planète géante",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "महाग्रह",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Óriásbolygó",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Հսկա մոլորակ",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Planet raksasa",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "木星型惑星",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "목성형 행성",
+          "badges": []
+        },
+        "kywiki": {
+          "site": "kywiki",
+          "title": "Гигант планеталар",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Џиновска планета",
+          "badges": []
+        },
+        "mnwiki": {
+          "site": "mnwiki",
+          "title": "Аварга гариг",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Planet gergasi",
+          "badges": []
+        },
+        "papwiki": {
+          "site": "papwiki",
+          "title": "Planeta gigante",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Planeta gigante",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Планеты-гиганты",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Giant planet",
+          "badges": []
+        },
+        "suwiki": {
+          "site": "suwiki",
+          "title": "Planet yaksa",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "ดาวเคราะห์ยักษ์",
+          "badges": []
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Higanteng planeta",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Dev gezegen",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Планета-гігант",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Hành tinh khổng lồ",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "巨行星",
+          "badges": []
+        },
+        "xmfwiki": {
+          "site": "xmfwiki",
+          "title": "გიგანტი პლანეტეფი",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "巨行星",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

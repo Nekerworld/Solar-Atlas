@@ -1,0 +1,474 @@
+{
+  "entities": {
+    "Q1155470": {
+      "type": "item",
+      "id": "Q1155470",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "지구 반경"
+        }
+      },
+      "descriptions": {},
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "지구반경"
+          }
+        ]
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "d27c29f1cda3d896356df5ef95bfce60686d2c23",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 173817,
+                  "id": "Q173817"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P13044": [
+                {
+                  "snaktype": "value",
+                  "property": "P13044",
+                  "hash": "3622224872d0b57feb8e5a79bbd26acca7000f50",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 2,
+                      "id": "Q2"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P13044"
+            ],
+            "id": "Q1155470$c1583adf-47b0-bd7c-751f-017331a3e670",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "b7869737a80d2971462388dcdf3ee72b336319ff",
+              "datavalue": {
+                "value": "75211307",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1155470$BDE07CD8-9E80-4772-9D63-B03913D87CFE",
+            "rank": "normal"
+          }
+        ],
+        "P8408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8408",
+              "hash": "cfa6367ca4ddb9fe28a3b853f7ad37ed613f25f9",
+              "datavalue": {
+                "value": "EarthRadius-Standard",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1155470$CBABDE10-484A-42A8-AC31-B0FA6C94FEBB",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64139102,
+                          "id": "Q64139102"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-07-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1181": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1181",
+              "hash": "95509b4c8291ec5a1fd39a53d4164aa19031a8f0",
+              "datavalue": {
+                "value": {
+                  "amount": "+6371",
+                  "unit": "http://www.wikidata.org/entity/Q828224"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q1155470$1855c58d-46e4-4a1c-5d37-c31559dd797c",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "c63ebacb9a37c24becf95fb572a96aaf7eed0d3d",
+              "datavalue": {
+                "value": "/m/012q8k",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1155470$E29E93F8-0386-4F5D-B8F0-630CE1DEB176",
+            "rank": "normal"
+          }
+        ],
+        "P10283": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "3dfabe01ba32ef6a73415b53a06de63bd1dc1b05",
+              "datavalue": {
+                "value": "C75211307",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1155470$426D3CFB-132A-4DCD-998E-5A24AD169357",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c13ba4d7902ead2693f79396bc25bd35d4d14030",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "a033dc261af1ce7788acec55273d82f69820e3c9",
+              "datavalue": {
+                "value": "Earth radius",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q1155470$ac342291-aa31-4f1f-a118-17fea4c2673b",
+            "rank": "normal"
+          }
+        ],
+        "P7007": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7007",
+              "hash": "f9b011f835fe3bf97487b927404400c758c7fedb",
+              "datavalue": {
+                "value": "\"EarthMeanRadius\"",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1155470$9061c6eb-48b2-d77b-c542-f1ef47106fd9",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Aardradius",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "نصف قطر الأرض",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Земен радиус",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "পৃথিবীর ব্যাসার্ধ",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Radi de la Terra",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Earth radius",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Erdradius",
+          "badges": []
+        },
+        "emlwiki": {
+          "site": "emlwiki",
+          "title": "Râǵ edla Tèra",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Earth radius",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Tera radiuso",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Radio terrestre",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "شعاع زمین",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Rayon de la Terre",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "पृथ्वी त्रिज्या",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Jari-jari Bumi",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Raggio terrestre",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "地球半径",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "지구 반경",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Äerdradius",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Jejari bumi",
+          "badges": []
+        },
+        "mywiki": {
+          "site": "mywiki",
+          "title": "ကမ္ဘာ အချင်းဝက်",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Promień Ziemi",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Raio terrestre",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Raza Pământului",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Радиус Земли",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Earth radius",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Zemljin polmer",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Jordens radie",
+          "badges": []
+        },
+        "szlwiki": {
+          "site": "szlwiki",
+          "title": "Prōmiyń Ziymie",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "รัศมีโลก",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Dünya yarıçapı",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Радіус Землі",
+          "badges": []
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "Yer radiusi",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Bán kính Trái Đất",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "地球半径",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

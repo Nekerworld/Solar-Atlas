@@ -1,0 +1,877 @@
+{
+  "entities": {
+    "Q6888": {
+      "type": "item",
+      "id": "Q6888",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "통과"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "217bbffccfc451ef304051d94e8ee19db2a6bf0d",
+              "datavalue": {
+                "value": "Astronomical transits",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q6888$5A2F61F2-FA22-4239-98A8-56C0D57B0FEB",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "663faf326bc3f4b3704ed644ec58f6a94b21ee5a",
+              "datavalue": {
+                "value": "/m/01k93j",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q6888$24EB00C3-F54B-44ED-9DED-9E3A1AF08EF7",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "001ec5039b6ab5e9a6fe82df2678145dc6918d6e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 13567909,
+                  "id": "Q13567909"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q6888$8c644865-42b7-b491-a2fa-69efb4dc705a",
+            "rank": "normal"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "286f15e17d88cb9097c73b753d5d5712be37117e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8273563,
+                  "id": "Q8273563"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q6888$E165B5DF-7407-4D7A-828B-6C29B99D19E3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "9355dc2a02781bddf1ecbe3b7912611746c688b2",
+              "datavalue": {
+                "value": "PIA02879 - A New Year for Jupiter and Io.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q6888$d956755b-4d1e-1ec5-b0f4-c38761d5eca1",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "f988bb67ed552bdaee17d4d08ee4aaad6344969d",
+              "datavalue": {
+                "value": "topic/transit-astronomy",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "3cd09a63b6bcb8b672444a6aa63f401818e08580",
+                  "datavalue": {
+                    "value": "transit",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q6888$3f0d4fa6-4e4b-c86a-b411-7282ba32b7e5",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "685f8bf274984bb9b306eb57fc79b478ec759406",
+              "datavalue": {
+                "value": "topic/second-contact",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "1686226c3ec3ac0d0a763d5479b1df9a4f439d89",
+                  "datavalue": {
+                    "value": "second contact",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q6888$AB4CDFB4-8DE2-40C1-8A5C-234B4FB0F9B5",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "fa68c027300ac5f520eca7fd6f774376cb6ca968",
+              "datavalue": {
+                "value": "topic/transit-photometry",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "36f68353c1ff4373979668dcff45d4d14804c05e",
+                  "datavalue": {
+                    "value": "transit photometry",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q6888$9A3EFFF4-D649-431F-871F-DE14134B7F3D",
+            "rank": "normal"
+          }
+        ],
+        "P3827": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3827",
+              "hash": "cd3574245e1891f62bee56c4c3c21c7405c870c7",
+              "datavalue": {
+                "value": "astronomical-transits",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q6888$1DA23B7A-5C66-485A-A8EA-12F1318ED43D",
+            "rank": "normal"
+          }
+        ],
+        "P4466": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4466",
+              "hash": "6f39d2b8e14ab45fdce393194f782b66d4568b54",
+              "datavalue": {
+                "value": "1711",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q6888$F220D31E-899A-41DA-BE1C-F90EC30A696D",
+            "rank": "normal"
+          }
+        ],
+        "P10": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10",
+              "hash": "adc9d0411cd9377250ee8fbf5c07da493cbcea5b",
+              "datavalue": {
+                "value": "Astronomical Transit.gif",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q6888$eb8e0cbf-4a93-22e1-67d0-95286822cb59",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10",
+              "hash": "a2786c44f23e06c70d27c23c65a33196b85a64e3",
+              "datavalue": {
+                "value": "Moon transit of sun large.ogv",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q6888$ffb69a0a-4c4b-e285-21cf-41fb66f837b7",
+            "rank": "normal"
+          }
+        ],
+        "P8834": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8834",
+              "hash": "fb50110fb0fa8e24ed19ada8b43335c8cb53013d",
+              "datavalue": {
+                "value": "transit",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q6888$0bb2a480-4a06-f6b5-f5cf-8121d5852425",
+            "rank": "normal"
+          }
+        ],
+        "P10565": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10565",
+              "hash": "934601424446edbb43d91f39c344023b269f4a07",
+              "datavalue": {
+                "value": "72503",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q6888$a2fbb504-4ae0-a2b1-22eb-51ab0db7d43f",
+            "rank": "normal"
+          }
+        ],
+        "P4342": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4342",
+              "hash": "997f17ce04e18930ef81ccb1f0d44fee81f73272",
+              "datavalue": {
+                "value": "passasje_-_astronomi",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q6888$84A33B58-DD03-4C24-9031-78197ACD7EB3",
+            "rank": "normal"
+          }
+        ],
+        "P1343": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "1e87e0f7d2db06ab0ef5ccabd7c6275641f36553",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 867541,
+                  "id": "Q867541"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "5468f828c7af8ba5e27b626f028c2cedf1645689",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 120357316,
+                      "id": "Q120357316"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q6888$B0C1FD76-90DA-4713-93AB-A768DC50374A",
+            "rank": "normal"
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "6594ea4c6793b5f473a308c75db247c99307d767",
+              "datavalue": {
+                "value": "4291270-2",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q6888$9e9d48e4-4c62-6ac3-6ac7-640115979c8b",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "37d9092b88fbe100a3562c01f4eb609d0a578f15",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 751989,
+                  "id": "Q751989"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q6888$8b4c1da1-49f7-7687-e55d-996c16d1a50b",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "a29a646602abf65105ed0f39a44231c962ece9ee",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "c6f1777471211df31724ac60175786f3872c83e9",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 177837,
+                          "id": "Q177837"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P14541": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14541",
+              "hash": "ae2f70e7ec0e481274922e13a1d9f320f63bf799",
+              "datavalue": {
+                "value": "1qrctk",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "21e493d016f6842a56483a56c3b5232110a2d5a2",
+                  "datavalue": {
+                    "value": "凌日",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P5017": [
+                {
+                  "snaktype": "value",
+                  "property": "P5017",
+                  "hash": "696589f360bb3988fb0cf601e433ef3654475977",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-03-31T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P5017"
+            ],
+            "id": "Q6888$459528E9-58EE-4541-BAAA-A3B8683227D9",
+            "rank": "normal"
+          }
+        ],
+        "P950": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P950",
+              "hash": "c9ffae291b71a6aae8f82dad2afed0a038de81c9",
+              "datavalue": {
+                "value": "XX554315",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q6888$cec07577-4dab-5e25-c746-50bb8b9207bb",
+            "rank": "normal"
+          }
+        ],
+        "P244": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P244",
+              "hash": "d53bb75c6cfb7ad9872f233a3512e8677242afbf",
+              "datavalue": {
+                "value": "sh85136957",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q6888$4ed658df-4699-b5a4-2113-7c74e0208840",
+            "rank": "normal"
+          }
+        ],
+        "P268": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P268",
+              "hash": "696a27b31414e3401b2cf3fec053f8436b11e61b",
+              "datavalue": {
+                "value": "14558309g",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q6888$ebf31685-48ba-7f6c-539f-b9b02cdf62e6",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Oorgang (sterrekunde)",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "عبور فلكي",
+          "badges": []
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Tránsitu (astronomía)",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Праходжанне (астраномія)",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "অতিক্রম (জ্যোতির্বিজ্ঞান)",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Přechod (astronomie)",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Astronomisk passage",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Durchgang",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Διάβαση (αστρονομία)",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Astronomical transit",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Pasado (astronomio)",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Tránsito (astronomía)",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Astronoomiline transiit",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Iragate (astronomia)",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "گذر (ستاره‌شناسی)",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Ylikulku",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Transit (astronomie)",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Tránsito astronómico",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "מעבר (אסטרונומיה)",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "संक्रमण (खगोलशास्त्र)",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Tranzit (astronomija)",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Bolygóátvonulás",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Անցում (աստղագիտություն)",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Transit (astronomi)",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Þverganga",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Transito (astronomia)",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "通過 (天文)",
+          "badges": []
+        },
+        "kabwiki": {
+          "site": "kabwiki",
+          "title": "Asaka (tasnallunt)",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "통과 (천문학)",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Transit (Astronomie)",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Премин (астрономија)",
+          "badges": []
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "സംതരണം",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Overgang (astronomie)",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "Passasje i astronomi",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Astronomisk passasje",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Tranzyt (astronomia)",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Trânsito astronômico",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Tranzit astronomic",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Прохождение (астрономия)",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Tranzit (astronomija)",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Astronomický prechod",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Транзит (астрономија)",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Astronomisk passage",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Mpito wa sayari",
+          "badges": []
+        },
+        "tgwiki": {
+          "site": "tgwiki",
+          "title": "Гузашт (ахтаршиносӣ)",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "การเคลื่อนผ่านทางดาราศาสตร์",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Astronomik geçiş",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Проходження",
+          "badges": []
+        },
+        "urwiki": {
+          "site": "urwiki",
+          "title": "حرکات",
+          "badges": []
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "Oʻtish",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Quá cảnh thiên thể",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "凌犯",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "凌 (天體)",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

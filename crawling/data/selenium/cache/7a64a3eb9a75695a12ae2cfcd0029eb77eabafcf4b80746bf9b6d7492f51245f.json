@@ -1,0 +1,187 @@
+{
+  "entities": {
+    "Q1325584": {
+      "type": "item",
+      "id": "Q1325584",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "화성에서 본 지구 일면통과"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "ee3cb30b5ea8dd606e89ce63fa1ddfec3ef06d33",
+              "datavalue": {
+                "value": "/m/034yn3",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1325584$12F44CFE-9CBE-4540-82D9-0C06F71DFB63",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "0b6811f501e6a2a1cee38cd1c418fdd546b35f70",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6888,
+                  "id": "Q6888"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1325584$25ad168f-4eb2-741e-c88b-518772cf00f3",
+            "rank": "normal"
+          }
+        ],
+        "P367": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P367",
+              "hash": "1531590af86595ffe0c8e5646a66c9324bdaba67",
+              "datavalue": {
+                "value": "Earth transit symbol.svg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q1325584$7e3c5d7a-4658-d396-044c-6eb0c683f736",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Erddurchgang vom Mars",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Transit of Earth from Mars",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Pasado de Tero elde Marso",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Transit de la Terre depuis Mars",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Transito della Terra da Marte",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "地球の太陽面通過 (火星)",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "화성에서 본 지구 일면통과",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Trânsito da Terra em Marte",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Jordpassage",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Проходження Землі, видиме з Марса",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Quá cảnh của Trái Đất từ Sao Hỏa",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "地球凌日 (火星)",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "地球凌日 (火星)",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

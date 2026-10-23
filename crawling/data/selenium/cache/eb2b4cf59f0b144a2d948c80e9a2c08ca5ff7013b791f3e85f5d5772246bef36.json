@@ -1,0 +1,2909 @@
+{
+  "entities": {
+    "Q2541392": {
+      "type": "item",
+      "id": "Q2541392",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "54509 YORP"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "소행성"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P61": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P61",
+              "hash": "1fb70822e6d1b7be5c4210d66636d36de7bcea59",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 735603,
+                  "id": "Q735603"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q2541392$9D8487A5-BB2A-4543-A383-ACA67C008513",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "693b651b4a2d811c6fbcae709b21cd1bdc660ce1",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "1940cfb7b522c49e49a686bcbdb0d7288b688c46",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 106600690,
+                          "id": "Q106600690"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              },
+              {
+                "hash": "76e596810f6c926dc451acf321b702bdadde19a1",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "76eb02deb40fe0af1194a192effb43a041d18156",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-01-02T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P196": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P196",
+              "hash": "f7b63d823a3d6aaa1ce186a9d38c092c4bdc5138",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 207391,
+                  "id": "Q207391"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q2541392$821D8A25-06D0-4386-8A29-F151CE41D230",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "76e596810f6c926dc451acf321b702bdadde19a1",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "76eb02deb40fe0af1194a192effb43a041d18156",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-01-02T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P575": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P575",
+              "hash": "79628b278e142b82cbc151800944afedaf413aeb",
+              "datavalue": {
+                "value": {
+                  "time": "+2000-08-03T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "q2541392$AAA4E4CC-DD31-4690-967C-D3ED3CF09A17",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "76e596810f6c926dc451acf321b702bdadde19a1",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "76eb02deb40fe0af1194a192effb43a041d18156",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-01-02T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P490": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P490",
+              "hash": "41b8f643d5757e223bb1ed574b93130ab775dc20",
+              "datavalue": {
+                "value": "2000 PH5",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q2541392$C06D05AC-B0DB-4B3C-A4DB-10ED4306A79F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "76e596810f6c926dc451acf321b702bdadde19a1",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "76eb02deb40fe0af1194a192effb43a041d18156",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-01-02T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "b4a1c4714f59189ea9705c6667bb70c1cc6084ac",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3863,
+                  "id": "Q3863"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2541392$2D84C938-5651-43BE-9A9C-E80AA5DC11C2",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "76e596810f6c926dc451acf321b702bdadde19a1",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "76eb02deb40fe0af1194a192effb43a041d18156",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-01-02T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "a0fcfc61dcb7e6b300ef8d8562bd8f4e65b5ba2c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 265392,
+                  "id": "Q265392"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2541392$e9942de2-7aee-47ba-88e8-b175fe9720a2",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "76e596810f6c926dc451acf321b702bdadde19a1",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "76eb02deb40fe0af1194a192effb43a041d18156",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-01-02T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "8dfa83607b9191aa5a232d02e4b53ddb4643dfe6",
+              "datavalue": {
+                "value": "/m/03yl6g0",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2541392$5C4EBBCE-6AFE-4625-BA18-B14A5E410204",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2045": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2045",
+              "hash": "5e96bcae0777f50ca8869be9b734e5616cc064ed",
+              "datavalue": {
+                "value": {
+                  "amount": "+1.59975",
+                  "unit": "http://www.wikidata.org/entity/Q28390",
+                  "upperBound": "+1.59976",
+                  "lowerBound": "+1.59974"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q2541392$33DFCDD6-108C-4828-86F3-7A80CB1273CC",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2045",
+              "hash": "dc43cfc287e8bde7a09693b17aee06ba6fa283a9",
+              "datavalue": {
+                "value": {
+                  "amount": "+1.59947687557732",
+                  "unit": "http://www.wikidata.org/entity/Q28390",
+                  "upperBound": "+1.59948186457732",
+                  "lowerBound": "+1.59947188657732"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6259": [
+                {
+                  "snaktype": "value",
+                  "property": "P6259",
+                  "hash": "931eaee7ea26f50bbcaf977e67a8aa2b5602ee62",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 69307527,
+                      "id": "Q69307527"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P6259"
+            ],
+            "id": "Q2541392$dc4c4f5e-5b1a-458b-9555-3cca97e92aaa",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "586feacb25e7d47e4b53c1a25ecc53b310c436cf",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ae511b50d99adb225d96865e407a7da1975c9aa7",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-08-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P138",
+              "hash": "50b1af6faeced8c5d221130a397d8b4cfe2d37f7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 586031,
+                  "id": "Q586031"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2541392$8f7cf936-4947-41f2-212d-7c3507b0b314",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "ad5f5c26a92a724d122670d79fd741baa54b1432",
+              "datavalue": {
+                "value": "54509 YORP image radar and 3D model.gif",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q2541392$07EB9CAD-62A9-49C8-8A1C-3AE2F4346385",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1096": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1096",
+              "hash": "baa0a37ebcf1f614165c1f7931a7707bcb8cb456",
+              "datavalue": {
+                "value": {
+                  "amount": "+0.23004",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q2541392$E11BFAAF-E2E2-4BDD-9E03-946820291067",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "da418659cd76e5a4d41c65d9b4cb83c399909d3d",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "e22d0d57fb92559a501775376e3113eac42b9df3",
+                      "datavalue": {
+                        "value": "https://fr.wikipedia.org/w/index.php?title=(54509)_YORP&oldid=146118705",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1096",
+              "hash": "c687684b7c45b695ec854427b71fe64955aa70c1",
+              "datavalue": {
+                "value": {
+                  "amount": "+0.2299564007394579",
+                  "unit": "1",
+                  "upperBound": "+0.2299565417794579",
+                  "lowerBound": "+0.2299562596994579"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6259": [
+                {
+                  "snaktype": "value",
+                  "property": "P6259",
+                  "hash": "931eaee7ea26f50bbcaf977e67a8aa2b5602ee62",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 69307527,
+                      "id": "Q69307527"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P6259"
+            ],
+            "id": "Q2541392$8e97d66f-2f1c-4b0e-9f66-49c797bff459",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "586feacb25e7d47e4b53c1a25ecc53b310c436cf",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ae511b50d99adb225d96865e407a7da1975c9aa7",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-08-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P5736": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5736",
+              "hash": "119d40b58eaaf73badb8b48eb90eca198df5b840",
+              "datavalue": {
+                "value": "54509",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2541392$259E7F35-7E40-4D71-AEF9-F710492E0943",
+            "rank": "normal"
+          }
+        ],
+        "P2325": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2325",
+              "hash": "9b73cb9fd8ff34fba1b2a4df2706960784734671",
+              "datavalue": {
+                "value": {
+                  "amount": "+358.462",
+                  "unit": "http://www.wikidata.org/entity/Q28390"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q2541392$13DB83B6-8279-4EFC-98D2-E0E2A54BA227",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "99cd3e2cbcfca8e02f73f701c77165194049049d",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "062225343db5e11a54579ef3f90001d9ea3f16c1",
+                      "datavalue": {
+                        "value": "https://fr.wikipedia.org/w/index.php?title=(54509)_YORP&oldid=158024224",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2325",
+              "hash": "713244db18692638280328132f7a6dbf0931e2d6",
+              "datavalue": {
+                "value": {
+                  "amount": "+294.7603980626462",
+                  "unit": "http://www.wikidata.org/entity/Q28390",
+                  "upperBound": "+294.7605249626462",
+                  "lowerBound": "+294.7602711626462"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6259": [
+                {
+                  "snaktype": "value",
+                  "property": "P6259",
+                  "hash": "931eaee7ea26f50bbcaf977e67a8aa2b5602ee62",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 69307527,
+                      "id": "Q69307527"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P6259"
+            ],
+            "id": "Q2541392$b35c8ad0-ca85-4fb9-abc9-b64969299469",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "586feacb25e7d47e4b53c1a25ecc53b310c436cf",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ae511b50d99adb225d96865e407a7da1975c9aa7",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-08-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2248": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2248",
+              "hash": "cd7bd47cae1e59ea8488b08445025ff47c9d227e",
+              "datavalue": {
+                "value": {
+                  "amount": "+278.609",
+                  "unit": "http://www.wikidata.org/entity/Q28390"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q2541392$372203FD-C14B-4249-9F87-F0A4717DE419",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "99cd3e2cbcfca8e02f73f701c77165194049049d",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "062225343db5e11a54579ef3f90001d9ea3f16c1",
+                      "datavalue": {
+                        "value": "https://fr.wikipedia.org/w/index.php?title=(54509)_YORP&oldid=158024224",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2248",
+              "hash": "019334a55ae32e4f1a1a5a425456d5731f944aa2",
+              "datavalue": {
+                "value": {
+                  "amount": "+278.9958747590852",
+                  "unit": "http://www.wikidata.org/entity/Q28390",
+                  "upperBound": "+278.9959581390852",
+                  "lowerBound": "+278.9957913790852"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6259": [
+                {
+                  "snaktype": "value",
+                  "property": "P6259",
+                  "hash": "931eaee7ea26f50bbcaf977e67a8aa2b5602ee62",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 69307527,
+                      "id": "Q69307527"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P6259"
+            ],
+            "id": "Q2541392$796f6544-e213-4e76-85a2-11d5fb88790e",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "586feacb25e7d47e4b53c1a25ecc53b310c436cf",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ae511b50d99adb225d96865e407a7da1975c9aa7",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-08-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2213": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2213",
+              "hash": "10b875bae94a8ac1ff2c766fa0cddcfe468e4bf8",
+              "datavalue": {
+                "value": {
+                  "amount": "+278.391",
+                  "unit": "http://www.wikidata.org/entity/Q28390"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q2541392$389DC742-DADC-4489-BC6C-981B0581ED6F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "99cd3e2cbcfca8e02f73f701c77165194049049d",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "062225343db5e11a54579ef3f90001d9ea3f16c1",
+                      "datavalue": {
+                        "value": "https://fr.wikipedia.org/w/index.php?title=(54509)_YORP&oldid=158024224",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2213",
+              "hash": "fa1b0893fb2a068d3bba49deb3c65905d0885beb",
+              "datavalue": {
+                "value": {
+                  "amount": "+278.1865433876847",
+                  "unit": "http://www.wikidata.org/entity/Q28390",
+                  "upperBound": "+278.1866300836847",
+                  "lowerBound": "+278.1864566916847"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6259": [
+                {
+                  "snaktype": "value",
+                  "property": "P6259",
+                  "hash": "931eaee7ea26f50bbcaf977e67a8aa2b5602ee62",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 69307527,
+                      "id": "Q69307527"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P6259"
+            ],
+            "id": "Q2541392$bd36c8f2-0874-4d77-ad81-6bd5e765ef1d",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "586feacb25e7d47e4b53c1a25ecc53b310c436cf",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ae511b50d99adb225d96865e407a7da1975c9aa7",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-08-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "8e0663b71299036333450ffb65deaa6d8653e02b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 15165554,
+                  "id": "Q15165554"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2541392$6F6132A5-3801-4355-91B9-43CFFB4ADBDB",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "f10498690bc9e6dd116e45b73704bcb6dcb82d33",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 15165553,
+                  "id": "Q15165553"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2541392$1B3F81F5-AB92-4544-BE19-9B2F034C140F",
+            "rank": "normal"
+          }
+        ],
+        "P793": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P793",
+              "hash": "97a8ad8a081d9fa0084b70701d09f53fffba2c71",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 25488743,
+                  "id": "Q25488743"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "c9b42e7fc464fc8d1b147105be4d891c4133d182",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2007-04-02T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585"
+            ],
+            "id": "Q2541392$8A5F718E-F65E-4685-953A-AFBE273683C7",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "22afc1911bcbd53ddbe25af81a1df282c7a87476",
+              "datavalue": {
+                "value": "54509 YORP",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q2541392$304e0b22-bf4c-4263-aa65-65459554f3f1",
+            "rank": "normal"
+          }
+        ],
+        "P397": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P397",
+              "hash": "fd831c7f134f7505b447530f0d9bd95d8e069379",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 525,
+                  "id": "Q525"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2541392$BBD5DA25-5F90-40B8-B88E-571F7B51CAD7",
+            "rank": "normal"
+          }
+        ],
+        "P367": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P367",
+              "hash": "b5a8adcdd1e11d703d44fc0be73fbf30ece5e3a6",
+              "datavalue": {
+                "value": "YORP symbol.svg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q2541392$9c481a46-43dd-f5e0-c719-6e49921cbe6f",
+            "rank": "normal"
+          }
+        ],
+        "P716": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P716",
+              "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+              "datavalue": {
+                "value": "20054509",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2541392$7385fe77-baf3-4633-97a9-f248e009b7ec",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f3355b17ea803898b06c6d7a8f3aaab4ee8172f9",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "76eb02deb40fe0af1194a192effb43a041d18156",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-01-02T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1457": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1457",
+              "hash": "720543800b3cd9650aed593b317017ecedf88eb6",
+              "datavalue": {
+                "value": {
+                  "amount": "+22.66",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q2541392$cdd94348-9a20-4064-8341-f27613f899bd",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "76e596810f6c926dc451acf321b702bdadde19a1",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "76eb02deb40fe0af1194a192effb43a041d18156",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-01-02T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2147": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2147",
+              "hash": "f34a88f5cf2accb70a7302e61760e0a15405b789",
+              "datavalue": {
+                "value": {
+                  "amount": "+0.2029",
+                  "unit": "http://www.wikidata.org/entity/Q25235"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q2541392$49ad56bc-3d91-4a05-9f05-b3d578383dbb",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "76e596810f6c926dc451acf321b702bdadde19a1",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "76eb02deb40fe0af1194a192effb43a041d18156",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-01-02T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P65": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P65",
+              "hash": "b83f9feb53a67d79e714a1c3d6c842747ee2e6d3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 23789293,
+                  "id": "Q23789293"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2541392$57eac1c0-e909-4d58-b791-fa5a62ceaeb2",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d3af822f6a1c3ff31cc033f81fd46fa74c7056e6",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "9ccbf5b102650e62a9d51a2b55b1d368f5947df5",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-04-21T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2233": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2233",
+              "hash": "5d1ff6c45b814ddd4a02920b8a1fd2a25a7c345e",
+              "datavalue": {
+                "value": {
+                  "amount": "+1.005884109841953",
+                  "unit": "http://www.wikidata.org/entity/Q1811",
+                  "upperBound": "+1.005884132504953",
+                  "lowerBound": "+1.005884087178953"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6259": [
+                {
+                  "snaktype": "value",
+                  "property": "P6259",
+                  "hash": "931eaee7ea26f50bbcaf977e67a8aa2b5602ee62",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 69307527,
+                      "id": "Q69307527"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P6259"
+            ],
+            "id": "Q2541392$c9f339c4-9735-4c86-bba7-439b2098001c",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "586feacb25e7d47e4b53c1a25ecc53b310c436cf",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ae511b50d99adb225d96865e407a7da1975c9aa7",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-08-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2244": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2244",
+              "hash": "21f50f972fd215dce677792b075118a0e3c48f5f",
+              "datavalue": {
+                "value": {
+                  "amount": "+0.7745746203816838",
+                  "unit": "http://www.wikidata.org/entity/Q1811",
+                  "upperBound": "+0.7745747634516838",
+                  "lowerBound": "+0.7745744773116838"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6259": [
+                {
+                  "snaktype": "value",
+                  "property": "P6259",
+                  "hash": "931eaee7ea26f50bbcaf977e67a8aa2b5602ee62",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 69307527,
+                      "id": "Q69307527"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P6259"
+            ],
+            "id": "Q2541392$8d692ce6-330b-46dc-a004-1cd145c88020",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "586feacb25e7d47e4b53c1a25ecc53b310c436cf",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ae511b50d99adb225d96865e407a7da1975c9aa7",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-08-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2243": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2243",
+              "hash": "c0e685126587c57af9b917f1f9e3a4d47f6ab227",
+              "datavalue": {
+                "value": {
+                  "amount": "+1.237193599302222",
+                  "unit": "http://www.wikidata.org/entity/Q1811",
+                  "upperBound": "+1.237193627176222",
+                  "lowerBound": "+1.237193571428222"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6259": [
+                {
+                  "snaktype": "value",
+                  "property": "P6259",
+                  "hash": "931eaee7ea26f50bbcaf977e67a8aa2b5602ee62",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 69307527,
+                      "id": "Q69307527"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P6259"
+            ],
+            "id": "Q2541392$f9fdbe35-5b1e-43bc-b287-c1f91b0d0532",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "586feacb25e7d47e4b53c1a25ecc53b310c436cf",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ae511b50d99adb225d96865e407a7da1975c9aa7",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-08-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P11796": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11796",
+              "hash": "d50fc73ae9261aae26192700da42e7606115ea55",
+              "datavalue": {
+                "value": {
+                  "amount": "+2460867.2773453086",
+                  "unit": "http://www.wikidata.org/entity/Q14267",
+                  "upperBound": "+2460867.2774774586",
+                  "lowerBound": "+2460867.2772131586"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6259": [
+                {
+                  "snaktype": "value",
+                  "property": "P6259",
+                  "hash": "931eaee7ea26f50bbcaf977e67a8aa2b5602ee62",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 69307527,
+                      "id": "Q69307527"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P6259"
+            ],
+            "id": "Q2541392$4e1def06-d684-405f-a5fc-141829de96d4",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "586feacb25e7d47e4b53c1a25ecc53b310c436cf",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ae511b50d99adb225d96865e407a7da1975c9aa7",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-08-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2146": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2146",
+              "hash": "32e8553aa35565c6b3429d5e544d48a61a63cc35",
+              "datavalue": {
+                "value": {
+                  "amount": "+368.4854535763412",
+                  "unit": "http://www.wikidata.org/entity/Q573",
+                  "upperBound": "+368.4854660293412",
+                  "lowerBound": "+368.4854411233412"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6259": [
+                {
+                  "snaktype": "value",
+                  "property": "P6259",
+                  "hash": "931eaee7ea26f50bbcaf977e67a8aa2b5602ee62",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 69307527,
+                      "id": "Q69307527"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P6259"
+            ],
+            "id": "Q2541392$14070664-6afc-498c-a812-6984ae02e00a",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "586feacb25e7d47e4b53c1a25ecc53b310c436cf",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ae511b50d99adb225d96865e407a7da1975c9aa7",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-08-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6259": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6259",
+              "hash": "931eaee7ea26f50bbcaf977e67a8aa2b5602ee62",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 69307527,
+                  "id": "Q69307527"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2541392$82b80491-8297-4765-b01f-09988ac26ec7",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "586feacb25e7d47e4b53c1a25ecc53b310c436cf",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6f6e9b5c5db0a606f453ff08b5f851657e4a17f0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4026990,
+                          "id": "Q4026990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P716": [
+                    {
+                      "snaktype": "value",
+                      "property": "P716",
+                      "hash": "3051c879a63868c8f392d8871eb6f226304cc583",
+                      "datavalue": {
+                        "value": "20054509",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "99337c3bec0f1f397588324f2cdebec0b7fb2766",
+                      "datavalue": {
+                        "value": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=20054509",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ae511b50d99adb225d96865e407a7da1975c9aa7",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-08-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P716",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P9885": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9885",
+              "hash": "175d341be2d27710f63d9908b9200b62323eb783",
+              "datavalue": {
+                "value": "1ab62d04-1b61-e933-1230-13ed45bad27d",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2541392$530896ec-44c6-d850-157e-039713a49f85",
+            "rank": "normal"
+          }
+        ],
+        "P4839": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4839",
+              "hash": "5ecbb5655fa48bea2a8136cb57f113675a3d4016",
+              "datavalue": {
+                "value": "Entity[\"MinorPlanet\", \"YORP\"]",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2541392$fdb3ee62-44a5-7c7c-043b-311c685772a9",
+            "rank": "normal"
+          }
+        ],
+        "P13824": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13824",
+              "hash": "0ed2bb8803dfe31dce31d913ee81768908dc859f",
+              "datavalue": {
+                "value": "asteroid/54509-yorp-2000-ph5",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2541392$f1ac4898-4c9b-6929-884c-023316e94309",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "يورب 54509",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "يورب 54509",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:54509 YORP",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "(54509) YORP",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "54509 YORP",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "54509 YORP",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "(54509) YORP",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "سیارک ۵۴۵۰۹",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "54509 YORP",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "(54509) YORP",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "יורפ (אסטרואיד)",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "54509 YORP",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "54509 YORP",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "(54509) YORP",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "54509 YORP",
+          "badges": []
+        },
+        "minwiki": {
+          "site": "minwiki",
+          "title": "54509 YORP",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "(54509) YORP",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "54509 YORP",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "(54509) YORP",
+          "badges": []
+        },
+        "suwiki": {
+          "site": "suwiki",
+          "title": "54509 YORP",
+          "badges": []
+        },
+        "urwiki": {
+          "site": "urwiki",
+          "title": "54509 وائی او آر پی",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "小行星54509",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

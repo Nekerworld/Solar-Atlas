@@ -1,0 +1,9 @@
+name: Ryugu
+source: https://data.darts.isas.jaxa.jp/pub/hayabusa2/paper/Watanabe_2019/
+credit: ISAS/JAXA; Watanabe et al. (2019), Science 364, 268-272, doi:10.1126/science.aav8032; shape-from-motion 49k model v20180804
+terms: https://www.isas.jaxa.jp/en/researchers/data-policy/
+surface: No image texture available in this package. Neutral gray material only; no invented surface map.
+changes: Converted to glTF; Z-up to Y-up rigid rotation, generated smooth normals, volume-equivalent normalization; 49152 triangles. No shape simplification. Display phase and pole orientation are illustrative.
+model: scene.gltf
+download: https://data.darts.isas.jaxa.jp/pub/hayabusa2/paper/Watanabe_2019/SHAPE_SFM_49k_v20180804.obj
+retrieved: 2026-10-22

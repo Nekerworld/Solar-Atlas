@@ -1,0 +1,141 @@
+{
+  "entities": {
+    "Q141756664": {
+      "type": "item",
+      "id": "Q141756664",
+      "labels": {},
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P1709": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "7e4218952e35fd54a5557d32ed680f78038852d6",
+              "datavalue": {
+                "value": "http://erlangen-crm.org/current/E71_Man-Made_Thing",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q141756664$F02859AF-6E2B-4187-A4F6-71D0885FA250",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ed307528a613488bc0af2bcaa460359cc0cc8646",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "2b5c1645940b1ef8e993654a773bedabfbd6f6bb",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 141755970,
+                          "id": "Q141755970"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "e1fc96dc63ffc31c7ce7c76b208475a85c0ec175",
+              "datavalue": {
+                "value": "http://www.cidoc-crm.org/cidoc-crm/E71_Human-Made_Thing",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q141756664$0ef93535-45ef-412e-129e-798d196bc4e9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c0fde6d44e096a0889b249051b7a157a9ff056e9",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a6dc41d97d79a7501b003a85ff025215fe28d30",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 624005,
+                          "id": "Q624005"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "af12726686921ff07a179775ddaaaa070a7e6806",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 141756883,
+                  "id": "Q141756883"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q141756664$3f44cd59-42a6-42e3-53bb-58fa3d53da1b",
+            "rank": "normal"
+          }
+        ],
+        "P6104": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6104",
+              "hash": "2bcf963484ee556d691849e71ea3ae951738fc36",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 60005226,
+                  "id": "Q60005226"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q141756664$3aefe161-4982-00b1-6be5-0c6234c562f3",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {}
+    }
+  },
+  "success": 1
+}

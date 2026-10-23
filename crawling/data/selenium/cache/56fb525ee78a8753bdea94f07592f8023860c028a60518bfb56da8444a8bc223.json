@@ -1,0 +1,121 @@
+{
+  "entities": {
+    "Q141445732": {
+      "type": "item",
+      "id": "Q141445732",
+      "labels": {},
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "bc80128224518eaff425038e7761f825f8147a3f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 141159298,
+                  "id": "Q141159298"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q141445732$7B87AD41-F5A6-436D-B350-EEB9E9E6DFAA",
+            "rank": "normal"
+          }
+        ],
+        "P1709": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "aff51d399cbe151bcae4503dd92f8a776854cf07",
+              "datavalue": {
+                "value": "http://www.hozo.jp/owl/YAMATO20210808.miz.owl#non-integral",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "c84c48d9d0142277f57ade9590d20707a907003c",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 141159298,
+                      "id": "Q141159298"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4900"
+            ],
+            "id": "Q141445732$B8372A51-EA17-444B-BAAC-5D9C8491E9A0",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "619acfcfed93dfa4c58507104953d111f3eea008",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9bd5ac23edcb15aa4e20d6f83513e9ca761df63d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 55118653,
+                          "id": "Q55118653"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P461": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P461",
+              "hash": "25382f759e473acb752e378b4ca4606d3dc3bb26",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 141445704,
+                  "id": "Q141445704"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q141445732$0b744435-4788-38a7-fbbf-571cee661ffb",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {}
+    }
+  },
+  "success": 1
+}

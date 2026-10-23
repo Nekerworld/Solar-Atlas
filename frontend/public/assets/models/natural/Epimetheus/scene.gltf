@@ -1,0 +1,158 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Solar Atlas PDS scientific shape converter",
+    "extras": {
+      "source": "https://sbn.psi.edu/pds/resource/saturnsatshapes.html",
+      "credit": "Thomas, P.; Joseph, J.; Ansty, T. (2018), Saturn Small Moon Shape Models V1.0, doi:10.26033/ewy3-jy61; NASA/Cassini ISS",
+      "license": "NASA-led mission scientific data, no restrictive notice in bundle; NASA Science Data License policy (CC0 default)",
+      "surface": "Procedural illustration; not measured surface imagery"
+    }
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "extras": {
+        "naturalRadius": 58.58700045686541
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Epimetheus"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Epimetheus illustrative regolith",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.64,
+          0.61,
+          0.55,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.96
+      },
+      "normalTexture": {
+        "index": 1,
+        "scale": 0.35
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "sampler": 0
+    },
+    {
+      "source": 1,
+      "sampler": 0
+    }
+  ],
+  "samplers": [
+    {
+      "wrapS": 10497,
+      "wrapT": 33071
+    }
+  ],
+  "images": [
+    {
+      "uri": "../surface.png"
+    },
+    {
+      "uri": "../surface-normal.png"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "scene.bin",
+      "byteLength": 782552
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 168240,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 168240,
+      "byteLength": 168240,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 336480,
+      "byteLength": 112160,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 448640,
+      "byteLength": 333912,
+      "target": 34963
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 14020,
+      "type": "VEC3",
+      "min": [
+        -75.36212921142578,
+        -53.2739143371582,
+        -54.17922592163086
+      ],
+      "max": [
+        70.77635192871094,
+        54.5709114074707,
+        58.6309814453125
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 14020,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 14020,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 83478,
+      "type": "SCALAR"
+    }
+  ]
+}

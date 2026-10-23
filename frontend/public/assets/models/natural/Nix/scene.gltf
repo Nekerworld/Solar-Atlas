@@ -1,0 +1,158 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Solar Atlas PDS scientific shape converter",
+    "extras": {
+      "source": "https://doi.org/10.6084/m9.figshare.12779948.v1",
+      "credit": "Simon Porter (2021); NASA New Horizons Project",
+      "license": "CC BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+      "surface": "Procedural illustration; not measured surface imagery"
+    }
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "extras": {
+        "naturalRadius": 36.53120777553474
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Nix"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Nix illustrative regolith",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.66,
+          0.64,
+          0.6,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.96
+      },
+      "normalTexture": {
+        "index": 1,
+        "scale": 0.35
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "sampler": 0
+    },
+    {
+      "source": 1,
+      "sampler": 0
+    }
+  ],
+  "samplers": [
+    {
+      "wrapS": 10497,
+      "wrapT": 33071
+    }
+  ],
+  "images": [
+    {
+      "uri": "../surface.png"
+    },
+    {
+      "uri": "../surface-normal.png"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "scene.bin",
+      "byteLength": 2246816
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 482556,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 482556,
+      "byteLength": 482556,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 965112,
+      "byteLength": 321704,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1286816,
+      "byteLength": 960000,
+      "target": 34963
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 40213,
+      "type": "VEC3",
+      "min": [
+        -50.81797790527344,
+        -29.42908477783203,
+        -30.227357864379883
+      ],
+      "max": [
+        46.01095962524414,
+        33.562171936035156,
+        37.43059539794922
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 40213,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 40213,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 240000,
+      "type": "SCALAR"
+    }
+  ]
+}

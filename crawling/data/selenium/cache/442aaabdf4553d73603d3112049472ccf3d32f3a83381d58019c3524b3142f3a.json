@@ -1,0 +1,155 @@
+{
+  "entities": {
+    "Q141083875": {
+      "type": "item",
+      "id": "Q141083875",
+      "labels": {},
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "502cc21074da7ce626e00046a3522fed967d9582",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 322481,
+                  "id": "Q322481"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q141083875$B302DE8F-13CF-44FC-9704-6309982B23AB",
+            "rank": "normal"
+          }
+        ],
+        "P14870": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14870",
+              "hash": "41179b218a1cbd2d780db2e03a4050dfbbce7c53",
+              "datavalue": {
+                "value": "ont00001367",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "0e6edc97891119f835b895f6666e073c601d9a4a",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 322481,
+                      "id": "Q322481"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4900"
+            ],
+            "id": "Q141083875$8dbb5e5c-4e81-584f-3edd-1d967ae70c67",
+            "rank": "normal"
+          }
+        ],
+        "P14884": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14884",
+              "hash": "5f793d65e000f12641ba5de0443216980388c568",
+              "datavalue": {
+                "value": "0001708",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "0e6edc97891119f835b895f6666e073c601d9a4a",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 322481,
+                      "id": "Q322481"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4900"
+            ],
+            "id": "Q141083875$f91373be-415d-4ef0-efd5-ebbe4cbc5a61",
+            "rank": "normal"
+          }
+        ],
+        "P1709": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "7baf497160be36c0341100324aed71432bc5427e",
+              "datavalue": {
+                "value": "http://borhan-onto.ir/ontology/juristic#Dimension",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q141083875$8194da27-4fb6-7fce-f1eb-15910aa200a9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fffbbd390c4ca2bdeed3391c508f092774eb7759",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e46437307b79628742d96f0c87dae6dcd18e3a0f",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 141247525,
+                          "id": "Q141247525"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {}
+    }
+  },
+  "success": 1
+}

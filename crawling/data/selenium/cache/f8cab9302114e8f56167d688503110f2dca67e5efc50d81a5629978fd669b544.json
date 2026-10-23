@@ -1,0 +1,191 @@
+{
+  "entities": {
+    "Q141406429": {
+      "type": "item",
+      "id": "Q141406429",
+      "labels": {},
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "b1e8c68a591627b254c22a3769b13ba135a051e0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 136490012,
+                  "id": "Q136490012"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q141406429$11874D96-B693-40C4-AE04-DDE433C60B48",
+            "rank": "normal"
+          }
+        ],
+        "P14870": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14870",
+              "hash": "7dad250cec2470feb4564e0f3fb30d2c3e72c87a",
+              "datavalue": {
+                "value": "ont00000798",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q141406429$fce16afa-486c-3904-cb3e-d710d735e6e3",
+            "rank": "normal"
+          }
+        ],
+        "P1709": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "80e5a5e75c67883ec9702bf238d73a8b3eed9da2",
+              "datavalue": {
+                "value": "http://purl.obolibrary.org/obo/IAO_0000178",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q141406429$638b498e-4ec9-b7ff-7a85-ac349cba88fe",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9409d9214b57f550db90cce6fb7ec18ae6c285c3",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "933f653317a3c2005d6f206cf67fc04ca5ebde18",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 55118415,
+                          "id": "Q55118415"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "8ee2b4838fe94ff7449799964e6c2c1ecd3462d5",
+              "datavalue": {
+                "value": "http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q141406429$6dbcd7db-4b09-3930-1c01-ad625bd74e64",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "341206b77c76e01b812c524ca8a061e855bf7f7a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a6dc41d97d79a7501b003a85ff025215fe28d30",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 624005,
+                          "id": "Q624005"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "2a95936ef66bbcc6de1dd898872d511df71befe1",
+                      "datavalue": {
+                        "value": "https://ontome.net/ontology/c77",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "65b0846c1df964f5b0d16474b53d452807f2699e",
+              "datavalue": {
+                "value": "http://www.hozo.jp/owl/YAMATO20210808.miz.owl#representing_thing",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q141406429$2f8f2926-4bfe-b433-77fb-1b721c9a206d",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "619acfcfed93dfa4c58507104953d111f3eea008",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9bd5ac23edcb15aa4e20d6f83513e9ca761df63d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 55118653,
+                          "id": "Q55118653"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {}
+    }
+  },
+  "success": 1
+}

@@ -1,0 +1,739 @@
+{
+  "entities": {
+    "Q681996": {
+      "type": "item",
+      "id": "Q681996",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "지구질량"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "지구의 질량과 같은 질량의 단위"
+        }
+      },
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "지구의 질량"
+          },
+          {
+            "language": "ko",
+            "value": "지구 질량"
+          }
+        ]
+      },
+      "claims": {
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "1a6d7a212bbf4302d68a2d61b5c5f95ff5108776",
+              "datavalue": {
+                "value": "/m/02y_9nz",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q681996$0A5DD959-6305-4373-AE20-326AA33D74E1",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "954edbd3fef27ce6396c0878a95c608ca4ed84af",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3647172,
+                  "id": "Q3647172"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q681996$a8b4faae-4792-a44d-c86c-d39b85bd5f6d",
+            "rank": "normal"
+          }
+        ],
+        "P1889": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "7b4dc9e52f3ed3a1fa5fed6c861965d776f9cb05",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 25935139,
+                  "id": "Q25935139"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q681996$3f2b8704-4d7a-e4a4-c8a5-4655d40a014d",
+            "rank": "normal"
+          }
+        ],
+        "P111": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P111",
+              "hash": "16653c4848e0552e9604edc668341bd5f95825a4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 11423,
+                  "id": "Q11423"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q681996$748d6f5e-4208-35ae-17af-fed0ab2df87c",
+            "rank": "normal"
+          }
+        ],
+        "P2370": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2370",
+              "hash": "75d31edde340af7890468f7281485ec300c1ebdd",
+              "datavalue": {
+                "value": {
+                  "amount": "+5972190000000000000000000",
+                  "unit": "http://www.wikidata.org/entity/Q11570",
+                  "upperBound": "+5972200000000000000000000",
+                  "lowerBound": "+5972180000000000000000000"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q681996$c1e90251-4f22-edd4-5476-c041ba5b8c77",
+            "rank": "normal"
+          }
+        ],
+        "P144": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P144",
+              "hash": "88ec8624aa45ec2243013ed6f9856655a5060c98",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 25935139,
+                  "id": "Q25935139"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q681996$8dc9a9d9-4a57-6439-334a-68314e8b1e28",
+            "rank": "normal"
+          }
+        ],
+        "P2534": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2534",
+              "hash": "0b385a47f163a6e9a7ed025fb368ab1e97bae55f",
+              "datavalue": {
+                "value": "M_\\oplus=(5.9722\\;\\pm\\;0.0006)\\times10^{24}\\;\\mathrm{kg}",
+                "type": "string"
+              },
+              "datatype": "math"
+            },
+            "type": "statement",
+            "id": "Q681996$0A1DE64C-EA22-46F6-8F27-842F9D06F01B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P5061": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5061",
+              "hash": "ad01c796af57875f409fd0f6b3c07b741b3a1797",
+              "datavalue": {
+                "value": {
+                  "text": "M🜨",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q681996$604aba29-4a3b-b760-6f03-d935b7382696",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5061",
+              "hash": "18ba8ef7f5d54c8a42ad6d93e035bcc9f6df9bb2",
+              "datavalue": {
+                "value": {
+                  "text": "M🜨",
+                  "language": "ru"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q681996$a2f589c0-463d-0ae4-5b55-360fcaa9478a",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5061",
+              "hash": "0deb067784529d4fc978518970a58edb635c6fa6",
+              "datavalue": {
+                "value": {
+                  "text": "ML",
+                  "language": "eu"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q681996$6bb5d383-47a8-38ed-f661-cd5c974bed39",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5061",
+              "hash": "9e7c4177fe3ba9c494bbe06937a260fd0fa1003c",
+              "datavalue": {
+                "value": {
+                  "text": "M⊕",
+                  "language": "mul"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P7452": [
+                {
+                  "snaktype": "value",
+                  "property": "P7452",
+                  "hash": "64620c87ddec104603a6c1ca1afab9ed11437d79",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 219142,
+                      "id": "Q219142"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P7452"
+            ],
+            "id": "Q681996$a7f9fab3-44bc-1576-9555-391e1e490f8a",
+            "rank": "preferred"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5061",
+              "hash": "c32541489fbc0acb84b3cafae40f8b2192deecaf",
+              "datavalue": {
+                "value": {
+                  "text": "M⊕",
+                  "language": "olo"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q681996$8824608f-4a24-19fd-a86d-4fb77238dbcd",
+            "rank": "normal"
+          }
+        ],
+        "P7007": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7007",
+              "hash": "74db0bcb3327832696b3f2449db38152c07b1ddb",
+              "datavalue": {
+                "value": "\"EarthMass\"",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q681996$fda69d1b-4444-db6e-07f9-de9cf54d5b79",
+            "rank": "normal"
+          }
+        ],
+        "P4839": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4839",
+              "hash": "62aa70bf8419f6134c64a617397de177aaabd138",
+              "datavalue": {
+                "value": "Entity[\"PhysicalConstant\", \"EarthMass\"]",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q681996$e8aba289-4515-8210-83b8-7069091cc2c6",
+            "rank": "normal"
+          }
+        ],
+        "P3921": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3921",
+              "hash": "0802565fb3a07aa499907bbbfb0972b0261c49b0",
+              "datavalue": {
+                "value": "wd:Q681996 p:P2370/psn:P2370 [wikibase:quantityAmount ?source; wikibase:quantityUnit ?base]. ?item p:P2370/psn:P2370 [wikibase:quantityAmount ?target; wikibase:quantityUnit ?base]. BIND(?source / ?target as ?value)",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q681996$78A2FBEB-9F99-4B84-8F18-F57C2C4CF397",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "9dd59f7ef1ecd2eed50ad9a35f2e4d876e6343e8",
+              "datavalue": {
+                "value": "60483872",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q681996$BDEA6991-FA1F-46A8-889C-1B7157B53C21",
+            "rank": "normal"
+          }
+        ],
+        "P2968": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2968",
+              "hash": "696f3b6f829749e7d19e71b09157e609d198c81a",
+              "datavalue": {
+                "value": "EarthMass",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q681996$addb94fe-48fc-7c78-3ab5-8c79aafa021b",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "329dff0abd895389070f0489cd4f4d229cc78bc8",
+              "datavalue": {
+                "value": "Archimedes lever.png",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q681996$53f0e1f9-48e5-5f56-3609-445471ca8c77",
+            "rank": "normal"
+          }
+        ],
+        "P6104": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6104",
+              "hash": "a27c5fdb35b42381f12b2a603711e56d98dd77fd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8487137,
+                  "id": "Q8487137"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q681996$4E3160B1-B70F-4EB4-9B51-18ED66710C93",
+            "rank": "normal"
+          }
+        ],
+        "P13625": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13625",
+              "hash": "042f299404b128ab9103ef6a6aef798862416df2",
+              "datavalue": {
+                "value": "A0E0L0I0M1H0T0D0",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q681996$D4CBFE93-64EF-455B-AD2C-46308EDEBF42",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Aardmassa",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "كتلة الأرض",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Маса Зямлі",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Земна маса",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "পৃথিবীর ভর",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Massa de la Terra",
+          "badges": [
+            "Q70893996"
+          ]
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Erdmasse",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Μάζα της Γης",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Earth mass",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Termaso",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Masa terrestre",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Lur masa",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "جرم زمین",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Masse terrestre (unité)",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "पृथ्वी द्रव्यमान",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Massa Bumi",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Massa terrestre",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "地球質量",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "დედამიწის მასა",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "지구질량",
+          "badges": []
+        },
+        "lawiki": {
+          "site": "lawiki",
+          "title": "Massa Telluris",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Äerdmass",
+          "badges": []
+        },
+        "minwiki": {
+          "site": "minwiki",
+          "title": "Massa Bumi",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Земјина маса",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Jisim Bumi",
+          "badges": []
+        },
+        "mywiki": {
+          "site": "mywiki",
+          "title": "ကမ္ဘာဒြပ်ထု",
+          "badges": []
+        },
+        "mznwiki": {
+          "site": "mznwiki",
+          "title": "زمین جرم",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Aardmassa",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Jordmasse",
+          "badges": []
+        },
+        "ocwiki": {
+          "site": "ocwiki",
+          "title": "Massa terrèstra",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Masa Ziemi",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Massa da Terra",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Masă terestră",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Масса Земли",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Earth mass",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Hmotnosť Zeme",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Zemljina masa",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Земљина маса",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Jordmassa",
+          "badges": []
+        },
+        "szlwiki": {
+          "site": "szlwiki",
+          "title": "Masa Ziymie",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "புவித் திணிவு",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "มวลโลก",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Dünya kütlesi",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Маса Землі",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Khối lượng Trái Đất",
+          "badges": []
+        },
+        "xmfwiki": {
+          "site": "xmfwiki",
+          "title": "დიხაუჩაშ მასა",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "地球质量",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

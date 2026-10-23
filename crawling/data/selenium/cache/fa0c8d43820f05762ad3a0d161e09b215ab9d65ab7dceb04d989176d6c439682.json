@@ -1,0 +1,444 @@
+{
+  "entities": {
+    "Q2606430": {
+      "type": "item",
+      "id": "Q2606430",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "중행성"
+        }
+      },
+      "descriptions": {},
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "메소플래닛"
+          }
+        ]
+      },
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "6c46d9a0d77deb4d5e4362624c404b14f05c7d9b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 400144,
+                  "id": "Q400144"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2606430$724a051f-4a99-d0ea-3df4-5fb4407a5ee9",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "8b6289a9ee5661801a32a0dd9aad6086a88499d0",
+              "datavalue": {
+                "value": "/m/05rj84",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2606430$C256B2B7-3AE3-4FEF-AB4B-DB0C6B73E3C8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "0040c57beefa942c120c00721108edcce6111d2b",
+              "datavalue": {
+                "value": "11573922",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2606430$4A4C822A-8941-492C-96FB-A2EEFC388B29",
+            "rank": "normal"
+          }
+        ],
+        "P2888": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2888",
+              "hash": "cf092a7770559536ca875540213c0a422fb0a5fa",
+              "datavalue": {
+                "value": "http://purl.obolibrary.org/obo/ENVO_01001152",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q2606430$35468E12-BCAA-4A52-9CBE-7299B3F4F07E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2ea013a730750f56c6ca25e4f2ee6f350d0756fd",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "478f2780097346cfeab21c3f38f2fbb9c51cab7e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 31110555,
+                          "id": "Q31110555"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "162da7e9b42d545636cfbb4041bef177907a520d",
+                      "datavalue": {
+                        "value": "https://raw.githubusercontent.com/INCATools/environments2wikidata/master/matches/curated-high-confidence-envo.tsv",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "146bdbb88a125be2d750e9256b497ccdd9909635",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-01-08T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3859": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3859",
+              "hash": "7362dce77b26168255e68518d5b6776c9bc67b74",
+              "datavalue": {
+                "value": "01001152",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2606430$9F36ACEB-95C4-4D4F-95E3-B83E6B760147",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2ea013a730750f56c6ca25e4f2ee6f350d0756fd",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "478f2780097346cfeab21c3f38f2fbb9c51cab7e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 31110555,
+                          "id": "Q31110555"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "162da7e9b42d545636cfbb4041bef177907a520d",
+                      "datavalue": {
+                        "value": "https://raw.githubusercontent.com/INCATools/environments2wikidata/master/matches/curated-high-confidence-envo.tsv",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "146bdbb88a125be2d750e9256b497ccdd9909635",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-01-08T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "062c3bb4e8d5fec0fef630459973abe38af6dd51",
+              "datavalue": {
+                "value": "Mesoplanets",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q2606430$58d3956a-7aee-4de5-a29f-c6e01363e3f5",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3bf39867b037e8e494a8389ae8a03bad6825a7fc",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5946b91c53409c48f5f1fb0319ed41fc67a764da",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 191168,
+                          "id": "Q191168"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "كوكب متوسط",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Мезапланета",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Mezoplanet",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Mesoplanets",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Mezoplaneta",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Mesoplanet",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Mesoplaneta",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Mesoplaneta",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "نیم‌سیاره",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Mesoplaneetta",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Mésoplanète",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Մեզոմոլորակ",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Mesoplanet",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Mesopianeta",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "중행성",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Мезопланета",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Mesoplaneet",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Mezoplaneta",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Mesoplaneta",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Мезопланета",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Mesoplanet",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Мезопланета",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Mesoplanet",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "中介行星",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

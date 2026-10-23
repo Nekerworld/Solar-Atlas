@@ -1,0 +1,132 @@
+{
+  "entities": {
+    "Q60746342": {
+      "type": "item",
+      "id": "Q60746342",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "지구 지각 진화"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "지구의 지각이 생성되고 발달되는 과정"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "c940d802742dc17313554a46525e611c6e98ae5e",
+              "datavalue": {
+                "value": "/g/11fhqjlx9h",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q60746342$785F54D0-2676-489C-BF03-80AA8D2402C2",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "fbeb420d429c6ae6a6a6a9cba92d4da6f8076f41",
+              "datavalue": {
+                "value": "Earth's crustal evolution",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q60746342$3dca4afb-84cb-4afb-8de8-eecc7c2ef392",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "354f324d3d52eee292a20d52b6d325d8d1dc948b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5418608,
+                  "id": "Q5418608"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P12912": [
+                {
+                  "snaktype": "value",
+                  "property": "P12912",
+                  "hash": "42c5f6c568c2287c16634ffca3a4b9fa4b5a31f6",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 15316,
+                      "id": "Q15316"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P12912"
+            ],
+            "id": "Q60746342$78fbe12d-4c55-9d4f-1e7d-a5609aa0d635",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "ভূত্বক বিবর্তন",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Earth's crustal evolution",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Earth's crustal evolution",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Evolución de la corteza terrestre",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "지구 지각 진화",
+          "badges": []
+        },
+        "pswiki": {
+          "site": "pswiki",
+          "title": "د ځمکې د پوټکي تکامل",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

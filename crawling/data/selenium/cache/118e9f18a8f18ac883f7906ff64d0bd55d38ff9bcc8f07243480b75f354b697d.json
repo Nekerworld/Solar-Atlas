@@ -1,0 +1,126 @@
+{
+  "entities": {
+    "Q141631935": {
+      "type": "item",
+      "id": "Q141631935",
+      "labels": {},
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "c2a4d8ec0cd44f1ca450c09f19ecf2f7ad98d365",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 141629423,
+                  "id": "Q141629423"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q141631935$CFBE4A5D-EC11-4D5D-BA55-4D8392ACF9F6",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ea4cdd91512968f029177c7f99650ecb54723871",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "71474845a59bcca95a4c4937c70e72f802e9faf7",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 7635093,
+                          "id": "Q7635093"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1709": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "80c9dba498b480e4f0437c2548d3c3bd7d237277",
+              "datavalue": {
+                "value": "https://sigma.ontologyportal.org/sigma/OWL.jsp?kb=SUMO&flang=OWL&term=ConstantQuantity",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "a32e44f1f18d30408ad39bb5431879f507459513",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 141629423,
+                      "id": "Q141629423"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4900"
+            ],
+            "id": "Q141631935$BC324F0F-0771-412B-88E0-D90E5C7E11EB",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ea4cdd91512968f029177c7f99650ecb54723871",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "71474845a59bcca95a4c4937c70e72f802e9faf7",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 7635093,
+                          "id": "Q7635093"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {}
+    }
+  },
+  "success": 1
+}

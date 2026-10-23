@@ -1,0 +1,357 @@
+{
+  "entities": {
+    "Q7563762": {
+      "type": "item",
+      "id": "Q7563762",
+      "labels": {},
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P3123": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3123",
+              "hash": "15b64445b7f66f67a0f1ccde3c6464e1dc9cc08a",
+              "datavalue": {
+                "value": "sortals",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "9661de6dd7bec6ee876969ab1dc42a8760c883c4",
+                  "datavalue": {
+                    "value": "Sortals",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P2093": [
+                {
+                  "snaktype": "value",
+                  "property": "P2093",
+                  "hash": "dae4edcbf3745baa0c92d9e1a66f8351eee33cbf",
+                  "datavalue": {
+                    "value": "Freund, Max A.",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2093",
+                  "hash": "ac7f205b71b43bc33d33e030f7df28db78d05609",
+                  "datavalue": {
+                    "value": "Grandy, Richard E.",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P577": [
+                {
+                  "snaktype": "value",
+                  "property": "P577",
+                  "hash": "6b36b622dd041984f34556c39a6a0b6104006b7d",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2006-02-09T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P2093",
+              "P577"
+            ],
+            "id": "Q7563762$EC94F3BE-9DBA-499D-A626-907FC80D16C5",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "37583be44efaee665a30c047b43091425606b3c3",
+              "datavalue": {
+                "value": "2779360518",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7563762$1F7648EE-151C-4E3D-8BB1-9661F27B1BA2",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "7f6fa57fbd3a321af1350d74ce47be79efd616cc",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 33104279,
+                  "id": "Q33104279"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7563762$489bbe01-47dd-597b-5c2a-80e5a4b758b4",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "34844d87155bd009bb2511ca91af8875d263aa83",
+              "datavalue": {
+                "value": "/m/0641y4s",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7563762$69C2BA19-B5D4-466F-BC2E-497871407C05",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "fd8205ae4b382f1ff0381b7357a4c70c04aadab3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 141439664,
+                  "id": "Q141439664"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7563762$93fc8fcf-42fc-b8c4-601b-c1580f316374",
+            "rank": "normal"
+          }
+        ],
+        "P1709": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "0038daec767dcd138ebf099f5975bf4fd0909462",
+              "datavalue": {
+                "value": "http://purl.org/nemo/gufo#Sortal",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "c72eed150456eba3184f2388ea2bc593c21ba895",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 141439664,
+                      "id": "Q141439664"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4900"
+            ],
+            "id": "Q7563762$3b8d6021-4788-eedb-313b-226d9cd503cb",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "674c2a0aa0899d6e7407fead1e1f6c525c2b6baf",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e27689d5b5315f1e768a57e2dd707d719ed5a40a",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 141439378,
+                          "id": "Q141439378"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "b15e9fe6a50830e1d0c35ad4721cf5d9d189ea56",
+              "datavalue": {
+                "value": "http://onto.fel.cvut.cz/ontologies/ufo/sortal-type",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "c72eed150456eba3184f2388ea2bc593c21ba895",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 141439664,
+                      "id": "Q141439664"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4900"
+            ],
+            "id": "Q7563762$6f8ddd2a-4829-63cd-1448-39c7f571a45e",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ae7a09d2ae07111c325c75e2ba1d4e543efc418a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "fe219fcff900e08c0a0779b9d88c6907b8ef26d5",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 99543632,
+                          "id": "Q99543632"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P461": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P461",
+              "hash": "7da6530cb5f87469bc1359fb667a58af1ea9844d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 141444851,
+                  "id": "Q141444851"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7563762$a96e5d52-4b11-5bba-1dcf-ac74fbb7949d",
+            "rank": "normal"
+          }
+        ],
+        "P6104": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6104",
+              "hash": "2bcf963484ee556d691849e71ea3ae951738fc36",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 60005226,
+                  "id": "Q60005226"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7563762$757b0fc1-4cb4-0030-86ec-3120d0597278",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Sortaler Term",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Sortal",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Sortaal",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Sortal",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

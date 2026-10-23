@@ -1,0 +1,121 @@
+{
+  "entities": {
+    "Q5926184": {
+      "type": "item",
+      "id": "Q5926184",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "외행성에서 본 토성 일면통과"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "위키미디어 동음이의어 문서"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "0ebb78ffecd3415a2dbc8db900881ff784fead2a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4167410,
+                  "id": "Q4167410"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q5926184$A728FD41-E69B-492E-82C9-48F2EFD6953A",
+            "rank": "normal"
+          }
+        ],
+        "P1889": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "a089ff0ffad38ea23fe2bf7c71ea9099474634d9",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 107274409,
+                  "id": "Q107274409"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1013": [
+                {
+                  "snaktype": "value",
+                  "property": "P1013",
+                  "hash": "3ee85f87aa07bea0f614c2220e1ccdf8d25de085",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 24005632,
+                      "id": "Q24005632"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1013"
+            ],
+            "id": "Q5926184$d8d5871f-4fd2-6555-a158-86736ce5f346",
+            "rank": "normal"
+          }
+        ],
+        "P367": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P367",
+              "hash": "90b6b83d9aed1a662a5d4f62d1b8dd3bc93174cf",
+              "datavalue": {
+                "value": "Saturn transit symbol.svg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q5926184$1c486dec-40cc-1495-ca50-719c4cd307a3",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "jawiki": {
+          "site": "jawiki",
+          "title": "土星の太陽面通過",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "외행성에서 본 토성 일면통과",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "土星凌日",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

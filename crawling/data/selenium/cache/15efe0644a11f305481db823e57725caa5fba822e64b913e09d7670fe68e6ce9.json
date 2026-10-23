@@ -1,0 +1,719 @@
+{
+  "entities": {
+    "Q1491995": {
+      "type": "item",
+      "id": "Q1491995",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "연결 공간"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "ae72f7ed625f79bc58051133dc4cbf44be4cf961",
+              "datavalue": {
+                "value": "/m/01vnt",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1491995$19F48E88-B145-402B-8CC9-DEB37E568D9F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "e27b44cbaef463e2f5896d9cb9679cbbd2d08afb",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 179899,
+                  "id": "Q179899"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1491995$c733169f-4768-04d1-3a96-d427d10a97bc",
+            "rank": "normal"
+          }
+        ],
+        "P2812": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2812",
+              "hash": "3a20dc39ef3cef9ed98980b26562a68cb4832fcd",
+              "datavalue": {
+                "value": "ConnectedSet",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "3a9e57a2c5cae64592afec27bf0be575619aaa3f",
+                  "datavalue": {
+                    "value": "Connected Set",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q1491995$1BE33E5A-D298-42AF-994F-1E7753498AAD",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3219": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3219",
+              "hash": "8368a7ee01cfbe2f711c054db11b25017eb247b5",
+              "datavalue": {
+                "value": "connexite-mathematique",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1491995$ADD63A52-671D-499B-B016-17306A80DFB5",
+            "rank": "normal"
+          }
+        ],
+        "P6564": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6564",
+              "hash": "15809bfd36af4bd046cf4d556db56c829e322321",
+              "datavalue": {
+                "value": "connected-space",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1491995$99353a4b-4fb0-d6ca-1a1b-32896e4aec58",
+            "rank": "normal"
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "513408d950f410ccc41152bc65b68d9d55e60763",
+              "datavalue": {
+                "value": "4151264-9",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1491995$CA3AA24B-4E1D-47D5-9F87-7C60C46DB336",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "83ae1b3160600a002cd5505118e3b91090e34d0e",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "4072cb0a7e70b7becb27d65e1abdf12cbe401700",
+                      "datavalue": {
+                        "value": "https://de.wikipedia.org/w/index.php?title=Zusammenhängender_Raum&oldid=187933869",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1889": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "3eed63975c42b27bfc323ddc0c5463776faddd0d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3487687,
+                  "id": "Q3487687"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1491995$c6428464-4063-8fa1-6a94-231304690823",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "2c81d6970b0c98d0229b7aa593f9a12fa0342e85",
+              "datavalue": {
+                "value": "24977911",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1491995$29F61F3C-75B5-4725-9C52-616CC84DBD0F",
+            "rank": "normal"
+          }
+        ],
+        "P2534": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2534",
+              "hash": "5d381a34e43425e324319fd7e49047817c94b977",
+              "datavalue": {
+                "value": "\\forall U\\in\\operatorname{Open}(X)\\colon (X\\setminus U\\in\\operatorname{Open}(X) \\iff U\\in\\{\\varnothing,X\\})",
+                "type": "string"
+              },
+              "datatype": "math"
+            },
+            "type": "statement",
+            "id": "Q1491995$755975c3-47a5-c97b-4e0d-372a115ec016",
+            "rank": "normal"
+          }
+        ],
+        "P10283": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "ecd541aaae9d52dad8988bd278600e83ab10d14c",
+              "datavalue": {
+                "value": "C24977911",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1491995$5458E8BB-480E-472F-BE55-B17BB11822CE",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "e0b27d817c9a9b3247df341000fc490bafcba862",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1065": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1065",
+                      "hash": "3134281f51e2490f88272d53c56ee95d9cc24e2c",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20220125070108/https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P2960": [
+                    {
+                      "snaktype": "value",
+                      "property": "P2960",
+                      "hash": "f7ff3a0de7f9571ecb5e0740cba4122c6703e1ec",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854",
+                  "P1065",
+                  "P2960"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6104": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6104",
+              "hash": "a27c5fdb35b42381f12b2a603711e56d98dd77fd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8487137,
+                  "id": "Q8487137"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1491995$7722DAD2-B6F3-4A38-89EB-7883D52E3926",
+            "rank": "normal"
+          }
+        ],
+        "P12888": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12888",
+              "hash": "3753183bef57149623c4bdb7ba07ddeb21cc8e83",
+              "datavalue": {
+                "value": "df-conn",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1491995$D18576C8-AC54-4D60-9771-A23CD98A11C2",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "feb11f5204bdbb9c5541c0aa0a26d33cd3b41d96",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 132225801,
+                  "id": "Q132225801"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1491995$e5233cca-405b-0000-368c-10774334068e",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "953911778c21f2fd7e42001bf658086cfa8beac6",
+              "datavalue": {
+                "value": "Connected space",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q1491995$7bc7e4c8-c25a-4959-9a41-9245deb45cdd",
+            "rank": "normal"
+          }
+        ],
+        "P14534": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14534",
+              "hash": "f0b4b5211ada2bc2f601eff79a29b237f056d2d7",
+              "datavalue": {
+                "value": "ConnectedSpace",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1491995$CAB248D0-E401-490E-98D7-B293957B3213",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "a4e2d940bf9fd81b31558451fe2888639858b42d",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "000c497735d1db725ccc7d425c4b953e10bd2d77",
+                      "datavalue": {
+                        "value": "https://github.com/leanprover-community/mathlib4/blob/88d006abbcd1f157f567bd21c7a33c271df9b83b/Mathlib/Topology/Connected/Basic.lean#L652",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "9f4997feb72fb59fd262109420ddb6e851de6828",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-07-02T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "فضاء متصل",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Conjunt connex",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Connected space",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Souvislá množina",
+          "badges": []
+        },
+        "cvwiki": {
+          "site": "cvwiki",
+          "title": "Çыхăнуллă уçлăх",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Zusammenhängender Raum",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Connected space",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Koneksa spaco",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Conjunto conexo",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "فضای همبند",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Polkuyhtenäisyys",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Connexité (mathématiques)",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Conxunto conexo",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "מרחב קשיר",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Összefüggőség (topológia)",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Ruang terhubung",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Samhangandi mengi",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Spazio connesso",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "連結空間",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "연결 공간",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Samenhang",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Przestrzeń spójna",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Espaço conexo",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Mulțime conexă",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Связное пространство",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Povezanost",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Повезан простор",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Sammanhängande rum",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Зв'язний простір",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Tập hợp liên thông",
+          "badges": []
+        },
+        "zh_classicalwiki": {
+          "site": "zh_classicalwiki",
+          "title": "道路連通",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "連通空間",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "连通空间",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

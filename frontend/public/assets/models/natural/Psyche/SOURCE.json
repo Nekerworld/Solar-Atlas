@@ -1,0 +1,28 @@
+{
+  "name": "Psyche",
+  "source": "https://echo.jpl.nasa.gov/asteroids/shapes/shapes.html",
+  "credit": "NASA/JPL radar shape model: Shepard et al. (2017)",
+  "terms": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "surface": "No image texture available in this package. Neutral gray material only; no invented surface map.",
+  "changes": "Converted to glTF; Z-up to Y-up rigid rotation, generated smooth normals, volume-equivalent normalization; 2292 triangles. No shape simplification. Display phase and pole orientation are illustrative.",
+  "model": "scene.gltf",
+  "download": "https://echo.jpl.nasa.gov/asteroids/shapes/psyche.v.final.mod.wf",
+  "retrieved": "2026-10-22",
+  "files": [
+    {
+      "path": "original.obj",
+      "bytes": 70817,
+      "sha256": "baba78b643655eab43645be00263a3ecb6255f131274d4408423c93fa588c2a5"
+    },
+    {
+      "path": "scene.bin",
+      "bytes": 55056,
+      "sha256": "a743f8d1292c8ae45be29f08c883e96e51b36f1ccb0590e7ebedcc97594b301d"
+    },
+    {
+      "path": "scene.gltf",
+      "bytes": 1067,
+      "sha256": "f0072dc1a81f4a8031d52f97fd8340582b684ca5debd5bf0e82a92b965e546f8"
+    }
+  ]
+}

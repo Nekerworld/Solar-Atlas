@@ -1,0 +1,916 @@
+{
+  "entities": {
+    "Q179600": {
+      "type": "item",
+      "id": "Q179600",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "항성분류"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "39d24cd2bd5c585301e5698bba98066c3e18b750",
+              "datavalue": {
+                "value": "/m/0756_",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q179600$80A0003C-BEA0-46DC-8D29-98F24F871422",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P508": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P508",
+              "hash": "bfc605a67ee98d714ebe7aa7a92b8755bffaf5a4",
+              "datavalue": {
+                "value": "57231",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q179600$3a9f393a-4337-7096-c02a-a149ae854126",
+            "rank": "normal"
+          }
+        ],
+        "P1296": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1296",
+              "hash": "8c4ec33fe4edefaf0aaa340e7ed535be49af043f",
+              "datavalue": {
+                "value": "0213902",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q179600$6C6F3CE3-3991-44A8-A461-61EA7B608F2C",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "0c59c66e57bf8c211078ffc77f99addecf3b7aaa",
+              "datavalue": {
+                "value": "Morgan-Keenan spectral classification.svg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q179600$e848c5b9-41db-3b07-bba4-51ca89d523ba",
+            "rank": "normal"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "9e6001f6af24853d601371276fbf1b0ae303b17a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6864552,
+                  "id": "Q6864552"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q179600$05763acb-448c-dd86-ba47-da776b6a5ee2",
+            "rank": "normal"
+          }
+        ],
+        "P361": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P361",
+              "hash": "2b928186bed22a38031c183e412d51d5087d7afe",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 25377588,
+                  "id": "Q25377588"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q179600$E2F14E5A-C77A-4FE2-8086-C167571092A7",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "72795618ace72dbc4b3fcc0d564eab6517666e32",
+              "datavalue": {
+                "value": "topic/spectral-type",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "967831cda57b89c92dd078cf7f0da3e9668e5dd1",
+                  "datavalue": {
+                    "value": "spectral type",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q179600$24B4E870-8E34-4D45-BC84-7BBE2F821606",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "9d6f3ce5fbf6704f54a2d14f18cad6d138fecd7c",
+              "datavalue": {
+                "value": "topic/stellar-classification",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4340fbe5602d4e78aa93ebe695f7c3b2ba27dc9c",
+                  "datavalue": {
+                    "value": "stellar classification",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q179600$B7CE7AA5-8438-4976-8885-64248711A058",
+            "rank": "normal"
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "765a68754bb4e3caa1f8e7bdb64c431a675d3d4f",
+              "datavalue": {
+                "value": "4127827-6",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q179600$2375EB98-BAFD-4A05-8EE3-7299CB8140CA",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "569d69d8eb1836296d83cef73d22511507be020a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "019a50b7de741e0068bde41c9d9955b22a5de47b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 36578,
+                          "id": "Q36578"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "d6ea32e47c091cf88c656222e92edc4fc18892ab",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-03-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "172337c3d3262a4b7b7937e14d76ba0865ac1b26",
+              "datavalue": {
+                "value": "Spectral types",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q179600$E21C868C-4C69-4A4A-BC27-59770234B729",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "8d7709b2902c132ce035a10367b7b6044e6bbc07",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 937228,
+                  "id": "Q937228"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q179600$1514F0C6-6A35-42DD-87B2-4795CD289085",
+            "rank": "normal"
+          }
+        ],
+        "P1687": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1687",
+              "hash": "e20a967b80833b62cf65d3eaf859f88d23bbcd97",
+              "datavalue": {
+                "value": {
+                  "entity-type": "property",
+                  "numeric-id": 215,
+                  "id": "P215"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-property"
+            },
+            "type": "statement",
+            "id": "Q179600$221bf113-4c4b-00af-3969-a52a2da5f858",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "9a6a43db3d6297a0c8fa756a437e903a839d774c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 25377588,
+                  "id": "Q25377588"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q179600$81ce0515-4644-db9c-6871-3d5e161a93ad",
+            "rank": "normal"
+          }
+        ],
+        "P1889": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "cd43999214615b7e4158ac24abe3b74adeb9d097",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 25377588,
+                  "id": "Q25377588"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q179600$ca982001-4a1f-95ef-ca23-3be424d7f31b",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "40a3822e8ac4be51b7973f3fa3d1a4e4bdd291d6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1750705,
+                  "id": "Q1750705"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q179600$a86cafb8-4e4e-65fb-cdd3-d163fff035d7",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "f866e7c79c98436a3eb9804e4925757af18ef1a7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 138280976,
+                  "id": "Q138280976"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q179600$66eab884-4907-0be4-e5fd-811203ab7e9e",
+            "rank": "normal"
+          }
+        ],
+        "P3827": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3827",
+              "hash": "f74d8e97e8646a2c3b6ac3e5da695d6a3e0e75c3",
+              "datavalue": {
+                "value": "stellar-classification",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q179600$772C7D9E-3F16-4DA4-8ADD-622F7D049559",
+            "rank": "normal"
+          }
+        ],
+        "P5008": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5008",
+              "hash": "136e3fbe19158e73e4bfebf3f2d98a9df8638b7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6173448,
+                  "id": "Q6173448"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "7661f66dd5b82a1ea92515ddb16c09ce3088edea",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-10-31T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585"
+            ],
+            "id": "Q179600$2A8BB39F-C585-4E97-BA84-43C4F8334EEB",
+            "rank": "normal"
+          }
+        ],
+        "P2924": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2924",
+              "hash": "cbcdc25d747f6c077f265bfdee9108869c425917",
+              "datavalue": {
+                "value": "4246696",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2241": [
+                {
+                  "snaktype": "value",
+                  "property": "P2241",
+                  "hash": "ab73ca934336656292af069f2278599cecf5770f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 123562959,
+                      "id": "Q123562959"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2241"
+            ],
+            "id": "Q179600$A460E29F-7BC1-4B02-B3A8-1447887F3064",
+            "rank": "deprecated"
+          }
+        ],
+        "P11514": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11514",
+              "hash": "fac96080a6ce0f84e5d0c4b78860878880f7b2cb",
+              "datavalue": {
+                "value": "spektral-nye-klassy-zviozd-c781fb",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q179600$B48DF2E0-43F2-4FC5-9BB7-C617034B9822",
+            "rank": "normal"
+          }
+        ],
+        "P1343": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "18e6d3e5a4b2e8891df3becff7db1570f149a24e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 20078554,
+                  "id": "Q20078554"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "e405eb86079ec94ad6e811f81b1b6fef46a15947",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 105940240,
+                      "id": "Q105940240"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q179600$a26ef43c-a8fa-4cf0-92fb-d5b89a334702",
+            "rank": "normal"
+          }
+        ],
+        "P12385": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12385",
+              "hash": "7d399930d7a8945b42f5f627eda7daa7e21f0836",
+              "datavalue": {
+                "value": "tipus-espectral",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q179600$09d95402-c896-44b2-9ede-e6d9a73879ae",
+            "rank": "normal"
+          }
+        ],
+        "P1036": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1036",
+              "hash": "ffad90971fd6594ad8dc1ee6dfbe0499ea386bcc",
+              "datavalue": {
+                "value": "523.87",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q179600$27059AF9-42DF-4CF2-9147-7F113895282B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d343e36e091490a4c5a60d6c873846f185090ce6",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "019a50b7de741e0068bde41c9d9955b22a5de47b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 36578,
+                          "id": "Q36578"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P227": [
+                    {
+                      "snaktype": "value",
+                      "property": "P227",
+                      "hash": "765a68754bb4e3caa1f8e7bdb64c431a675d3d4f",
+                      "datavalue": {
+                        "value": "4127827-6",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "9c5e4cd814e272ef5594154b203b6deeeaa93f8f",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-11-23T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P227",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "تصنيف الطيف",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Tipu espectral",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Спектральныя класы зорак",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Спектрален клас на звездите",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Tipus espectral",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Spektralklasse",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Spektralklasse",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Φασματικοί τύποι αστέρων",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Spectral class",
+          "badges": [
+            "Q70893996"
+          ]
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Tipo espectral",
+          "badges": [
+            "Q70893996"
+          ]
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Spektriklass",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Espektro mota (astrofisika)",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Spektriluokka",
+          "badges": []
+        },
+        "frrwiki": {
+          "site": "frrwiki",
+          "title": "Spektraalklas",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Type spectral",
+          "badges": []
+        },
+        "gawiki": {
+          "site": "gawiki",
+          "title": "Aicme speictreach",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "तारों की श्रेणियाँ",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Spektralni razred",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "სპექტრული კლასი",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "분광형",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "lawiki": {
+          "site": "lawiki",
+          "title": "Classis spectralis",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Spektralklass",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Spektra klase",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Spectraalklasse",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "Spektralklasse",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Spektralklasse",
+          "badges": []
+        },
+        "ocwiki": {
+          "site": "ocwiki",
+          "title": "Tipe espectrau",
+          "badges": []
+        },
+        "pawiki": {
+          "site": "pawiki",
+          "title": "ਤਾਰਿਆਂ ਦੀਆਂ ਸ਼੍ਰੇਣੀਆਂ",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Typ widmowy",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Спектральные классы звёзд",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Spektralna klasa",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Spektrálny typ",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Spektralni razred",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Спектрална класа",
+          "badges": [
+            "Q70893996"
+          ]
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Spektraltyp",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Kundi la spektra",
+          "badges": []
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Pag-uuring pambituin",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Спектральний клас",
+          "badges": [
+            "Q70893996"
+          ]
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "恒星光谱",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "光譜類型",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "恒星光谱",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

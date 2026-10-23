@@ -1,0 +1,120 @@
+{
+  "entities": {
+    "Q141756718": {
+      "type": "item",
+      "id": "Q141756718",
+      "labels": {},
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "c50602565c388474b71e819b70c16b77fe645195",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 141756664,
+                  "id": "Q141756664"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q141756718$029C6A45-A411-40F8-BAC6-54AD66ABEC2D",
+            "rank": "normal"
+          }
+        ],
+        "P1709": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "0d4354ff2fe8f0ddd991a0f2e2017a653be4ffd0",
+              "datavalue": {
+                "value": "http://erlangen-crm.org/current/E28_Conceptual_Object",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q141756718$56f07bdf-43fe-b671-c607-0b78de7fc6e1",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ed307528a613488bc0af2bcaa460359cc0cc8646",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "2b5c1645940b1ef8e993654a773bedabfbd6f6bb",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 141755970,
+                          "id": "Q141755970"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "f381dae0866f2279fca79da966f36479e54116c4",
+              "datavalue": {
+                "value": "http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q141756718$6a4b3fdc-4a46-fb08-cbc6-1ef38388ac17",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ed307528a613488bc0af2bcaa460359cc0cc8646",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "2b5c1645940b1ef8e993654a773bedabfbd6f6bb",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 141755970,
+                          "id": "Q141755970"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {}
+    }
+  },
+  "success": 1
+}

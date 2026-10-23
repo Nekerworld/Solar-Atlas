@@ -1,0 +1,521 @@
+{
+  "entities": {
+    "Q2428910": {
+      "type": "item",
+      "id": "Q2428910",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "새뮤얼 오스친 망원경"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "376ae835ac8782943ff22046ebfe0394baf43f33",
+              "datavalue": {
+                "value": "P48 1994 Jean Large.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2096": [
+                {
+                  "snaktype": "value",
+                  "property": "P2096",
+                  "hash": "e20b788f5ef19e1df69a569e01c7dba6e2e56c10",
+                  "datavalue": {
+                    "value": {
+                      "text": "A astrônoma [[Jean Mueller]] posando com a câmara Schmidt Samuel Oschin.",
+                      "language": "pt"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2096"
+            ],
+            "id": "Q2428910$3BE4D2BA-7339-49FB-BB75-711EC1A31568",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "d6b8429c638e2d7f20eceda0d679915c1072aa9e",
+              "datavalue": {
+                "value": "/m/04zvd3",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2428910$8ECF7D55-1D76-4CB0-B80F-1063A1E245E9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "4d315c7b8cf6f9e81a715f27f4eb849f8678c156",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 35221,
+                  "id": "Q35221"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2428910$c332dc83-4605-6443-d135-9d6a187431c7",
+            "rank": "normal"
+          }
+        ],
+        "P138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P138",
+              "hash": "1083d2f4987caf08288df50bd93b1b6575de2c90",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7412319,
+                  "id": "Q7412319"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "46d5923b24f1d46c3a62df03db65f9ba657f9b62",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1986-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580"
+            ],
+            "id": "Q2428910$3077b718-40b8-310c-ff30-7fe9d93a4af1",
+            "rank": "normal"
+          }
+        ],
+        "P625": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P625",
+              "hash": "7b103a44eafa82624b65407f8c50c4dd0bd4126d",
+              "datavalue": {
+                "value": {
+                  "latitude": 33.358194,
+                  "longitude": -116.861806,
+                  "altitude": null,
+                  "precision": 1e-06,
+                  "globe": "http://www.wikidata.org/entity/Q2"
+                },
+                "type": "globecoordinate"
+              },
+              "datatype": "globe-coordinate"
+            },
+            "type": "statement",
+            "id": "Q2428910$f0f6cbb8-4835-1da3-2ba1-9fed8c57e833",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "be4c6eafa2984964f04be85667263f5642ba1a72",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30,
+                  "id": "Q30"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2428910$ae5d8b8a-485c-2ef0-7ff5-f6022b1882b6",
+            "rank": "normal"
+          }
+        ],
+        "P131": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P131",
+              "hash": "4c9cab88740b954ddc07cefb4aecd7f2710f4a0c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 108143,
+                  "id": "Q108143"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2428910$49b92691-4f97-1bf9-8b60-81859cfdd308",
+            "rank": "normal"
+          }
+        ],
+        "P361": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P361",
+              "hash": "99f66fc849967ac3be3950ec7f76d0dcb478b3c8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 191684,
+                  "id": "Q191684"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2428910$527edbf2-4e20-a074-4cb1-3f81649d7e1e",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "5d0e80ef4d342ae1a1b96cff89f2bc71057ef151",
+              "datavalue": {
+                "value": "Samuel Oschin telescope",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q2428910$a240434e-4f68-a11f-0380-b2648ca50978",
+            "rank": "normal"
+          }
+        ],
+        "P2386": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2386",
+              "hash": "3b29239ab2e1903359b4dd12c93484d62577d9a0",
+              "datavalue": {
+                "value": {
+                  "amount": "+48",
+                  "unit": "http://www.wikidata.org/entity/Q218593"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q2428910$287aa1fc-4d47-cddf-f7db-29aca95d7906",
+            "rank": "normal"
+          }
+        ],
+        "P793": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P793",
+              "hash": "23db98c2dae78eaf160e2008602eed7c73f16ef8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 385378,
+                  "id": "Q385378"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "209aae6183d5a39e233d3a0139742486b9f5671f",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1939-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "809e01d8d76d1e7ba84d74dd678ce51202871c19",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1948-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580",
+              "P582"
+            ],
+            "id": "Q2428910$06ab7203-4807-e125-3033-9871c904eb8c",
+            "rank": "normal"
+          }
+        ],
+        "P11693": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11693",
+              "hash": "64cd50aa9e1b4f778fb8d8d59dbbbac396f8ae63",
+              "datavalue": {
+                "value": "1532568835",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2428910$4537A214-0C72-4FE9-A693-E6ABC9A5E371",
+            "rank": "normal"
+          }
+        ],
+        "P2670": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2670",
+              "hash": "ae843382571cd76a1c59c9872e55408a28c90d10",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 891841,
+                  "id": "Q891841"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2428910$90f370bf-4051-2db5-d0f7-7b4aad497399",
+            "rank": "normal"
+          }
+        ],
+        "P973": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P973",
+              "hash": "1360c498779d157a9730b75cc34f171451d96058",
+              "datavalue": {
+                "value": "https://sites.astro.caltech.edu/palomar/about/telescopes/oschin.html",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407"
+            ],
+            "id": "Q2428910$3935768f-4b39-d4dd-0fbf-3604cd7d9872",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Samuel Oschin telescope",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Samuel Oschin telescope",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Telescopio Samuel Oschin",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "تلسکوپ ساموئل اوشین",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Télescope de Schmidt Samuel-Oschin",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "サミュエル・オシン望遠鏡",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "새뮤얼 오스친 망원경",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Samuel Oschintelescoop",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Teleskop Samuela Oschina",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Telescópio Samuel Oschin",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Телескоп имени Самуэля Ошина",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Телескоп Самуеля Ошина",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Kính thiên văn Samuel Oschin",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "塞缪尔·奥欣望远镜",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

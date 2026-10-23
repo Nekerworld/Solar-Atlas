@@ -1,0 +1,487 @@
+{
+  "entities": {
+    "Q135524362": {
+      "type": "item",
+      "id": "Q135524362",
+      "labels": {},
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "1c5e8fa6972fb543163f82f52d2e8b3211b7bd91",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 124711104,
+                  "id": "Q124711104"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q135524362$a7775f2a-4be1-bc87-fe0e-37a51163d782",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "7afca390dbccd792f86387d80812d4626094041b",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "defbd18d33c8bcd690d9f37216728efbd886f1a3",
+                      "datavalue": {
+                        "value": "https://commons.wikimedia.org/wiki/File:BFO_ontology.jpg",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "f2ca72e4b6f7f701bd479fb53a120a3bb1058351",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 135524355,
+                  "id": "Q135524355"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q135524362$59550357-41e2-0fea-45bf-775087055939",
+            "rank": "normal"
+          }
+        ],
+        "P12602": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12602",
+              "hash": "9ed8ccf3493c0dd2e2b0e9c6c1983e5437b8057e",
+              "datavalue": {
+                "value": "0000038",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "37eaa190ed817b4c111a62db5c4e03cbdc0fdab4",
+                  "datavalue": {
+                    "value": "one-dimensional temporal region",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P9570": [
+                {
+                  "snaktype": "value",
+                  "property": "P9570",
+                  "hash": "bdbd45b486b304419fee17238378e3671855ec71",
+                  "datavalue": {
+                    "value": {
+                      "text": "A one-dimensional temporal region is a temporal region that is extended.",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "fda6522be81cf6fd114803b3ccd7bbea71feb5a1",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 135524355,
+                      "id": "Q135524355"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P9570",
+              "P4900"
+            ],
+            "id": "Q135524362$4CEEDAE6-45CC-4089-9C1D-F424481BD925",
+            "rank": "normal"
+          }
+        ],
+        "P1709": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "686aadf4249767a19fac659c4975babbd3e84819",
+              "datavalue": {
+                "value": "http://purl.obolibrary.org/obo/BFO_0000038",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q135524362$B167C299-BDB9-4337-8306-4911348DAC4F",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "6d16917f006ee6f7f8673ea98ca0bf8bd2a5633a",
+              "datavalue": {
+                "value": "http://rds.posccaesar.org/ontology/lis14/rdl/IntervalRegion",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "fda6522be81cf6fd114803b3ccd7bbea71feb5a1",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 135524355,
+                      "id": "Q135524355"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4900"
+            ],
+            "id": "Q135524362$cd9871ae-4d96-d83e-0a61-a65967545b69",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "bb7fbfeba87b554902ceaefc450092973fec5103",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "15161381428bfd30de13d8e7ca8739ff229bce31",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 137713618,
+                          "id": "Q137713618"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "289cfdfdad4f523685178b2ed0bd03e900c543ab",
+              "datavalue": {
+                "value": "http://www.ifomis.org/bfo/1.1/span#TemporalInterval",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q135524362$70156bd2-43af-d7cd-54a3-c307acf6ae6a",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "462fed389ae6fdea2cfb84d7ea94c946f9e17827",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9efef08aef49ec6b026992d56d603b143a4b65aa",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 141222616,
+                          "id": "Q141222616"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "ce886cbc5b131c6e5420a77d4d9c1dd7f22f9b16",
+                      "datavalue": {
+                        "value": "https://github.com/BFO-ontology/BFO/blob/master/src/tools/bfo1.1/bfo1.1-to-2.lisp",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "90bd4a4edf55720a7f99acde7e504801a7d2317b",
+              "datavalue": {
+                "value": "http://purl.org/biotop/btl2.owl#TimeInterval",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q135524362$eca66fb9-4662-85e1-1610-5fa27c8f223c",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8329ab77c9a23725e743ae985bd6ed8c1665c6ef",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "196bb3bd4a827a6b3e1acbbea518d9c64b4e3138",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 141642061,
+                          "id": "Q141642061"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "445023bbc46a67706d79135ca6b242091ffd8e5b",
+                      "datavalue": {
+                        "value": "https://github.com/BioTopOntology/biotop/blob/master/btl2-bfo.owl",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "24c6ab5d9cc320963612143deec46f256c0e1c98",
+              "datavalue": {
+                "value": "http://www.ifomis.org/bfo/1.1/span#ConnectedTemporalRegion",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "fda6522be81cf6fd114803b3ccd7bbea71feb5a1",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 135524355,
+                      "id": "Q135524355"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P2241": [
+                {
+                  "snaktype": "value",
+                  "property": "P2241",
+                  "hash": "a2d8a1c3d2123317872b63a5fc856d95b9a983c5",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 25895909,
+                      "id": "Q25895909"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4900",
+              "P2241"
+            ],
+            "id": "Q135524362$c735ed97-42a3-58a3-f600-4945b3164cd0",
+            "rank": "deprecated",
+            "references": [
+              {
+                "hash": "1562afc12a94fe349d5b3d2b75d46f8c3ece0186",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "46dfbbae270fa6ace59381d3aec71cd7198dc3c7",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 141717694,
+                          "id": "Q141717694"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              },
+              {
+                "hash": "d839ca6eca11d1b8bfe8f177fc3135e28d6fed4e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9efef08aef49ec6b026992d56d603b143a4b65aa",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 141222616,
+                          "id": "Q141222616"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P10551": [
+                    {
+                      "snaktype": "value",
+                      "property": "P10551",
+                      "hash": "831c38ab5d46c06e22adaa7ff090ba3bd44ce664",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "property",
+                          "numeric-id": 4900,
+                          "id": "P4900"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-property"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P10551"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2888": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2888",
+              "hash": "87fd7c9c9c1c621a6ab3a66465fa0c059273a657",
+              "datavalue": {
+                "value": "http://purl.obolibrary.org/obo/BFO_0000038",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q135524362$32cadc40-46ba-36b9-3dc2-c38a1c5b9c0c",
+            "rank": "normal"
+          }
+        ],
+        "P6771": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6771",
+              "hash": "7a64e7ecf5d6e7d41f8313676bc443f3d06a7274",
+              "datavalue": {
+                "value": "293576",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q135524362$79D70E6A-B76B-4BE6-A547-011EB550AFFB",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {}
+    }
+  },
+  "success": 1
+}

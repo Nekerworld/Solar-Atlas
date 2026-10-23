@@ -1,0 +1,173 @@
+{
+  "entities": {
+    "Q584659": {
+      "type": "item",
+      "id": "Q584659",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "명왕성의 일식"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "2e8e8859697eba28946bbe82548dbe23a1c21e22",
+              "datavalue": {
+                "value": "/m/08l3pr",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q584659$5E8253A7-DFE0-410B-94ED-FBDF1FFD268C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "30f1c63b4ea4f37f0b22408689229df21d91b9f0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3887,
+                  "id": "Q3887"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P276": [
+                {
+                  "snaktype": "value",
+                  "property": "P276",
+                  "hash": "c235ccbff0c43a703fb832d4af51d52bd953a365",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 339,
+                      "id": "Q339"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P276"
+            ],
+            "id": "Q584659$3aafd5ef-4f04-0731-219a-aa76a354037b",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Сонечнае зацьменне на Плутоне",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Solar eclipses on Pluto",
+          "badges": [
+            "Q70893996"
+          ]
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Éclipse solaire sur Pluton",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "冥王星の日食",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "명왕성의 일식",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Eclipses solares em Plutão",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Солнечное затмение на Плутоне",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Плутоново помрачење",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "冥王星日食",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

@@ -1,0 +1,1810 @@
+{
+  "targets": [
+    {
+      "id": "Q525",
+      "frontend_name": "Sun",
+      "name_ko": "태양",
+      "type": "star",
+      "parent_id": null,
+      "groups": [
+        "base"
+      ],
+      "aliases": [
+        "Sun",
+        "the Sun",
+        "해"
+      ]
+    },
+    {
+      "id": "Q308",
+      "frontend_name": "Mercury",
+      "name_ko": "수성",
+      "type": "planet",
+      "parent_id": "Q525",
+      "groups": [
+        "base"
+      ],
+      "aliases": [
+        "Mercury",
+        "Sol I",
+        "Hermes",
+        "Sol b",
+        "Sol 1",
+        "Planet Mercury",
+        "☿"
+      ]
+    },
+    {
+      "id": "Q313",
+      "frontend_name": "Venus",
+      "name_ko": "금성",
+      "type": "planet",
+      "parent_id": "Q525",
+      "groups": [
+        "base"
+      ],
+      "aliases": [
+        "Venus",
+        "♀",
+        "Planet Venus",
+        "샛별"
+      ]
+    },
+    {
+      "id": "Q2",
+      "frontend_name": "Earth",
+      "name_ko": "지구",
+      "type": "planet",
+      "parent_id": "Q525",
+      "groups": [
+        "base"
+      ],
+      "aliases": [
+        "Earth",
+        "제3행성",
+        "푸른 행성",
+        "세계",
+        "푸른 구슬",
+        "Planet Earth",
+        "World",
+        "Mother Earth",
+        "The Blue Planet",
+        "The Earth"
+      ]
+    },
+    {
+      "id": "Q111",
+      "frontend_name": "Mars",
+      "name_ko": "화성",
+      "type": "planet",
+      "parent_id": "Q525",
+      "groups": [
+        "base"
+      ],
+      "aliases": [
+        "Mars",
+        "Planet Mars",
+        "Red Planet"
+      ]
+    },
+    {
+      "id": "Q319",
+      "frontend_name": "Jupiter",
+      "name_ko": "목성",
+      "type": "planet",
+      "parent_id": "Q525",
+      "groups": [
+        "base"
+      ],
+      "aliases": [
+        "Jupiter",
+        "♃",
+        "Planet Jupiter",
+        "Sol V",
+        "Sol 5"
+      ]
+    },
+    {
+      "id": "Q193",
+      "frontend_name": "Saturn",
+      "name_ko": "토성",
+      "type": "planet",
+      "parent_id": "Q525",
+      "groups": [
+        "base"
+      ],
+      "aliases": [
+        "Saturn",
+        "진성",
+        "♄",
+        "Sol VI",
+        "Sol 6"
+      ]
+    },
+    {
+      "id": "Q324",
+      "frontend_name": "Uranus",
+      "name_ko": "천왕성",
+      "type": "planet",
+      "parent_id": "Q525",
+      "groups": [
+        "base"
+      ],
+      "aliases": [
+        "Uranus",
+        "Sol VII",
+        "Georgium Sidus",
+        "Sol h",
+        "the Georgian Planet",
+        "Georgian Planet, the",
+        "34 Tauri",
+        "Planet Uranus",
+        "Sol 7",
+        "Bulls-eye planet"
+      ]
+    },
+    {
+      "id": "Q332",
+      "frontend_name": "Neptune",
+      "name_ko": "해왕성",
+      "type": "planet",
+      "parent_id": "Q525",
+      "groups": [
+        "base"
+      ],
+      "aliases": [
+        "Neptune",
+        "♆",
+        "Sol VIII",
+        "Sol 8"
+      ]
+    },
+    {
+      "id": "Q339",
+      "frontend_name": "Pluto",
+      "name_ko": "명왕성",
+      "type": "dwarf_planet",
+      "parent_id": "Q525",
+      "groups": [
+        "base",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Pluto",
+        "(134340) Pluto",
+        "Sol j"
+      ]
+    },
+    {
+      "id": "Q405",
+      "frontend_name": "Moon",
+      "name_ko": "달",
+      "type": "natural_satellite",
+      "parent_id": "Q2",
+      "groups": [
+        "base",
+        "moons"
+      ],
+      "aliases": [
+        "Moon",
+        "The Moon",
+        "Luna",
+        "Earth I",
+        "Sol IIIa",
+        "moon",
+        "Lua",
+        "the Moon"
+      ]
+    },
+    {
+      "id": "Q7547",
+      "frontend_name": "Phobos",
+      "name_ko": "포보스",
+      "type": "natural_satellite",
+      "parent_id": "Q111",
+      "groups": [
+        "base",
+        "moons"
+      ],
+      "aliases": [
+        "Phobos",
+        "Mars I",
+        "Phobos (moon)",
+        "Mars I Phobos"
+      ]
+    },
+    {
+      "id": "Q7548",
+      "frontend_name": "Deimos",
+      "name_ko": "데이모스",
+      "type": "natural_satellite",
+      "parent_id": "Q111",
+      "groups": [
+        "base",
+        "moons"
+      ],
+      "aliases": [
+        "Deimos",
+        "Mars II",
+        "Deimos (moon)",
+        "Mars II Deimos"
+      ]
+    },
+    {
+      "id": "Q16755",
+      "frontend_name": "Metis",
+      "name_ko": "메티스",
+      "type": "natural_satellite",
+      "parent_id": "Q319",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Metis",
+        "Jupiter XVI",
+        "S / 1979 J3",
+        "목성 XVI",
+        "S/1979 J3",
+        "Metis (moon)",
+        "메티스 (위성)"
+      ]
+    },
+    {
+      "id": "Q16757",
+      "frontend_name": "Adrastea",
+      "name_ko": "아드라스테아",
+      "type": "natural_satellite",
+      "parent_id": "Q319",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Adrastea",
+        "Jupiter XV",
+        "S/1979 J 1",
+        "목성 XV",
+        "Adrastea (moon)",
+        "아드라스테아 (위성)"
+      ]
+    },
+    {
+      "id": "Q3257",
+      "frontend_name": "Amalthea",
+      "name_ko": "아말테아",
+      "type": "natural_satellite",
+      "parent_id": "Q319",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Amalthea",
+        "Jupiter V",
+        "Amalthea (moon)",
+        "아말테아 (위성)"
+      ]
+    },
+    {
+      "id": "Q16765",
+      "frontend_name": "Thebe",
+      "name_ko": "테베",
+      "type": "natural_satellite",
+      "parent_id": "Q319",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Thebe",
+        "Jupiter XIV",
+        "S/1979 J2",
+        "Thebe (moon)",
+        "테베 (위성)"
+      ]
+    },
+    {
+      "id": "Q3123",
+      "frontend_name": "Io",
+      "name_ko": "이오",
+      "type": "natural_satellite",
+      "parent_id": "Q319",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Io",
+        "Jupiter I",
+        "Io (moon)",
+        "목성 I",
+        "이오 (위성)"
+      ]
+    },
+    {
+      "id": "Q3143",
+      "frontend_name": "Europa",
+      "name_ko": "유로파",
+      "type": "natural_satellite",
+      "parent_id": "Q319",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Europa",
+        "Jupiter II",
+        "Europa (moon)",
+        "에우로파",
+        "목성 II",
+        "유로파 (위성)"
+      ]
+    },
+    {
+      "id": "Q3169",
+      "frontend_name": "Ganymede",
+      "name_ko": "가니메데",
+      "type": "natural_satellite",
+      "parent_id": "Q319",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Ganymede",
+        "Jupiter III",
+        "목성 III",
+        "Ganymede (moon)",
+        "가니메데 (위성)"
+      ]
+    },
+    {
+      "id": "Q3134",
+      "frontend_name": "Callisto",
+      "name_ko": "칼리스토",
+      "type": "natural_satellite",
+      "parent_id": "Q319",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Callisto",
+        "Jupiter IV",
+        "목성 IV",
+        "Callisto (moon)",
+        "칼리스토 (위성)"
+      ]
+    },
+    {
+      "id": "Q17705",
+      "frontend_name": "Pan",
+      "name_ko": "판",
+      "type": "natural_satellite",
+      "parent_id": "Q193",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Pan",
+        "Saturn XVIII",
+        "S/1981 S 13",
+        "Pan (moon)",
+        "판 (위성)"
+      ]
+    },
+    {
+      "id": "Q15037",
+      "frontend_name": "Hyperion",
+      "name_ko": "히페리온",
+      "type": "natural_satellite",
+      "parent_id": "Q193",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Hyperion",
+        "Saturn VII",
+        "Hyperion (moon)",
+        "히페리온 (위성)"
+      ]
+    },
+    {
+      "id": "Q17706",
+      "frontend_name": "Daphnis",
+      "name_ko": "다프니스",
+      "type": "natural_satellite",
+      "parent_id": "Q193",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Daphnis",
+        "Saturn XXXV",
+        "S/2005 S 1",
+        "토성 XXXV",
+        "Daphnis (moon)",
+        "다프니스 (위성)"
+      ]
+    },
+    {
+      "id": "Q17707",
+      "frontend_name": "Atlas",
+      "name_ko": "아틀라스",
+      "type": "natural_satellite",
+      "parent_id": "Q193",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Atlas",
+        "Saturn XV",
+        "S/1980 S 28",
+        "Atlas (moon)",
+        "아틀라스 (위성)"
+      ]
+    },
+    {
+      "id": "Q17739",
+      "frontend_name": "Prometheus",
+      "name_ko": "프로메테우스",
+      "type": "natural_satellite",
+      "parent_id": "Q193",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Prometheus",
+        "Saturn XVI",
+        "S/1980 S 27",
+        "Prometheus (moon)",
+        "프로메테우스 (위성)"
+      ]
+    },
+    {
+      "id": "Q17746",
+      "frontend_name": "Pandora",
+      "name_ko": "판도라",
+      "type": "natural_satellite",
+      "parent_id": "Q193",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Pandora",
+        "Saturn XVII",
+        "S/1980 S 26",
+        "Pandora (moon)",
+        "판도라 (위성)"
+      ]
+    },
+    {
+      "id": "Q17751",
+      "frontend_name": "Epimetheus",
+      "name_ko": "에피메테우스",
+      "type": "natural_satellite",
+      "parent_id": "Q193",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Epimetheus",
+        "Saturn XI",
+        "S/1980 S 3",
+        "에피메네우스",
+        "Epimetheus (moon)",
+        "에피메테우스 (위성)"
+      ]
+    },
+    {
+      "id": "Q17754",
+      "frontend_name": "Janus",
+      "name_ko": "야누스",
+      "type": "natural_satellite",
+      "parent_id": "Q193",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Janus",
+        "Saturn X",
+        "S/1966 S 2",
+        "S/1979 S 2",
+        "S/1980 S 1",
+        "S/1980 S 2",
+        "Janus (moon)",
+        "야누스 (위성)"
+      ]
+    },
+    {
+      "id": "Q17762",
+      "frontend_name": "Aegaeon",
+      "name_ko": "아이가이온",
+      "type": "natural_satellite",
+      "parent_id": "Q193",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "아에가에온",
+        "Aegaeon",
+        "Saturn LIII",
+        "S/2008 S 1",
+        "Aegaeon (moon)",
+        "아에가에온 (위성)"
+      ]
+    },
+    {
+      "id": "Q15034",
+      "frontend_name": "Mimas",
+      "name_ko": "미마스",
+      "type": "natural_satellite",
+      "parent_id": "Q193",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Mimas",
+        "Saturn I",
+        "Death Star moon",
+        "미마스 (위성)"
+      ]
+    },
+    {
+      "id": "Q3303",
+      "frontend_name": "Enceladus",
+      "name_ko": "엔셀라두스",
+      "type": "natural_satellite",
+      "parent_id": "Q193",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Enceladus",
+        "Saturn II",
+        "Enceladus (moon)",
+        "토성 II"
+      ]
+    },
+    {
+      "id": "Q15047",
+      "frontend_name": "Tethys",
+      "name_ko": "테티스",
+      "type": "natural_satellite",
+      "parent_id": "Q193",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Tethys",
+        "Saturn III",
+        "Tethys (moon)",
+        "테티스 (위성)"
+      ]
+    },
+    {
+      "id": "Q15040",
+      "frontend_name": "Dione",
+      "name_ko": "디오네",
+      "type": "natural_satellite",
+      "parent_id": "Q193",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Dione",
+        "Saturn IV",
+        "Dione (moon)",
+        "디오네 (위성)"
+      ]
+    },
+    {
+      "id": "Q15050",
+      "frontend_name": "Rhea",
+      "name_ko": "레아",
+      "type": "natural_satellite",
+      "parent_id": "Q193",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Rhea",
+        "Saturn V",
+        "Rhea (moon)",
+        "레아 (위성)"
+      ]
+    },
+    {
+      "id": "Q2565",
+      "frontend_name": "Titan",
+      "name_ko": "타이탄",
+      "type": "natural_satellite",
+      "parent_id": "Q193",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Titan",
+        "Saturn VI",
+        "티탄",
+        "토성 VI",
+        "Titan (moon)",
+        "타이탄 (위성)"
+      ]
+    },
+    {
+      "id": "Q17958",
+      "frontend_name": "Iapetus",
+      "name_ko": "이아페투스",
+      "type": "natural_satellite",
+      "parent_id": "Q193",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Iapetus",
+        "Japetus",
+        "Iapetus (moon)",
+        "이아페투스 (위성)"
+      ]
+    },
+    {
+      "id": "Q3343",
+      "frontend_name": "Ariel",
+      "name_ko": "아리엘",
+      "type": "natural_satellite",
+      "parent_id": "Q324",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Ariel",
+        "Uranus I",
+        "Ariel (moon)",
+        "아리엘 (위성)"
+      ]
+    },
+    {
+      "id": "Q3352",
+      "frontend_name": "Miranda",
+      "name_ko": "미란다",
+      "type": "natural_satellite",
+      "parent_id": "Q324",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Miranda",
+        "Uranus V",
+        "Miranda (moon)",
+        "천왕성 V",
+        "미란다 (위성)"
+      ]
+    },
+    {
+      "id": "Q3332",
+      "frontend_name": "Oberon",
+      "name_ko": "오베론",
+      "type": "natural_satellite",
+      "parent_id": "Q324",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Oberon",
+        "Uranus IV",
+        "Oberon (moon)",
+        "오베론 (위성)"
+      ]
+    },
+    {
+      "id": "Q15662",
+      "frontend_name": "Puck",
+      "name_ko": "퍽",
+      "type": "natural_satellite",
+      "parent_id": "Q324",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Puck",
+        "Uranus XV",
+        "S/1985 U 1",
+        "Puck (moon)",
+        "퍽 (위성)"
+      ]
+    },
+    {
+      "id": "Q3322",
+      "frontend_name": "Titania",
+      "name_ko": "티타니아",
+      "type": "natural_satellite",
+      "parent_id": "Q324",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Titania",
+        "Uranus III",
+        "Titania (moon)",
+        "티타니아 (위성)"
+      ]
+    },
+    {
+      "id": "Q3338",
+      "frontend_name": "Umbriel",
+      "name_ko": "움브리엘",
+      "type": "natural_satellite",
+      "parent_id": "Q324",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Umbriel",
+        "Uranus II",
+        "Umbriel (moon)",
+        "움브리엘 (위성)"
+      ]
+    },
+    {
+      "id": "Q16081",
+      "frontend_name": "Proteus",
+      "name_ko": "프로테우스",
+      "type": "natural_satellite",
+      "parent_id": "Q332",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Proteus",
+        "Neptune VIII",
+        "S/1989 N 1",
+        "Proteus (moon)",
+        "프로테우스 (위성)"
+      ]
+    },
+    {
+      "id": "Q3359",
+      "frontend_name": "Triton",
+      "name_ko": "트리톤",
+      "type": "natural_satellite",
+      "parent_id": "Q332",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Triton",
+        "Neptune I",
+        "Triton (moon)",
+        "트리톤 (위성)"
+      ]
+    },
+    {
+      "id": "Q19471",
+      "frontend_name": "Larissa",
+      "name_ko": "라리사",
+      "type": "natural_satellite",
+      "parent_id": "Q332",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Larissa",
+        "Neptune VII",
+        "S/1981 N 1",
+        "S/1989 N 2",
+        "Larissa (moon)",
+        "라리사 (위성)"
+      ]
+    },
+    {
+      "id": "Q16076",
+      "frontend_name": "Nereid",
+      "name_ko": "네레이드",
+      "type": "natural_satellite",
+      "parent_id": "Q332",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Nereid",
+        "Neptune II",
+        "Nereid (moon)",
+        "네레이드 (위성)"
+      ]
+    },
+    {
+      "id": "Q6604",
+      "frontend_name": "Charon",
+      "name_ko": "카론",
+      "type": "natural_satellite",
+      "parent_id": "Q339",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Charon",
+        "(134340) Pluto I",
+        "Pluto I",
+        "S/1978 P 1",
+        "Charon (moon)",
+        "카론 (위성)"
+      ]
+    },
+    {
+      "id": "Q102694",
+      "frontend_name": "Nix",
+      "name_ko": "닉스",
+      "type": "natural_satellite",
+      "parent_id": "Q339",
+      "groups": [
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Nix",
+        "(134340) Pluto II",
+        "Pluto II",
+        "S/2005 P 2",
+        "Nix (moon)",
+        "닉스 (위성)"
+      ]
+    },
+    {
+      "id": "Q596",
+      "frontend_name": "Ceres",
+      "name_ko": "세레스",
+      "type": "dwarf_planet",
+      "parent_id": "Q525",
+      "groups": [
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Ceres",
+        "(1) Ceres",
+        "1 Ceres",
+        "Ceres (dwarf planet)",
+        "세레스 (왜행성)"
+      ]
+    },
+    {
+      "id": "Q611",
+      "frontend_name": "Eris",
+      "name_ko": "에리스",
+      "type": "dwarf_planet",
+      "parent_id": "Q525",
+      "groups": [
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Eris",
+        "Sol k",
+        "Eris (dwarf planet)",
+        "Xena",
+        "136199 Eris",
+        "에리스 (왜행성)"
+      ]
+    },
+    {
+      "id": "Q601",
+      "frontend_name": "Haumea",
+      "name_ko": "하우메아",
+      "type": "dwarf_planet",
+      "parent_id": "Q525",
+      "groups": [
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "(136108) Haumea",
+        "Haumea",
+        "Haumea (dwarf planet)",
+        "2003 EL61",
+        "K40506A",
+        "136108 Haumea",
+        "하우메아 (왜행성)"
+      ]
+    },
+    {
+      "id": "Q604",
+      "frontend_name": "Makemake",
+      "name_ko": "마케마케",
+      "type": "dwarf_planet",
+      "parent_id": "Q525",
+      "groups": [
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "마케마케 (왜행성)",
+        "136472 Makemake",
+        "Makemake",
+        "Makemake (dwarf planet)",
+        "2005 FY9",
+        "Make-Make",
+        "(136472) Makemake",
+        "Maha-Maha"
+      ]
+    },
+    {
+      "id": "Q15610",
+      "frontend_name": "Sedna",
+      "name_ko": "세드나",
+      "type": "dwarf_planet_candidate",
+      "parent_id": "Q525",
+      "groups": [
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "90377 세드나",
+        "Sedna",
+        "(90377) 2003 VB12",
+        "(90377) Sedna 2003",
+        "90377 Sedna",
+        "Sedna (dwarf planet)"
+      ]
+    },
+    {
+      "id": "Q23054",
+      "frontend_name": "Halley",
+      "name_ko": "핼리",
+      "type": "comet",
+      "parent_id": "Q525",
+      "groups": [
+        "new",
+        "comets"
+      ],
+      "aliases": [
+        "핼리 혜성",
+        "Halley's Comet",
+        "Halley",
+        "Comet Halley",
+        "1P/Halley",
+        "핼리혜성",
+        "할리",
+        "1P"
+      ]
+    },
+    {
+      "id": "Q334755",
+      "frontend_name": "Tempel1",
+      "name_ko": "템펠 1",
+      "type": "comet",
+      "parent_id": "Q525",
+      "groups": [
+        "new",
+        "comets"
+      ],
+      "aliases": [
+        "템펠 1 혜성",
+        "Tempel 1",
+        "Tempel1",
+        "9P/Tempel",
+        "Comet Tempel 1",
+        "9P/Tempel 1",
+        "9P",
+        "템펠",
+        "템펠1"
+      ]
+    },
+    {
+      "id": "Q2447889",
+      "frontend_name": "HerschelRigollet",
+      "name_ko": "허셜–리골렛",
+      "type": "comet",
+      "parent_id": "Q525",
+      "groups": [
+        "new",
+        "comets"
+      ],
+      "aliases": [
+        "35P/Herschel–Rigollet",
+        "HerschelRigollet",
+        "35P/Herschel-Rigollet",
+        "허셜 리골렛",
+        "35P"
+      ]
+    },
+    {
+      "id": "Q844672",
+      "frontend_name": "ChuryumovGerasimenko",
+      "name_ko": "추류모프–게라시멘코",
+      "type": "comet",
+      "parent_id": "Q525",
+      "groups": [
+        "new",
+        "comets"
+      ],
+      "aliases": [
+        "67P/추류모프-게라시멘코 혜성",
+        "67P/Churyumov–Gerasimenko",
+        "ChuryumovGerasimenko",
+        "67P/Churyumov-Gerasimenko",
+        "Churyumov–Gerasimenko",
+        "Churyumov-Gerasimenko",
+        "67P",
+        "Comet Churyumov–Gerasimenko",
+        "Comet Churyumov-Gerasimenko",
+        "Comet 67P",
+        "67P Churyumov–Gerasimenko",
+        "67P/C-G",
+        "67P/C–G",
+        "추류모프-게라시멘코 혜성",
+        "추류모프 게라시멘코"
+      ]
+    },
+    {
+      "id": "Q166940",
+      "frontend_name": "Encke",
+      "name_ko": "엥케",
+      "type": "comet",
+      "parent_id": "Q525",
+      "groups": [
+        "new",
+        "comets"
+      ],
+      "aliases": [
+        "엥케 혜성",
+        "Comet Encke",
+        "Encke",
+        "Encke's Comet",
+        "2P/Encke",
+        "2P/Encke comet",
+        "엥케혜성",
+        "2P"
+      ]
+    },
+    {
+      "id": "Q25271",
+      "frontend_name": "ISS",
+      "name_ko": "국제 우주 정거장",
+      "type": "spacecraft",
+      "parent_id": "Q2",
+      "groups": [
+        "new",
+        "artifacts"
+      ],
+      "aliases": [
+        "국제우주정거장",
+        "International Space Station",
+        "ISS",
+        "국제 우주 스테이션",
+        "국제 우주정거장",
+        "NA1SS",
+        "Station Alpha"
+      ]
+    },
+    {
+      "id": "Q5100935",
+      "frontend_name": "Tiangong",
+      "name_ko": "톈궁",
+      "type": "spacecraft",
+      "parent_id": "Q2",
+      "groups": [
+        "new",
+        "artifacts"
+      ],
+      "aliases": [
+        "톈궁 우주정거장",
+        "Tiangong space station",
+        "Tiangong",
+        "중국 다모듈 우주정거장",
+        "천궁 우주정거장",
+        "천궁",
+        "CSS",
+        "TG",
+        "China Space Station",
+        "天宫"
+      ]
+    },
+    {
+      "id": "Q2513",
+      "frontend_name": "Hubble",
+      "name_ko": "허블 우주 망원경",
+      "type": "spacecraft",
+      "parent_id": "Q2",
+      "groups": [
+        "new",
+        "artifacts"
+      ],
+      "aliases": [
+        "허블 우주망원경",
+        "Hubble Space Telescope",
+        "Hubble",
+        "Large Space Telescope",
+        "허블",
+        "허블망원경",
+        "HST"
+      ]
+    },
+    {
+      "id": "Q186447",
+      "frontend_name": "JamesWebb",
+      "name_ko": "제임스 웹 우주 망원경",
+      "type": "spacecraft",
+      "parent_id": "Q525",
+      "groups": [
+        "new",
+        "artifacts"
+      ],
+      "aliases": [
+        "제임스 웹 우주망원경",
+        "James Webb Space Telescope",
+        "JamesWebb",
+        "Webb Space Telescope",
+        "Webb Telescope",
+        "차세대우주망원경",
+        "Webb 우주망원경",
+        "Webb 망원경",
+        "제임스 웹 망원경",
+        "제임스웹",
+        "제입스웹",
+        "JWST"
+      ]
+    },
+    {
+      "id": "Q48469",
+      "frontend_name": "Voyager1",
+      "name_ko": "보이저 1호",
+      "type": "spacecraft",
+      "parent_id": "Q525",
+      "groups": [
+        "new",
+        "artifacts"
+      ],
+      "aliases": [
+        "Voyager 1",
+        "Voyager1",
+        "Mariner Jupiter/Saturn A",
+        "Outer Planets A",
+        "Mariner 77A",
+        "MJS 77A",
+        "Voyager 77-2",
+        "Voyager I",
+        "보이저1호"
+      ]
+    },
+    {
+      "id": "Q48475",
+      "frontend_name": "Voyager2",
+      "name_ko": "보이저 2호",
+      "type": "spacecraft",
+      "parent_id": "Q525",
+      "groups": [
+        "new",
+        "artifacts"
+      ],
+      "aliases": [
+        "Voyager 2",
+        "Voyager2",
+        "Mariner Jupiter/Saturn B",
+        "Outer Planets B",
+        "Mariner 77B",
+        "MJS 77B",
+        "Voyager 77-3",
+        "Voyager II",
+        "보이저2호"
+      ]
+    },
+    {
+      "id": "Q48461",
+      "frontend_name": "NewHorizons",
+      "name_ko": "뉴호라이즌스",
+      "type": "spacecraft",
+      "parent_id": "Q525",
+      "groups": [
+        "new",
+        "artifacts"
+      ],
+      "aliases": [
+        "뉴 허라이즌스",
+        "New Horizons",
+        "NewHorizons",
+        "뉴 호라이즌스",
+        "뉴 호라이즌",
+        "뉴 호라이즌스 호",
+        "뉴 호라이즌 호",
+        "뉴 허라이즌스 호",
+        "뉴 허라이즌 호",
+        "New Frontiers 1"
+      ]
+    },
+    {
+      "id": "Q48546",
+      "frontend_name": "Juno",
+      "name_ko": "주노",
+      "type": "spacecraft",
+      "parent_id": "Q319",
+      "groups": [
+        "new",
+        "artifacts"
+      ],
+      "aliases": [
+        "Juno",
+        "Juno (spacecraft)",
+        "주노 (우주선)"
+      ]
+    },
+    {
+      "id": "Q2179",
+      "frontend_name": "AsteroidBelt",
+      "name_ko": "소행성대",
+      "type": "region",
+      "parent_id": "Q525",
+      "groups": [
+        "new",
+        "regions"
+      ],
+      "aliases": [
+        "asteroid belt",
+        "AsteroidBelt",
+        "the asteroid belt",
+        "main asteroid belt",
+        "the main asteroid belt",
+        "main belt",
+        "소행성 대",
+        "주 소행성대",
+        "주 소행성 대",
+        "Asteroid belt"
+      ]
+    },
+    {
+      "id": "Q427",
+      "frontend_name": "KuiperBelt",
+      "name_ko": "카이퍼벨트",
+      "type": "region",
+      "parent_id": "Q525",
+      "groups": [
+        "new",
+        "regions"
+      ],
+      "aliases": [
+        "카이퍼대",
+        "Kuiper Belt",
+        "KuiperBelt",
+        "Edgeworth–Kuiper Belt",
+        "the Kuiper Belt",
+        "Kuiper belt",
+        "카이퍼 벨트"
+      ]
+    },
+    {
+      "id": "Q40864",
+      "frontend_name": "OortCloud",
+      "name_ko": "오르트구름",
+      "type": "region",
+      "parent_id": "Q525",
+      "groups": [
+        "new",
+        "regions"
+      ],
+      "aliases": [
+        "오르트 구름",
+        "Oort cloud",
+        "OortCloud",
+        "오르트운",
+        "오르트 혜성운",
+        "힐스 구름",
+        "오르토 구름",
+        "Öpik–Oort cloud",
+        "Öpik-Oort cloud"
+      ]
+    },
+    {
+      "id": "Q3030",
+      "frontend_name": "Vesta",
+      "name_ko": "베스타",
+      "type": "asteroid",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Vesta",
+        "4"
+      ]
+    },
+    {
+      "id": "Q3002",
+      "frontend_name": "Pallas",
+      "name_ko": "팔라스",
+      "type": "asteroid",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Pallas",
+        "2"
+      ]
+    },
+    {
+      "id": "Q107517",
+      "frontend_name": "Psyche",
+      "name_ko": "프시케",
+      "type": "asteroid",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Psyche",
+        "16"
+      ]
+    },
+    {
+      "id": "Q11558",
+      "frontend_name": "Bennu",
+      "name_ko": "베누",
+      "type": "asteroid",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Bennu",
+        "101955"
+      ]
+    },
+    {
+      "id": "Q1385178",
+      "frontend_name": "Ryugu",
+      "name_ko": "류구",
+      "type": "asteroid",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Ryugu",
+        "162173"
+      ]
+    },
+    {
+      "id": "Q16711",
+      "frontend_name": "Eros",
+      "name_ko": "에로스",
+      "type": "asteroid",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Eros",
+        "433"
+      ]
+    },
+    {
+      "id": "Q149374",
+      "frontend_name": "Itokawa",
+      "name_ko": "이토카와",
+      "type": "asteroid",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Itokawa",
+        "25143"
+      ]
+    },
+    {
+      "id": "Q118931",
+      "frontend_name": "Apophis",
+      "name_ko": "아포피스",
+      "type": "asteroid",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Apophis",
+        "99942"
+      ]
+    },
+    {
+      "id": "Q147891",
+      "frontend_name": "Kleopatra",
+      "name_ko": "클레오파트라",
+      "type": "asteroid",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Kleopatra",
+        "216"
+      ]
+    },
+    {
+      "id": "Q2640",
+      "frontend_name": "Hygiea",
+      "name_ko": "히기에이아",
+      "type": "asteroid",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Hygiea",
+        "10"
+      ]
+    },
+    {
+      "id": "Q107673",
+      "frontend_name": "Sylvia",
+      "name_ko": "실비아",
+      "type": "asteroid",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Sylvia",
+        "87"
+      ]
+    },
+    {
+      "id": "Q155017",
+      "frontend_name": "Davida",
+      "name_ko": "다비다",
+      "type": "asteroid",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Davida",
+        "511"
+      ]
+    },
+    {
+      "id": "Q15586",
+      "frontend_name": "Quaoar",
+      "name_ko": "콰오아",
+      "type": "dwarf_planet_candidate",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Quaoar",
+        "50000"
+      ]
+    },
+    {
+      "id": "Q15603",
+      "frontend_name": "Orcus",
+      "name_ko": "오르쿠스",
+      "type": "dwarf_planet_candidate",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Orcus",
+        "90482"
+      ]
+    },
+    {
+      "id": "Q6587",
+      "frontend_name": "Gonggong",
+      "name_ko": "공공",
+      "type": "dwarf_planet_candidate",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Gonggong",
+        "225088"
+      ]
+    },
+    {
+      "id": "Q136964",
+      "frontend_name": "Salacia",
+      "name_ko": "살라시아",
+      "type": "dwarf_planet_candidate",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Salacia",
+        "120347"
+      ]
+    },
+    {
+      "id": "Q15609",
+      "frontend_name": "Varuna",
+      "name_ko": "바루나",
+      "type": "dwarf_planet_candidate",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Varuna",
+        "20000"
+      ]
+    },
+    {
+      "id": "Q15591",
+      "frontend_name": "Ixion",
+      "name_ko": "익시온",
+      "type": "dwarf_planet_candidate",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Ixion",
+        "28978"
+      ]
+    },
+    {
+      "id": "Q18325885",
+      "frontend_name": "Arrokoth",
+      "name_ko": "아로코트",
+      "type": "trans_neptunian_object",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Arrokoth",
+        "486958"
+      ]
+    },
+    {
+      "id": "Q15611",
+      "frontend_name": "Chiron",
+      "name_ko": "키론",
+      "type": "centaur",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Chiron",
+        "2060"
+      ]
+    },
+    {
+      "id": "Q11559",
+      "frontend_name": "Chariklo",
+      "name_ko": "카리클로스",
+      "type": "centaur",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Chariklo",
+        "10199",
+        "커리클로",
+        "카리클로"
+      ]
+    },
+    {
+      "id": "Q155042",
+      "frontend_name": "Pholus",
+      "name_ko": "폴루스",
+      "type": "centaur",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Pholus",
+        "5145"
+      ]
+    },
+    {
+      "id": "Q156664",
+      "frontend_name": "Nessus",
+      "name_ko": "네소스",
+      "type": "centaur",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "dwarfs"
+      ],
+      "aliases": [
+        "Nessus",
+        "7066"
+      ]
+    },
+    {
+      "id": "Q69854",
+      "frontend_name": "HaleBopp",
+      "name_ko": "헤일-밥",
+      "type": "comet",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "comets"
+      ],
+      "aliases": [
+        "HaleBopp",
+        "C/1995 O1",
+        "헤일-밥 혜성"
+      ]
+    },
+    {
+      "id": "Q16741",
+      "frontend_name": "Hyakutake",
+      "name_ko": "햐쿠타케",
+      "type": "comet",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "comets"
+      ],
+      "aliases": [
+        "Hyakutake",
+        "C/1996 B2",
+        "햐쿠타케 혜성"
+      ]
+    },
+    {
+      "id": "Q8616",
+      "frontend_name": "Borrelly",
+      "name_ko": "보렐리",
+      "type": "comet",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "comets"
+      ],
+      "aliases": [
+        "Borrelly",
+        "19P",
+        "보렐리 혜성"
+      ]
+    },
+    {
+      "id": "Q141799",
+      "frontend_name": "Hiiaka",
+      "name_ko": "히이아카",
+      "type": "natural_satellite",
+      "parent_id": "Q601",
+      "groups": [
+        "expansion",
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Hiiaka",
+        "히이아카"
+      ]
+    },
+    {
+      "id": "Q153893",
+      "frontend_name": "Namaka",
+      "name_ko": "나마카",
+      "type": "natural_satellite",
+      "parent_id": "Q601",
+      "groups": [
+        "expansion",
+        "new",
+        "moons"
+      ],
+      "aliases": [
+        "Namaka",
+        "나마카"
+      ]
+    },
+    {
+      "id": "Q59103",
+      "frontend_name": "Pioneer10",
+      "name_ko": "파이오니어 10호",
+      "type": "spacecraft",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "artifacts"
+      ],
+      "aliases": [
+        "Pioneer10",
+        "파이오니어10호"
+      ]
+    },
+    {
+      "id": "Q59113",
+      "frontend_name": "Pioneer11",
+      "name_ko": "파이오니어 11호",
+      "type": "spacecraft",
+      "parent_id": "Q525",
+      "groups": [
+        "expansion",
+        "new",
+        "artifacts"
+      ],
+      "aliases": [
+        "Pioneer11",
+        "파이오니어11호"
+      ]
+    }
+  ]
+}

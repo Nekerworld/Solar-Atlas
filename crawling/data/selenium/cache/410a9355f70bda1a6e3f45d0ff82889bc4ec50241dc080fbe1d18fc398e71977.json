@@ -1,0 +1,116 @@
+{
+  "entities": {
+    "Q141365972": {
+      "type": "item",
+      "id": "Q141365972",
+      "labels": {},
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "f5bce52089e7cf4fefbd9efe5cc7c7b54832f107",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 65683458,
+                  "id": "Q65683458"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q141365972$D10EAF04-BBEC-486F-A4C0-3DC2F343C302",
+            "rank": "normal"
+          }
+        ],
+        "P14853": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14853",
+              "hash": "7b4e1b798b51ecc3d71e370bb546ca38b748183c",
+              "datavalue": {
+                "value": "0001101",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "9e73671da07ef5735ef5cff532ea25434c34ed6d",
+                  "datavalue": {
+                    "value": "quantification facet",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P4970": [
+                {
+                  "snaktype": "value",
+                  "property": "P4970",
+                  "hash": "faf6968c282b249b9b08d6e53a3765a76dd6978e",
+                  "datavalue": {
+                    "value": "quantity facet",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "8da75267b47b807e65587a4ed49c038c57999a8d",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 65683458,
+                      "id": "Q65683458"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P9570": [
+                {
+                  "snaktype": "value",
+                  "property": "P9570",
+                  "hash": "5ab86121567dddde78c960f8de405b3fd4a505f5",
+                  "datavalue": {
+                    "value": {
+                      "text": "A facet that is part of a quantification of a quality, aggregate or process.",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P4970",
+              "P4900",
+              "P9570"
+            ],
+            "id": "Q141365972$175445a6-4be2-cb99-6604-3bf7d2d380f1",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {}
+    }
+  },
+  "success": 1
+}

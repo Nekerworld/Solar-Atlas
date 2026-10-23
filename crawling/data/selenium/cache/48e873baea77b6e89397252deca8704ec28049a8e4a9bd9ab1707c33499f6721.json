@@ -1,0 +1,580 @@
+{
+  "entities": {
+    "Q1292280": {
+      "type": "item",
+      "id": "Q1292280",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "지구의 에너지 수지"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "71e72e77a646b0c73498f002e24e024271cd3e76",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 193946,
+                  "id": "Q193946"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1292280$58b9e71e-4dc7-12d4-4076-f799d3cbfa48",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "b346d6f76f439da6c59d734687ffe53ea1bc0792",
+              "datavalue": {
+                "value": "Earth's energy budget",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q1292280$7A312F87-4B18-4D78-B5B6-7E6C22D4B078",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3219": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3219",
+              "hash": "215eca5fed15877969d4c370e62a60809ab86031",
+              "datavalue": {
+                "value": "terre-bilan-energetique",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1292280$5A90D5FB-AB66-4E5C-9E81-9DEE8280639A",
+            "rank": "normal"
+          }
+        ],
+        "P244": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P244",
+              "hash": "cd10bd97cfe741d922079f85e64afcb26eba776a",
+              "datavalue": {
+                "value": "sh85043123",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1292280$8A0B78E8-B2CD-4A94-A197-3CE44B5EA74F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ac5d47e9fbcc281bc0d27a205ae02e22ad24ce31",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "b560dc6b281a39d061e189d2eb299a426a06f1a2",
+                      "datavalue": {
+                        "value": "https://github.com/JohnMarkOckerbloom/ftl/blob/master/data/wikimap",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "0dcf4f64e93fdcc654e2c7534285881fe48b9f3d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2019-04-03T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P5008": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5008",
+              "hash": "fade5e94397da60f78df68fd121baff9cd7b836d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 15305047,
+                  "id": "Q15305047"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1292280$44AE8ABF-9F96-4492-85A6-1D061580880C",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "819d0c71aadd812b1d588e5202e9d6a18d04bcbd",
+              "datavalue": {
+                "value": "7337166",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1292280$F15CA5C0-5A05-482F-84C2-9F10F384C0F7",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "ee227c6e9422437aeb032f4057802015af4870c4",
+              "datavalue": {
+                "value": "/m/03s4mt",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1292280$C81E4698-C201-426F-83A3-595D6BD26C34",
+            "rank": "normal"
+          }
+        ],
+        "P10283": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "801e3f01a175f40635b3dc84602e12420a9af19d",
+              "datavalue": {
+                "value": "C7337166",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1292280$948DA7D5-A94D-4889-ACA7-8719968DDFEE",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c13ba4d7902ead2693f79396bc25bd35d4d14030",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8189": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8189",
+              "hash": "4c013dc1cdf56f1c646f469e6c006df57832a390",
+              "datavalue": {
+                "value": "987007543207905171",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "284671b8363d15fabb75007a911e3e6e86e02b98",
+                  "datavalue": {
+                    "value": {
+                      "text": "Energy budget (Geophysics)",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "f124bbab70ba0d7b07c8325f02b69670a8b08bc3",
+                  "datavalue": {
+                    "value": {
+                      "text": "תקציב אנרגיה (גאופיזיקה)",
+                      "language": "he"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P14457"
+            ],
+            "id": "Q1292280$F75A09FD-BC83-44FC-823A-7F207B3CF282",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ecb7a39cf436eb1fba419853af168ef9f2ba1dab",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a03bb6ffe37be9554492f4eea5bd18afcb57df19",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 106509962,
+                          "id": "Q106509962"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P13591": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13591",
+              "hash": "228056bc78ec750d46c0fa353543218478360bf9",
+              "datavalue": {
+                "value": "concept/b09558d6-5cfe-4335-bf90-9729bf94a853",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1292280$29E5569B-4BB8-4D23-BD89-DF7B51A2665C",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "ميزانية طاقة الأرض",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "İstilik balansı",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Радиационен баланс",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Balanç de radiació de la Terra",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Earth's energy budget",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Energetický účet Země",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Strahlungshaushalt der Erde",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Earth's energy budget",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Equilibrio térmico de la Tierra",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Kiirgusbilanss",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "هم‌ارزی تابشی زمین",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Maan säteilytasapaino",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Bilan radiatif de la Terre",
+          "badges": []
+        },
+        "gawiki": {
+          "site": "gawiki",
+          "title": "Buiséad fuinnimh an Domhain",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Balance radiativo terrestre",
+          "badges": []
+        },
+        "hawiki": {
+          "site": "hawiki",
+          "title": "Kasafin kudin makamashi na duniya",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "מאזן הקרינה של כדור הארץ",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Zemljina ravnoteža Sunčevog zračenja",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Sugárzásegyenleg",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Anggaran energi Bumi",
+          "badges": []
+        },
+        "igwiki": {
+          "site": "igwiki",
+          "title": "Mmefu ego ike nke ụwa",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Bilancio energetico Sole-Terra",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "地球のエネルギー収支",
+          "badges": []
+        },
+        "jawikibooks": {
+          "site": "jawikibooks",
+          "title": "高等学校 地学/地球のエネルギー収支",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "지구의 에너지 수지",
+          "badges": []
+        },
+        "kuwiki": {
+          "site": "kuwiki",
+          "title": "Hevsengiya germahiya cîhanê",
+          "badges": []
+        },
+        "lmowiki": {
+          "site": "lmowiki",
+          "title": "Bilanc energetich a la superfice terrèster",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Stralingsbalans",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "Strålingsbalansen til jorda",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Jordens strålingsbalanse",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Orçamento energético da Terra",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Bilanțul de radiație terestru",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Тепловой баланс Земли",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Energetická nerovnováha Zeme",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Jordens energibudget",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Dünya'nın enerji bütçesi",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Тепловий баланс Землі",
+          "badges": []
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "Yer nurlanishi",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "地球能量收支",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

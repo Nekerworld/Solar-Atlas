@@ -1,0 +1,377 @@
+{
+  "entities": {
+    "Q20669022": {
+      "type": "item",
+      "id": "Q20669022",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "하트 (명왕성)"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P138",
+              "hash": "7b4ec305c23a9376b1a5d05991ffdca2978b5a58",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 190232,
+                  "id": "Q190232"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20669022$f4b28498-49c6-47c7-958f-af196d6c03e9",
+            "rank": "normal"
+          }
+        ],
+        "P376": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P376",
+              "hash": "e297e8049d08d867bf59c097ce4959f6f3d20dd4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 339,
+                  "id": "Q339"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20669022$75c0fa53-4df2-2f61-763d-af03feb51323",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "13646c6ffd5d43c6d30d71f70bc5b1886b8bd0ab",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3423535,
+                  "id": "Q3423535"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q20669022$6FA73148-C22B-48F9-971F-E568183BBECD",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "47cf6d953c6c726cc126c2b3208ea87ed257bf90",
+              "datavalue": {
+                "value": "Tombaugh Regio",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q20669022$154FE3D4-83B5-4A21-8272-98B584709374",
+            "rank": "normal"
+          }
+        ],
+        "P2824": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2824",
+              "hash": "ab493ac2afb8c76d556a59993baef8eca9af4e26",
+              "datavalue": {
+                "value": "15668",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q20669022$4CA14EF2-1301-4C36-9A31-66D430A23F79",
+            "rank": "normal"
+          }
+        ],
+        "P2386": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2386",
+              "hash": "9b0a6ebf94c20920accc395ce6ac9d3cbedc6b3a",
+              "datavalue": {
+                "value": {
+                  "amount": "+2300",
+                  "unit": "http://www.wikidata.org/entity/Q828224"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q20669022$e840fddb-4f85-a79d-02e5-427f21151087",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "b905130379a7d668e5b41875125508b8fead95e9",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "4cd5ee2a6ec6e4e2eee54e74c7037064ce4b68c1",
+                      "datavalue": {
+                        "value": "https://planetarynames.wr.usgs.gov/Feature/15668",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "5cfcd05b2640225eaae686cbd202e024935aa0fc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2016-09-12T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P625": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P625",
+              "hash": "ff5a1fc29109ea5c59b36bed6c6ee003fd48f15f",
+              "datavalue": {
+                "value": {
+                  "latitude": 7.62,
+                  "longitude": 183.22,
+                  "altitude": null,
+                  "precision": 0.00027777777777778,
+                  "globe": "http://www.wikidata.org/entity/Q339"
+                },
+                "type": "globecoordinate"
+              },
+              "datatype": "globe-coordinate"
+            },
+            "type": "statement",
+            "id": "Q20669022$bbfa6137-491e-f45c-058e-e04d339c7cc5",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "4d4d59730564ed77cfc34d6da4782fa4b9dac18a",
+              "datavalue": {
+                "value": "/g/11b81xl4kg",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q20669022$ECC282BF-D59C-4069-A866-96A5B4DCA731",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "c8a2bae58cc75179eb577f95568a8bfc77966c02",
+              "datavalue": {
+                "value": "PIA19945-Pluto-SputnikPlanum-Detail-20150917.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q20669022$89532e84-4c95-9500-482c-e452f8c23081",
+            "rank": "normal"
+          }
+        ],
+        "P1449": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1449",
+              "hash": "89ff421adbc9b827ff84d3869e4f730da137d021",
+              "datavalue": {
+                "value": {
+                  "text": "Pluto's Heart",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q20669022$8a9945cd-43c3-1abd-fde6-ce0e4df134ac",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "تومبو ريغو",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Tombaugh Regio",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Tombaugh Regio",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Περιοχή Τόμπω",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Tombaugh Regio",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Tombaugh Regio",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Tombaugh Regio",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Tombaugh (région)",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "टॉमबॉ रीजिओ",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Տոմբոյի շրջան",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Tombaugh Regio",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "トンボー地域",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "პლუტონის გული",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "톰보 지역",
+          "badges": []
+        },
+        "lawiki": {
+          "site": "lawiki",
+          "title": "Tombaugh regio",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Tombaugh Regio",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Tombaugh Regio",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Coração de Plutão",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Область Томбо",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Plutonovo srce",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Плутоново срце",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Область Томбо",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Tombaugh Regio",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "湯博區",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

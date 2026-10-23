@@ -1,0 +1,435 @@
+{
+  "entities": {
+    "Q876712": {
+      "type": "item",
+      "id": "Q876712",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "준위성"
+        }
+      },
+      "descriptions": {},
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "유사 위성"
+          },
+          {
+            "language": "ko",
+            "value": "유사위성"
+          }
+        ]
+      },
+      "claims": {
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "9a47b85b7f6913daec0f413b6a65c2f79409afa2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 10147979,
+                  "id": "Q10147979"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q876712$29c1e77e-4063-7cfe-489a-d3d3e6a95508",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "bd6ded10ba4d4a5ba84f4f44e3a31e77c5affa88",
+              "datavalue": {
+                "value": "/m/0339jg",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q876712$9A4650F9-6B7A-47C8-B560-AF365B2A7744",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "21e8cf1a8d27a2a503dab5ac33d8ba5892b2e6c5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1250298,
+                  "id": "Q1250298"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q876712$c4a5acba-457a-a7a0-9e72-adacbcb09d6f",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "48cd96078f3d31c60f04d44649d9451bc6072042",
+              "datavalue": {
+                "value": "69949783",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q876712$5DF6662C-C4FE-423F-ACA6-B8F1651C357F",
+            "rank": "normal"
+          }
+        ],
+        "P5555": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5555",
+              "hash": "5098ca8ca5f085519ec4dc3a9124e7253c951f8a",
+              "datavalue": {
+                "value": "Quasi-satellite diagram.png",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407"
+            ],
+            "id": "Q876712$9832bb03-4176-55ca-7d86-dd9f820d1845",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5555",
+              "hash": "d80bcd601dfcc76c1b2b5fda149fbfb56c3d5c47",
+              "datavalue": {
+                "value": "Quasi-satellite diagramme.png",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "d197d0a5efa4b4c23a302a829dd3ef43684fe002",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 150,
+                      "id": "Q150"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407"
+            ],
+            "id": "Q876712$b2a7a359-49c3-fef4-de48-9480a92beb6e",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "ccd765922f55ba31701c2d657c6439f862b92f66",
+              "datavalue": {
+                "value": "Quasi-satellites",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q876712$5a95fd68-face-4a32-a147-61405548ab12",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Kammasatelliet",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "شبيه القمر",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Квазіспадарожнік",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Квазиспътник",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Quasisatèl·lit",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Kvazisatelit",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Quasisatellit",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Quasi-satellite",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Cuasisatélite",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Kuasisatelite",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "شبه‌قمر",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Kvasikuu",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Quasi-satellite",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "अर्ध उपग्रह",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Kvazisatelit",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Քվազիարբանյակ",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Satelit kuasi",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Quasi-satellite",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "準衛星",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "კვაზითანამგზავრი",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "준위성",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Квазимесечина",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Kuasisatelit",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Quasisatelliet",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Kvasisatellitt",
+          "badges": []
+        },
+        "ocwiki": {
+          "site": "ocwiki",
+          "title": "Quasi-satellit",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Quasiksiężyc",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Quase-satélite",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Cvasisatelit",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Квазиспутник",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Kvazisatelit",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Quasi-satellite",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Квазисателит",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Kvasimåne",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Sanki uydu",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Квазісупутник",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Bán vệ tinh",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "準衛星",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

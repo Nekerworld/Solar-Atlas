@@ -1,0 +1,1076 @@
+{
+  "entities": {
+    "Q193698": {
+      "type": "item",
+      "id": "Q193698",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "티티우스-보데의 법칙"
+        }
+      },
+      "descriptions": {},
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "티티우스 보데의 법칙"
+          },
+          {
+            "language": "ko",
+            "value": "티티우스 보데 법칙"
+          },
+          {
+            "language": "ko",
+            "value": "보데의 법칙"
+          }
+        ]
+      },
+      "claims": {
+        "P138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P138",
+              "hash": "2af3c4798d3e480a183f7b6b33f1c6dba0f87451",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 375195,
+                  "id": "Q375195"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q193698$DF61F1F4-0C03-4577-8B36-ABB6819B48C7",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P138",
+              "hash": "b7e2b227ab05410d79ec165b09ac4bc0d6d98d39",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 76966,
+                  "id": "Q76966"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q193698$91CB1886-7613-45DA-A26A-53F41D201A63",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "d0a89a35df6007b85bf440924fa68d18bc13f214",
+              "datavalue": {
+                "value": "/m/07kjp",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q193698$88359051-F9F4-4287-925F-9B0D6A32A229",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1296": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1296",
+              "hash": "81536f4549bd4f061ddd173da9d366d615eb5b35",
+              "datavalue": {
+                "value": "0066176",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q193698$C5F39591-C6D1-4324-80E1-F90EAD79CF6D",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "cfd4e75507fc94381c4a29b815d33fcc9796421c",
+              "datavalue": {
+                "value": "science/Bodes-law",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "d8b6711b59c2a393c136b6473719698d2729c8dd",
+                  "datavalue": {
+                    "value": "Bode’s law",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q193698$2987C1EB-88D7-478F-9D84-18340B223B2C",
+            "rank": "normal"
+          }
+        ],
+        "P3827": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3827",
+              "hash": "3d995f49f62604acf3fc56a03c243b8972d734a9",
+              "datavalue": {
+                "value": "bodes-law",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q193698$1A7CCDB3-213C-41C1-A72A-05E508B16B31",
+            "rank": "normal"
+          }
+        ],
+        "P4466": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4466",
+              "hash": "c16e3c624170e55e4f9cc280c8c1d6838f97988f",
+              "datavalue": {
+                "value": "170",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q193698$EDED0238-F60A-47B8-8289-8D86565AF6EB",
+            "rank": "normal"
+          }
+        ],
+        "P3219": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3219",
+              "hash": "9b5f2ac3227fe43c6d144ed723f3c631b8524d17",
+              "datavalue": {
+                "value": "loi-de-titius-bode",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q193698$6F70E05C-DCB6-426D-909F-2017844DCA24",
+            "rank": "normal"
+          }
+        ],
+        "P4746": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4746",
+              "hash": "094273c623124a8062d3ccf0107aacdc855b53e5",
+              "datavalue": {
+                "value": "135830",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q193698$C24A873C-0E5E-46FD-8FEE-E488C3CFAF36",
+            "rank": "normal"
+          }
+        ],
+        "P2924": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2924",
+              "hash": "795c8d6074e15efb472a038a914f0c6bed4148fe",
+              "datavalue": {
+                "value": "4194136",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "5ff5c0bf3f6a238124fe3e7ad51a0f7b39e94c70",
+                  "datavalue": {
+                    "value": "ТИЦИУСА – БОДЕ ПРАВИЛО",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q193698$C5B4CFD7-493A-4148-A624-4A1AF3111F9F",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "7fae02fe43ff823a276d81f3d01f00b15406dbff",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 214070,
+                  "id": "Q214070"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q193698$88c10eca-4347-b07c-2951-7ad147152774",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "1754d81acb2486f5eaa2b615bf79f2b091c698e4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1293220,
+                  "id": "Q1293220"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q193698$ABEDE986-D11D-415F-A5FF-204D0A0ABB24",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "3d90ef7cd831ac27e9c78057b6dfaa7b75f8adce",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1398821,
+                  "id": "Q1398821"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q193698$68d43ab8-475e-f0d4-fe07-979f06e9dbc2",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "f382edebb998bbfe13fc8dee56f305ab9a2884d1",
+              "datavalue": {
+                "value": "Titius–Bode law",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q193698$9e416be4-dc0b-49c6-a6a8-5b3e22d5afec",
+            "rank": "normal"
+          }
+        ],
+        "P4342": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4342",
+              "hash": "e4736ae8e3226a95dca5c87b432c44bcf67cc5d0",
+              "datavalue": {
+                "value": "Titius-Bodes_lov",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q193698$5a0fea63-479f-4fee-6ad8-90366030bd4e",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4342",
+              "hash": "51851b4b605e020756ff821a7baefecf707f537d",
+              "datavalue": {
+                "value": "Bodes_lov",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q193698$FFCD4832-3E66-4623-8BAB-BFA090529BB3",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "83df2063257e423732e19f06d3a3f9aa327f0d8e",
+              "datavalue": {
+                "value": "145272010",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q193698$5BF49BFD-07AF-41E7-BBDE-CC90FCBB2B71",
+            "rank": "normal"
+          }
+        ],
+        "P9545": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9545",
+              "hash": "a4750976e19a6b5493fb61336504e97337a0db89",
+              "datavalue": {
+                "value": "233647",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q193698$76A69C2C-2779-4649-9D9D-225EEA6BE135",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "f71e75046ea445a024fd7a44885ea27e6d7396c7",
+              "datavalue": {
+                "value": "Titus-Bode law-gl.svg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2096": [
+                {
+                  "snaktype": "value",
+                  "property": "P2096",
+                  "hash": "50695a2db9905b3653ab5bb4eb91f9da96813bf9",
+                  "datavalue": {
+                    "value": {
+                      "text": "actual vs. predicted",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2096"
+            ],
+            "id": "Q193698$27fda660-4735-8507-9874-116e9adf40c4",
+            "rank": "normal"
+          }
+        ],
+        "P1880": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1880",
+              "hash": "29d1a229d61fd002fcf751361aeccedf5f5e7c3a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1811,
+                  "id": "Q1811"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q193698$4565c41b-4dc8-fea7-f3e1-1a30fd71648e",
+            "rank": "normal"
+          }
+        ],
+        "P1343": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "835c4f331f5652b6e64d7d3d97d1e33e159e0b0b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 124737664,
+                  "id": "Q124737664"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P304": [
+                {
+                  "snaktype": "value",
+                  "property": "P304",
+                  "hash": "fc5f674fc59ad833d1b4bc1193f57022fa5bc815",
+                  "datavalue": {
+                    "value": "20",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P304"
+            ],
+            "id": "Q193698$111dc407-8f98-432d-bbc7-09b93c64917d",
+            "rank": "normal"
+          }
+        ],
+        "P6385": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6385",
+              "hash": "9b748488548df589a0fa0ae0a65c97db02409f72",
+              "datavalue": {
+                "value": "nauka_i_tehnika/astronomiya/BODE_ZAKON.html",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q193698$3c49992f-4e14-3e2b-d670-76a32057c409",
+            "rank": "normal"
+          }
+        ],
+        "P443": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P443",
+              "hash": "a9c2d01d362e33fc45baced88c7f50e3cb727210",
+              "datavalue": {
+                "value": "LL-Q9610 (ben)-Tahmid-টিটিয়ুস-বোডে নীতি.wav",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "3ee64c8d23d737a54f3ac40a80cbe1a27c2b93a3",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 9610,
+                      "id": "Q9610"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407"
+            ],
+            "id": "Q193698$48e13995-1aa5-4127-b105-9f2019362ef0",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "b88c8415367afc8f21431fbe498bdcbefa59c244",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "ea137b39e9cc398831e5e961071c7052ca59ff07",
+                      "datavalue": {
+                        "value": "https://lingualibre.org/wiki/Q787994",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P4839": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4839",
+              "hash": "334b580c08d978f872a624f46535ac0c37a07199",
+              "datavalue": {
+                "value": "Entity[\"PhysicalEffect\", \"TitiusBodeLaw\"]",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q193698$3D20CF39-D3F6-4CD0-BB57-0A270FB09A1D",
+            "rank": "normal"
+          }
+        ],
+        "P10565": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10565",
+              "hash": "6b7e47b684d5f25df49b81e329e9a7a4c2516e88",
+              "datavalue": {
+                "value": "567667",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q193698$F01483F3-D8D9-402C-B9B9-6088646EA7B9",
+            "rank": "normal"
+          }
+        ],
+        "P6781": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6781",
+              "hash": "3a194c2b583148d8fa474550606f7e04bc96bfcb",
+              "datavalue": {
+                "value": "Titius-Bode_Law",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q193698$18586624-4757-c919-a845-22053f7d459c",
+            "rank": "normal"
+          }
+        ],
+        "P6058": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6058",
+              "hash": "d80ebf3ba9cd7feb4cc89981808d7929a5275949",
+              "datavalue": {
+                "value": "divers/loi_de_Titius-Bode/97493",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q193698$39cf1708-4b82-d0c0-ea2f-6833376a0549",
+            "rank": "normal"
+          }
+        ],
+        "P12800": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12800",
+              "hash": "ff9f61c655721a5ffc6b746efb42b534514ae852",
+              "datavalue": {
+                "value": "fr:Loi_de_Titius-Bode",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q193698$8709D0E8-4EE9-432C-A1D9-1C2B9D91FFD2",
+            "rank": "normal"
+          }
+        ],
+        "P8885": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8885",
+              "hash": "ce7bb9d695e874f2df2960eb4f0fd8c8e97229ab",
+              "datavalue": {
+                "value": "티티우스-보데 법칙",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q193698$a4f92bb5-4639-f9eb-0ac0-7b9c5ea332d5",
+            "rank": "normal"
+          }
+        ],
+        "P14541": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14541",
+              "hash": "f550c5a6c23a24da50113247bb30e569fff88e6f",
+              "datavalue": {
+                "value": "3nmMn",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "203ddd451412e0efe8ec8e2fbadcecf50676faee",
+                  "datavalue": {
+                    "value": "提丢斯-波得定则",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P5017": [
+                {
+                  "snaktype": "value",
+                  "property": "P5017",
+                  "hash": "20860ef249920f1d71fd99d87433a0948c50aae5",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-12-23T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P5017"
+            ],
+            "id": "Q193698$2A8C17EF-1886-4676-8A7E-54CF368F0884",
+            "rank": "normal"
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "1148c55581fa16987f749a8e9738157e7b1bf0b9",
+              "datavalue": {
+                "value": "4185580-2",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q193698$18ADD964-8C78-4D6B-9E57-8E2EC38A8AB8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "dff07e3ba5f1c42c9c205801803e8eb4a6942c8e",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "36d558700354b596f79376aa110f264256571b6d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-09-27T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Wet van Titius-Bode",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "قانون بود",
+          "badges": []
+        },
+        "azbwiki": {
+          "site": "azbwiki",
+          "title": "تیتیوس - بود قانونو",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Titius-Bode qanunu",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Закон на Тициус-Боде",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "টিটিয়ুস-বোডে নীতি",
+          "badges": []
+        },
+        "brwiki": {
+          "site": "brwiki",
+          "title": "Lezenn Titius-Bode",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Llei de Titius-Bode",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Titius–Bode law",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Titiovo–Bodeovo pravidlo",
+          "badges": []
+        },
+        "cvwiki": {
+          "site": "cvwiki",
+          "title": "Тициус-Боде тӳрелĕхĕ",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Titius-Bode-Reihe",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Κανόνας του Μπόντε",
+          "badges": []
+        },
+        "emlwiki": {
+          "site": "emlwiki",
+          "title": "Léǵ ad Titius-Bode",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Titius–Bode law",
+          "badges": []
+        },
+        "enwikisource": {
+          "site": "enwikisource",
+          "title": "Portal:Astronomy/Bode's Law",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Regulo de Titius-Bode",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Ley de Titius-Bode",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Bode seadus",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "قانون تیتیوس–بوده",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Titiuksen–Boden laki",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Loi de Titius-Bode",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Lei de Titius-Bode",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "חוק טיטיוס-בודה",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Titius–Bode-szabály",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Տիցիուս-Բոդեի կանոն",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Hukum Titius–Bode",
+          "badges": []
+        },
+        "igwiki": {
+          "site": "igwiki",
+          "title": "Iwu Titius-Bode",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Legge di Titius-Bode",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "ティティウス・ボーデの法則",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "티티우스-보데의 법칙",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Titius-Bode-Rei",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Ticijaus ir Bodės taisyklė",
+          "badges": []
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "ടൈറ്റസ്-ബോഡെ നിയമം",
+          "badges": []
+        },
+        "ndswiki": {
+          "site": "ndswiki",
+          "title": "Titius-Bode-Reeg",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Wet van Titius-Bode",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "Bode-lova",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Titius–Bodes lov",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Reguła Titiusa-Bodego",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Lei de Titius-Bode",
+          "badges": []
+        },
+        "ruewiki": {
+          "site": "ruewiki",
+          "title": "Тициуса-Бодеова регула",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Правило Тициуса — Боде",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Titiusov-Bodeho rad",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Titius–Bodes lag",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "กฎของทีทซีอุส–โบเดอ",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Titius-Bode yasası",
+          "badges": []
+        },
+        "udmwiki": {
+          "site": "udmwiki",
+          "title": "Тициуслэн — Боделэн правилозы",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Правило Тіціуса — Боде",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Định luật Titius–Bode",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "提丢斯-波得定则",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

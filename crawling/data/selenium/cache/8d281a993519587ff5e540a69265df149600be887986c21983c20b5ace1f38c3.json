@@ -1,0 +1,149 @@
+{
+  "entities": {
+    "Q2098155": {
+      "type": "item",
+      "id": "Q2098155",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "행성의 궤도"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "보통 항성을 중심으로 한, 행성의 궤도."
+        }
+      },
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "행성 궤도"
+          }
+        ]
+      },
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "294feb288975e4630d51a60a1518bbce88379a0a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4130,
+                  "id": "Q4130"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2210": [
+                {
+                  "snaktype": "value",
+                  "property": "P2210",
+                  "hash": "a0a19600feffa9a78a199354a02da8ec052a1e11",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 634,
+                      "id": "Q634"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2210"
+            ],
+            "id": "Q2098155$4158f32b-4514-d868-a730-ef23709ebf1b",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "cbb669f0d78d2c9e6acc5bbc66ebd506d23b40d0",
+              "datavalue": {
+                "value": "/g/120jxd4q",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2098155$4D001F12-63ED-4CE3-8072-D6CA563E5118",
+            "rank": "normal"
+          }
+        ],
+        "P1889": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "f3064b45e51a842ac0d40baf2ff19d5ed4e1aa8e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 117021997,
+                  "id": "Q117021997"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2098155$9acead00-4373-5023-ac7a-d38c769a6e40",
+            "rank": "normal"
+          }
+        ],
+        "P6058": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6058",
+              "hash": "71f8392ccad0c61be821778abf250919cb30a865",
+              "datavalue": {
+                "value": "images/Orbites_des_planètes/1010272",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2098155$6271efa4-454b-07cf-874f-5e56b6d17c18",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Planetenbahn",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Planetary orbit",
+          "badges": [
+            "Q70893996"
+          ]
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Orbita planetaria",
+          "badges": [
+            "Q70893996"
+          ]
+        }
+      }
+    }
+  },
+  "success": 1
+}

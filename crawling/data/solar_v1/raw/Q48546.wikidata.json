@@ -1,0 +1,2666 @@
+{
+  "type": "item",
+  "id": "Q48546",
+  "labels": {
+    "en": {
+      "language": "en",
+      "value": "Juno"
+    },
+    "ko": {
+      "language": "ko",
+      "value": "주노"
+    }
+  },
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "NASA spacecraft orbiting the planet Jupiter"
+    }
+  },
+  "aliases": {},
+  "claims": {
+    "P31": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P31",
+          "hash": "7e5fc0107887ddba88662934f84f464334ecefd8",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 26529,
+              "id": "Q26529"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "id": "q48546$D0D9437A-4AF0-4721-B025-69E7377C0F44",
+        "rank": "normal"
+      },
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P31",
+          "hash": "43739cd46198e4039df89051a7d10267f956dbe8",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 928667,
+              "id": "Q928667"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "qualifiers": {
+          "P2210": [
+            {
+              "snaktype": "value",
+              "property": "P2210",
+              "hash": "db535b4f9da779254789d3447b760fcf6f56fe53",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 319,
+                  "id": "Q319"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P2210"
+        ],
+        "id": "Q48546$2c771ab5-42f4-f5bd-503a-5579f1f343c6",
+        "rank": "normal"
+      }
+    ],
+    "P247": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P247",
+          "hash": "2de825b9dd813b81db5045c6ea4acec7d6294849",
+          "datavalue": {
+            "value": "2011-040A",
+            "type": "string"
+          },
+          "datatype": "external-id"
+        },
+        "type": "statement",
+        "id": "q48546$C4F557AE-19DB-4F6C-A406-32379B598265",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "14346fb2d59abd3de2097c94acb90df9d3aedaf6",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "2c083879a667ee38d807ed1673b95da65d93f93c",
+                  "datavalue": {
+                    "value": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2011-040A",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      }
+    ],
+    "P377": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P377",
+          "hash": "5c6accd7d7b3ef4693c0f829009da04197ff512e",
+          "datavalue": {
+            "value": "37773",
+            "type": "string"
+          },
+          "datatype": "external-id"
+        },
+        "type": "statement",
+        "id": "q48546$257A9FD5-53D9-44EB-A0D5-95A1E2FC557E",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "14346fb2d59abd3de2097c94acb90df9d3aedaf6",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "2c083879a667ee38d807ed1673b95da65d93f93c",
+                  "datavalue": {
+                    "value": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2011-040A",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      }
+    ],
+    "P373": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P373",
+          "hash": "011cd0c959983b813e52809a356d205a000994e1",
+          "datavalue": {
+            "value": "Juno (spacecraft)",
+            "type": "string"
+          },
+          "datatype": "string"
+        },
+        "type": "statement",
+        "id": "q48546$0660866B-8453-4032-82CB-BD10FCAE3600",
+        "rank": "normal"
+      }
+    ],
+    "P619": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P619",
+          "hash": "4597faa5134e4707d85f4d093a53a1fce2968615",
+          "datavalue": {
+            "value": {
+              "time": "+2011-08-05T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+            },
+            "type": "time"
+          },
+          "datatype": "time"
+        },
+        "type": "statement",
+        "qualifiers": {
+          "P4241": [
+            {
+              "snaktype": "value",
+              "property": "P4241",
+              "hash": "753090b1fb173b1c2d1b2f27e7584cfff822bbfc",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 95086201,
+                  "id": "Q95086201"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P4241"
+        ],
+        "id": "q48546$30445F30-7F28-4E05-B601-6E09014CCEEE",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "5ba6cdcbe4fe3321cb0b2a4b7792abd6f60c8817",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "bcb6341b0e75f7d01c920138ffab519c55ddf940",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 6272367,
+                      "id": "Q6272367"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248"
+            ]
+          }
+        ]
+      }
+    ],
+    "P910": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P910",
+          "hash": "89427b0092fa13f12b2720668f3825a1a8fe68e2",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 8569165,
+              "id": "Q8569165"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "id": "Q48546$AC74645C-176F-4643-809E-F0975978AFDF",
+        "rank": "normal"
+      }
+    ],
+    "P856": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P856",
+          "hash": "fd11d460b78d5a5e53974d702eaa8fc33ee45db1",
+          "datavalue": {
+            "value": "http://www.nasa.gov/mission_pages/juno/main/index.html",
+            "type": "string"
+          },
+          "datatype": "url"
+        },
+        "type": "statement",
+        "qualifiers": {
+          "P407": [
+            {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P407"
+        ],
+        "id": "Q48546$0EA1267B-C62A-4C4F-9081-D1F6982C42A3",
+        "rank": "normal"
+      }
+    ],
+    "P646": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P646",
+          "hash": "f9a17f2437a22328fcc364700e08b785576cd8aa",
+          "datavalue": {
+            "value": "/m/06bjkl",
+            "type": "string"
+          },
+          "datatype": "external-id"
+        },
+        "type": "statement",
+        "id": "Q48546$311E8465-D001-48DF-848C-7F38E9B8CC6A",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 15241312,
+                      "id": "Q15241312"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P577": [
+                {
+                  "snaktype": "value",
+                  "property": "P577",
+                  "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2013-10-28T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P577"
+            ]
+          }
+        ]
+      }
+    ],
+    "P2002": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P2002",
+          "hash": "d07bfde64cb2c30a2f36ed04f179f5345228edeb",
+          "datavalue": {
+            "value": "NASAJuno",
+            "type": "string"
+          },
+          "datatype": "external-id"
+        },
+        "type": "statement",
+        "qualifiers": {
+          "P3744": [
+            {
+              "snaktype": "value",
+              "property": "P3744",
+              "hash": "b520367dbb0da2ec28edacf7cf8ae72b5fcca475",
+              "datavalue": {
+                "value": {
+                  "amount": "+767915",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            }
+          ],
+          "P585": [
+            {
+              "snaktype": "value",
+              "property": "P585",
+              "hash": "e250896643966aa6637f05d699e01b6a9251acd5",
+              "datavalue": {
+                "value": {
+                  "time": "+2020-04-26T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            }
+          ],
+          "P6552": [
+            {
+              "snaktype": "value",
+              "property": "P6552",
+              "hash": "a6a1dc2fae84efeb9d0b6ceebdd5f1da138ba355",
+              "datavalue": {
+                "value": "19789439",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            }
+          ],
+          "P1552": [
+            {
+              "snaktype": "value",
+              "property": "P1552",
+              "hash": "62f0039d240f7eeba6c6908a0d8807a6188324a1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 28378282,
+                  "id": "Q28378282"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ],
+          "P580": [
+            {
+              "snaktype": "value",
+              "property": "P580",
+              "hash": "b6aa0c85db74ca3363f966dd1ec4bc45cc9259f5",
+              "datavalue": {
+                "value": {
+                  "time": "+2009-01-30T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P3744",
+          "P585",
+          "P6552",
+          "P1552",
+          "P580"
+        ],
+        "id": "Q48546$a336dfaf-4ed3-f60d-3843-878266dd8885",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "830e0d3d65e6b91e769889d7d1177706b5c1e0ca",
+            "snaks": {
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "cd8210fc3215a6112ebad72d11663d1a56b14d67",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2018-05-10T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P813"
+            ]
+          }
+        ]
+      }
+    ],
+    "P2013": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P2013",
+          "hash": "bfa7272b1e29d1ac19b09e18305aae7389d3544b",
+          "datavalue": {
+            "value": "NASAJuno",
+            "type": "string"
+          },
+          "datatype": "external-id"
+        },
+        "type": "statement",
+        "id": "Q48546$936e5a6a-4094-ad27-a10f-8c1fcf898fde",
+        "rank": "normal"
+      }
+    ],
+    "P522": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P522",
+          "hash": "8478bd12bed315e975f777d62478204374ca0dd7",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 3884985,
+              "id": "Q3884985"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "id": "Q48546$de22b22f-49b7-2d0a-c52d-58a51caac7cb",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "5eeaf94180f664f95b694f73200c82d63ba0434f",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "26d74cbf9969db7ac9368808d4b7981f0cc2de20",
+                  "datavalue": {
+                    "value": "https://space.skyrocket.de/doc_sdat/juno.htm",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      }
+    ],
+    "P2956": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P2956",
+          "hash": "42799ff516d40845dff373db8010be84bb7df07c",
+          "datavalue": {
+            "value": "-61",
+            "type": "string"
+          },
+          "datatype": "external-id"
+        },
+        "type": "statement",
+        "id": "Q48546$EEB0D440-F97B-4D6C-8C2D-F1E048A6F255",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "2e15736475caad547cbbc56f2070c54df5655235",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "a8fa01a5e2e38cc36fa348fcd48ab7814df6380c",
+                  "datavalue": {
+                    "value": "https://naif.jpl.nasa.gov/pub/naif/toolkit_docs/C/req/naif_ids.html",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      }
+    ],
+    "P3417": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P3417",
+          "hash": "0667904f1e0818455a388617581d57ccd91f8500",
+          "datavalue": {
+            "value": "Juno-Spacecraft",
+            "type": "string"
+          },
+          "datatype": "external-id"
+        },
+        "type": "statement",
+        "id": "Q48546$6092BEF2-B406-4CE7-9AF8-D9576CE6B907",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "3b0a5bb3c1f955edce73740124f7d935698092ad",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "3ac9682e789a3a3791d4fd088b265ea03abef101",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 51711,
+                      "id": "Q51711"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248"
+            ]
+          }
+        ]
+      }
+    ],
+    "P1427": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P1427",
+          "hash": "9bb8af4d4525d4168f58a4017a2c9dab94cd6599",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 1034348,
+              "id": "Q1034348"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "id": "Q48546$1F42009C-8361-4E1B-BE75-108D3AABBC41",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "5ba6cdcbe4fe3321cb0b2a4b7792abd6f60c8817",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "bcb6341b0e75f7d01c920138ffab519c55ddf940",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 6272367,
+                      "id": "Q6272367"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248"
+            ]
+          }
+        ]
+      }
+    ],
+    "P154": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P154",
+          "hash": "bb0738e8165347db7c27ecb6b2e7459199a8eaaf",
+          "datavalue": {
+            "value": "Juno mission insignia.svg",
+            "type": "string"
+          },
+          "datatype": "commonsMedia"
+        },
+        "type": "statement",
+        "id": "Q48546$E57026B4-15D1-4F9F-8021-DEF1A09C9C86",
+        "rank": "normal"
+      }
+    ],
+    "P3219": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P3219",
+          "hash": "96459ecaaa45bdf0a31b7f03f1d63662b2194103",
+          "datavalue": {
+            "value": "mission-juno",
+            "type": "string"
+          },
+          "datatype": "external-id"
+        },
+        "type": "statement",
+        "id": "Q48546$41655d27-482a-f99e-2413-4f8457cc5f39",
+        "rank": "normal"
+      }
+    ],
+    "P361": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P361",
+          "hash": "e3126f15ba97aa778b9dbbeddad4c3c222bfc4a9",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 45356,
+              "id": "Q45356"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "qualifiers": {
+          "P155": [
+            {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "7e38881c32bddad92d8252d6611953026f37444a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 48461,
+                  "id": "Q48461"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ],
+          "P156": [
+            {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "32279e7dea1e03b7bb3c33cc3e0bb8b5e0a78f81",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 604428,
+                  "id": "Q604428"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ],
+          "P1545": [
+            {
+              "snaktype": "value",
+              "property": "P1545",
+              "hash": "7241753c62a310cf84895620ea82250dcea65835",
+              "datavalue": {
+                "value": "2",
+                "type": "string"
+              },
+              "datatype": "string"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P155",
+          "P156",
+          "P1545"
+        ],
+        "id": "Q48546$554e3e39-4bb0-a048-ae56-1e646cdf7665",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "b0061408a267bae675d2106001ee1f77a12781e6",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "7e4321133c9b89ed39feeaeec933b2210b363326",
+                  "datavalue": {
+                    "value": "https://www.researchgate.net/publication/222823001_The_Juno_New_Frontiers_mission",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      }
+    ],
+    "P4896": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P4896",
+          "hash": "141728739a57cf012ebc5cb0624b486fdeb07c99",
+          "datavalue": {
+            "value": "Juno Probe.stl",
+            "type": "string"
+          },
+          "datatype": "commonsMedia"
+        },
+        "type": "statement",
+        "id": "Q48546$b3a85099-42b9-765c-276d-96877fe2045d",
+        "rank": "normal"
+      }
+    ],
+    "P137": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P137",
+          "hash": "75c700c76dad5ac562097e2fbb97c982d6781952",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 189325,
+              "id": "Q189325"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "id": "Q48546$de2b7db8-4b82-9aac-ccad-3694168208d8",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "5eeaf94180f664f95b694f73200c82d63ba0434f",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "26d74cbf9969db7ac9368808d4b7981f0cc2de20",
+                  "datavalue": {
+                    "value": "https://space.skyrocket.de/doc_sdat/juno.htm",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      }
+    ],
+    "P176": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P176",
+          "hash": "c62f2a3e9fac9985d305883e204fda3312dcbb99",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 2913694,
+              "id": "Q2913694"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "id": "Q48546$e62de7da-4de6-f757-5ed7-8060faf74c8d",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "5eeaf94180f664f95b694f73200c82d63ba0434f",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "26d74cbf9969db7ac9368808d4b7981f0cc2de20",
+                  "datavalue": {
+                    "value": "https://space.skyrocket.de/doc_sdat/juno.htm",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      }
+    ],
+    "P2067": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P2067",
+          "hash": "aaf02aaab9b9d62c45552b36ad69225b83eafdb5",
+          "datavalue": {
+            "value": {
+              "amount": "+3625",
+              "unit": "http://www.wikidata.org/entity/Q11570"
+            },
+            "type": "quantity"
+          },
+          "datatype": "quantity"
+        },
+        "type": "statement",
+        "qualifiers": {
+          "P1013": [
+            {
+              "snaktype": "value",
+              "property": "P1013",
+              "hash": "b9ab67d1f3361a469cf4cab5cd593cc383674795",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2333272,
+                  "id": "Q2333272"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P1013"
+        ],
+        "id": "Q48546$45f3256d-4e11-8e23-b843-962e836722b6",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "0e6f8f1a2b3c7c63138ecc727cf1e15854241928",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "f5745fc266bf53af8191b288ed58293315d7da6f",
+                  "datavalue": {
+                    "value": "https://www.jpl.nasa.gov/news/press_kits/juno/pdf/juno-hires.pdf",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      },
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P2067",
+          "hash": "b02334eefc82e85b6dd54348d17fcd9ca97b8988",
+          "datavalue": {
+            "value": {
+              "amount": "+1593",
+              "unit": "http://www.wikidata.org/entity/Q11570"
+            },
+            "type": "quantity"
+          },
+          "datatype": "quantity"
+        },
+        "type": "statement",
+        "qualifiers": {
+          "P1013": [
+            {
+              "snaktype": "value",
+              "property": "P1013",
+              "hash": "cf301b537fec74128a1b934a5eae9fa9f1da16a0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3297564,
+                  "id": "Q3297564"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P1013"
+        ],
+        "id": "Q48546$85ddc95f-48e6-c962-f123-ccb8f6e8ec27",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "0e6f8f1a2b3c7c63138ecc727cf1e15854241928",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "f5745fc266bf53af8191b288ed58293315d7da6f",
+                  "datavalue": {
+                    "value": "https://www.jpl.nasa.gov/news/press_kits/juno/pdf/juno-hires.pdf",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      }
+    ],
+    "P1079": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P1079",
+          "hash": "14ddc0499e3685299e383bfa21d9f85c946029fc",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 1236833,
+              "id": "Q1236833"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "id": "Q48546$acb12e28-4fc5-4e9e-459d-c446c914ee01",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "5eeaf94180f664f95b694f73200c82d63ba0434f",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "26d74cbf9969db7ac9368808d4b7981f0cc2de20",
+                  "datavalue": {
+                    "value": "https://space.skyrocket.de/doc_sdat/juno.htm",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      }
+    ],
+    "P155": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P155",
+          "hash": "7e38881c32bddad92d8252d6611953026f37444a",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 48461,
+              "id": "Q48461"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "id": "Q48546$b0f00dba-46fa-bd00-1777-958c96bf0f96",
+        "rank": "normal"
+      }
+    ],
+    "P156": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P156",
+          "hash": "32279e7dea1e03b7bb3c33cc3e0bb8b5e0a78f81",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 604428,
+              "id": "Q604428"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "id": "Q48546$3e6ded2e-46ea-6296-4056-8db95de075c9",
+        "rank": "normal"
+      }
+    ],
+    "P2048": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P2048",
+          "hash": "a286273246caf320d24a4998ae1e03a3408074d1",
+          "datavalue": {
+            "value": {
+              "amount": "+3.5",
+              "unit": "http://www.wikidata.org/entity/Q11573"
+            },
+            "type": "quantity"
+          },
+          "datatype": "quantity"
+        },
+        "type": "statement",
+        "id": "Q48546$23fb4211-4f2c-bfd2-f174-a3b57bc31742",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "f16bcc97168e57d5083023e57765ab306ae6e44b",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "5e9fe9d5a9c136105c213accaa23044d9c82fe24",
+                  "datavalue": {
+                    "value": "https://www.jpl.nasa.gov/news/press_kits/JunoLaunch.pdf",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      }
+    ],
+    "P2386": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P2386",
+          "hash": "4b12b6de54411e026480c72ef6c5d915f7f4c286",
+          "datavalue": {
+            "value": {
+              "amount": "+3.5",
+              "unit": "http://www.wikidata.org/entity/Q11573"
+            },
+            "type": "quantity"
+          },
+          "datatype": "quantity"
+        },
+        "type": "statement",
+        "id": "Q48546$4e318d33-46be-4e52-3757-7b2c46f7f1fe",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "f16bcc97168e57d5083023e57765ab306ae6e44b",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "5e9fe9d5a9c136105c213accaa23044d9c82fe24",
+                  "datavalue": {
+                    "value": "https://www.jpl.nasa.gov/news/press_kits/JunoLaunch.pdf",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      }
+    ],
+    "P1417": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P1417",
+          "hash": "95cd8da1aa2bc4da8fce383b094021a61820d0aa",
+          "datavalue": {
+            "value": "topic/Juno-spacecraft",
+            "type": "string"
+          },
+          "datatype": "external-id"
+        },
+        "type": "statement",
+        "qualifiers": {
+          "P1810": [
+            {
+              "snaktype": "value",
+              "property": "P1810",
+              "hash": "5e13ccb936f1e00021a17e454fdfbe4f06fa8131",
+              "datavalue": {
+                "value": "Juno",
+                "type": "string"
+              },
+              "datatype": "string"
+            }
+          ],
+          "P2093": [
+            {
+              "snaktype": "value",
+              "property": "P2093",
+              "hash": "b599da69b8c00e09e1a4ab49f0e4ea1920b33ee6",
+              "datavalue": {
+                "value": "Erik Gregersen",
+                "type": "string"
+              },
+              "datatype": "string"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P1810",
+          "P2093"
+        ],
+        "id": "Q48546$7E81DDA8-9804-4A6A-A532-A8A12AB64F66",
+        "rank": "normal"
+      }
+    ],
+    "P18": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P18",
+          "hash": "1762dfeee832edd41d11e5fbfbdfa6c7ad6b49cc",
+          "datavalue": {
+            "value": "JUNO - PIA13746.jpg",
+            "type": "string"
+          },
+          "datatype": "commonsMedia"
+        },
+        "type": "statement",
+        "id": "Q48546$50DCBAB9-9331-4D22-80AB-E2ADA4CAE99F",
+        "rank": "normal"
+      }
+    ],
+    "P4431": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P4431",
+          "hash": "663dc7e49c5ab7515bc9483fc54f807d586f953b",
+          "datavalue": {
+            "value": "juno-reaches-jupiter",
+            "type": "string"
+          },
+          "datatype": "external-id"
+        },
+        "type": "statement",
+        "id": "Q48546$A8D613F7-EAF7-44F2-AD8E-59BF562FD332",
+        "rank": "normal"
+      }
+    ],
+    "P8913": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P8913",
+          "hash": "874f1123e720bc63d969732ee247fa5c6197dfdd",
+          "datavalue": {
+            "value": "2011-040A",
+            "type": "string"
+          },
+          "datatype": "external-id"
+        },
+        "type": "statement",
+        "id": "Q48546$09cbc7fe-474c-8231-857c-9a7b37c90d7f",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "14346fb2d59abd3de2097c94acb90df9d3aedaf6",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "2c083879a667ee38d807ed1673b95da65d93f93c",
+                  "datavalue": {
+                    "value": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2011-040A",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      }
+    ],
+    "P2244": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P2244",
+          "hash": "07888053decdd112f093673817ddbf8991d02e89",
+          "datavalue": {
+            "value": {
+              "amount": "+4200",
+              "unit": "http://www.wikidata.org/entity/Q828224"
+            },
+            "type": "quantity"
+          },
+          "datatype": "quantity"
+        },
+        "type": "statement",
+        "id": "Q48546$1e0f41aa-4e6a-6276-8b4d-121575f8aec6",
+        "rank": "normal"
+      }
+    ],
+    "P2243": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P2243",
+          "hash": "53da328abcc57efe3ad10066e541bc10b1af7fdd",
+          "datavalue": {
+            "value": {
+              "amount": "+8100000",
+              "unit": "http://www.wikidata.org/entity/Q828224"
+            },
+            "type": "quantity"
+          },
+          "datatype": "quantity"
+        },
+        "type": "statement",
+        "id": "Q48546$882e5a3f-44e8-3db5-5caf-1703321c3a60",
+        "rank": "normal"
+      }
+    ],
+    "P2045": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P2045",
+          "hash": "deae34139ac07abf88a27aadcaaa920d223c847f",
+          "datavalue": {
+            "value": {
+              "amount": "+90",
+              "unit": "http://www.wikidata.org/entity/Q28390"
+            },
+            "type": "quantity"
+          },
+          "datatype": "quantity"
+        },
+        "type": "statement",
+        "id": "Q48546$e2d0c45f-49de-ceda-84fd-92809b45313a",
+        "rank": "normal"
+      }
+    ],
+    "P8687": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P8687",
+          "hash": "a275f55e68636650dcacef67c4c8a50645fb6819",
+          "datavalue": {
+            "value": {
+              "amount": "+768505",
+              "unit": "1"
+            },
+            "type": "quantity"
+          },
+          "datatype": "quantity"
+        },
+        "type": "statement",
+        "qualifiers": {
+          "P6552": [
+            {
+              "snaktype": "value",
+              "property": "P6552",
+              "hash": "a6a1dc2fae84efeb9d0b6ceebdd5f1da138ba355",
+              "datavalue": {
+                "value": "19789439",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            }
+          ],
+          "P585": [
+            {
+              "snaktype": "value",
+              "property": "P585",
+              "hash": "b229e273d630d08a16bd314fb56b3ddc967668fc",
+              "datavalue": {
+                "value": {
+                  "time": "+2021-01-07T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P6552",
+          "P585"
+        ],
+        "id": "Q48546$c607a434-3060-4e23-b332-61bae7779193",
+        "rank": "normal"
+      },
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P8687",
+          "hash": "d742851e13e94601dcea315f6d232595872a4a78",
+          "datavalue": {
+            "value": {
+              "amount": "+767915",
+              "unit": "1"
+            },
+            "type": "quantity"
+          },
+          "datatype": "quantity"
+        },
+        "type": "statement",
+        "qualifiers": {
+          "P6552": [
+            {
+              "snaktype": "value",
+              "property": "P6552",
+              "hash": "a6a1dc2fae84efeb9d0b6ceebdd5f1da138ba355",
+              "datavalue": {
+                "value": "19789439",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            }
+          ],
+          "P585": [
+            {
+              "snaktype": "value",
+              "property": "P585",
+              "hash": "e250896643966aa6637f05d699e01b6a9251acd5",
+              "datavalue": {
+                "value": {
+                  "time": "+2020-04-26T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P6552",
+          "P585"
+        ],
+        "id": "Q48546$50dd7bcf-1419-4bf8-a2fc-4a700d38bd1f",
+        "rank": "normal"
+      },
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P8687",
+          "hash": "b231231182209a5a756e462d93cd60463b80c0c9",
+          "datavalue": {
+            "value": {
+              "amount": "+762949",
+              "unit": "1"
+            },
+            "type": "quantity"
+          },
+          "datatype": "quantity"
+        },
+        "type": "statement",
+        "qualifiers": {
+          "P6552": [
+            {
+              "snaktype": "value",
+              "property": "P6552",
+              "hash": "a6a1dc2fae84efeb9d0b6ceebdd5f1da138ba355",
+              "datavalue": {
+                "value": "19789439",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            }
+          ],
+          "P585": [
+            {
+              "snaktype": "value",
+              "property": "P585",
+              "hash": "6fe9b8bc0480177c063de6bd77ecee2413663f80",
+              "datavalue": {
+                "value": {
+                  "time": "+2022-02-28T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P6552",
+          "P585"
+        ],
+        "id": "Q48546$c1b0319d-30da-4212-a656-58184b31466c",
+        "rank": "normal"
+      },
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P8687",
+          "hash": "42b2a2f3f49bafbc61b506fa6c4b947f858c927d",
+          "datavalue": {
+            "value": {
+              "amount": "+739874",
+              "unit": "1"
+            },
+            "type": "quantity"
+          },
+          "datatype": "quantity"
+        },
+        "type": "statement",
+        "qualifiers": {
+          "P6552": [
+            {
+              "snaktype": "value",
+              "property": "P6552",
+              "hash": "a6a1dc2fae84efeb9d0b6ceebdd5f1da138ba355",
+              "datavalue": {
+                "value": "19789439",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            }
+          ],
+          "P585": [
+            {
+              "snaktype": "value",
+              "property": "P585",
+              "hash": "6ceb09f719cf668fb5dec42b6a261e5017b84913",
+              "datavalue": {
+                "value": {
+                  "time": "+2023-02-07T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P6552",
+          "P585"
+        ],
+        "id": "Q48546$15a3ff89-935e-46e7-8059-f1683a80a950",
+        "rank": "preferred"
+      }
+    ],
+    "P375": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P375",
+          "hash": "7d79c8c1e8525392877b3922232a4b730c0721dc",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 16352007,
+              "id": "Q16352007"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "qualifiers": {
+          "P2598": [
+            {
+              "snaktype": "value",
+              "property": "P2598",
+              "hash": "6172dd9b4b43af7ae21b2bbf882172b3a59f73ee",
+              "datavalue": {
+                "value": "AV-029",
+                "type": "string"
+              },
+              "datatype": "string"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P2598"
+        ],
+        "id": "Q48546$D309FF9D-750F-4021-9667-25D68666F8E9",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "5ba6cdcbe4fe3321cb0b2a4b7792abd6f60c8817",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "bcb6341b0e75f7d01c920138ffab519c55ddf940",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 6272367,
+                      "id": "Q6272367"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248"
+            ]
+          }
+        ]
+      }
+    ],
+    "P793": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P793",
+          "hash": "7a0013c5e5c8b0d4263448ba1c10c1b90c7e9d87",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 797476,
+              "id": "Q797476"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "qualifiers": {
+          "P276": [
+            {
+              "snaktype": "value",
+              "property": "P276",
+              "hash": "3e02008519c8f053743d58fd3e00aa9af2334aff",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1034348,
+                  "id": "Q1034348"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ],
+          "P585": [
+            {
+              "snaktype": "value",
+              "property": "P585",
+              "hash": "b7db491f32de32739b0f1da7e67d2761875c2165",
+              "datavalue": {
+                "value": {
+                  "time": "+2011-08-05T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P276",
+          "P585"
+        ],
+        "id": "Q48546$E942B20A-9BC7-4CA2-BCDA-92A5F6AD7A8C",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "5ba6cdcbe4fe3321cb0b2a4b7792abd6f60c8817",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "bcb6341b0e75f7d01c920138ffab519c55ddf940",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 6272367,
+                      "id": "Q6272367"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248"
+            ]
+          }
+        ]
+      },
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P793",
+          "hash": "734dbebc885955a2318c93b6cae3e7c0a79a195d",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 828032,
+              "id": "Q828032"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "qualifiers": {
+          "P585": [
+            {
+              "snaktype": "value",
+              "property": "P585",
+              "hash": "6a22406e8cfdbf876dffc4345252c8a04d016201",
+              "datavalue": {
+                "value": {
+                  "time": "+2013-10-09T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            }
+          ],
+          "P2210": [
+            {
+              "snaktype": "value",
+              "property": "P2210",
+              "hash": "27b04f7e882877822f305f50feef58705442247f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2,
+                  "id": "Q2"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ],
+          "P6354": [
+            {
+              "snaktype": "value",
+              "property": "P6354",
+              "hash": "dd97c749a1f67fc1db17b9d0f8be55b9bed788a8",
+              "datavalue": {
+                "value": {
+                  "amount": "+558",
+                  "unit": "http://www.wikidata.org/entity/Q828224"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P585",
+          "P2210",
+          "P6354"
+        ],
+        "id": "Q48546$aa90a1cf-479a-5e7c-c840-471b322ce146",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "d0eeebd1bb3716da07b4b3afb29bc03f3d0241a1",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "9e7a46fc2c553d09e330b37d441825388be8ce94",
+                  "datavalue": {
+                    "value": "https://www.space.com/23139-juno-jupiter-spacecraft-earth-flyby.html",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      },
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P793",
+          "hash": "f0e22748316b476c84c81d14fe20faea2ef231df",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 65945161,
+              "id": "Q65945161"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "qualifiers": {
+          "P580": [
+            {
+              "snaktype": "value",
+              "property": "P580",
+              "hash": "9f510973c21c9c303242c47eb891b5a8d2d7de58",
+              "datavalue": {
+                "value": {
+                  "time": "+2016-07-05T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            }
+          ],
+          "P2210": [
+            {
+              "snaktype": "value",
+              "property": "P2210",
+              "hash": "db535b4f9da779254789d3447b760fcf6f56fe53",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 319,
+                  "id": "Q319"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P580",
+          "P2210"
+        ],
+        "id": "Q48546$1f67a25b-4cb5-dbdf-6e17-c6d46c6f686d",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "a25005a8a53cb04b029063942c2c68d03e2bdf76",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "4cc83d8065159c274fadde3309cef1c72121066a",
+                  "datavalue": {
+                    "value": "https://spacenews.com/juno-enters-orbit-around-jupiter/",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      }
+    ],
+    "P1705": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P1705",
+          "hash": "a044a94ff3b29648e1a53e62718eb6816a94be42",
+          "datavalue": {
+            "value": {
+              "text": "Juno",
+              "language": "en"
+            },
+            "type": "monolingualtext"
+          },
+          "datatype": "monolingualtext"
+        },
+        "type": "statement",
+        "id": "Q48546$0ec0110e-49a0-df95-cab2-2bafecaab9cd",
+        "rank": "normal"
+      }
+    ],
+    "P17": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P17",
+          "hash": "be4c6eafa2984964f04be85667263f5642ba1a72",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 30,
+              "id": "Q30"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "id": "Q48546$d99cc48d-4b8d-609b-42c3-7abd92c8c3d2",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "5eeaf94180f664f95b694f73200c82d63ba0434f",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "26d74cbf9969db7ac9368808d4b7981f0cc2de20",
+                  "datavalue": {
+                    "value": "https://space.skyrocket.de/doc_sdat/juno.htm",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      }
+    ],
+    "P495": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P495",
+          "hash": "7f985e15819b74ed189d022e004890e66d2ae42e",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 30,
+              "id": "Q30"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "id": "Q48546$af8ed26b-4cc6-e20f-86bb-a733ee439ae8",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "5eeaf94180f664f95b694f73200c82d63ba0434f",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "26d74cbf9969db7ac9368808d4b7981f0cc2de20",
+                  "datavalue": {
+                    "value": "https://space.skyrocket.de/doc_sdat/juno.htm",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      }
+    ],
+    "P516": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P516",
+          "hash": "cba621dc7c010ea0204ebd33b6158e89667e1f8d",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 7556726,
+              "id": "Q7556726"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "qualifiers": {
+          "P1114": [
+            {
+              "snaktype": "value",
+              "property": "P1114",
+              "hash": "9d30e079aa293cdb61d960a978d59071c402f841",
+              "datavalue": {
+                "value": {
+                  "amount": "+3",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            }
+          ],
+          "P2109": [
+            {
+              "snaktype": "value",
+              "property": "P2109",
+              "hash": "dca9ff2d6d8d75eda2a081d795131cf34f88c17e",
+              "datavalue": {
+                "value": {
+                  "amount": "+435",
+                  "unit": "http://www.wikidata.org/entity/Q25236"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P1114",
+          "P2109"
+        ],
+        "id": "Q48546$fd3235b4-4632-b38f-196e-39b93ce0250f",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "5eeaf94180f664f95b694f73200c82d63ba0434f",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "26d74cbf9969db7ac9368808d4b7981f0cc2de20",
+                  "datavalue": {
+                    "value": "https://space.skyrocket.de/doc_sdat/juno.htm",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          },
+          {
+            "hash": "b7bdad16f3887bdc8dd385141b10d4983fba5c05",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "ef731ddfe2f46dac472cbd5498a255e7efceb56c",
+                  "datavalue": {
+                    "value": "https://www.nasa.gov/pdf/316306main_JunoFactSheet_2009sm.pdf",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      },
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P516",
+          "hash": "f697871d594edca21d13c81244344eda2fc90cd2",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 17098468,
+              "id": "Q17098468"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "qualifiers": {
+          "P1932": [
+            {
+              "snaktype": "value",
+              "property": "P1932",
+              "hash": "82cc4f186cb4b7a49c25046fbc2a714e1cf0986b",
+              "datavalue": {
+                "value": "LEROS-1b",
+                "type": "string"
+              },
+              "datatype": "string"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P1932"
+        ],
+        "id": "Q48546$9e6a84d7-4d69-c2f7-729b-b21a32953231",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "5eeaf94180f664f95b694f73200c82d63ba0434f",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "26d74cbf9969db7ac9368808d4b7981f0cc2de20",
+                  "datavalue": {
+                    "value": "https://space.skyrocket.de/doc_sdat/juno.htm",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      }
+    ],
+    "P8329": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P8329",
+          "hash": "52676b2f024c31c24076296f515c2727df2c677b",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 7436559,
+              "id": "Q7436559"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "id": "Q48546$4b0fc45a-4389-a938-8660-fa0a5b1c1038",
+        "rank": "normal",
+        "references": [
+          {
+            "hash": "5eeaf94180f664f95b694f73200c82d63ba0434f",
+            "snaks": {
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "26d74cbf9969db7ac9368808d4b7981f0cc2de20",
+                  "datavalue": {
+                    "value": "https://space.skyrocket.de/doc_sdat/juno.htm",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P854"
+            ]
+          }
+        ]
+      }
+    ],
+    "P4342": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P4342",
+          "hash": "1c891ea5b55c97bd5faf16ee66c9d9b61c2ff73a",
+          "datavalue": {
+            "value": "Juno_-_Jupiter-sonde",
+            "type": "string"
+          },
+          "datatype": "external-id"
+        },
+        "type": "statement",
+        "id": "Q48546$3E48B3D3-06E0-451B-9BF4-FBE0AD286F79",
+        "rank": "normal"
+      }
+    ],
+    "P397": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P397",
+          "hash": "716f6ca6016a33a319e8aa67e7342e82cd172acb",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 319,
+              "id": "Q319"
+            },
+            "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+        },
+        "type": "statement",
+        "qualifiers": {
+          "P580": [
+            {
+              "snaktype": "value",
+              "property": "P580",
+              "hash": "9f510973c21c9c303242c47eb891b5a8d2d7de58",
+              "datavalue": {
+                "value": {
+                  "time": "+2016-07-05T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P580"
+        ],
+        "id": "Q48546$a0f4f8b2-43d8-3b86-0a2e-578dd84ce905",
+        "rank": "normal"
+      }
+    ],
+    "P5337": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P5337",
+          "hash": "482a0cc3aa396fb17bb614dfb46dc9fd2232b632",
+          "datavalue": {
+            "value": "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFppYW10c0VnSmxiaWdBUAE",
+            "type": "string"
+          },
+          "datatype": "external-id"
+        },
+        "type": "statement",
+        "id": "Q48546$670ff483-4212-fa84-1414-b5ad2061cf56",
+        "rank": "normal"
+      }
+    ]
+  },
+  "sitelinks": {
+    "afwiki": {
+      "site": "afwiki",
+      "title": "Juno (ruimtetuig)",
+      "badges": []
+    },
+    "anwiki": {
+      "site": "anwiki",
+      "title": "Juno (sonda espacial)",
+      "badges": []
+    },
+    "arwiki": {
+      "site": "arwiki",
+      "title": "جونو (مسبار فضائي)",
+      "badges": []
+    },
+    "bclwiki": {
+      "site": "bclwiki",
+      "title": "Juno",
+      "badges": []
+    },
+    "bewiki": {
+      "site": "bewiki",
+      "title": "Юнона (касмічны апарат)",
+      "badges": []
+    },
+    "bswiki": {
+      "site": "bswiki",
+      "title": "Juno (svemirska letjelica)",
+      "badges": []
+    },
+    "cawiki": {
+      "site": "cawiki",
+      "title": "Juno (sonda)",
+      "badges": []
+    },
+    "ckbwiki": {
+      "site": "ckbwiki",
+      "title": "کەشتیی ئاسمانیی جونۆ",
+      "badges": []
+    },
+    "cswiki": {
+      "site": "cswiki",
+      "title": "Juno (sonda)",
+      "badges": []
+    },
+    "cywiki": {
+      "site": "cywiki",
+      "title": "Juno (chwiliedydd)",
+      "badges": []
+    },
+    "dawiki": {
+      "site": "dawiki",
+      "title": "Juno (rumsonde)",
+      "badges": []
+    },
+    "dewiki": {
+      "site": "dewiki",
+      "title": "Juno (Raumsonde)",
+      "badges": []
+    },
+    "elwiki": {
+      "site": "elwiki",
+      "title": "Τζούνο (διαστημόπλοιο)",
+      "badges": []
+    },
+    "enwiki": {
+      "site": "enwiki",
+      "title": "Juno (spacecraft)",
+      "badges": []
+    },
+    "eswiki": {
+      "site": "eswiki",
+      "title": "Juno (sonda espacial)",
+      "badges": []
+    },
+    "etwiki": {
+      "site": "etwiki",
+      "title": "Juno (kosmosesond)",
+      "badges": []
+    },
+    "euwiki": {
+      "site": "euwiki",
+      "title": "Juno (espazio zunda)",
+      "badges": []
+    },
+    "fawiki": {
+      "site": "fawiki",
+      "title": "فضاپیمای جونو",
+      "badges": []
+    },
+    "fiwiki": {
+      "site": "fiwiki",
+      "title": "Juno (luotain)",
+      "badges": []
+    },
+    "frwiki": {
+      "site": "frwiki",
+      "title": "Juno (sonde spatiale)",
+      "badges": [
+        "Q17437798"
+      ]
+    },
+    "glwiki": {
+      "site": "glwiki",
+      "title": "Juno (sonda espacial)",
+      "badges": []
+    },
+    "hewiki": {
+      "site": "hewiki",
+      "title": "ג'ונו (גשושית)",
+      "badges": [
+        "Q17437796"
+      ]
+    },
+    "hiwiki": {
+      "site": "hiwiki",
+      "title": "जूनो (अंतरिक्ष यान)",
+      "badges": []
+    },
+    "hrwiki": {
+      "site": "hrwiki",
+      "title": "Juno (svemirska letjelica)",
+      "badges": []
+    },
+    "huwiki": {
+      "site": "huwiki",
+      "title": "Juno űrszonda",
+      "badges": []
+    },
+    "idwiki": {
+      "site": "idwiki",
+      "title": "Juno (wahana antariksa)",
+      "badges": []
+    },
+    "iowiki": {
+      "site": "iowiki",
+      "title": "Juno (kosmosondilo)",
+      "badges": []
+    },
+    "itwiki": {
+      "site": "itwiki",
+      "title": "Juno (sonda spaziale)",
+      "badges": []
+    },
+    "jawiki": {
+      "site": "jawiki",
+      "title": "ジュノー (探査機)",
+      "badges": []
+    },
+    "kawiki": {
+      "site": "kawiki",
+      "title": "იუნონა (კოსმოსური ხომალდი)",
+      "badges": []
+    },
+    "knwiki": {
+      "site": "knwiki",
+      "title": "ಜುನೋ (ಗಗನನೌಕೆ)",
+      "badges": []
+    },
+    "kowiki": {
+      "site": "kowiki",
+      "title": "주노 (우주선)",
+      "badges": []
+    },
+    "lbwiki": {
+      "site": "lbwiki",
+      "title": "Juno (Raumsond)",
+      "badges": []
+    },
+    "liwiki": {
+      "site": "liwiki",
+      "title": "Juno (ruimtesonde)",
+      "badges": []
+    },
+    "ltwiki": {
+      "site": "ltwiki",
+      "title": "Juno",
+      "badges": []
+    },
+    "lvwiki": {
+      "site": "lvwiki",
+      "title": "Juno (starpplanētu zonde)",
+      "badges": []
+    },
+    "mlwiki": {
+      "site": "mlwiki",
+      "title": "ജൂണോ (ബഹിരാകാശപേടകം)",
+      "badges": []
+    },
+    "mswiki": {
+      "site": "mswiki",
+      "title": "Juno (kapal angkasa)",
+      "badges": []
+    },
+    "nlwiki": {
+      "site": "nlwiki",
+      "title": "Juno (ruimtesonde)",
+      "badges": []
+    },
+    "nnwiki": {
+      "site": "nnwiki",
+      "title": "Romsonden Juno",
+      "badges": []
+    },
+    "nowiki": {
+      "site": "nowiki",
+      "title": "Juno (romsonde)",
+      "badges": []
+    },
+    "pawiki": {
+      "site": "pawiki",
+      "title": "ਜੂਨੋ (ਪੁਲਾੜ ਵਾਹਨ)",
+      "badges": []
+    },
+    "plwiki": {
+      "site": "plwiki",
+      "title": "Juno (sonda kosmiczna)",
+      "badges": []
+    },
+    "ptwiki": {
+      "site": "ptwiki",
+      "title": "Juno (sonda espacial)",
+      "badges": []
+    },
+    "rowiki": {
+      "site": "rowiki",
+      "title": "Juno (navă spațială)",
+      "badges": []
+    },
+    "ruwiki": {
+      "site": "ruwiki",
+      "title": "Юнона (космический аппарат)",
+      "badges": []
+    },
+    "ruwikinews": {
+      "site": "ruwikinews",
+      "title": "Категория:Юнона (космический аппарат)",
+      "badges": []
+    },
+    "shwiki": {
+      "site": "shwiki",
+      "title": "Juno (sonda)",
+      "badges": []
+    },
+    "simplewiki": {
+      "site": "simplewiki",
+      "title": "Juno (spacecraft)",
+      "badges": []
+    },
+    "siwiki": {
+      "site": "siwiki",
+      "title": "ජුනෝ (අභ්‍යාවකාශ යානය)",
+      "badges": []
+    },
+    "skwiki": {
+      "site": "skwiki",
+      "title": "Juno (sonda)",
+      "badges": []
+    },
+    "slwiki": {
+      "site": "slwiki",
+      "title": "Juno (vesoljsko plovilo)",
+      "badges": []
+    },
+    "srwiki": {
+      "site": "srwiki",
+      "title": "Јунона (сонда)",
+      "badges": []
+    },
+    "svwiki": {
+      "site": "svwiki",
+      "title": "Juno (rymdsond)",
+      "badges": []
+    },
+    "tawiki": {
+      "site": "tawiki",
+      "title": "யூனோ (விண்கலம்)",
+      "badges": []
+    },
+    "thwiki": {
+      "site": "thwiki",
+      "title": "จูโน (ยานอวกาศ)",
+      "badges": []
+    },
+    "trwiki": {
+      "site": "trwiki",
+      "title": "Juno (uzay aracı)",
+      "badges": []
+    },
+    "ukwiki": {
+      "site": "ukwiki",
+      "title": "Юнона (космічний апарат)",
+      "badges": []
+    },
+    "urwiki": {
+      "site": "urwiki",
+      "title": "جونو (خلائی جہاز)",
+      "badges": []
+    },
+    "viwiki": {
+      "site": "viwiki",
+      "title": "Juno (tàu vũ trụ)",
+      "badges": []
+    },
+    "wuuwiki": {
+      "site": "wuuwiki",
+      "title": "朱诺号",
+      "badges": []
+    },
+    "zh_min_nanwiki": {
+      "site": "zh_min_nanwiki",
+      "title": "Juno (thài-khong-chûn)",
+      "badges": []
+    },
+    "zh_yuewiki": {
+      "site": "zh_yuewiki",
+      "title": "朱諾號",
+      "badges": []
+    },
+    "zhwiki": {
+      "site": "zhwiki",
+      "title": "朱诺号",
+      "badges": []
+    }
+  }
+}

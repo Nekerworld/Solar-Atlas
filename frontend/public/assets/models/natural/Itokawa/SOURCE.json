@@ -1,0 +1,28 @@
+{
+  "name": "Itokawa",
+  "source": "https://echo.jpl.nasa.gov/asteroids/shapes/shapes.html",
+  "credit": "NASA/JPL radar archive: 25143 Itokawa smooth model; pre-encounter radar reconstruction",
+  "terms": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "surface": "No image texture available in this package. Neutral gray material only; no invented surface map.",
+  "changes": "Converted to glTF; Z-up to Y-up rigid rotation, generated smooth normals, volume-equivalent normalization; 3688 triangles. No shape simplification. Display phase and pole orientation are illustrative.",
+  "model": "scene.gltf",
+  "download": "https://echo.jpl.nasa.gov/asteroids/shapes/sf36.v.mod.wf",
+  "retrieved": "2026-10-22",
+  "files": [
+    {
+      "path": "original.obj",
+      "bytes": 112314,
+      "sha256": "7b4399204bc1c979d1a8740c95f685ea1e087df2ce842a2e857b1446a8be6cf0"
+    },
+    {
+      "path": "scene.bin",
+      "bytes": 88560,
+      "sha256": "0d88b38fe803e0f1ef775a35b444d7ecb7b6345ce40acc2956e0babb3c244aa8"
+    },
+    {
+      "path": "scene.gltf",
+      "bytes": 1097,
+      "sha256": "bec7c27baf777aa58f7c4371adb894c42d73e1ef52a7beb488d7765f53f10282"
+    }
+  ]
+}

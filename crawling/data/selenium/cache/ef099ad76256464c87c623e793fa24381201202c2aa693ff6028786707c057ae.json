@@ -1,0 +1,693 @@
+{
+  "entities": {
+    "Q3276": {
+      "type": "item",
+      "id": "Q3276",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "목성 탐사"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "목성 탐사의 역사"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "be988ef12617e141df2249c42f4c33bcfe6c6ab3",
+              "datavalue": {
+                "value": "/m/027wqg7",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3276$793F99DE-E3F8-49A9-A583-E048FE30FBA3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "ab5e7bdfde86d15a5cfdb0a4f26ea2691812ce14",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7142232,
+                  "id": "Q7142232"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3276$BE6261FE-D171-4776-948A-107CB9E572CD",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "d91664e88de839b0381bd9a2ade61a6933c56024",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 180046,
+                  "id": "Q180046"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3276$848e96e4-4d48-5a2a-f8f5-fcda22ccf78a",
+            "rank": "normal"
+          }
+        ],
+        "P244": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P244",
+              "hash": "efce2b1ee039ede4c85d84b4561826ede9bf7598",
+              "datavalue": {
+                "value": "sh93002547",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "73e977daebe83729f731f6cc244a334d2891a5f6",
+                  "datavalue": {
+                    "value": "Jupiter (Planet)--Exploration",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q3276$4CF32714-48B0-40A1-A690-54E6BE6FC77D",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ac5d47e9fbcc281bc0d27a205ae02e22ad24ce31",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "b560dc6b281a39d061e189d2eb299a426a06f1a2",
+                      "datavalue": {
+                        "value": "https://github.com/JohnMarkOckerbloom/ftl/blob/master/data/wikimap",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "0dcf4f64e93fdcc654e2c7534285881fe48b9f3d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2019-04-03T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "741dc911f460b06889b87997aabf708955f80354",
+              "datavalue": {
+                "value": "138515225",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3276$D6407296-78B1-4B3A-A739-2F76D92EFB7E",
+            "rank": "normal"
+          }
+        ],
+        "P8408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8408",
+              "hash": "97cfb00b69b79cecbc170d2867eeb70aac3f3782",
+              "datavalue": {
+                "value": "ExplorationOfJupiter",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3276$1A1A6D40-9D25-42E1-9439-9BC23AC8C66F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64139102,
+                          "id": "Q64139102"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-07-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P921": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P921",
+              "hash": "ae8fd8ede9ec735d7e955363c854b48c583b5afb",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 319,
+                  "id": "Q319"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3276$41b3c553-4fb0-70f9-392f-2b81f1ea744c",
+            "rank": "normal"
+          }
+        ],
+        "P8189": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8189",
+              "hash": "3953b20172f9832b86ea2df224b38628212575d7",
+              "datavalue": {
+                "value": "987007556361305171",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "fb74c221e2a91daf0ab2596e410f13a34795404a",
+                  "datavalue": {
+                    "value": {
+                      "text": "Jupiter (Planet) Exploration",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "80518e1dad417abbcea20440c2899aae0dfbe3f9",
+                  "datavalue": {
+                    "value": {
+                      "text": "צדק (כוכב לכת) חקר",
+                      "language": "he"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P14457"
+            ],
+            "id": "Q3276$6EEAACE1-08C3-44B0-924A-0CB488F724F5",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ecb7a39cf436eb1fba419853af168ef9f2ba1dab",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a03bb6ffe37be9554492f4eea5bd18afcb57df19",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 106509962,
+                          "id": "Q106509962"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P10565": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10565",
+              "hash": "a9125bd59b217078e843f5bcad18f9f261cf87c2",
+              "datavalue": {
+                "value": "438854",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3276$bf2fd0ad-4406-a082-f009-11c80fb14a99",
+            "rank": "normal"
+          }
+        ],
+        "P2283": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2283",
+              "hash": "92eb108872d8d5f236bee11e2a77cf9ade6f585d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 121879038,
+                  "id": "Q121879038"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3276$e4586cc3-4294-6fde-44e9-8a4a6e4a426a",
+            "rank": "normal"
+          }
+        ],
+        "P1424": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1424",
+              "hash": "5fb063db1b1dd7c538244e1d86c01b556dee4279",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5915364,
+                  "id": "Q5915364"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P3831": [
+                {
+                  "snaktype": "value",
+                  "property": "P3831",
+                  "hash": "cd874a9f13f6d83cf7142fcf1a11f81cdcbcd674",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 11753321,
+                      "id": "Q11753321"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P3831"
+            ],
+            "id": "Q3276$246178ce-4ee7-6079-4b8d-c19190ac16c8",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "60c0752128429d3916616e12dc895b1f4abb9dd8",
+              "datavalue": {
+                "value": "Jupiter missions",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q3276$41a2ae39-445a-b56f-a605-a91a81df72d7",
+            "rank": "normal"
+          }
+        ],
+        "P13591": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13591",
+              "hash": "5e7b47f9979b68ce113b35be7810eb500f6a0271",
+              "datavalue": {
+                "value": "concept/816fe5a4-d4cd-4f9c-983b-8438781225be",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3276$4035905E-3490-4CD8-A8DC-3B32B1FCAFEE",
+            "rank": "normal"
+          }
+        ],
+        "P14541": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14541",
+              "hash": "e4d6f5eae01119e031e43b5845910034ed06b008",
+              "datavalue": {
+                "value": "3qhczd",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "80702a0aef2b25ba3b0b20fa474dd1e1fcaf1345",
+                  "datavalue": {
+                    "value": "木星探测",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P5017": [
+                {
+                  "snaktype": "value",
+                  "property": "P5017",
+                  "hash": "99e398ba211bfaf6419f31c2b31bc643c8b02b84",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-01-14T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P5017"
+            ],
+            "id": "Q3276$488E2039-BDE7-42E5-A83A-A55747C8B002",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "استكشاف المشتري",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Даследаванні Юпітэра касмічнымі апаратамі",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "বৃহস্পতি অভিযান",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Exploració de Júpiter",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Εξερεύνηση του Δία",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Exploration of Jupiter",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Exploración de Júpiter",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Exploration du système jovien",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Penjelajahan Jupiter",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Esplorazione di Giove",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "木星探査",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "목성 탐사",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Истражување на Јупитер",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Utforskningen av Jupiter",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Exploração de Júpiter",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Explorarea planetei Jupiter",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Исследование Юпитера межпланетными аппаратами",
+          "badges": []
+        },
+        "ruwikinews": {
+          "site": "ruwikinews",
+          "title": "Категория:Исследование Юпитера межпланетными аппаратами",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Дослідження Юпітера",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Thăm dò Sao Mộc",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "木星探測",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

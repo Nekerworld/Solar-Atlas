@@ -1,0 +1,604 @@
+{
+  "entities": {
+    "Q1062509": {
+      "type": "item",
+      "id": "Q1062509",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "전주계열성"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "주계열에 아직 도달하지 않은 단계의 별"
+        }
+      },
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "PMS 스타"
+          }
+        ]
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "c580bbc0a91691ca3dd13600fc6f87f83192fb17",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 179600,
+                  "id": "Q179600"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1062509$31e0c6d6-453f-a200-922b-7a14d7383ba5",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "b6d0b60e2a342f7340794353340d54a640e1ccd6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 17444909,
+                  "id": "Q17444909"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1062509$AF0948CA-CA0F-4673-ADEE-86DE503DD129",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "24d17a68d99180a89dba2528290a4b260bd519bd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 523,
+                  "id": "Q523"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1062509$e741aeea-4043-6816-8a0d-46bd5d27edba",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "b5f8973d32e1a5a86721f482ecadbd6adabc205c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 497654,
+                  "id": "Q497654"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1062509$57d3b637-424f-fb3b-115f-b66f0beec505",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "04f90f3bb999be47421b12e7a509f8c793db1a4a",
+              "datavalue": {
+                "value": "/m/0dsg6f",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1062509$4D3A7EED-E6E5-480F-AFC3-63FE8BCDE65D",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "5a6d4c317db7d4136ca0b433becf4a0a635c0e1f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8789391,
+                  "id": "Q8789391"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1062509$9A3A3A9C-E8EE-42D1-86AD-06C9E3586F18",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "0ee3b3ba1c958f4c3dcba7ed8091fe4b57311348",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "cb49f6fa327b245e4a5aaf48c44b3f503bcd4265",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 30239,
+                          "id": "Q30239"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P361": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P361",
+              "hash": "e1516c9d54bc61f5318737ea15029fa3e9d3dd41",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 16744,
+                  "id": "Q16744"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1062509$5107ce40-431b-d031-6023-7aca5c130fda",
+            "rank": "normal"
+          }
+        ],
+        "P4466": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4466",
+              "hash": "84e0b253c057cb9e7e52566812d710e62e0ed2d2",
+              "datavalue": {
+                "value": "1290",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1062509$3D18E477-7B76-455E-9EBF-A91EE5C076CA",
+            "rank": "normal"
+          }
+        ],
+        "P2581": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2581",
+              "hash": "ec5eba90bda3c0d1d290903b48f3982a5f063755",
+              "datavalue": {
+                "value": "03358529n",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1062509$21B6FDE4-6621-4D1A-9C25-245585D5329C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "248ac337a217a5f5eed7139a82a4e60931611af0",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "25b816aab41db18565946259c950aed6de05dd1e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4837690,
+                          "id": "Q4837690"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "a4d1517717265880f0fa105656fff92787709a63",
+              "datavalue": {
+                "value": "107408389",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1062509$FD973663-340F-4A18-8FCC-57C0EE30C2BB",
+            "rank": "normal"
+          }
+        ],
+        "P10565": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10565",
+              "hash": "e5e55a69d27785fdbc1d71952a602010e30aa5b2",
+              "datavalue": {
+                "value": "66151",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1062509$87D5D882-5E03-442A-A666-4254CD97294C",
+            "rank": "normal"
+          }
+        ],
+        "P10376": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "982a37d04e67df327f4e8325c0b71ad018b1462c",
+              "datavalue": {
+                "value": "physics-and-astronomy/pre-main-sequence-stars",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1062509$0f2421dc-4eec-09ce-2587-da664ba79262",
+            "rank": "normal"
+          }
+        ],
+        "P11408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11408",
+              "hash": "c140e2926aaf0dddbeaed2d79326a8c0c3585568",
+              "datavalue": {
+                "value": "前主系列星",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1062509$60fd0d23-4c5c-9884-3bce-f9e059199e3f",
+            "rank": "normal"
+          }
+        ],
+        "P14541": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14541",
+              "hash": "4e226753641b3c30f9b1a350cde456d3feb9d089",
+              "datavalue": {
+                "value": "3XFfyB",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "ccaace08776079602b2c6377c3b2007a751cf583",
+                  "datavalue": {
+                    "value": "主序前恒星",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P5017": [
+                {
+                  "snaktype": "value",
+                  "property": "P5017",
+                  "hash": "4102f68ef6a3e38f38a98753d6cc1bfbff5c97c5",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-01-20T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P5017"
+            ],
+            "id": "Q1062509$AC2DB864-1CF5-414D-992F-474E659FE222",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Voorhoofreeksster",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "نجم ما قبل التتابع الرئيس",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Predglavni niz",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Estrella preseqüència principal",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Hvězda před hlavní posloupností",
+          "badges": []
+        },
+        "cvwiki": {
+          "site": "cvwiki",
+          "title": "Тĕп умлăн-хыçлăнлăхченхи çăлтăр",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Pre-main-sequence star",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Estrella presecuencia principal",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Sekuentzia nagusiko aurreko izar",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "ستاره پیش‌رشته اصلی",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Étoile de la pré-séquence principale",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "मुख्य अनुक्रम पूर्वी तारा",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Pra-deret utama",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Stella pre-sequenza principale",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "前主系列星",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "მთავარ მიმდევრობამდელი ვარსკვლავი",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "전주계열성",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Ѕвезда пред главната низа",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Bintang pra-jujukan utama",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Estrela pré-sequência principal",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Stea pre-secvența principală",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Звезда до главной последовательности",
+          "badges": [
+            "Q17559452"
+          ]
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Pre-main-sequence star",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Hviezda pred hlavnou postupnosťou",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "ดาวฤกษ์ก่อนแถบลำดับหลัก",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Anakol öncesi yıldız",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Зоря до головної послідовності",
+          "badges": []
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "Asosiy ketma-ketlikdagi yulduz",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Sao tiền dãy chính",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "主序前星",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

@@ -1,0 +1,4584 @@
+{
+  "entities": {
+    "Q9471": {
+      "type": "item",
+      "id": "Q9471",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "인식론"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P1036": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1036",
+              "hash": "817c280091eb7968700233d6aad82039d6197e2e",
+              "datavalue": {
+                "value": "121",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$f25b6bf1-4295-11a2-9862-1cb337f19eb3",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "25f0314da1bf2322aa98ed7af3264444017939ba",
+              "datavalue": {
+                "value": "Epistemology",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q9471$74203A05-32F2-44C3-A197-547FF3CB69C3",
+            "rank": "normal"
+          }
+        ],
+        "P508": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P508",
+              "hash": "b8c89c9cf10beda08365cfdb8da1b9900c1fdf7d",
+              "datavalue": {
+                "value": "9647",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "q9471$F4B204FE-1738-4F84-868A-8BEA4B53C0BB",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ff65511d37e885bcf005b99c2241192548c3f03a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "3b090a7bae73c288393b2c8b9846cc7ed9a58f91",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 16583225,
+                          "id": "Q16583225"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "66d068609eb29f64374f9092e61ddae90b328aac",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7217123,
+                  "id": "Q7217123"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$B6430D9B-412D-4E2F-9A05-2D319906E143",
+            "rank": "normal"
+          }
+        ],
+        "P349": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P349",
+              "hash": "2371e3646edb4ff2637550a61f62c76e87bfa51f",
+              "datavalue": {
+                "value": "00568521",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4070": [
+                {
+                  "snaktype": "value",
+                  "property": "P4070",
+                  "hash": "a4b1e29f045625ccf1db73d18a24295df654611d",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 116930361,
+                      "id": "Q116930361"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4070"
+            ],
+            "id": "Q9471$35930022-CE50-4B96-8B39-CF436FC68A1E",
+            "rank": "normal"
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "1e47e6b7331fc1fb1053e6282595fd84f7899b86",
+              "datavalue": {
+                "value": "4070914-0",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "d12530f6083e77025798dc21944fdc0324e7fddb",
+                  "datavalue": {
+                    "value": "Erkenntnistheorie",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P4970": [
+                {
+                  "snaktype": "value",
+                  "property": "P4970",
+                  "hash": "fce4de0c7de8c2a45ecaa67588d877d253486924",
+                  "datavalue": {
+                    "value": "Epistemologie <Erkenntnistheorie>",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P4970",
+                  "hash": "95f97194500f500718b5a708de24239289f82afc",
+                  "datavalue": {
+                    "value": "Epistologie",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P4970",
+                  "hash": "a0857091e54053e825a5657ae45cdd236453b450",
+                  "datavalue": {
+                    "value": "Erkenntnislehre",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P4970",
+                  "hash": "3cf88e6902ad166efa9bc49b00ec7087d6639085",
+                  "datavalue": {
+                    "value": "Erkenntnisphilosophie",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P4970",
+                  "hash": "5df2551109475878a709d8cb065e17234418f7d8",
+                  "datavalue": {
+                    "value": "Gnoseologie",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P4070": [
+                {
+                  "snaktype": "value",
+                  "property": "P4070",
+                  "hash": "a4b1e29f045625ccf1db73d18a24295df654611d",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 116930361,
+                      "id": "Q116930361"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P2241": [
+                {
+                  "snaktype": "value",
+                  "property": "P2241",
+                  "hash": "3881010e61ccbd44cd6782dbd023bbf030a45fa8",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 42415624,
+                      "id": "Q42415624"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P4970",
+              "P4070",
+              "P2241"
+            ],
+            "id": "Q9471$F8CD63B0-805D-4D96-89CE-27D2162E2BD2",
+            "rank": "deprecated",
+            "references": [
+              {
+                "hash": "e4d4ec5a1afeca0e2f4c059724541830d8108577",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "1e4128e5acf7bebe98a2e126dc36a831559ee591",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-01-24T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1051": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1051",
+              "hash": "b6f71c34d84eccb69820a93afe03f9548fac1c1f",
+              "datavalue": {
+                "value": "2626",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$A0CA4B11-05FE-481B-8A1E-9EC0C61119B9",
+            "rank": "normal"
+          }
+        ],
+        "P1014": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1014",
+              "hash": "5e744d5296b464c2d5678524173d3cb4ae921b56",
+              "datavalue": {
+                "value": "300054288",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$C9E29ED8-FDFB-4220-8F1A-0B52EAFEA235",
+            "rank": "normal"
+          }
+        ],
+        "P1343": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "62c309f8296338bd9647a7e758857137f3370310",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2657718,
+                  "id": "Q2657718"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$71FDB91E-AC66-44DD-AFF9-121FB3188AC2",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "88389772f86dcd7d415ddd029f601412e5cc894a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 602358,
+                  "id": "Q602358"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "5c8660afaeb27b785c002a55febf073eab1670d6",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 24409307,
+                      "id": "Q24409307"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q9471$596b90c1-1583-425a-8a73-a39e47cb53d4",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "91aefb914147f657d1a32384e9cab3a9e9cd29c5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7681254,
+                  "id": "Q7681254"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "24e3a6c6e3d8694c49a049fd2cd6886054673205",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 117751885,
+                      "id": "Q117751885"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q9471$012e9f23-4a84-2239-4854-0743536b3008",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "91aefb914147f657d1a32384e9cab3a9e9cd29c5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7681254,
+                  "id": "Q7681254"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "15cf76520970cfafb7b41a20fc00d2371c4669de",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 117755794,
+                      "id": "Q117755794"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q9471$02af9d62-473c-4d24-cde3-a284f50787fe",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "18e6d3e5a4b2e8891df3becff7db1570f149a24e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 20078554,
+                  "id": "Q20078554"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "dbd5cf36636cc30d0f45374f09a1be97212103c1",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 98717835,
+                      "id": "Q98717835"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q9471$45b01302-ca93-40d8-8323-560cbf78dfd6",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "f941f464699992e4566753a1941c6fc2a5d76644",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 22811234,
+                  "id": "Q22811234"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$db3ba96e-4353-b7ba-c7b5-36b5496fa9ee",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "268643f7616b17a65ab07205d157197194a34b60",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 138589449,
+                  "id": "Q138589449"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$4e7ff782-48b4-6825-f3c8-3ceb108f83e3",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "09e9f79d485281c48239878a97701949dc643f7c",
+              "datavalue": {
+                "value": "topic/epistemology",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "68a04edbad01949027b8b21a051cbef080339841",
+                  "datavalue": {
+                    "value": "epistemology / philosophy",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P2093": [
+                {
+                  "snaktype": "value",
+                  "property": "P2093",
+                  "hash": "dbb615b3e21d187afbf79d0dfc95e30182c9c1a3",
+                  "datavalue": {
+                    "value": "A.P. Martinich",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2093",
+                  "hash": "5b76e84fe1a94760e3cb344c8a5990fef007d666",
+                  "datavalue": {
+                    "value": "Avrum Stroll",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P2093"
+            ],
+            "id": "Q9471$F9EFD418-72F2-4318-8D01-7762A3527849",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c1b48834527bc85aca84ba209e3af1eecbbe3461",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "3e51278c4c89e53a5e0fd191932ecdded326439c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 728945,
+                          "id": "Q728945"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2578": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2578",
+              "hash": "986f73b2b797a22780916f7eb9d5c2e71b127d93",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9081,
+                  "id": "Q9081"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$01bdc9a8-46f1-4106-baa7-67e034101574",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2578",
+              "hash": "4f4274d2f196397a3409de6c33742920a266c4cc",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 336,
+                  "id": "Q336"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$ba1ffa2c-4d7d-0a3e-54b8-e29af6f61c8c",
+            "rank": "normal"
+          }
+        ],
+        "P3123": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3123",
+              "hash": "43b9bc902bebb5256880cb3d3f14111161c9906e",
+              "datavalue": {
+                "value": "epistemology",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "11c33b19c6fde71dab139c9e3e4fcd78d16156c6",
+                  "datavalue": {
+                    "value": "Epistemology",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P2093": [
+                {
+                  "snaktype": "value",
+                  "property": "P2093",
+                  "hash": "1c3386a36d12d7be585145ac2f8e5030dffa39e1",
+                  "datavalue": {
+                    "value": "Steup, Matthias",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2093",
+                  "hash": "cc0d199b6352253af632b2251e546d9679d54741",
+                  "datavalue": {
+                    "value": "Neta, Ram",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P577": [
+                {
+                  "snaktype": "value",
+                  "property": "P577",
+                  "hash": "bdadca2665003fee26f3a70ef70f8924ed5457b3",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2005-12-14T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P2093",
+              "P577"
+            ],
+            "id": "Q9471$AB206DFD-D104-48FE-AED8-4744D02CCE16",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3123",
+              "hash": "84fc894f0f999e6ce4e0a8f17d75db797e888d6a",
+              "datavalue": {
+                "value": "epistemology-india",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "e03b65ef550c3f8393bacb18a1a151524db02355",
+                  "datavalue": {
+                    "value": "Epistemology in Classical Indian Philosophy",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P2093": [
+                {
+                  "snaktype": "value",
+                  "property": "P2093",
+                  "hash": "7cb7a4bb47086ac562bcd38b4c75093ae07f419b",
+                  "datavalue": {
+                    "value": "Phillips, Stephen",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2093",
+                  "hash": "c00e27b8d337002025eb51b79ed738eecfefa4b3",
+                  "datavalue": {
+                    "value": "Vaidya, Anand",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P577": [
+                {
+                  "snaktype": "value",
+                  "property": "P577",
+                  "hash": "79867dd2e8b41b8e94df991d0eda3f0de19224da",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2011-03-03T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P2093",
+              "P577"
+            ],
+            "id": "Q9471$F03FE972-07CD-48E7-9E3B-CAF27ED2DA2B",
+            "rank": "normal"
+          }
+        ],
+        "P3222": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3222",
+              "hash": "b8620a50a1bebf6127510379baaca60e77c5cea8",
+              "datavalue": {
+                "value": "epistemologi",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$d8f06af1-4bfb-f4c4-b9d2-2a6ec73be50c",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3222",
+              "hash": "f896f5bf1bede8973fb0c0270e1dc2a6c8bf9566",
+              "datavalue": {
+                "value": "kunskapsteori",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2241": [
+                {
+                  "snaktype": "value",
+                  "property": "P2241",
+                  "hash": "60cf1edce27f0fd9ea3da666fb4aa6d1fa657e36",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 28091153,
+                      "id": "Q28091153"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P8327": [
+                {
+                  "snaktype": "value",
+                  "property": "P8327",
+                  "hash": "eb5a2a16567bff18cb11974c46ea31c87aa1b664",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 116930361,
+                      "id": "Q116930361"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2241",
+              "P8327"
+            ],
+            "id": "Q9471$e91b730f-4e83-73c5-fe12-64d50bc45383",
+            "rank": "deprecated"
+          }
+        ],
+        "P3417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3417",
+              "hash": "34d0d1dc95eaef32ea0885db341e131ea42cf359",
+              "datavalue": {
+                "value": "Epistemology",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$1D78C52C-5F62-4BC0-885E-B3DFF4BEFF76",
+            "rank": "normal"
+          }
+        ],
+        "P3365": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3365",
+              "hash": "97d660deaf02a81c18ee969ea8a688d73a2efa24",
+              "datavalue": {
+                "value": "epistemologia",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "f9f71ccc94d8efde4b9389ba9cce0fde171cd4b1",
+                  "datavalue": {
+                    "value": "epistemologia",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q9471$EE17D47C-6951-498C-A579-77D56B83C767",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5a343e7e758a4282a01316d3e959b6e653b767fc",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 11920,
+                          "id": "Q11920"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3569": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3569",
+              "hash": "fb423f4db2f82644ee8b96ec241c6a50d9bb9b8f",
+              "datavalue": {
+                "value": "filosofie/epistemologie",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$ED659EF8-7BD4-470E-BC2C-D967819DD634",
+            "rank": "normal"
+          }
+        ],
+        "P3827": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3827",
+              "hash": "3951bc42b10860c6df439efdecaff9fb4a9666da",
+              "datavalue": {
+                "value": "epistemology",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$8BB369D6-38B2-4460-8821-22F57F647964",
+            "rank": "normal"
+          }
+        ],
+        "P1424": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1424",
+              "hash": "7cfefde3291996371462c526768bc383b78b0808",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 10982022,
+                  "id": "Q10982022"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P3831": [
+                {
+                  "snaktype": "value",
+                  "property": "P3831",
+                  "hash": "cd874a9f13f6d83cf7142fcf1a11f81cdcbcd674",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 11753321,
+                      "id": "Q11753321"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P3831"
+            ],
+            "id": "Q9471$9D17D40C-1130-42A8-9031-AD8E329CE3F3",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1424",
+              "hash": "9127ce525434ee6b859f9f273129e4c042a258f7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7959380,
+                  "id": "Q7959380"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P3831": [
+                {
+                  "snaktype": "value",
+                  "property": "P3831",
+                  "hash": "55a617c31c61551b43843d69de71b2390a70c8b5",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 108094999,
+                      "id": "Q108094999"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P3831"
+            ],
+            "id": "Q9471$bea274ac-1406-45b8-a40f-f24cf1c95335",
+            "rank": "normal"
+          }
+        ],
+        "P3916": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3916",
+              "hash": "7f905df0216e48257425e563d65343a1646d6467",
+              "datavalue": {
+                "value": "concept282",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$7FF06B51-B148-48E2-9AFC-B0D1074B06FE",
+            "rank": "normal"
+          }
+        ],
+        "P3241": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3241",
+              "hash": "9b849b3b5faf02b41b380f6a9373512b077eedc3",
+              "datavalue": {
+                "value": "05506a",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$DC906C2B-CEB3-4B32-862F-E23937941165",
+            "rank": "normal"
+          }
+        ],
+        "P2581": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2581",
+              "hash": "95e857c64d3829b692ce4ead8f6febacb1e15881",
+              "datavalue": {
+                "value": "00031237n",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$B72DFAF0-4FAC-4665-B22F-51FC4C349EF9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "248ac337a217a5f5eed7139a82a4e60931611af0",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "25b816aab41db18565946259c950aed6de05dd1e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4837690,
+                          "id": "Q4837690"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P4613": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4613",
+              "hash": "973172f3c6695ef0d8b7dfbd3240f134ef39dc4e",
+              "datavalue": {
+                "value": "17940",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$78FF6751-859F-4706-A670-0C213FE2E8F8",
+            "rank": "normal"
+          }
+        ],
+        "P3219": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3219",
+              "hash": "7028e42ccaaf6415cb15a1dbac0f0c66368752fc",
+              "datavalue": {
+                "value": "epistemologie",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$FEF84C63-AD74-45B5-B605-97BA24809CE2",
+            "rank": "normal"
+          }
+        ],
+        "P5008": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5008",
+              "hash": "d8037e40c3d12c404489a97a78937213939ff1cd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5460604,
+                  "id": "Q5460604"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$4C149871-B3CC-4F11-A4F6-385FD41B1BA2",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5008",
+              "hash": "136e3fbe19158e73e4bfebf3f2d98a9df8638b7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6173448,
+                  "id": "Q6173448"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "7661f66dd5b82a1ea92515ddb16c09ce3088edea",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-10-31T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585"
+            ],
+            "id": "Q9471$692E0641-F716-4B42-A7FB-BA768EFC56ED",
+            "rank": "normal"
+          }
+        ],
+        "P5125": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5125",
+              "hash": "bd579a481c9227e48cc2c47e23d2c4146a1fb567",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7112624,
+                  "id": "Q7112624"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$747192F7-33BD-4AC0-9C3C-611ECAEEF1A6",
+            "rank": "normal"
+          }
+        ],
+        "P5198": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5198",
+              "hash": "77194d5e17f5dbc2fc5a560abf0fece488f91706",
+              "datavalue": {
+                "value": "294910212",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$77E0B67C-F1E2-46F6-934C-B9288D46C8DA",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "79edfa1a06cafd8628dfe2d34e2b666a3a0f6709",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "07bce20409df9893dbeaf5cb676993d94c44fcab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 54856619,
+                          "id": "Q54856619"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "2aba6f84692a5130d57a35d59700002e93e420de",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-06-13T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3235": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3235",
+              "hash": "7e8688a5e73ed084b0c684f896fc42aa16851e0d",
+              "datavalue": {
+                "value": "epistemology",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$896807BA-9955-4422-B0D0-D1B706BC6CA7",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3235",
+              "hash": "71452b06b0e9777af6a013648055fffd977b8810",
+              "datavalue": {
+                "value": "theories-of-knowledge",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$326EEF1A-11B6-4280-9715-A126D59EEA6A",
+            "rank": "normal"
+          }
+        ],
+        "P5748": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5748",
+              "hash": "1a150f317e2340bc06425956657d9af6ea5000fa",
+              "datavalue": {
+                "value": "08.32",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$2CF1239B-5496-47FA-B421-12EF12EEF1D3",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "0c4c8f199aec5be74a1510c3633e664f5e250117",
+              "datavalue": {
+                "value": "4 Pramanas, epistemology according to ancient Nyayasutras.svg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q9471$905e3977-4332-f6bd-6ef4-27a480c4e6b1",
+            "rank": "normal"
+          }
+        ],
+        "P244": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P244",
+              "hash": "bf6f37725e820ff1b1076ecdbf88a1d21502eaa7",
+              "datavalue": {
+                "value": "sh85072732",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4070": [
+                {
+                  "snaktype": "value",
+                  "property": "P4070",
+                  "hash": "a4b1e29f045625ccf1db73d18a24295df654611d",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 116930361,
+                      "id": "Q116930361"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4070"
+            ],
+            "id": "Q9471$61FF344A-6ED3-4306-96C3-A18D785CA040",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ac5d47e9fbcc281bc0d27a205ae02e22ad24ce31",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "b560dc6b281a39d061e189d2eb299a426a06f1a2",
+                      "datavalue": {
+                        "value": "https://github.com/JohnMarkOckerbloom/ftl/blob/master/data/wikimap",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "0dcf4f64e93fdcc654e2c7534285881fe48b9f3d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2019-04-03T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P5088": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5088",
+              "hash": "184f7d2ff427507b93c90873005df419b764bbe7",
+              "datavalue": {
+                "value": "epistemo",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "11c33b19c6fde71dab139c9e3e4fcd78d16156c6",
+                  "datavalue": {
+                    "value": "Epistemology",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P2093": [
+                {
+                  "snaktype": "value",
+                  "property": "P2093",
+                  "hash": "4e3a958b41fe656e73f10f76735e9ae88e3bb13b",
+                  "datavalue": {
+                    "value": "David A. Truncellito",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P2093"
+            ],
+            "id": "Q9471$B766F16D-6EFC-4825-ABCB-35D27EC90BB3",
+            "rank": "normal"
+          }
+        ],
+        "P5922": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5922",
+              "hash": "a252cde22c02463b32bf5c86cd1f488fd0f3b973",
+              "datavalue": {
+                "value": "220304",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "11c33b19c6fde71dab139c9e3e4fcd78d16156c6",
+                  "datavalue": {
+                    "value": "Epistemology",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q9471$5BDC4481-0339-4AC8-81EF-2F368A8CBE72",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "aca21d228fc9c5c1729c6c32984fb0807bdf2acf",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "dbb7486ffe94fe9cefdc70ab1df27ce8841505e0",
+                      "datavalue": {
+                        "value": "https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1297.02008?OpenDocument",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P4212": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4212",
+              "hash": "6f8190e276023e51a1776c60a918fc5d3f508d53",
+              "datavalue": {
+                "value": "pcrtn2WwALfKoW",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$AC91DFA9-BEF3-426A-A6FA-2455E6A01A92",
+            "rank": "normal"
+          }
+        ],
+        "P691": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P691",
+              "hash": "77f8c0aeabde8ea06f085461e3af9bff89b847f7",
+              "datavalue": {
+                "value": "ph116428",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "3867b4327d5857d9402a835d521c1627a6214e62",
+                  "datavalue": {
+                    "value": "teorie poznání",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q9471$a31efac5-4ae5-a7ee-2836-f96ce54d45bf",
+            "rank": "normal"
+          }
+        ],
+        "P1245": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1245",
+              "hash": "5f3430cc5c6fc9498d672c88d2e46e2cfdca2e78",
+              "datavalue": {
+                "value": "671888",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$926D1178-E03A-4C76-902E-46533F10E7E6",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "dcb60fa6afbf977d5afb1c65c9eace15b686a9d7",
+              "datavalue": {
+                "value": "111472728",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$6033904E-B377-4C08-99EF-0D880FF0F40D",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "32f5b01315be565d68ca5deb48357d8a616698f6",
+              "datavalue": {
+                "value": "2778056448",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$28A60F3D-0C3B-4B25-87B3-9E23BCCD175F",
+            "rank": "normal"
+          }
+        ],
+        "P7993": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7993",
+              "hash": "a460be4d8d75b7b35d8ca457ebad7384d8b6725f",
+              "datavalue": {
+                "value": "epistemologia",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "f9f71ccc94d8efde4b9389ba9cce0fde171cd4b1",
+                  "datavalue": {
+                    "value": "epistemologia",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P577": [
+                {
+                  "snaktype": "value",
+                  "property": "P577",
+                  "hash": "0a7a83a4bf3aeb8d136cc85ef3c23538c4654940",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2009-01-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P577"
+            ],
+            "id": "Q9471$381665DC-1EC4-4053-8F36-F57B8571030F",
+            "rank": "normal"
+          }
+        ],
+        "P8408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8408",
+              "hash": "6b809f50cf6e800f98a17d7ad9ae4aa5845fd156",
+              "datavalue": {
+                "value": "Epistemology",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$303E1187-2BE6-4680-A100-998C6A02091F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64139102,
+                          "id": "Q64139102"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-07-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "576216d334c8413924248c8abe7cc870689ce493",
+              "datavalue": {
+                "value": "/m/02jcc",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$840CEADA-3E12-4D25-96D4-15B7F9628326",
+            "rank": "normal"
+          }
+        ],
+        "P8248": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8248",
+              "hash": "e6c6edd493839ec25628156e5572041ba71dcedd",
+              "datavalue": {
+                "value": "R2",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P747": [
+                {
+                  "snaktype": "value",
+                  "property": "P747",
+                  "hash": "050115e00610f532de12a73d97ee504d8443bfb7",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 95449814,
+                      "id": "Q95449814"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P747"
+            ],
+            "id": "Q9471$1EB4AF09-7534-4379-88AC-A5F64C359D19",
+            "rank": "normal"
+          }
+        ],
+        "P3553": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3553",
+              "hash": "49e416697339b3bff95843c12c62294d32fe7d03",
+              "datavalue": {
+                "value": "19934372",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "00361256cbb40af29936c0caa29f48e879bfd985",
+                  "datavalue": {
+                    "value": "知识论",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q9471$8D19D1B9-D2A1-4584-9D1B-CC57B60CD5F1",
+            "rank": "normal"
+          }
+        ],
+        "P8529": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8529",
+              "hash": "a4e0289f0c7c384a521bb81e8f7fa7f985730c2b",
+              "datavalue": {
+                "value": "500305",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "11c33b19c6fde71dab139c9e3e4fcd78d16156c6",
+                  "datavalue": {
+                    "value": "Epistemology",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q9471$47ACD64A-3E67-4A36-9EE2-A0A56E97457B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "0ff4cf71ef08665b113306182a9062a398d62e07",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "e5b09df61b8c96c7f6e7af441bf7703b59aab265",
+                      "datavalue": {
+                        "value": "https://vocabs.ardc.edu.au/viewById/316",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P4342": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4342",
+              "hash": "20965899318c05482bf6b8d8ae08d84cf985cfc6",
+              "datavalue": {
+                "value": "erkjennelsesteori",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2241": [
+                {
+                  "snaktype": "value",
+                  "property": "P2241",
+                  "hash": "60cf1edce27f0fd9ea3da666fb4aa6d1fa657e36",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 28091153,
+                      "id": "Q28091153"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P8327": [
+                {
+                  "snaktype": "value",
+                  "property": "P8327",
+                  "hash": "eb5a2a16567bff18cb11974c46ea31c87aa1b664",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 116930361,
+                      "id": "Q116930361"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2241",
+              "P8327"
+            ],
+            "id": "Q9471$c2734e2d-425d-536e-f8fd-3935227af55e",
+            "rank": "deprecated"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4342",
+              "hash": "e3f046ea7e93134254780ad8c7592d97e9ae2d67",
+              "datavalue": {
+                "value": "epistemologi",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$CAEF7884-A6B1-4659-8A05-DEC790297864",
+            "rank": "normal"
+          }
+        ],
+        "P8189": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8189",
+              "hash": "0fed4801e5c963549fef5de6177ca0834737fc05",
+              "datavalue": {
+                "value": "987007545794105171",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4070": [
+                {
+                  "snaktype": "value",
+                  "property": "P4070",
+                  "hash": "a4b1e29f045625ccf1db73d18a24295df654611d",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 116930361,
+                      "id": "Q116930361"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "503b1ae4ebaffe6dba0c4ee5060e0ea7e5501269",
+                  "datavalue": {
+                    "value": {
+                      "text": "Knowledge, Theory of",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "e55ad28b8ea11c921beabac2c41ede57a2538dad",
+                  "datavalue": {
+                    "value": {
+                      "text": "תורת ההכרה",
+                      "language": "he"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "b16c6ae45ebb923b1e13164c21388745020a4901",
+                  "datavalue": {
+                    "value": {
+                      "text": "المعرفة، نظرية",
+                      "language": "ar"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4070",
+              "P14457"
+            ],
+            "id": "Q9471$C0A07711-7FBD-4643-A862-5BF4AEDE9E83",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c8a47202c92936005b390eb36ddd267921b51f43",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "0ea73b3596b49258a7b7ec6495950779b99e875d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 188915,
+                          "id": "Q188915"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P10283": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "16e38ba976cd727a1e18ee6b5ec505ee14341a97",
+              "datavalue": {
+                "value": "C111472728",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$E091502A-005D-4654-8499-E8DCD8AB30CC",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c13ba4d7902ead2693f79396bc25bd35d4d14030",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8313": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8313",
+              "hash": "c94b39ae9896e31c926026599fcfebb566a71d26",
+              "datavalue": {
+                "value": "erkendelsesteori",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2241": [
+                {
+                  "snaktype": "value",
+                  "property": "P2241",
+                  "hash": "60cf1edce27f0fd9ea3da666fb4aa6d1fa657e36",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 28091153,
+                      "id": "Q28091153"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P8327": [
+                {
+                  "snaktype": "value",
+                  "property": "P8327",
+                  "hash": "eb5a2a16567bff18cb11974c46ea31c87aa1b664",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 116930361,
+                      "id": "Q116930361"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2241",
+              "P8327"
+            ],
+            "id": "Q9471$D50BA873-027E-4499-810B-E95E80711196",
+            "rank": "deprecated"
+          }
+        ],
+        "P9100": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9100",
+              "hash": "81386f38fc0fa6d13759eb4e2352c692e96fad9b",
+              "datavalue": {
+                "value": "epistemology",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$C3166E58-726D-44F5-A3DC-7EA4D0E6D08C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "b0980caef85c7331cc0da327aa26af2e5164d67f",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "00dd7b1d843d97a95c1c10201ea1139a8433b6a6",
+                      "datavalue": {
+                        "value": "https://github.com/topics/epistemology",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "160342b9976a1c6ab96928d27c330b2c18ed0b3e",
+                      "datavalue": {
+                        "value": {
+                          "text": "epistemology · GitHub Topics · GitHub",
+                          "language": "en"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "3d3fa1877133466b577ad31145c6c9d1b711fda7",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-03-20T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P1476",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2347": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2347",
+              "hash": "b5ae04e8aa75d0287d92a129bbb06012726cca1b",
+              "datavalue": {
+                "value": "15994",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "87dcdbc1120e00bb2ded446bcf22c6eddc9b7bb4",
+                  "datavalue": {
+                    "value": {
+                      "text": "tietoteoria",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "ff8af5fca72664c02cf546e56f605a45798ecb9c",
+                  "datavalue": {
+                    "value": {
+                      "text": "kunskapsteori",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "c7d496dd3df14e4691d7f64bc593d9c99507d594",
+                  "datavalue": {
+                    "value": {
+                      "text": "theory of knowledge",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "a801dabf6110f0b6ef89bbf19a8e44efe3789e1f",
+                  "datavalue": {
+                    "value": {
+                      "text": "diehtoteoriija",
+                      "language": "se"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P14458": [
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "808c91d1d77a5a282946ef3705e8393feb7be469",
+                  "datavalue": {
+                    "value": {
+                      "text": "gnoseologia",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "1cac6588776610dfb1a0f1ed6de66eea50829260",
+                  "datavalue": {
+                    "value": {
+                      "text": "tieto-oppi",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "c93ea4ec882321ca0e37e2e49fb5916d4c348b07",
+                  "datavalue": {
+                    "value": {
+                      "text": "epistemology",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "e7d31493b00c81d08276d634446ce24c4c599be8",
+                  "datavalue": {
+                    "value": {
+                      "text": "epistemologiija",
+                      "language": "se"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "a2c19123005351412c093b2e59fc3a9b8e6ef34c",
+                  "datavalue": {
+                    "value": {
+                      "text": "epistemologia",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "2e682a1918fcce70111780c45e8e3a047a4dddad",
+                  "datavalue": {
+                    "value": {
+                      "text": "gnoseologi",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "3b4d6f884e8e3332661267dd688f143a23ed31c7",
+                  "datavalue": {
+                    "value": {
+                      "text": "epistemologi",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P14457",
+              "P14458"
+            ],
+            "id": "Q9471$412246ED-32D0-4C3B-A00C-A862348BA57F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f34d06254e6a4a15179c05cb7f2f802541911d94",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "7133f11674741f52cadaae6029068fad9cbb52e3",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 89345680,
+                          "id": "Q89345680"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ef20b919969b873f4e7d584984df51e3bad6826e",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-04-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1482": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1482",
+              "hash": "d9623695091b85f57e5712aec706b58419f41b5a",
+              "datavalue": {
+                "value": "https://philosophy.stackexchange.com/tags/epistemology",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q9471$8fea6c7e-463b-bad4-10ab-99d76e1b99ba",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1482",
+              "hash": "88005d0a0d9559ae05ffcbc45062b594e2deb7f0",
+              "datavalue": {
+                "value": "https://physics.stackexchange.com/tags/epistemology",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q9471$38558104-442c-e968-0918-5eafeb68fcce",
+            "rank": "normal"
+          }
+        ],
+        "P10782": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10782",
+              "hash": "4dec1ba8770622880b491a3fa9219699bbbf62eb",
+              "datavalue": {
+                "value": "154",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$AFFEBAC4-3B34-4A2F-BD2E-90E91F9D977D",
+            "rank": "normal"
+          }
+        ],
+        "P3095": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3095",
+              "hash": "c86f603107fe77ddb34cf5cefcabf893016c949f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 15632482,
+                  "id": "Q15632482"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$e188da00-428a-0846-bc26-c5bb49177667",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "0099ca83fdc71b948440cc63cc44d4a155d165bd",
+              "datavalue": {
+                "value": "/g/121swzrd",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$5831D5FC-3664-4AC7-975F-06D361E1076A",
+            "rank": "normal"
+          }
+        ],
+        "P7305": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7305",
+              "hash": "80c31bdfaa6fd1dfd689f319ab3c0c246b9e69a6",
+              "datavalue": {
+                "value": "3901023",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$6b45df54-4441-7532-7225-73e037882009",
+            "rank": "normal"
+          }
+        ],
+        "P460": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P460",
+              "hash": "a8ba49dd19987ecb3ffa2be0277da9bf18af81f1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2560959,
+                  "id": "Q2560959"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$32E6BEAA-FD6B-4E43-BB2A-003813C0BD56",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P460",
+              "hash": "5096e1c782aa5402edda370f18a9c6045266ae61",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 116930361,
+                  "id": "Q116930361"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$95fe7a06-4d32-9865-629b-67525b4450cd",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9f4a182ba67115e48dfdfbba90a74e7f33971b04",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "cfd11f7c04110b0603d553a1199eaf49aa27886c",
+                      "datavalue": {
+                        "value": "https://doi.org/10.1515/kjps-2017-0010",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "56d9769a5c1ef7b02977bded0d750f3c560d8e22",
+                      "datavalue": {
+                        "value": {
+                          "text": "The Meaning of “Epistemology” Science, Common Sense and Philosophy according to Émile Meyerson",
+                          "language": "en"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P2093": [
+                    {
+                      "snaktype": "value",
+                      "property": "P2093",
+                      "hash": "b3a26f3698982bfc19b1f175a183558aeacbae01",
+                      "datavalue": {
+                        "value": "Frédéric Fruteau de Laclos",
+                        "type": "string"
+                      },
+                      "datatype": "string"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "66c49388cbb454ced3e0db8886d7932e2e0f6b96",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2017-12-19T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P407": [
+                    {
+                      "snaktype": "value",
+                      "property": "P407",
+                      "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 1860,
+                          "id": "Q1860"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "0001e237062277b92911396806b9af8ca62002a5",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-11-07T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P1476",
+                  "P2093",
+                  "P577",
+                  "P407",
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P460",
+              "hash": "6a34655dea249c131cb13fe40d7b2bb867ab8f02",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 59115,
+                  "id": "Q59115"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$9faba45c-4aa4-2f7c-1185-a103adc562d2",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9f4a182ba67115e48dfdfbba90a74e7f33971b04",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "cfd11f7c04110b0603d553a1199eaf49aa27886c",
+                      "datavalue": {
+                        "value": "https://doi.org/10.1515/kjps-2017-0010",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "56d9769a5c1ef7b02977bded0d750f3c560d8e22",
+                      "datavalue": {
+                        "value": {
+                          "text": "The Meaning of “Epistemology” Science, Common Sense and Philosophy according to Émile Meyerson",
+                          "language": "en"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P2093": [
+                    {
+                      "snaktype": "value",
+                      "property": "P2093",
+                      "hash": "b3a26f3698982bfc19b1f175a183558aeacbae01",
+                      "datavalue": {
+                        "value": "Frédéric Fruteau de Laclos",
+                        "type": "string"
+                      },
+                      "datatype": "string"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "66c49388cbb454ced3e0db8886d7932e2e0f6b96",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2017-12-19T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P407": [
+                    {
+                      "snaktype": "value",
+                      "property": "P407",
+                      "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 1860,
+                          "id": "Q1860"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "0001e237062277b92911396806b9af8ca62002a5",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-11-07T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P1476",
+                  "P2093",
+                  "P577",
+                  "P407",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8370": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8370",
+              "hash": "76862c7134792a6684cdb661c385eeff0346b345",
+              "datavalue": {
+                "value": "1002098",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$5E35B018-428F-4BAE-9CAF-AE5CED4ED29B",
+            "rank": "normal"
+          }
+        ],
+        "P3710": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3710",
+              "hash": "d541951aa54b531eb2cd92d3941bc947adfdb77f",
+              "datavalue": {
+                "value": "3449",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$5eee1fa5-4fd1-6e32-33ae-284377c2a47a",
+            "rank": "normal"
+          }
+        ],
+        "P1617": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1617",
+              "hash": "219d8f4690df2e3438381d402cb5671babe95645",
+              "datavalue": {
+                "value": "9c08cbc5-e71a-4eb0-b830-84637ca4eac9",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$79DE8A30-C261-4CD7-B1C7-15656FF0FDCF",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8582d8416671f1f2567247201bac753552435ca5",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "ea55dc6ac5c3ab77c77d4ae7979e3276d0d4cd20",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 18336371,
+                          "id": "Q18336371"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P950": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P950",
+              "hash": "e29cabf9685605b3fac168d933cbb383c1d3f87e",
+              "datavalue": {
+                "value": "XX526258",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$BD5D670A-A2EC-4D25-804F-74665CAB68D3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "07f90256001fbeba7ca2adb8df51d89d150f8f67",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "f0094b041fc8f052ea2ba8614aa130e4dc59ce99",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 97285695,
+                          "id": "Q97285695"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "f5749e3a8641338fde01fd5b48823d07ffd4929f",
+                      "datavalue": {
+                        "value": {
+                          "text": "Registros de autoridad de \"Materia\" de la Biblioteca Nacional de España",
+                          "language": "es"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "68cb1f2679543f92423b7cbadc891a595dbdba89",
+                      "datavalue": {
+                        "value": "https://www.bne.es/media/datosgob/catalogo-autoridades/materia/materia-UTF8.zip",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "11f94d433f27563cf0d9161bfc4a8dd9ec756612",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-07-21T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P1476",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3911": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3911",
+              "hash": "d25f0e6317adaaec5cd1dbddd20c37b08811e20c",
+              "datavalue": {
+                "value": "16708-4",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4390": [
+                {
+                  "snaktype": "value",
+                  "property": "P4390",
+                  "hash": "1a4df62914ea9afca349bd5fb5d8efd5832d83fa",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 39893449,
+                      "id": "Q39893449"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4390"
+            ],
+            "id": "Q9471$2E16654A-6848-4912-961F-B45E20F63AD7",
+            "rank": "normal"
+          }
+        ],
+        "P6058": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6058",
+              "hash": "f43d1164942351b3b0c6381517a8b4b077e91acd",
+              "datavalue": {
+                "value": "divers/épistémologie/48862",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$5a5a3b2d-44c3-324f-6e1a-324b7c5f746f",
+            "rank": "normal"
+          }
+        ],
+        "P1149": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1149",
+              "hash": "7b96d5628d05763ab50abd3a53da9ffc05ad7aa0",
+              "datavalue": {
+                "value": "BD143-BD237",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$e1761b35-4dfe-a4eb-870e-4cd2b0c2d4b0",
+            "rank": "normal"
+          }
+        ],
+        "P12800": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12800",
+              "hash": "a4bf607be067d64e7face99738b2ab21ba0e68f5",
+              "datavalue": {
+                "value": "fr:Épistémologie",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$35E9A628-33B2-4E00-A1A0-87043BF4936F",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "9d47e8d8b5d59d3aeccffcc49c01edd5be16221d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2166096,
+                  "id": "Q2166096"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$bed33ec3-46b9-adf8-572c-bb431e70d409",
+            "rank": "preferred"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "0b7ab7adf5d1f1bdf0817c750aec2b9366e4261b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5891,
+                  "id": "Q5891"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$1f7ed63c-41a1-997f-4134-bcc2814b9d00",
+            "rank": "normal"
+          }
+        ],
+        "P10565": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10565",
+              "hash": "7cb22903ea6508adcf833c7746a39c9a6f07c415",
+              "datavalue": {
+                "value": "409003",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$D87F796D-69C6-47CC-B0DD-7B03DB264533",
+            "rank": "normal"
+          }
+        ],
+        "P2163": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2163",
+              "hash": "6375af41f8dfd079423e3cd625e22af5bb191046",
+              "datavalue": {
+                "value": "988194",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4070": [
+                {
+                  "snaktype": "value",
+                  "property": "P4070",
+                  "hash": "a4b1e29f045625ccf1db73d18a24295df654611d",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 116930361,
+                      "id": "Q116930361"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4070"
+            ],
+            "id": "Q9471$ca231f67-4e64-92fa-00df-a9adc1721522",
+            "rank": "normal"
+          }
+        ],
+        "P268": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P268",
+              "hash": "83042217db7d895d96489f7d0da60ab2205de47a",
+              "datavalue": {
+                "value": "119339193",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$251c876c-4a31-df91-8084-32d9e3c68962",
+            "rank": "normal"
+          }
+        ],
+        "P11093": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11093",
+              "hash": "6c87a29abec7ab1d25c9c022ccaf65d4fb247f46",
+              "datavalue": {
+                "value": "bilgi_felsefesi",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$B2E0C5BF-2F05-46E7-9848-B190B0843D1D",
+            "rank": "normal"
+          }
+        ],
+        "P13591": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13591",
+              "hash": "1ea8bc03d7a89f619aadb7deb9a54f109b6a11c3",
+              "datavalue": {
+                "value": "concept/7efccd1f-6648-4bbe-b2d4-efdfe494e7a9",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$C4A7A639-986B-47E4-8862-746EF167AD8E",
+            "rank": "normal"
+          }
+        ],
+        "P13750": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13750",
+              "hash": "1f11f23507e92ce243aeb73ae0af09f65d6e9695",
+              "datavalue": {
+                "value": "1196",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$09D035A3-246D-4601-BAB0-8706BD4ED961",
+            "rank": "normal"
+          }
+        ],
+        "P6104": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6104",
+              "hash": "409690bcc20e50081ea5da01314d364349a7dfc9",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21830611,
+                  "id": "Q21830611"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$a41775ff-45e8-84af-53fb-4e59643e8eec",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6104",
+              "hash": "02b79facae4055f2d5353a0714c4783bf8eb6163",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21830620,
+                  "id": "Q21830620"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$3cc6cb37-41e5-788b-c28b-5ce91610afae",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6104",
+              "hash": "b645793c1465ae8677cd10e15eaf2336ca15a840",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8503311,
+                  "id": "Q8503311"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$40679e23-4d76-f107-471d-5abbe4bb2b13",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6104",
+              "hash": "b17e2db2b0a63b87fc0e695ec4fb0479fe50775d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8503229,
+                  "id": "Q8503229"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$4f8383e5-4a07-44e5-a95e-c768385c59df",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6104",
+              "hash": "52e9062a504e937eaba7d21e69c2e3efb616ec81",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 11343063,
+                  "id": "Q11343063"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$03909771-4fbe-0798-57b1-7ec2e037aeb5",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6104",
+              "hash": "030b04f04d8f19b989b845386a8631c707bc2e26",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 15884861,
+                  "id": "Q15884861"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q9471$2233ddd6-427d-f1d7-a284-70441df66fb4",
+            "rank": "normal"
+          }
+        ],
+        "P13613": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13613",
+              "hash": "67cd424c24c7560273ef17c48b3721abebf56d3f",
+              "datavalue": {
+                "value": "120555",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$01346030-4c84-d218-a085-51d0100e5b22",
+            "rank": "normal"
+          }
+        ],
+        "P7666": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7666",
+              "hash": "2a66f2f515df279a53786c88e54f8887e72b825b",
+              "datavalue": {
+                "value": "epistemologija",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$206fe920-49f7-aa60-d7f0-ffc36791a86a",
+            "rank": "normal"
+          }
+        ],
+        "P2924": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2924",
+              "hash": "70d6de176df62c101169e0aadfda310026d3c3a3",
+              "datavalue": {
+                "value": "4187767",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$1ca96c11-4d00-4031-d607-a2059a07f539",
+            "rank": "normal"
+          }
+        ],
+        "P14483": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14483",
+              "hash": "89a27cc14143c2e3d0766f9db8b96fc7e7a569c1",
+              "datavalue": {
+                "value": "e/epistemologia",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$70BDDBD1-5A24-4CFE-9062-B4CB919CFF90",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "07ab84aba96d15c098a2d247c6103738c19b76ff",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "d7257aa7889291e421ac4d9b7b14970b293da9b7",
+                      "datavalue": {
+                        "value": "https://www.wikitolica.com/e/epistemologia/",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "89d5568c15f4d2042c6662dcd41d2d92b9315a59",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-05-27T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P9322": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9322",
+              "hash": "60c059909aecee4d058397ff9fb226f519cec521",
+              "datavalue": {
+                "value": "h0000231-teorie-poznani",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$98619663-87F2-48B8-949A-04439561AFA3",
+            "rank": "normal"
+          }
+        ],
+        "P9106": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9106",
+              "hash": "64bc47ea0d719de719d3f9944ed4fa4358dbf43b",
+              "datavalue": {
+                "value": "8175",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$3DED6DF5-9963-4173-81C0-0409414BCACE",
+            "rank": "normal"
+          }
+        ],
+        "P9286": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9286",
+              "hash": "b8fbd59e008281a40f45582adec93a038c08e019",
+              "datavalue": {
+                "value": "Epistemología",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$AF8CC5BB-3B3E-4F7F-9A36-0339D24C6F0C",
+            "rank": "normal"
+          }
+        ],
+        "P4839": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4839",
+              "hash": "3731f796d98b4a1a0ba0d1895379bd5055067e82",
+              "datavalue": {
+                "value": "Entity[\"Concept\", \"Epistemology::c9xv5\"]",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$213CA958-1AC8-4ED2-A4BF-91BFFD2049CA",
+            "rank": "normal"
+          }
+        ],
+        "P4215": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4215",
+              "hash": "5bca7531e35fc2fb2d64b6d1702356862c3a4ec6",
+              "datavalue": {
+                "value": "epistemology",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$CEC844E4-4A45-4CB7-9DA8-198C24D0C0A6",
+            "rank": "normal"
+          }
+        ],
+        "P6706": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6706",
+              "hash": "0369caeaff04535f7a014597eb456f6a0ee04c3b",
+              "datavalue": {
+                "value": "epistemologìa",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$C7D57BAE-FCB5-4B68-B5A9-8C5D3808FCC0",
+            "rank": "normal"
+          }
+        ],
+        "P7982": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7982",
+              "hash": "a50c0d94846fd311d4dc6dae40d086d8a35e7ec8",
+              "datavalue": {
+                "value": "18148",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$299C7847-D3CC-44CF-9D56-90682D4C8DE2",
+            "rank": "normal"
+          }
+        ],
+        "P14541": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14541",
+              "hash": "b83a90c4eb9bb09a29eecd6ee14a7be44b199423",
+              "datavalue": {
+                "value": "yjk8B",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "637c1913e2bd60390788fd51f901188dab2e9f36",
+                  "datavalue": {
+                    "value": "认识论",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P5017": [
+                {
+                  "snaktype": "value",
+                  "property": "P5017",
+                  "hash": "f225cbecc307c101d35187b62d9fb380096c3b58",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-01-29T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P5017"
+            ],
+            "id": "Q9471$9B9AF308-2B43-4665-B923-A5EEC141209C",
+            "rank": "normal"
+          }
+        ],
+        "P9827": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9827",
+              "hash": "0bed7e81f3b020efd2a45bea81f6a371de1aff6d",
+              "datavalue": {
+                "value": "008133",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q9471$22899084-B179-4A3F-A00C-8FDFB7162E8C",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "abstractwiki": {
+          "site": "abstractwiki",
+          "title": "Q9471",
+          "badges": []
+        },
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Epistemologie",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "alswiki": {
+          "site": "alswiki",
+          "title": "Epistemologie",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "amwiki": {
+          "site": "amwiki",
+          "title": "ሥነ ዕውቀት",
+          "badges": []
+        },
+        "anpwiki": {
+          "site": "anpwiki",
+          "title": "प्रमाणशास्त्र",
+          "badges": []
+        },
+        "anwiki": {
+          "site": "anwiki",
+          "title": "Epistemolochía",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "نظرية المعرفة",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "ابيستيمولوجيا",
+          "badges": []
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Epistemoloxía",
+          "badges": []
+        },
+        "aswiki": {
+          "site": "aswiki",
+          "title": "জ্ঞানতত্ত্ব",
+          "badges": []
+        },
+        "awawiki": {
+          "site": "awawiki",
+          "title": "प्रमाणशास्त्र",
+          "badges": []
+        },
+        "azbwiki": {
+          "site": "azbwiki",
+          "title": "معریفت بیلیمی",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Epistemologiya",
+          "badges": []
+        },
+        "barwiki": {
+          "site": "barwiki",
+          "title": "Epistemologie",
+          "badges": []
+        },
+        "bat_smgwiki": {
+          "site": "bat_smgwiki",
+          "title": "Epistemoluogėjė",
+          "badges": []
+        },
+        "bawiki": {
+          "site": "bawiki",
+          "title": "Эпистемология",
+          "badges": []
+        },
+        "be_x_oldwiki": {
+          "site": "be_x_oldwiki",
+          "title": "Эпістэмалёгія",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Эпістэмалогія",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Епистемология",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "জ্ঞানতত্ত্ব",
+          "badges": []
+        },
+        "brwiki": {
+          "site": "brwiki",
+          "title": "Epistemologiezh",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Epistemologija",
+          "badges": []
+        },
+        "btmwiki": {
+          "site": "btmwiki",
+          "title": "Epistemologi",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Epistemologia",
+          "badges": []
+        },
+        "cewiki": {
+          "site": "cewiki",
+          "title": "Эпистемологи",
+          "badges": []
+        },
+        "ckbwiki": {
+          "site": "ckbwiki",
+          "title": "ناسیاریناسی",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Classical theory of knowledge",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Epistemologie",
+          "badges": []
+        },
+        "cywiki": {
+          "site": "cywiki",
+          "title": "Epistemoleg",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Epistemologi",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Erkenntnistheorie",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "dtpwiki": {
+          "site": "dtpwiki",
+          "title": "Epistemologi",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Γνωσιολογία",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Epistemology",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "enwikibooks": {
+          "site": "enwikibooks",
+          "title": "Précis of epistemology",
+          "badges": []
+        },
+        "enwikiquote": {
+          "site": "enwikiquote",
+          "title": "Epistemology",
+          "badges": []
+        },
+        "enwikiversity": {
+          "site": "enwikiversity",
+          "title": "Epistemology",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Sciteorio",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Epistemología",
+          "badges": []
+        },
+        "eswikibooks": {
+          "site": "eswikibooks",
+          "title": "Epistemología",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Epistemoloogia",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Epistemologia",
+          "badges": [
+            "Q17559452"
+          ]
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "معرفت‌شناسی",
+          "badges": []
+        },
+        "fiu_vrowiki": {
+          "site": "fiu_vrowiki",
+          "title": "Epistemoloogia",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Epistemologia",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "frrwiki": {
+          "site": "frrwiki",
+          "title": "Epistemologii",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Épistémologie",
+          "badges": []
+        },
+        "frwikibooks": {
+          "site": "frwikibooks",
+          "title": "Précis d'épistémologie",
+          "badges": []
+        },
+        "frwikiquote": {
+          "site": "frwikiquote",
+          "title": "Épistémologie",
+          "badges": []
+        },
+        "fywiki": {
+          "site": "fywiki",
+          "title": "Epistemology",
+          "badges": []
+        },
+        "ganwiki": {
+          "site": "ganwiki",
+          "title": "知識論",
+          "badges": []
+        },
+        "gawiki": {
+          "site": "gawiki",
+          "title": "Eipistéimeolaíocht",
+          "badges": []
+        },
+        "gcrwiki": {
+          "site": "gcrwiki",
+          "title": "Lépistémoloji",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Epistemoloxía",
+          "badges": []
+        },
+        "hawiki": {
+          "site": "hawiki",
+          "title": "Epistemology",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "תורת ההכרה",
+          "badges": []
+        },
+        "hifwiki": {
+          "site": "hifwiki",
+          "title": "Epistemology",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "ज्ञानमीमांसा",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Epistemologija",
+          "badges": []
+        },
+        "htwiki": {
+          "site": "htwiki",
+          "title": "Epistemoloji",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Ismeretelmélet",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Իմացաբանություն",
+          "badges": []
+        },
+        "hywwiki": {
+          "site": "hywwiki",
+          "title": "Իմացաբանութիւն",
+          "badges": []
+        },
+        "iawiki": {
+          "site": "iawiki",
+          "title": "Epistemologia",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Epistemologi",
+          "badges": []
+        },
+        "ilowiki": {
+          "site": "ilowiki",
+          "title": "Epistomolohia",
+          "badges": []
+        },
+        "iowiki": {
+          "site": "iowiki",
+          "title": "Epistemologio",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Þekkingarfræði",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Epistemologia",
+          "badges": []
+        },
+        "itwikiquote": {
+          "site": "itwikiquote",
+          "title": "Epistemologia",
+          "badges": []
+        },
+        "jamwiki": {
+          "site": "jamwiki",
+          "title": "Epistemalaji",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "認識論",
+          "badges": []
+        },
+        "jbowiki": {
+          "site": "jbowiki",
+          "title": "djuno sidbo",
+          "badges": []
+        },
+        "jvwiki": {
+          "site": "jvwiki",
+          "title": "Épistémologi",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "ეპისტემოლოგია",
+          "badges": []
+        },
+        "kbpwiki": {
+          "site": "kbpwiki",
+          "title": "Epistemolozii",
+          "badges": []
+        },
+        "kkwiki": {
+          "site": "kkwiki",
+          "title": "Эпистемология",
+          "badges": []
+        },
+        "kncwiki": {
+          "site": "kncwiki",
+          "title": "Epistemology",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "인식론",
+          "badges": []
+        },
+        "kowikiversity": {
+          "site": "kowikiversity",
+          "title": "인식론",
+          "badges": []
+        },
+        "kswiki": {
+          "site": "kswiki",
+          "title": "عٔلمیات",
+          "badges": []
+        },
+        "kuwiki": {
+          "site": "kuwiki",
+          "title": "Epîstemolojî",
+          "badges": []
+        },
+        "kwwiki": {
+          "site": "kwwiki",
+          "title": "Epistemologieth",
+          "badges": []
+        },
+        "kywiki": {
+          "site": "kywiki",
+          "title": "Эпистемология",
+          "badges": []
+        },
+        "lawiki": {
+          "site": "lawiki",
+          "title": "Epistemologia",
+          "badges": []
+        },
+        "lfnwiki": {
+          "site": "lfnwiki",
+          "title": "Epistemolojia",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "liwiki": {
+          "site": "liwiki",
+          "title": "Epistemologie",
+          "badges": []
+        },
+        "lldwiki": {
+          "site": "lldwiki",
+          "title": "Epistemologia",
+          "badges": []
+        },
+        "lmowiki": {
+          "site": "lmowiki",
+          "title": "Epistemologia",
+          "badges": []
+        },
+        "lowiki": {
+          "site": "lowiki",
+          "title": "ຍານວິທະຍາ",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Epistemologija",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Epistemoloģija",
+          "badges": []
+        },
+        "madwiki": {
+          "site": "madwiki",
+          "title": "Èpistèmologi",
+          "badges": []
+        },
+        "maiwiki": {
+          "site": "maiwiki",
+          "title": "प्रमाणशास्त्र",
+          "badges": []
+        },
+        "mgwiki": {
+          "site": "mgwiki",
+          "title": "Epistemôlôjia",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Епистемологија",
+          "badges": []
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "വിജ്ഞാനശാസ്ത്രം",
+          "badges": []
+        },
+        "mnwiki": {
+          "site": "mnwiki",
+          "title": "Танин мэдэхүйн онол",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Epistemologi",
+          "badges": []
+        },
+        "mwlwiki": {
+          "site": "mwlwiki",
+          "title": "Eipistemologie",
+          "badges": []
+        },
+        "mywiki": {
+          "site": "mywiki",
+          "title": "ဉာဏဗေဒ",
+          "badges": []
+        },
+        "mznwiki": {
+          "site": "mznwiki",
+          "title": "اپیستمولوژی",
+          "badges": []
+        },
+        "ndswiki": {
+          "site": "ndswiki",
+          "title": "Epistemologie",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "newiki": {
+          "site": "newiki",
+          "title": "प्रमाणशास्त्र",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Epistemologie",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "Epistemologi",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Epistemologi",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "ocwiki": {
+          "site": "ocwiki",
+          "title": "Epistemologia",
+          "badges": []
+        },
+        "omwiki": {
+          "site": "omwiki",
+          "title": "Xiinbeekumsa",
+          "badges": []
+        },
+        "pawiki": {
+          "site": "pawiki",
+          "title": "ਗਿਆਨ ਮੀਮਾਂਸਾ",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Epistemologia",
+          "badges": []
+        },
+        "pmswiki": {
+          "site": "pmswiki",
+          "title": "Epistemologìa",
+          "badges": []
+        },
+        "pnbwiki": {
+          "site": "pnbwiki",
+          "title": "جانن پڑھت",
+          "badges": []
+        },
+        "pswiki": {
+          "site": "pswiki",
+          "title": "پوهنپوهنه",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Epistemologia",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Epistemologie",
+          "badges": []
+        },
+        "rowikiquote": {
+          "site": "rowikiquote",
+          "title": "Epistemologie",
+          "badges": []
+        },
+        "ruewiki": {
+          "site": "ruewiki",
+          "title": "Епістемолоґія",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Эпистемология",
+          "badges": []
+        },
+        "sahwiki": {
+          "site": "sahwiki",
+          "title": "Эпистемология",
+          "badges": []
+        },
+        "scnwiki": {
+          "site": "scnwiki",
+          "title": "Epistemoluggìa",
+          "badges": []
+        },
+        "sdwiki": {
+          "site": "sdwiki",
+          "title": "علم العلم",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Epistemologija",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Epistemology",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Epistemológia",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Epistemologija",
+          "badges": []
+        },
+        "sqwiki": {
+          "site": "sqwiki",
+          "title": "Epistemologjia",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Епистемологија",
+          "badges": []
+        },
+        "stqwiki": {
+          "site": "stqwiki",
+          "title": "Epistemologie",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Epistemologi",
+          "badges": [
+            "Q17559452"
+          ]
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Epistemolojia",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "அறிவாய்வியல்",
+          "badges": []
+        },
+        "tewiki": {
+          "site": "tewiki",
+          "title": "జ్ఞానమీమాంస",
+          "badges": []
+        },
+        "tgwiki": {
+          "site": "tgwiki",
+          "title": "Маърифатшиносӣ",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "ญาณวิทยา",
+          "badges": []
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Epistemolohiya",
+          "badges": []
+        },
+        "tlywiki": {
+          "site": "tlywiki",
+          "title": "Epistemologijə",
+          "badges": []
+        },
+        "tokwiki": {
+          "site": "tokwiki",
+          "title": "sona nasin",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Epistemoloji",
+          "badges": []
+        },
+        "ttwiki": {
+          "site": "ttwiki",
+          "title": "Эпистемология",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Епістемологія",
+          "badges": []
+        },
+        "urwiki": {
+          "site": "urwiki",
+          "title": "علمیات",
+          "badges": []
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "Epistemologiya",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Tri thức luận",
+          "badges": []
+        },
+        "viwikiquote": {
+          "site": "viwikiquote",
+          "title": "Tri thức luận",
+          "badges": []
+        },
+        "warwiki": {
+          "site": "warwiki",
+          "title": "Epistemolohiya",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "知識論",
+          "badges": []
+        },
+        "yiwiki": {
+          "site": "yiwiki",
+          "title": "עפיסטעמאלאגיע",
+          "badges": []
+        },
+        "zghwiki": {
+          "site": "zghwiki",
+          "title": "ⵜⵉⵥⵕⵉ ⵏ ⵜⵎⵓⵙⵏⵉ",
+          "badges": []
+        },
+        "zh_classicalwiki": {
+          "site": "zh_classicalwiki",
+          "title": "認識論",
+          "badges": []
+        },
+        "zh_min_nanwiki": {
+          "site": "zh_min_nanwiki",
+          "title": "Jīn-sek-lūn",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "知識論",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "认识论",
+          "badges": []
+        },
+        "zuwiki": {
+          "site": "zuwiki",
+          "title": "Umchazalwazi",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

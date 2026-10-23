@@ -1,0 +1,363 @@
+{
+  "entities": {
+    "Q19704068": {
+      "type": "item",
+      "id": "Q19704068",
+      "labels": {},
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "abef6ba2997585b2d7081d75a39c9229be20b2ff",
+              "datavalue": {
+                "value": "/g/11r80nqlt",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q19704068$D5C0CA6B-6BE4-4BB1-9719-0A538D04DB76",
+            "rank": "normal"
+          }
+        ],
+        "P2347": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2347",
+              "hash": "0fdd4959b929228ffd3417ca145525ae29e37be8",
+              "datavalue": {
+                "value": "22627",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "359a955a182d16a1f95ef1c567640ed4dddae506",
+                  "datavalue": {
+                    "value": {
+                      "text": "kaasukehät",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "e009039f3b1cfe60927d662e6764f3f4ed453ad0",
+                  "datavalue": {
+                    "value": {
+                      "text": "atmospheres",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "d7abe03fd63ebc18686be45dca719f2519a4bccb",
+                  "datavalue": {
+                    "value": {
+                      "text": "atmosfärer (gashöljen)",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "9856ca089436cc2462f358d7fd4c7d100543140c",
+                  "datavalue": {
+                    "value": {
+                      "text": "gássagearddit",
+                      "language": "se"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P14458": [
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "27a0e5d3671feec090966edaf3503c7ca494c667",
+                  "datavalue": {
+                    "value": {
+                      "text": "gaseous atmospheres",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P14457",
+              "P14458"
+            ],
+            "id": "Q19704068$6CBC607C-F8C4-4D4E-97A4-038997CB4CE0",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "6263da1816dddecc94d7be275579fafff6e56519",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "7133f11674741f52cadaae6029068fad9cbb52e3",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 89345680,
+                          "id": "Q89345680"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "9d892b5b4abd77a9caf7a32238dd7fd90254da2e",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2021-11-24T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P691": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P691",
+              "hash": "0d00de80ccf8408131ba71e28c8eceddd0571cb4",
+              "datavalue": {
+                "value": "ph597205",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "eb2dda50fce3782d08e15a211794cb2e2f23339d",
+                  "datavalue": {
+                    "value": "atmosféra planet",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q19704068$E6153618-4F1F-4924-A683-55FE3F2A0079",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "00d0eb50b6424de8e5af1ba52b9abfbd677aa4f6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8104,
+                  "id": "Q8104"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19704068$2557F3FF-24D8-4547-9A03-A3F63C9A1DA6",
+            "rank": "normal"
+          }
+        ],
+        "P3859": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3859",
+              "hash": "961cf10309784a99c6cd750444869a11f3ed10d5",
+              "datavalue": {
+                "value": "01000810",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q19704068$88CA9027-FB40-4C2E-9B7A-F991BE8B6305",
+            "rank": "normal"
+          }
+        ],
+        "P10376": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "5bc1a1f411922bab6cf544e68e3f1e57fa363a45",
+              "datavalue": {
+                "value": "earth-and-planetary-sciences/planetary-atmosphere",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q19704068$93669544-FF3C-4D41-94DB-A3FC268D8833",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "68bb014972932f81ab594188c7f8c489a7c60891",
+              "datavalue": {
+                "value": "physics-and-astronomy/planetary-atmosphere",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q19704068$4CCCDA49-7993-4AD0-8129-FFFF2BDE2397",
+            "rank": "normal"
+          }
+        ],
+        "P361": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P361",
+              "hash": "b8404290e198ff4ba5c08dbbfdda48170454edf6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 634,
+                  "id": "Q634"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19704068$E29FF4DF-19AA-4594-9D82-B22D7252DDAF",
+            "rank": "normal"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "77050e71744b6056caf56ddf95e52ec52812d099",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8764951,
+                  "id": "Q8764951"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q19704068$7b07d914-4667-866f-dd2f-bd1c4b55c238",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "ab77832b7990079294d88495df165ca28adfbd2b",
+              "datavalue": {
+                "value": "Planetary atmospheres",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q19704068$3f1ddfbf-42a0-9b2f-4e2a-f493850088b2",
+            "rank": "normal"
+          }
+        ],
+        "P1368": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1368",
+              "hash": "9a903906683973a042054dc7a470808ce2bd4925",
+              "datavalue": {
+                "value": "000176509",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q19704068$196c7962-411a-791e-231b-0ffb0573668a",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Atmosfero de planedo",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Kaasukehä",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

@@ -1,0 +1,382 @@
+{
+  "entities": {
+    "Q543157": {
+      "type": "item",
+      "id": "Q543157",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "S형 소행성"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "45dc2567708243faa1e266b528ed3baf93abcbe2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3863,
+                  "id": "Q3863"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q543157$7D9FBEF6-B43F-4C1B-940F-405F7770933E",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "7e8897a2fc84b4fcebded4b0f9ddf64383620ca7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1750705,
+                  "id": "Q1750705"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q543157$F9380493-79D2-4B58-BB15-3D04FFE2D12F",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "e3f95f3c1cb624ad5fce70c77924d8e7ded96fde",
+              "datavalue": {
+                "value": "/m/026332",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q543157$CEE345D3-94E8-485A-95B7-5309C1A8E2AE",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "b50ae77b518d249529b8c01105b7389777ab80e5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8694385,
+                  "id": "Q8694385"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q543157$00D1D569-9408-456A-99E4-2B0E03DA5253",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "dced90be1c08e71cacb72f69f0c7b4790f96a2ad",
+              "datavalue": {
+                "value": "topic/S-class-asteroid",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "2767f01740a565f60d4841156af466592d2258fd",
+                  "datavalue": {
+                    "value": "S-class asteroid",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q543157$DBFBAB71-25C9-42F2-9673-013DA272513A",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "كويكب نوع إس",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "С-клас астероид",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Asteroide de tipus S",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "S-type asteroid",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Asteroide de tipo S",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "S motako asteroide",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "سیارک نوع اس",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "S-tyypin asteroidi",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Astéroïde de type S",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "אסטרואיד מסוג S",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "एस-श्रेणी क्षुद्रग्रह",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Silikatni asteroid",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "S típusú kisbolygók",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Աստերոիդների դաս S",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Asteroide di tipo S",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "S型小惑星",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "S형 소행성",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "S tipa asteroīds",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Астероид од типот S",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "S-type planetoïde",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "S-type-asteroide",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "S-type-asteroide",
+          "badges": []
+        },
+        "ocwiki": {
+          "site": "ocwiki",
+          "title": "Asteroïde de tipe S",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Planetoida klasy S",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Asteroide tipo S",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Asteroid de tip S",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Астероид класса S",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "S-type asteroid",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Planétka typu S",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Asteroid tipa S",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "ดาวเคราะห์น้อยประเภท S",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "S-tipi asteroit",
+          "badges": []
+        },
+        "tyvwiki": {
+          "site": "tyvwiki",
+          "title": "S-типтиг астероидтер",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Астероїд типу S",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "S-型小行星",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

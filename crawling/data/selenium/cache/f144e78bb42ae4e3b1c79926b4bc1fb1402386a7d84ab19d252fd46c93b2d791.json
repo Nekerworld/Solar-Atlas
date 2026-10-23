@@ -1,0 +1,648 @@
+{
+  "entities": {
+    "Q16332653": {
+      "type": "item",
+      "id": "Q16332653",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "기상"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "29a18122f1ad61ce6ad532cdc6d76fc05fa5a012",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1322005,
+                  "id": "Q1322005"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q16332653$ec20101b-4430-c494-1a95-2fa68976ca24",
+            "rank": "normal"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "e89f184d8811ffebd6484ef482e434d4d98a9747",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8622354,
+                  "id": "Q8622354"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q16332653$92806518-3B1D-4408-8321-DD3553D68C54",
+            "rank": "normal"
+          }
+        ],
+        "P3417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3417",
+              "hash": "dc4c89a1e6619a7d7ae88575be85d095b95b5a48",
+              "datavalue": {
+                "value": "Meteorological-Phenomenon",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q16332653$B17CE146-B0BC-47EE-9E9E-FA057435EA7A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3b0a5bb3c1f955edce73740124f7d935698092ad",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "3ac9682e789a3a3791d4fd088b265ea03abef101",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 51711,
+                          "id": "Q51711"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1014": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1014",
+              "hash": "1c87d0a0b207c8a25bc0c4c8337072a3c9b131d8",
+              "datavalue": {
+                "value": "300162300",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "b4947985fe81bb24c9ac33697cf2929c2b2c1b9e",
+                  "datavalue": {
+                    "value": "weather and related phenomena",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q16332653$B0405F8E-CEC1-4B1C-9754-0F533FD41D6E",
+            "rank": "normal"
+          }
+        ],
+        "P1296": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1296",
+              "hash": "7f55ba4873a9a2989b84ca377fca6d9a6fdb1993",
+              "datavalue": {
+                "value": "0123273",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "99c6dcab876fec675e684dc60123cd2978851f8c",
+                  "datavalue": {
+                    "value": "meteor",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q16332653$B1ABF84C-AED2-4B19-98E5-DA6AEFC48936",
+            "rank": "normal"
+          }
+        ],
+        "P8519": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8519",
+              "hash": "822970436264548c2c4a75dd08b24a1b039e1781",
+              "datavalue": {
+                "value": "64540",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q16332653$b35cc0aa-5dc9-42e6-bfbb-d4567f64b693",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "45f16e57df2c3be8cf8e93224af0e92fc9ac09c4",
+              "datavalue": {
+                "value": "/g/121w64t_",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q16332653$1AC123A1-8411-439F-A8FF-07AC4D00B38B",
+            "rank": "normal"
+          }
+        ],
+        "P2347": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2347",
+              "hash": "f92dbe089780a08176b828e3b5d85b090097ad4a",
+              "datavalue": {
+                "value": "537",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "7f0ac32d03d1fcc9fc144844d8845e3d8ae86141",
+                  "datavalue": {
+                    "value": {
+                      "text": "dálkefenomenat",
+                      "language": "se"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "6b1d35c17549e79c178af8e680fa90c1d5f6eae0",
+                  "datavalue": {
+                    "value": {
+                      "text": "weather phenomena",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "575837c1b9324b3e8d1d2078af7d6ef232034497",
+                  "datavalue": {
+                    "value": {
+                      "text": "sääilmiöt",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "2366430109fe8881e85227e15e3f40b08342c89d",
+                  "datavalue": {
+                    "value": {
+                      "text": "meteorologiska företeelser",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P14458": [
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "a3c1d2097ee342e19722d35e09b3e1e3e8fc9274",
+                  "datavalue": {
+                    "value": {
+                      "text": "väderfenomen",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "ef3c53acaa015346de4592f9d72e01b95bd070f4",
+                  "datavalue": {
+                    "value": {
+                      "text": "dálkeihtagat",
+                      "language": "se"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P14457",
+              "P14458"
+            ],
+            "id": "Q16332653$DFA8B5D9-8DD6-4192-A306-43A7567ECE0C",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "2461be8cbf318a174bce3ca48dae2e7a85effe5c",
+              "datavalue": {
+                "value": "Meteorological phenomena",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q16332653$fbed6428-443f-7320-158e-180941a137fd",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "2246828fc66fe84e0be7cfb25b30a0615006a79d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 58928516,
+                  "id": "Q58928516"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q16332653$41f27a2a-497e-629e-3f54-1991057597f4",
+            "rank": "normal"
+          }
+        ],
+        "P12385": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12385",
+              "hash": "a85739f8896e82f771af28573099752d6d12acdd",
+              "datavalue": {
+                "value": "meteor-0",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q16332653$a7ac6cab-00b2-41d4-b962-b7e05f04bfe4",
+            "rank": "normal"
+          }
+        ],
+        "P349": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P349",
+              "hash": "a54b76d06daa194a3d2f8b65ffdb7045acb0028a",
+              "datavalue": {
+                "value": "00566010",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "855b42332ff597ca2752cd444926b268775d2b99",
+                  "datavalue": {
+                    "value": "気象",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q16332653$8b29e9d3-42dc-46a9-e4a0-8a5a15f01878",
+            "rank": "normal"
+          }
+        ],
+        "P2579": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2579",
+              "hash": "2dab18f744f29d76eceeb56a69b8210aead2f2a7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 25261,
+                  "id": "Q25261"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q16332653$de927eeb-4bb6-c867-094d-0522fed9bb99",
+            "rank": "normal"
+          }
+        ],
+        "P12036": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12036",
+              "hash": "1b62b5ab3afd9b985f0b1b516102ebdfef75ff06",
+              "datavalue": {
+                "value": "E0000000114",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q16332653$378D7C5C-764C-4C81-B266-869A1DADBFB6",
+            "rank": "normal"
+          }
+        ],
+        "P11408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11408",
+              "hash": "4ae02ef56ee328e5dd2085c340ff2d1f8e84d8de",
+              "datavalue": {
+                "value": "気象",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q16332653$e76e3e9d-4537-a464-5ccc-4e78469e0c74",
+            "rank": "normal"
+          }
+        ],
+        "P691": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P691",
+              "hash": "6b291495c079ca0c611f66242a690f0dc785c06c",
+              "datavalue": {
+                "value": "ph430275",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "2efcfadb0e05f825b7e036fca214a87a0f8c4677",
+                  "datavalue": {
+                    "value": "meteorologické jevy",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q16332653$BE3BBAC6-2888-4F86-A148-C58C4FE782D6",
+            "rank": "normal"
+          }
+        ],
+        "P1269": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1269",
+              "hash": "e9cc724e633054ddeb9e2fe892821242500232ee",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4072190,
+                  "id": "Q4072190"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q16332653$e065f60d-429a-95a1-d6aa-9079e49103b2",
+            "rank": "normal"
+          }
+        ],
+        "P9322": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9322",
+              "hash": "eea1395b6fc9826b117e35be7de2ce538f9c2a04",
+              "datavalue": {
+                "value": "0254679-meteorologicke-jevy",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q16332653$7DB52806-43BF-4B89-AC8D-3328D8169E96",
+            "rank": "normal"
+          }
+        ],
+        "P5008": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5008",
+              "hash": "ec0eba728564a9d4d063f3ab986e88b723e23c2c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 138638986,
+                  "id": "Q138638986"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q16332653$6246C02F-D473-4650-A3E4-8762843F1AD8",
+            "rank": "normal"
+          }
+        ],
+        "P11493": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11493",
+              "hash": "b1b4e589aadce3b254c996a5aaaecaf669a2c0ba",
+              "datavalue": {
+                "value": "Q321553",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q16332653$B5A9CBE7-0A49-4711-86F3-BE76E31BA61A",
+            "rank": "normal"
+          }
+        ],
+        "P1552": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1552",
+              "hash": "885484f5b82ab8e47b2efdd756277b7615b76e81",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 118733587,
+                  "id": "Q118733587"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q16332653$f042d373-4c76-a965-e65d-cdf44659fda7",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Fenomen meteorològic",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Vejrfænomen",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Meteo",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Meteoro (meteorología)",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Fenomeno meteorologiko",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Meteoro",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Meteorološke pojave",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Fenomena meteorologi",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "気象",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "Vêrfenomen",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Zjawisko meteorologiczne",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "天氣現象",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

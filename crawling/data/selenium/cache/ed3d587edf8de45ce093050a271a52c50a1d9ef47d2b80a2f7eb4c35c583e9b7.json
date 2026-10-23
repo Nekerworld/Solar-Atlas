@@ -1,0 +1,881 @@
+{
+  "entities": {
+    "Q1527901": {
+      "type": "item",
+      "id": "Q1527901",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "무인차량"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "ddff969d9b0e9f763d70ae48c95712331ec6f6ec",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 42889,
+                  "id": "Q42889"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1527901$2b697658-4f5c-7f7c-f2e4-d90a411e6a9a",
+            "rank": "normal"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "488cbea93353ed24a3d6ae28c2f42ad67b1bbf7d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6450271,
+                  "id": "Q6450271"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1527901$d0a52e89-4139-9cb4-4fc6-be3cff72f866",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "f6653bce0c3f23c30f49b323d78d1d31cace57b8",
+              "datavalue": {
+                "value": "Unmanned vehicles",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q1527901$89369B77-BDFD-4DE9-9976-C224B4C6E95A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3984": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3984",
+              "hash": "c560e56e2f8d4fc41430d620d90782c5b38529ff",
+              "datavalue": {
+                "value": "SelfDrivingCars",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "09fe35e5ff42795d86ef816d154521d3a22cf0f6",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2012-06-26T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "6eaa1d96d77ece9ed8a9f09168440838f8fb2908",
+                  "datavalue": {
+                    "value": "Self-Driving Cars – Look, no hands!",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "97c9d30273b30e0778cf54c2816c20dff8121d93",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-05-23T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407",
+              "P580",
+              "P1810",
+              "P585"
+            ],
+            "id": "Q1527901$7a90ab6b-49a3-21ac-1c7b-24c35af61865",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "848c7514b88b1f487526b9556ccde288c97daabd",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "be0f82c1f563fe0acd805d40974b9ab3e372c220",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-05-06T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1552": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1552",
+              "hash": "8cfa53cfa60e807d3d9e0a3066e3638cd301ada6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 64214395,
+                  "id": "Q64214395"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1527901$46cef9b7-4b8f-fa94-37b8-ceade132e8e8",
+            "rank": "normal"
+          }
+        ],
+        "P461": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P461",
+              "hash": "ae3bd61bc84ab1aae1f1c142e784c5f62340c094",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 38071574,
+                  "id": "Q38071574"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1527901$3dff7004-4d6d-9f23-5c5c-3d3247692646",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "0f70073adf84a18c6e08d03f19414c3e4af95a58",
+              "datavalue": {
+                "value": "2779361204",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1527901$98E50DE3-FB74-425C-A5D5-ADDD5A57ED4A",
+            "rank": "normal"
+          }
+        ],
+        "P8408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8408",
+              "hash": "dc8f48884096bc931dc00e96db2f36bcbbdde6fb",
+              "datavalue": {
+                "value": "UnmannedVehicle",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1527901$77F29A9E-D278-42E6-A801-85BAD546C318",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64139102,
+                          "id": "Q64139102"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-07-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "8d7fd8a39d532569aa44ad93bd53a5e2139726fb",
+              "datavalue": {
+                "value": "/g/1218fj_w",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1527901$12F43E7E-4B95-4C25-822E-5E1F90D162A1",
+            "rank": "normal"
+          }
+        ],
+        "P2347": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2347",
+              "hash": "ba3042cfb9b7f99fcbf40f860385d3817876e360",
+              "datavalue": {
+                "value": "24152",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "d6c6b42a22fbe9e08dc559c73e3a19b2f356b5fe",
+                  "datavalue": {
+                    "value": {
+                      "text": "obemannade fordon",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "123ab9201655d383af7e29d3bc7044cedda840a0",
+                  "datavalue": {
+                    "value": {
+                      "text": "unmanned vehicles",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "36ca93eeb79876b0e0718eed44834fa34886453d",
+                  "datavalue": {
+                    "value": {
+                      "text": "miehittämättömät ajoneuvot",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P14458": [
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "c281e4634e6319aa68bcddd7d45dddc39f4752d2",
+                  "datavalue": {
+                    "value": {
+                      "text": "autonomiset ajoneuvot",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "4138add7109789f92ab333660ce0ec25baca6b44",
+                  "datavalue": {
+                    "value": {
+                      "text": "itseohjautuvat ajoneuvot",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "a69ce7468239cca219fd5919881d92733a9257f1",
+                  "datavalue": {
+                    "value": {
+                      "text": "självkörande fordon",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "541be5fb53fea7fd63a86a05a2b3045c43a229e3",
+                  "datavalue": {
+                    "value": {
+                      "text": "autonoma fordon",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "0e817e52fc47c3d1ec86d50f069a16b4e0164979",
+                  "datavalue": {
+                    "value": {
+                      "text": "sjävstyrda fordon",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "071e4010a97ea6cd653a5a9d0e913824eb7549ce",
+                  "datavalue": {
+                    "value": {
+                      "text": "självstyrande fordon",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "76c2abde395e0ec158d998e7722124179ac1ba9f",
+                  "datavalue": {
+                    "value": {
+                      "text": "förarlösa fordon",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "21d0e567a4732f042d4e671c69f5c7c177297b7d",
+                  "datavalue": {
+                    "value": {
+                      "text": "uncrewed vehicles",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "b0564da8bf382aa927fba1036808abf6e71865c5",
+                  "datavalue": {
+                    "value": {
+                      "text": "autonomous vehicles",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P14457",
+              "P14458"
+            ],
+            "id": "Q1527901$9A2E76D8-5DA4-4FDF-BD80-E5F6C35865FA",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "6b6469e980a5181745de94f463799975c2df4fb2",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "7133f11674741f52cadaae6029068fad9cbb52e3",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 89345680,
+                          "id": "Q89345680"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "edd2b49fd88fc1a02bf792dbd8fa8739c9fb3475",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P486": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P486",
+              "hash": "f3e4da8995a0a53477b864eb1e24c0f4efaba263",
+              "datavalue": {
+                "value": "D000088684",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "08753ad4df06346813ed3b9bd72d80133437c980",
+                  "datavalue": {
+                    "value": "Autonomous Vehicles",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q1527901$ba49e7c9-4828-3a51-05da-31ef6857811d",
+            "rank": "normal"
+          }
+        ],
+        "P672": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P672",
+              "hash": "7f69fdf8add38a04727e488226d4b4f4cc1b8205",
+              "datavalue": {
+                "value": "J01.937.500.300",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "10b458df32b71faa8060fbcf5424a76e1ce69703",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 752870,
+                      "id": "Q752870"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4900"
+            ],
+            "id": "Q1527901$850e4214-4771-66d1-cf1c-a2f386dfed00",
+            "rank": "normal"
+          }
+        ],
+        "P1368": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1368",
+              "hash": "ebb72f768ac2e6c481591b2c781aa2b79c3696a0",
+              "datavalue": {
+                "value": "000234310",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1527901$922b9960-4f7d-67d3-1dba-db2c02becc1b",
+            "rank": "normal"
+          }
+        ],
+        "P1889": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "dcb3ac0d2f19589eb3a0cb0933e33e3ea4961a3b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 116285085,
+                  "id": "Q116285085"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1527901$46e4cf38-4391-1c99-7100-03d7359e648f",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "3fa82b4c164f904a58ec940f944f60416e3f46ce",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 484000,
+                  "id": "Q484000"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1527901$b67ac16f-45ce-839f-4699-e838cd62fdec",
+            "rank": "normal"
+          }
+        ],
+        "P8687": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "e97d9b0221461a8fb9bc8dd4a137c589d3bc1c83",
+              "datavalue": {
+                "value": {
+                  "amount": "+77494",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "97c9d30273b30e0778cf54c2816c20dff8121d93",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-05-23T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P3984": [
+                {
+                  "snaktype": "value",
+                  "property": "P3984",
+                  "hash": "29c37583fbca3d30b8eeb5b1ee74878d6ea21c58",
+                  "datavalue": {
+                    "value": "selfdrivingcars",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585",
+              "P3984"
+            ],
+            "id": "Q1527901$f62c9022-d085-4288-a442-9d5417359931",
+            "rank": "normal"
+          }
+        ],
+        "P2959": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2959",
+              "hash": "dfad20e304aa35e037f4770b05a1f57cbebf3590",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 135495062,
+                  "id": "Q135495062"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1527901$129ad28c-4d58-0189-210e-3f711e6e3bf9",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Vehicle no tripulat",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Uncrewed vehicle",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Vehículo no tripulado",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Mehitamata sõiduk",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "وسیله نقلیه بدون سرنشین",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Kendaraan nirawak",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "無人機",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "무인차량",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Drone",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Pojazd bezzałogowy",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Veículo não tripulado",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Vehicul fără echipaj",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Безпілотний апарат",
+          "badges": []
+        },
+        "zh_min_nanwiki": {
+          "site": "zh_min_nanwiki",
+          "title": "Bû-jîn-ki",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "無人機械",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "無人載具",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

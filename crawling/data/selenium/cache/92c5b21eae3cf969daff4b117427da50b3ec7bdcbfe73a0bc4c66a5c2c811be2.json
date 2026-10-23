@@ -1,0 +1,3556 @@
+{
+  "entities": {
+    "Q40218": {
+      "type": "item",
+      "id": "Q40218",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "우주선"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "지구 밖의 영역을 운항할 수 있도록 설계된 유무인의 탈것"
+        }
+      },
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "탐사선"
+          },
+          {
+            "language": "ko",
+            "value": "우주 탐사선"
+          }
+        ]
+      },
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "f46d19da2336c96f2f06a7a691db964acbd84e46",
+              "datavalue": {
+                "value": "Spacecraft",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q40218$5CB62389-1026-4307-B992-9C23BE4D4D6F",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "7b00d0255f05b588958d33b488ab2c5963ee668b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7194062,
+                  "id": "Q7194062"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q40218$983f91c2-4b92-f526-2e92-204a04915a5b",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "053cb524f3dd2531d934b7b9acffab399798ac5b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 16391167,
+                  "id": "Q16391167"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q40218$b9cd00c7-4504-8e7e-f777-bb36009754c7",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "6738aa27169ee3ecb5afc6701e5472d23d3bd14b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4235019,
+                  "id": "Q4235019"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q40218$e86bee11-4527-d530-dc1f-94a441f6798d",
+            "rank": "normal"
+          }
+        ],
+        "P508": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P508",
+              "hash": "8f1eaed88247f0353f26a6403ba6f16ee300b420",
+              "datavalue": {
+                "value": "16428",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "q40218$411D1B48-1744-4BFE-896E-C603711EBAB3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ff65511d37e885bcf005b99c2241192548c3f03a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "3b090a7bae73c288393b2c8b9846cc7ed9a58f91",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 16583225,
+                          "id": "Q16583225"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "1d1b320994c80bbbbdce47c5837044160fb3a217",
+              "datavalue": {
+                "value": "Soyuz TMA-7 spacecraft2edit1.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "q40218$64435B5F-6E55-4E0A-B9DD-B644EE92781F",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "60bea571de792fdcab2285d96512f3eabe29914e",
+              "datavalue": {
+                "value": "STS120LaunchHiRes-edit1.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q40218$ee53a9ff-4c20-3f85-17a3-3ec8a2336c0e",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "bc1715ec833acde94f08433967f9493be96ed66b",
+              "datavalue": {
+                "value": "SpaceX Crew Dragon (More cropped).jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q40218$e94a2b80-481e-b45f-ec05-abccbbabf216",
+            "rank": "preferred"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "2d15ca3cc10a7114dc71c846a4a75d65b2a1b745",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6455540,
+                  "id": "Q6455540"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q40218$9C36136C-B7C5-4952-A88B-3544C1808CC6",
+            "rank": "normal"
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "2d4280b28052319103f28b4249e8e356c82be5ef",
+              "datavalue": {
+                "value": "4048579-1",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$8E4B0932-05F3-4AF2-9D4A-B9D0C1809669",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "7a793a116713f0e13fcdab319db8e4234ab7fdae",
+              "datavalue": {
+                "value": "/m/09g5h",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$6C5C9777-2F30-460E-8E65-AC2BEC7B2DCC",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1051": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1051",
+              "hash": "bad385f0036221c56941309e20b82d3e0bc4c760",
+              "datavalue": {
+                "value": "11170",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$6A2C90E6-0208-4B96-A7B6-61AD32B72543",
+            "rank": "normal"
+          }
+        ],
+        "P1709": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "a814d3d822d624cc879a9888f9a5d2ca367d0ded",
+              "datavalue": {
+                "value": "http://dbpedia.org/ontology/Spacecraft",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P973": [
+                {
+                  "snaktype": "value",
+                  "property": "P973",
+                  "hash": "a745524fa98862f471d679658ce03b7d0ff35d20",
+                  "datavalue": {
+                    "value": "http://mappings.dbpedia.org/index.php/OntologyClass:Spacecraft",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "757fdbc5d1aa0fc1ca2f1cbc5d467a4e8b531468",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2015-06-16T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P973",
+              "P813"
+            ],
+            "id": "Q40218$39019E45-5AA4-4F13-9359-F1445697DAE8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8f08ac3e0839bdbc4c6eb8d671e772deb12ba423",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "250b03083f7971a02473af3e43115ef521b1440d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 465,
+                          "id": "Q465"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1014": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1014",
+              "hash": "7888e4b32b0df74ce41a89d92054edb86481ad91",
+              "datavalue": {
+                "value": "300212528",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$F2710BDE-5170-441A-B6A6-70F63E798C9E",
+            "rank": "normal"
+          }
+        ],
+        "P1296": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1296",
+              "hash": "c0f81afc1b6397f3f144bf3ef32e4e01c0bddd7a",
+              "datavalue": {
+                "value": "0081532",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$83D5AF77-B4CC-4E46-A9E2-053D8F060C46",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1296",
+              "hash": "84cb030aa5247d87eda3552f8e83311179d1ea34",
+              "datavalue": {
+                "value": "0186133",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$3E494718-B1FB-4DA5-87E7-0908CF4C694F",
+            "rank": "normal"
+          }
+        ],
+        "P1987": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1987",
+              "hash": "d91b5aad165a46aec6369e4a8c9f327379d78762",
+              "datavalue": {
+                "value": "8802.60.00",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q40218$eab9b9f7-4596-7594-3eee-fd5979b80d38",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "66dd761a810e2bbb8799dc9abc927ae484f5d776",
+              "datavalue": {
+                "value": "topic/spacecraft",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "033fbd7c85b19b383d106392f8034e72a0c04270",
+                  "datavalue": {
+                    "value": "spacecraft",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q40218$e68bc726-48c8-4ce3-4f60-be9f851cd801",
+            "rank": "normal"
+          }
+        ],
+        "P3417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3417",
+              "hash": "38df67fc99c5c7132b94ab1432284142bccbd258",
+              "datavalue": {
+                "value": "Spacecraft",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$CDC8E7D8-83F9-45F2-9E76-3F27CFBBAA30",
+            "rank": "normal"
+          }
+        ],
+        "P3827": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3827",
+              "hash": "d25af60ae8bfceb6c786a016d2d3ec844d0d9d24",
+              "datavalue": {
+                "value": "spacecraft",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$8D6E8AAD-A34F-49EF-A2E8-72347E392609",
+            "rank": "normal"
+          }
+        ],
+        "P3916": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3916",
+              "hash": "a2ec219cf1ea81f398ac29b44540a3a2bf91374b",
+              "datavalue": {
+                "value": "concept14202",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$EF08437F-050E-455D-895D-6A6FAFEC6E83",
+            "rank": "normal"
+          }
+        ],
+        "P1424": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1424",
+              "hash": "b6f6b692807627bebb1f188802f52bd836ed7967",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6050248,
+                  "id": "Q6050248"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q40218$819f2b11-4dbc-6eaf-6075-de72bdc6718a",
+            "rank": "normal"
+          }
+        ],
+        "P1256": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1256",
+              "hash": "9088fc16213558e682ad2b011989a62da887851f",
+              "datavalue": {
+                "value": "46C42",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$D2635D6B-E3E8-4541-B5B7-A61C4354213C",
+            "rank": "normal"
+          }
+        ],
+        "P486": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P486",
+              "hash": "fd9a7b5c6b6cf48a85690dff02276f549595e59c",
+              "datavalue": {
+                "value": "D018531",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "fc7c9348f559331db62555a5db4a286f206e6619",
+                  "datavalue": {
+                    "value": "Spacecraft",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q40218$3B90B9B1-04FD-444F-ADC0-14A6017BA965",
+            "rank": "normal"
+          }
+        ],
+        "P2581": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2581",
+              "hash": "9581b19ff3457b5e70687889b6eb645cd0dd50d5",
+              "datavalue": {
+                "value": "00008176n",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$657A3A66-5BB4-47C8-BB43-E60F319E3784",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "248ac337a217a5f5eed7139a82a4e60931611af0",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "25b816aab41db18565946259c950aed6de05dd1e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4837690,
+                          "id": "Q4837690"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2924": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2924",
+              "hash": "b69ed41821b02e6b58936a51461665e355b7e52b",
+              "datavalue": {
+                "value": "2101488",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "f7fde307aaa0c86fa8aef9ba011c47deee7438ab",
+                  "datavalue": {
+                    "value": "КОСМИЧЕСКИЙ АППАРАТ",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q40218$FC2AEE29-089C-446C-BD62-A5C9F2361867",
+            "rank": "normal"
+          }
+        ],
+        "P5357": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5357",
+              "hash": "fb9e339faf38f5de68a819f9cb32d2f013958df4",
+              "datavalue": {
+                "value": "spaceships",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$ED1EFF3B-AA52-4AD6-96B1-AAF4C99841FE",
+            "rank": "normal"
+          }
+        ],
+        "P4527": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4527",
+              "hash": "a8b0ce0361fddb7e5b74f26a3439b6249e720b70",
+              "datavalue": {
+                "value": "93075",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "fc7c9348f559331db62555a5db4a286f206e6619",
+                  "datavalue": {
+                    "value": "Spacecraft",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q40218$76CB19E4-B74B-414E-87C7-13B5D83FAB9D",
+            "rank": "normal"
+          }
+        ],
+        "P5417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5417",
+              "hash": "9d93ac53a89767df9e13037799796e59beb0fffe",
+              "datavalue": {
+                "value": "34712100",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$FE4C2DE2-4230-48F3-B67B-3EC0FCD45EF8",
+            "rank": "normal"
+          }
+        ],
+        "P5247": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5247",
+              "hash": "6d987da79f04b51c4a420ac426335fc4e723fee2",
+              "datavalue": {
+                "value": "3055-17",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$73FE8183-D61C-4A83-B32F-AC9E61D95E4C",
+            "rank": "normal"
+          }
+        ],
+        "P6573": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6573",
+              "hash": "1e217c96276fb6beeabdcaecf7c88dc5af9bb326",
+              "datavalue": {
+                "value": "Raumschiff",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$9917ACEE-1BA1-4D5E-B6DB-446D8E0800F9",
+            "rank": "normal"
+          }
+        ],
+        "P244": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P244",
+              "hash": "221a88246cf1dd025eb8fca317dc4e1d3baa4288",
+              "datavalue": {
+                "value": "sh85125971",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$3688E219-BCA4-4AC0-BA65-9A116407C1C2",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ac5d47e9fbcc281bc0d27a205ae02e22ad24ce31",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "b560dc6b281a39d061e189d2eb299a426a06f1a2",
+                      "datavalue": {
+                        "value": "https://github.com/JohnMarkOckerbloom/ftl/blob/master/data/wikimap",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "0dcf4f64e93fdcc654e2c7534285881fe48b9f3d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2019-04-03T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7033": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7033",
+              "hash": "ef2ba0d466d05f0061f8ff10404097a8ea9f738d",
+              "datavalue": {
+                "value": "scot/1745",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$CF0926D8-7721-4748-B3BC-525596DF9F60",
+            "rank": "normal"
+          }
+        ],
+        "P7749": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7749",
+              "hash": "a2790afe2da376694689824759d79b4bb0801933",
+              "datavalue": {
+                "value": "11729",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$3A9A5691-1172-4084-A8A0-8521F8FCCCCE",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "755bd202fb8dc2caa9a37c4787450c9e249516d1",
+              "datavalue": {
+                "value": "29829512",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$C9398AEF-22C3-460B-BDC9-FD631CCA7918",
+            "rank": "normal"
+          }
+        ],
+        "P2347": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2347",
+              "hash": "20e8a357d52b1c45d2b91266922f9397aef73737",
+              "datavalue": {
+                "value": "12613",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "2bcd227207732807b2251300f2dc8ec07ae4d9ee",
+                  "datavalue": {
+                    "value": {
+                      "text": "avaruusalukset",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "dcfe85531ee717dafce151a835d37cb3512353d8",
+                  "datavalue": {
+                    "value": {
+                      "text": "rymdfarkoster",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "c51660806f378a4514b846d20534e7c66043e137",
+                  "datavalue": {
+                    "value": {
+                      "text": "space ships",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P14458": [
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "989f0e5d1f6565702deb32f3fca77baadc6de08d",
+                  "datavalue": {
+                    "value": {
+                      "text": "rymdskepp",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "664bab2dec4d1e74316c436f1d950dc0c50dbdb3",
+                  "datavalue": {
+                    "value": {
+                      "text": "avaruuskulkuneuvot",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "b5d5634f05ac70aa57057778225ea37b82c5da8a",
+                  "datavalue": {
+                    "value": {
+                      "text": "rockets (space ships)",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "7d29452f01ff4e2c5e90b9c3e2635095d62e121f",
+                  "datavalue": {
+                    "value": {
+                      "text": "rymdraketer (rymdfarkoster)",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "f1bb7cf4342ae4888018db389d0c29de22b1a2e9",
+                  "datavalue": {
+                    "value": {
+                      "text": "spacecrafts",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "01b036f183b8fa8ff34729eee10b62a0a01cc094",
+                  "datavalue": {
+                    "value": {
+                      "text": "raketit (avaruusraketit)",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "6b01a2e690907bf4931f4688621bc0e4a0cb95ac",
+                  "datavalue": {
+                    "value": {
+                      "text": "space vehicles",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P14457",
+              "P14458"
+            ],
+            "id": "Q40218$E4870D8E-C680-4ED4-90A5-FEFD54D2D6DE",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f9bf1a1f034ddd51bd9928ac535e0f57d748e2cf",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "7133f11674741f52cadaae6029068fad9cbb52e3",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 89345680,
+                          "id": "Q89345680"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2347",
+              "hash": "8153f7cb54c307708e5380ee1fbbf2e56150b819",
+              "datavalue": {
+                "value": "5077",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2241": [
+                {
+                  "snaktype": "value",
+                  "property": "P2241",
+                  "hash": "86bc4019022960508f50630d7f3484055cabf552",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 67125514,
+                      "id": "Q67125514"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "e51981168f01de16e30afd67250528dd0ad9c9b5",
+                  "datavalue": {
+                    "value": {
+                      "text": "avaruuskulkuneuvot",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "afa542a5f37ece801d6ae76c422e697abbd1268c",
+                  "datavalue": {
+                    "value": {
+                      "text": "space vehicles",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "dcfe85531ee717dafce151a835d37cb3512353d8",
+                  "datavalue": {
+                    "value": {
+                      "text": "rymdfarkoster",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P14458": [
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "01b036f183b8fa8ff34729eee10b62a0a01cc094",
+                  "datavalue": {
+                    "value": {
+                      "text": "raketit (avaruusraketit)",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "7d29452f01ff4e2c5e90b9c3e2635095d62e121f",
+                  "datavalue": {
+                    "value": {
+                      "text": "rymdraketer (rymdfarkoster)",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "b5d5634f05ac70aa57057778225ea37b82c5da8a",
+                  "datavalue": {
+                    "value": {
+                      "text": "rockets (space ships)",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2241",
+              "P14457",
+              "P14458"
+            ],
+            "id": "Q40218$AFEF6B49-CE3B-4949-B0BB-D4D166559EC2",
+            "rank": "deprecated",
+            "references": [
+              {
+                "hash": "fb9dcdf3cc5b7f6309e949b4f4f99d273107c589",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "7133f11674741f52cadaae6029068fad9cbb52e3",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 89345680,
+                          "id": "Q89345680"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "16e79d50f8e533f40a18669ce637a2bc453f7e58",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-27T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8408",
+              "hash": "7e0c115a9118bea8f102f31ca57eb4de425665b9",
+              "datavalue": {
+                "value": "Spacecraft",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$00C4956E-3CD2-40B4-8CA0-C3528FF0DA64",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64139102,
+                          "id": "Q64139102"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-07-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P5063": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5063",
+              "hash": "4c7c2d040e89a129c188da23fefa6a9ca0415cdd",
+              "datavalue": {
+                "value": "i59240",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$90AE15AC-5782-4AB0-94F6-5AB78B4EB61D",
+            "rank": "normal"
+          }
+        ],
+        "P8248": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8248",
+              "hash": "cab3a40bf01b19e467c877e5ce17ed030e07a34c",
+              "datavalue": {
+                "value": "D58",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P747": [
+                {
+                  "snaktype": "value",
+                  "property": "P747",
+                  "hash": "050115e00610f532de12a73d97ee504d8443bfb7",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 95449814,
+                      "id": "Q95449814"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P747"
+            ],
+            "id": "Q40218$AB30E8DF-9DE7-4010-838F-76D1ABAAC9A5",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "048c1dc94246d0741ffe9acb93fcc29130f969ff",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "99f274fe94789ec8b37071dc6b5b195c2f523f54",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 95449814,
+                          "id": "Q95449814"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8834": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8834",
+              "hash": "572744c3f95cbb111e3553f1ee2104ccc5d9e359",
+              "datavalue": {
+                "value": "spacecraft",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$6160e5e2-471c-afac-4ed0-928e839441a1",
+            "rank": "normal"
+          }
+        ],
+        "P8989": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8989",
+              "hash": "e8f4b5ff9f7fa1f2dd33675ff183874e0d133ea4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 105732042,
+                  "id": "Q105732042"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q40218$3bccf1c2-059b-442c-8402-5df062724159",
+            "rank": "normal"
+          }
+        ],
+        "P268": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P268",
+              "hash": "226e5459e0b782c9c72cd850edc5a846bcba8cbe",
+              "datavalue": {
+                "value": "119595055",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "e9abf3ad12ab8da3b911277703ebf11fc2a7019a",
+                  "datavalue": {
+                    "value": "Véhicules spatiaux",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q40218$bf83143d-adfe-4bb8-af5d-2ce0b48ee988",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "e29d375cc8f79af5d135410fb8490ed4256e9413",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "3b090a7bae73c288393b2c8b9846cc7ed9a58f91",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 16583225,
+                          "id": "Q16583225"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "12d41fc892c0b24d211361a711dcc28c1545e3e3",
+                      "datavalue": {
+                        "value": "https://thes.bncf.firenze.sbn.it/termine.php?id=16428",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "09605b06f747dbbaf6e1418b14bc02970b818f18",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2021-06-14T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3553": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3553",
+              "hash": "07763d8bbf38249d8d402586d0fd3cf525012cd3",
+              "datavalue": {
+                "value": "19613759",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "7fdb64538e19048c314823512cfd5bd114df1520",
+                  "datavalue": {
+                    "value": "航天器",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q40218$9E54E02B-36A2-4031-B537-C821497353A6",
+            "rank": "normal"
+          }
+        ],
+        "P1889": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "e4ac868e19435098c8450013c62630e792a72027",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7603932,
+                  "id": "Q7603932"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q40218$6ED06F7F-B596-44B1-A3F7-99C054BF3724",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "eaa08b7c22d9c5403a7ef5a3fc92a9d51c088194",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "39224a9c2e8ce5424defbd16603d25771956c7fc",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 1551807,
+                          "id": "Q1551807"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "e7ac36890d44f41d208b37da4b37fa8ebcb9a7c2",
+                      "datavalue": {
+                        "value": "https://pl.wikipedia.org/w/index.php?title=Statek_kosmiczny&oldid=61278926",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P4342": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4342",
+              "hash": "ea56e359f0f5769e08d4049aa77b21ee134fccc6",
+              "datavalue": {
+                "value": "romfartøy",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$4e37145a-4ce8-d610-78a6-d4034dd1a60e",
+            "rank": "normal"
+          }
+        ],
+        "P8189": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8189",
+              "hash": "807717567bf3fee7dbdac65a3442caaa5be3b4c4",
+              "datavalue": {
+                "value": "987007563209805171",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "840ead3e956d189409378af20177c8c71dc8486c",
+                  "datavalue": {
+                    "value": {
+                      "text": "Space vehicles",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "e756f5438491a9f9d86285354176c997b3ea0a62",
+                  "datavalue": {
+                    "value": {
+                      "text": "חלליות",
+                      "language": "he"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "6a2659ee497b450298e4651deeee913943d8b5e5",
+                  "datavalue": {
+                    "value": {
+                      "text": "المركبات الفضائية",
+                      "language": "ar"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P14457"
+            ],
+            "id": "Q40218$EAE72439-3A3E-43BE-BD8B-38F1172EC72E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c8a47202c92936005b390eb36ddd267921b51f43",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "0ea73b3596b49258a7b7ec6495950779b99e875d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 188915,
+                          "id": "Q188915"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P9084": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9084",
+              "hash": "44c812a251248b7ddbf7273235c5301878a5ae4b",
+              "datavalue": {
+                "value": "spacecraft",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$C24AB122-BBA5-4693-BA41-CB4C82E24116",
+            "rank": "normal"
+          }
+        ],
+        "P10283": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "b5b1c0018cc35c8ae346b5b04c8b51490badb4f5",
+              "datavalue": {
+                "value": "C29829512",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$272E3632-5A42-4EC4-A1F1-211796BBA46B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c13ba4d7902ead2693f79396bc25bd35d4d14030",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "036c8044096e2c1167e8308c52f9122fe2f88ded",
+              "datavalue": {
+                "value": "C2776481522",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$0A4183BD-C813-4A71-B011-E6E1A93F1E28",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c13ba4d7902ead2693f79396bc25bd35d4d14030",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P10376": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "c22755bdb495c12df610fd59aee2a1a52bc1d2ef",
+              "datavalue": {
+                "value": "earth-and-planetary-sciences/spacecraft",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$6DE04985-407A-4144-9D26-A092BD09F9D2",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "0ae48185d6050863c072403ba73be4f0fc78dfe8",
+              "datavalue": {
+                "value": "materials-science/spacecraft",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$7b8b9fb1-4644-5b7f-8297-6d04863b8d2b",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "120ad13eb60aac3f69d61fa740789ccfc1f2e386",
+              "datavalue": {
+                "value": "physics-and-astronomy/spacecraft",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$70406872-45b2-86af-45d3-6225978d40a2",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "ca0b8a94b689269438f8659984c90aa492b0757e",
+              "datavalue": {
+                "value": "social-sciences/spacecraft",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$0fdd0953-4c1c-450f-326d-46a8b168835c",
+            "rank": "normal"
+          }
+        ],
+        "P1963": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1963",
+              "hash": "4c28800284b235b54d0b21e2b4a9e78a70c896b1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "property",
+                  "numeric-id": 375,
+                  "id": "P375"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-property"
+            },
+            "type": "statement",
+            "id": "Q40218$8e8dba8e-4861-75ba-e9c9-b93c808c3eef",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1963",
+              "hash": "3398719e237efebdc3c1078109a2ea451ced7ed0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "property",
+                  "numeric-id": 619,
+                  "id": "P619"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-property"
+            },
+            "type": "statement",
+            "id": "Q40218$7a85ddb1-4cd7-f5d9-1f8e-fa532d96f4bf",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1963",
+              "hash": "283bc4adefdf4341eeaefe37dd5995ff49343856",
+              "datavalue": {
+                "value": {
+                  "entity-type": "property",
+                  "numeric-id": 1427,
+                  "id": "P1427"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-property"
+            },
+            "type": "statement",
+            "id": "Q40218$0e363b3b-426a-2208-9f8b-8e0346e08fcc",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1963",
+              "hash": "f44c1e15f91aad96b2f063ca48d7ec88c2001bfd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "property",
+                  "numeric-id": 6711,
+                  "id": "P6711"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-property"
+            },
+            "type": "statement",
+            "id": "Q40218$f2c98edd-4367-68ec-6f26-9246b56b802d",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1963",
+              "hash": "48ee378024eb70714f50b82c1b217eccb20f7557",
+              "datavalue": {
+                "value": {
+                  "entity-type": "property",
+                  "numeric-id": 1202,
+                  "id": "P1202"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-property"
+            },
+            "type": "statement",
+            "id": "Q40218$778abfdb-4da2-b261-ad28-924853aca2d2",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1963",
+              "hash": "9d891a9014cc30869b6a0389e9dbb0d79b31ec3b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "property",
+                  "numeric-id": 17,
+                  "id": "P17"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-property"
+            },
+            "type": "statement",
+            "id": "Q40218$3c0eae26-4db1-50f2-779c-06381b9a4b0c",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1963",
+              "hash": "28dc9dc1bec30702be7c4cbfaf43789acdde9a6f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "property",
+                  "numeric-id": 527,
+                  "id": "P527"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-property"
+            },
+            "type": "statement",
+            "id": "Q40218$514fcf76-4ab8-ed36-8c8b-c106e452aed4",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1963",
+              "hash": "45943bc795edb6f7b001bb6a07d2c654cd043d1b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "property",
+                  "numeric-id": 361,
+                  "id": "P361"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-property"
+            },
+            "type": "statement",
+            "id": "Q40218$35f599c7-40f3-585a-6a17-5fe6d871d2a1",
+            "rank": "normal"
+          }
+        ],
+        "P691": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P691",
+              "hash": "f8f179f8e88880aa3bfd772fcf6284d4940a8f4c",
+              "datavalue": {
+                "value": "ph196713",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "36143f9d247320519096e019eb3a84fee7b73835",
+                  "datavalue": {
+                    "value": "kosmické lodi",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q40218$02D2ACFF-F3E3-480F-9A96-74FD22EDB47F",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P691",
+              "hash": "8164282a0adf8355281ef20b32ba3114ef9d0756",
+              "datavalue": {
+                "value": "ph121892",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "8f19c0d603b412576d7811a98ca4438b5b39bc27",
+                  "datavalue": {
+                    "value": "kosmické rakety",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q40218$F7546283-F0A7-4C53-B85F-81B7650579EF",
+            "rank": "normal"
+          }
+        ],
+        "P2738": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2738",
+              "hash": "4fa7d4837acece3e3ee87aa78037ef4527696ea4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 23766486,
+                  "id": "Q23766486"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P11260": [
+                {
+                  "snaktype": "value",
+                  "property": "P11260",
+                  "hash": "b2e86cb5728c387021c41609bcbdeb08c2cb75d2",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1528166,
+                      "id": "Q1528166"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P11260",
+                  "hash": "9e1448a7ae12b3a135a6d0508fb6c9375cd7b5e7",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 7217761,
+                      "id": "Q7217761"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P2241": [
+                {
+                  "snaktype": "value",
+                  "property": "P2241",
+                  "hash": "c52624914df72d26cb1db58104162ec7d0e7453c",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 130233407,
+                      "id": "Q130233407"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P11260",
+              "P2241"
+            ],
+            "id": "Q40218$e7cc2a66-4b13-0e79-0986-7591aa7cb474",
+            "rank": "deprecated"
+          }
+        ],
+        "P1617": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1617",
+              "hash": "4c0f8f23499f149fbae5abfbf7a909d87b122081",
+              "datavalue": {
+                "value": "edf95316-09d9-4df0-bb6e-616d587dd4f6",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$4129A8E0-DF81-41C4-929B-224505DC6682",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8582d8416671f1f2567247201bac753552435ca5",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "ea55dc6ac5c3ab77c77d4ae7979e3276d0d4cd20",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 18336371,
+                          "id": "Q18336371"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P12107": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12107",
+              "hash": "ff1b08338486a2201ae91d0fed2628bc06e3b57e",
+              "datavalue": {
+                "value": "3ebc0299-4a3d-460d-8afc-0476f37f0444",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$6812d92f-457c-f1dc-9329-7e3c97dc5bdb",
+            "rank": "normal"
+          }
+        ],
+        "P12086": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12086",
+              "hash": "be22b52992fe502bd4ead7aa3bd7258e16ef9b4b",
+              "datavalue": {
+                "value": "Ruimtevaartuig",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "17f113ebe6096e65b8813cd6fe48663360322788",
+                  "datavalue": {
+                    "value": "71902",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P9675"
+            ],
+            "id": "Q40218$9FAC63B7-9E01-4C0C-808D-9133AC6DC29C",
+            "rank": "normal"
+          }
+        ],
+        "P12385": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12385",
+              "hash": "e6a290d675ebf016ecea269d8d0e29928aa19500",
+              "datavalue": {
+                "value": "nau-espacial",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$059bd6d1-6106-4fb8-851c-618c63658276",
+            "rank": "normal"
+          }
+        ],
+        "P137": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P137",
+              "hash": "49e1926e6cd1b6296d6ec2ce342a3bd1a365bf9a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8563791,
+                  "id": "Q8563791"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q40218$dbce138c-409e-6111-3092-4d0209349d8c",
+            "rank": "normal"
+          }
+        ],
+        "P12596": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12596",
+              "hash": "229926400abf71c0427bc8817735f18fdfb481ea",
+              "datavalue": {
+                "value": "47442",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$69B98651-9C7A-416C-9C0A-8677BDBE2032",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12596",
+              "hash": "43f3aac4bde4361cd3053af2061ad120ff963ad2",
+              "datavalue": {
+                "value": "104575",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$688359F4-0543-47A9-A200-AEB000BD09D4",
+            "rank": "normal"
+          }
+        ],
+        "P5437": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5437",
+              "hash": "61d9843dcd57dc50afcc0832225d78007aa333d2",
+              "datavalue": {
+                "value": "3093",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$60FBA826-ADB5-4D25-B9C7-0E7533311F36",
+            "rank": "normal"
+          }
+        ],
+        "P672": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P672",
+              "hash": "3e4fc4aeafbce3867de43bdf22de973c336b17a4",
+              "datavalue": {
+                "value": "J01.937.285.850.900",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "52d43cdc50b8d756a53c61f0fbed45e93122c424",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 5916,
+                      "id": "Q5916"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4900"
+            ],
+            "id": "Q40218$1ea25d72-40f3-ce7c-89e9-085feef7a8ed",
+            "rank": "normal"
+          }
+        ],
+        "P13591": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13591",
+              "hash": "38ef7ac930d689ed12d74dfae7bccbba251877e9",
+              "datavalue": {
+                "value": "concept/c5668a2e-a5d0-46ad-8033-73855d325286",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$66E45A5F-E1CB-4630-B097-20D6BD5394CF",
+            "rank": "normal"
+          }
+        ],
+        "P3222": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3222",
+              "hash": "9125fd9ed5b1d9251be50ba95401dab51b65a4fe",
+              "datavalue": {
+                "value": "rymdfarkost",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$666994A1-D1BC-4078-96E1-0BE789AC542A",
+            "rank": "normal"
+          }
+        ],
+        "P11924": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11924",
+              "hash": "af65a7b9e01390c9a159fc826d0cb10d3d230bff",
+              "datavalue": {
+                "value": "spacecraft",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$48B09EC0-7879-4600-AAD2-DCD54E20A342",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11924",
+              "hash": "0212d4231ca76fc3d8a603fbe0d8d779a3d12d16",
+              "datavalue": {
+                "value": "space-vessel",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$F8E99895-71D3-429E-A291-4DDDCE25FD79",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11924",
+              "hash": "49a663db9f5d138f41f286ec5d58d938cefdff4f",
+              "datavalue": {
+                "value": "spaceship",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$28A48BB1-F6B0-4C91-BE32-51E4EBDAEC61",
+            "rank": "normal"
+          }
+        ],
+        "P1036": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1036",
+              "hash": "d240cbbc0c301355b54799a1f27dfbb8cb2d5373",
+              "datavalue": {
+                "value": "629.47",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$020317E6-B750-45A9-B767-2334C9B115BD",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "21b067441ca145289869c8884518b895fb016d8a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "019a50b7de741e0068bde41c9d9955b22a5de47b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 36578,
+                          "id": "Q36578"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P227": [
+                    {
+                      "snaktype": "value",
+                      "property": "P227",
+                      "hash": "2d4280b28052319103f28b4249e8e356c82be5ef",
+                      "datavalue": {
+                        "value": "4048579-1",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "9c5e4cd814e272ef5594154b203b6deeeaa93f8f",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-11-23T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P227",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7666": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7666",
+              "hash": "c415bdc2004452033da3a8e29abb820a8ff6d963",
+              "datavalue": {
+                "value": "erdvelaivis",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q40218$bc0a1d1a-4640-15ee-95fe-fb572ddd207f",
+            "rank": "normal"
+          }
+        ],
+        "P2561": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2561",
+              "hash": "2f8523f578ecd89ed72737df27f4e1160593a0d6",
+              "datavalue": {
+                "value": {
+                  "text": "yo",
+                  "language": "ldn"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6254": [
+                {
+                  "snaktype": "value",
+                  "property": "P6254",
+                  "hash": "5c011947d505a0907bedb29c4bc7540c678ff562",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "lexeme",
+                      "numeric-id": 1561702,
+                      "id": "L1561702"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-lexeme"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P6254"
+            ],
+            "id": "Q40218$c2ae4680-4c58-7b29-8a37-2e9ff997b7a8",
+            "rank": "normal"
+          }
+        ],
+        "P9813": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9813",
+              "hash": "922025209f22fdecb10a42dd22d3728dcbdfd255",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4169,
+                  "id": "Q4169"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "d43f044402440d5e5d38180e079a0a1912c5427e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 110279643,
+                      "id": "Q110279643"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q40218$a0745374-493b-1410-6ea9-78d2c382aaf8",
+            "rank": "normal"
+          }
+        ],
+        "P1343": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "6da4461c63f43c0237d803565d78733309ae2d78",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 105085344,
+                  "id": "Q105085344"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2699": [
+                {
+                  "snaktype": "value",
+                  "property": "P2699",
+                  "hash": "d96a29ebe8b25feb348ce5b3aacb6b9c524d5f51",
+                  "datavalue": {
+                    "value": "https://sfdictionary.com/view/110/spacecraft",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2699"
+            ],
+            "id": "Q40218$90C2DA4D-41FF-453B-A902-6740BD17985B",
+            "rank": "normal"
+          }
+        ],
+        "P9322": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9322",
+              "hash": "424fa2cfb0f94a03f991d127aaa5024f1e207e27",
+              "datavalue": {
+                "value": "0214813-kosmicke-rakety",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "8f19c0d603b412576d7811a98ca4438b5b39bc27",
+                  "datavalue": {
+                    "value": "kosmické rakety",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q40218$359252FC-F99A-4968-8154-4B467E8B02CA",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9322",
+              "hash": "70f0841568694ecb74684bfe0b9bb183cfd9e0f6",
+              "datavalue": {
+                "value": "0234726-kosmicke-lodi",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "36143f9d247320519096e019eb3a84fee7b73835",
+                  "datavalue": {
+                    "value": "kosmické lodi",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q40218$2B986741-6523-4B6C-92A1-B6AFD3DDB67E",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "d77fd4ab790767e8a1d2abfc5cd72f9e175e55da",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 140424465,
+                  "id": "Q140424465"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P5102": [
+                {
+                  "snaktype": "value",
+                  "property": "P5102",
+                  "hash": "242fa6856d81e981d1175ea50b08a0e00aec5d43",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 28962312,
+                      "id": "Q28962312"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P5102"
+            ],
+            "id": "Q40218$93ba6e1c-47c9-361d-484d-0bebeee8ea90",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "4d3139baba2a6829acf8813b65b5475ea858f81d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 140172580,
+                  "id": "Q140172580"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P5102": [
+                {
+                  "snaktype": "value",
+                  "property": "P5102",
+                  "hash": "242fa6856d81e981d1175ea50b08a0e00aec5d43",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 28962312,
+                      "id": "Q28962312"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P5102"
+            ],
+            "id": "Q40218$51cee74e-452a-28b4-80d6-a7a1941916c1",
+            "rank": "normal"
+          }
+        ],
+        "P14470": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14470",
+              "hash": "5d19a086ef2416abc2a60c5aae6e88e580f1a1d1",
+              "datavalue": {
+                "value": "Objects/Spaceship",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "deca9ed16a8a07ff5beb5bd94b564c3c329c8e7d",
+                  "datavalue": {
+                    "value": "456921",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P9675"
+            ],
+            "id": "Q40218$1C447B12-587D-4075-B2DA-8825E2171983",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Ruimtetuig",
+          "badges": []
+        },
+        "amwiki": {
+          "site": "amwiki",
+          "title": "መንኮራኩር",
+          "badges": []
+        },
+        "angwiki": {
+          "site": "angwiki",
+          "title": "Rodorcræft",
+          "badges": []
+        },
+        "anwiki": {
+          "site": "anwiki",
+          "title": "Nau espacial",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "مركبة فضائية",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "مركبه فضائيه",
+          "badges": []
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Nave espacial",
+          "badges": []
+        },
+        "azbwiki": {
+          "site": "azbwiki",
+          "title": "فضایی سفینه",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Kosmik gəmi",
+          "badges": []
+        },
+        "bat_smgwiki": {
+          "site": "bat_smgwiki",
+          "title": "Pluotmielaivis",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Касмічны апарат",
+          "badges": []
+        },
+        "bewwiki": {
+          "site": "bewwiki",
+          "title": "Kapal luar angkasa",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Космически апарат",
+          "badges": []
+        },
+        "bhwiki": {
+          "site": "bhwiki",
+          "title": "स्पेसक्राफ्ट",
+          "badges": []
+        },
+        "blkwiki": {
+          "site": "blkwiki",
+          "title": "အာႏကာႏသကာꩻကွင်ႏ",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "মহাকাশযান",
+          "badges": []
+        },
+        "brwiki": {
+          "site": "brwiki",
+          "title": "Egorlestr",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Svemirska letjelica",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Nau espacial",
+          "badges": []
+        },
+        "ckbwiki": {
+          "site": "ckbwiki",
+          "title": "مەکۆی بۆشایی",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Kosmická loď",
+          "badges": []
+        },
+        "cvwiki": {
+          "site": "cvwiki",
+          "title": "Космос аппарачĕ",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Rumfartøj",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Raumschiff",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Διαστημόπλοιο",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Spacecraft",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Kosmoveturilo",
+          "badges": []
+        },
+        "eowikinews": {
+          "site": "eowikinews",
+          "title": "Kategorio:Kosmoveturiloj",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Nave espacial",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Kosmoseaparaat",
+          "badges": []
+        },
+        "etwikiquote": {
+          "site": "etwikiquote",
+          "title": "Kosmoselaev",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Espazio ontzi",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "فضاپیما",
+          "badges": []
+        },
+        "fiu_vrowiki": {
+          "site": "fiu_vrowiki",
+          "title": "Ilmaruumilaiv",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Avaruusalus",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Véhicule spatial",
+          "badges": []
+        },
+        "fywiki": {
+          "site": "fywiki",
+          "title": "Romteskip",
+          "badges": []
+        },
+        "gawiki": {
+          "site": "gawiki",
+          "title": "Spásárthach",
+          "badges": []
+        },
+        "gcrwiki": {
+          "site": "gcrwiki",
+          "title": "Vòl spasyal",
+          "badges": []
+        },
+        "gdwiki": {
+          "site": "gdwiki",
+          "title": "Fànas-long",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Nave espacial",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "חללית",
+          "badges": []
+        },
+        "hewikinews": {
+          "site": "hewikinews",
+          "title": "תגית:חלליות",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "अंतरिक्ष यान",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Svemirske letjelice",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Űreszköz",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Տիեզերական սարքավորում",
+          "badges": []
+        },
+        "hywwiki": {
+          "site": "hywwiki",
+          "title": "Տիեզերանաւը",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Wahana antariksa",
+          "badges": []
+        },
+        "iowiki": {
+          "site": "iowiki",
+          "title": "Kosmonavo",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Geimfar",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Veicolo spaziale",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "宇宙機",
+          "badges": []
+        },
+        "jvwiki": {
+          "site": "jvwiki",
+          "title": "Wahana antariksa",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "კოსმოსური ხომალდი",
+          "badges": []
+        },
+        "kiwiki": {
+          "site": "kiwiki",
+          "title": "Kĩwanjikũ",
+          "badges": []
+        },
+        "kkwiki": {
+          "site": "kkwiki",
+          "title": "Ғарыштық ұшу аппараттары",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "우주선",
+          "badges": []
+        },
+        "kswiki": {
+          "site": "kswiki",
+          "title": "نیٚبٕر آسمأنؠ جہزٕ",
+          "badges": []
+        },
+        "kuwiki": {
+          "site": "kuwiki",
+          "title": "Keştiya fezayê",
+          "badges": []
+        },
+        "kywiki": {
+          "site": "kywiki",
+          "title": "Космос аппараты",
+          "badges": []
+        },
+        "lawiki": {
+          "site": "lawiki",
+          "title": "Astronavis",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Raumschëff",
+          "badges": []
+        },
+        "lfnwiki": {
+          "site": "lfnwiki",
+          "title": "Veculo spasial",
+          "badges": []
+        },
+        "lowiki": {
+          "site": "lowiki",
+          "title": "ຍານອາວະກາດ",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Erdvėlaivis",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Kosmiskais aparāts",
+          "badges": []
+        },
+        "minwiki": {
+          "site": "minwiki",
+          "title": "Pasawat angkaso lua",
+          "badges": []
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "ബഹിരാകാശ വാഹനം",
+          "badges": []
+        },
+        "mrwiki": {
+          "site": "mrwiki",
+          "title": "अंतराळयान",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Kapal angkasa lepas",
+          "badges": []
+        },
+        "mwlwiki": {
+          "site": "mwlwiki",
+          "title": "Nabe spacial",
+          "badges": []
+        },
+        "mywiki": {
+          "site": "mywiki",
+          "title": "အာကာသယာဉ်",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Ruimtevaartuig",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "Romskip",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Romskip",
+          "badges": []
+        },
+        "omwiki": {
+          "site": "omwiki",
+          "title": "Donawaa",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Statek kosmiczny",
+          "badges": []
+        },
+        "pnbwiki": {
+          "site": "pnbwiki",
+          "title": "خلائی گڈی",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Nave espacial",
+          "badges": []
+        },
+        "rmywiki": {
+          "site": "rmywiki",
+          "title": "Vimaan",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Navă spațială",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Космический аппарат",
+          "badges": []
+        },
+        "ruwikinews": {
+          "site": "ruwikinews",
+          "title": "Категория:Космические аппараты",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Svemirske letelice",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Spacecraft",
+          "badges": []
+        },
+        "siwiki": {
+          "site": "siwiki",
+          "title": "අභ්‍යවකාශ යානා",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Kozmická loď",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Vesoljsko plovilo",
+          "badges": []
+        },
+        "sowiki": {
+          "site": "sowiki",
+          "title": "Dayax Gacmeed",
+          "badges": []
+        },
+        "sqwiki": {
+          "site": "sqwiki",
+          "title": "Anija kozmike",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Свемирска летелица",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Rymdfarkost",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Chombo cha angani",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "விண்கலம்",
+          "badges": []
+        },
+        "tewiki": {
+          "site": "tewiki",
+          "title": "అంతరిక్ష నౌక",
+          "badges": []
+        },
+        "tgwiki": {
+          "site": "tgwiki",
+          "title": "Фазопаймо",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "ยานอวกาศ",
+          "badges": []
+        },
+        "tokwiki": {
+          "site": "tokwiki",
+          "title": "tomo tawa mun",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Uzay aracı",
+          "badges": []
+        },
+        "ttwiki": {
+          "site": "ttwiki",
+          "title": "Ğälämi apparat",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Космічний апарат",
+          "badges": []
+        },
+        "urwiki": {
+          "site": "urwiki",
+          "title": "خلائی جہاز",
+          "badges": []
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "Kosmik apparat",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Phi thuyền",
+          "badges": []
+        },
+        "wawiki": {
+          "site": "wawiki",
+          "title": "Indjén spaciå",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "航天器",
+          "badges": []
+        },
+        "xhwiki": {
+          "site": "xhwiki",
+          "title": "I-Spacecraft",
+          "badges": []
+        },
+        "xmfwiki": {
+          "site": "xmfwiki",
+          "title": "კოსმოსური აპარატი",
+          "badges": []
+        },
+        "yiwiki": {
+          "site": "yiwiki",
+          "title": "קאסמאסשיף",
+          "badges": []
+        },
+        "zh_classicalwiki": {
+          "site": "zh_classicalwiki",
+          "title": "太空船",
+          "badges": []
+        },
+        "zh_min_nanwiki": {
+          "site": "zh_min_nanwiki",
+          "title": "Thài-khong-chûn",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "太空船",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "航天器",
+          "badges": []
+        },
+        "zuwiki": {
+          "site": "zuwiki",
+          "title": "Indizamkhathi",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

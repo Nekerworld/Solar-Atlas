@@ -1,0 +1,467 @@
+{
+  "entities": {
+    "Q3180802": {
+      "type": "item",
+      "id": "Q3180802",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "얼음 위성"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "표면이 대부분 얼음으로 덮인 자연 위성"
+        }
+      },
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "얼음위성"
+          }
+        ]
+      },
+      "claims": {
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "afd15d7e0fcfe5165403c0aeef4f29fbd4bcd69f",
+              "datavalue": {
+                "value": "/m/0sxsx",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3180802$F2DF5585-68BA-46AD-9C0D-A8AD52A54AAA",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "a881ecb2500baad7638787fe09fe321d8f4c0a0b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2537,
+                  "id": "Q2537"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3180802$b9c2aca0-4c1a-ac25-32dc-901293d24986",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "b6d0b60e2a342f7340794353340d54a640e1ccd6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 17444909,
+                  "id": "Q17444909"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3180802$ecc1fd88-4bdd-98d7-75e0-2452dfce9cf9",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "5c3fd3de783f6001245c2ddb899002762d1ab024",
+              "datavalue": {
+                "value": "129717645",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3180802$2D6B7F69-A0B8-44F8-A195-912647362F63",
+            "rank": "normal"
+          }
+        ],
+        "P6262": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6262",
+              "hash": "088d16045702966b729be8bb81651c71d8b7dabe",
+              "datavalue": {
+                "value": "oursolarsystem:icy_moon",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "b899f8e6e8e89ffa4bb64a3c8cad00656dd19949",
+                  "datavalue": {
+                    "value": "Icy moon",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "8b25dc4313b72271230ac27d729124acba9ab106",
+                  "datavalue": {
+                    "value": "2485",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407",
+              "P1810",
+              "P9675"
+            ],
+            "id": "Q3180802$2bf1df8c-4e3f-ac54-252b-a22a1f150be8",
+            "rank": "normal"
+          }
+        ],
+        "P10283": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "20a845dc42b2acc2d4e8b417dc0bed47ce62bac8",
+              "datavalue": {
+                "value": "C129717645",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3180802$8C706DA0-76A0-435B-8F73-DD4DF49B50B0",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "e0b27d817c9a9b3247df341000fc490bafcba862",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1065": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1065",
+                      "hash": "3134281f51e2490f88272d53c56ee95d9cc24e2c",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20220125070108/https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P2960": [
+                    {
+                      "snaktype": "value",
+                      "property": "P2960",
+                      "hash": "f7ff3a0de7f9571ecb5e0740cba4122c6703e1ec",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854",
+                  "P1065",
+                  "P2960"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8309": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8309",
+              "hash": "bd2f8ce925efab8ec044f60c9e84ed030bb268a2",
+              "datavalue": {
+                "value": "18-348996",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3180802$598f4264-4a37-8ece-ee8a-a5c8365d5c51",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "656b5fbc69b111f5cc3177f41aa06067f8461316",
+              "datavalue": {
+                "value": "Icy moons",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q3180802$03d1bf39-5500-4f4a-a98e-7ecaafef1330",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "قمر جليدي",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Icy moons",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Ledový měsíc",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Eismond",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Icy moon",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Luna helada",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Satellite glacé",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Սառցե հսկաներ",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Ístungl",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "얼음 위성",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Äismound",
+          "badges": []
+        },
+        "ocwiki": {
+          "site": "ocwiki",
+          "title": "Satellit glaçat",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Księżyce lodowe",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Lua gelada",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Ледяной спутник",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Icy moon",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Ismåne",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "பனி நிலவு",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Крижаний супутник",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Vệ tinh băng",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "冰卫星",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

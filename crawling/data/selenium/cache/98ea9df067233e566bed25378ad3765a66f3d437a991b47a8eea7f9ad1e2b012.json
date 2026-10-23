@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "Q141674461": {
+      "type": "item",
+      "id": "Q141674461",
+      "labels": {},
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "eec32b39894ac8b7c307b448bdc8bf26ae725269",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 169336,
+                  "id": "Q169336"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q141674461$26EF4AA1-6D77-492B-BE6B-534D6F8AF15A",
+            "rank": "normal"
+          }
+        ],
+        "P1709": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "493c086efcfa4e836265a651217f0e98979af584",
+              "datavalue": {
+                "value": "https://w3id.org/emmo#EMMO_0e030040_98a7_49b2_a871_dced1f3a6131",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q141674461$16a56144-49ce-acec-2c0c-2b1d0a75edcf",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "1f84295a7f4463347510a511c2ebb7d4d210ad2e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "d7ff637661abcfcd6d6bb301dc03b6cb8ebd8048",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 141668297,
+                          "id": "Q141668297"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {}
+    }
+  },
+  "success": 1
+}

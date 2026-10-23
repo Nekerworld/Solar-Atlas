@@ -1,0 +1,425 @@
+{
+  "entities": {
+    "Q1640168": {
+      "type": "item",
+      "id": "Q1640168",
+      "labels": {},
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "be6cab04f499e1311f62e3948c5eef8349cf0b6b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 60186,
+                  "id": "Q60186"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q1640168$B4EEE74F-F36D-4058-AAE0-68B54B3E440E",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "8081d999b016a893c99d59722fbc6e3f2bc2f844",
+              "datavalue": {
+                "value": "topic/stony-meteorite",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "bc31286de9e2cf6b9d19bdcae8568b0c2599d796",
+                  "datavalue": {
+                    "value": "stony meteorite",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q1640168$b3ca8029-452f-28fe-b0a5-d23159253532",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "1c1cd9195db63ba6320284341f914ee83d4098a5",
+              "datavalue": {
+                "value": "/g/1224z11d",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1640168$C42F3D36-2176-4950-8669-52913B721982",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "13744bb637eedd18aa03413ca57bf454c46d4234",
+              "datavalue": {
+                "value": "/g/1q5br5kx5",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1640168$8D0A22FC-B9C5-41B1-A5FD-1E6026427243",
+            "rank": "normal"
+          }
+        ],
+        "P2888": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2888",
+              "hash": "5227a7e09f538a35cfb277a4a405c2b801aa4508",
+              "datavalue": {
+                "value": "http://purl.obolibrary.org/obo/ENVO_00002049",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q1640168$28E21393-CBD4-44C7-81D9-6E6D47D83122",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2ea013a730750f56c6ca25e4f2ee6f350d0756fd",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "478f2780097346cfeab21c3f38f2fbb9c51cab7e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 31110555,
+                          "id": "Q31110555"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "162da7e9b42d545636cfbb4041bef177907a520d",
+                      "datavalue": {
+                        "value": "https://raw.githubusercontent.com/INCATools/environments2wikidata/master/matches/curated-high-confidence-envo.tsv",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "146bdbb88a125be2d750e9256b497ccdd9909635",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-01-08T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3859": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3859",
+              "hash": "dc82ce0bf8f6955b02a0f0a6fe6bc2275b286a7f",
+              "datavalue": {
+                "value": "00002049",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1640168$8E65AF00-8137-4C79-A60F-02D168364093",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2ea013a730750f56c6ca25e4f2ee6f350d0756fd",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "478f2780097346cfeab21c3f38f2fbb9c51cab7e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 31110555,
+                          "id": "Q31110555"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "162da7e9b42d545636cfbb4041bef177907a520d",
+                      "datavalue": {
+                        "value": "https://raw.githubusercontent.com/INCATools/environments2wikidata/master/matches/curated-high-confidence-envo.tsv",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "146bdbb88a125be2d750e9256b497ccdd9909635",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-01-08T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6263": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6263",
+              "hash": "35d92c7fdb54b63d1458ff6ed576f166ed803f8c",
+              "datavalue": {
+                "value": "35",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1640168$b617d935-4d18-975b-6f36-7beaf4f2b4e8",
+            "rank": "normal"
+          }
+        ],
+        "P1343": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "eda63bed5c3d7a3460033092338ab321a2374c7f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2041543,
+                  "id": "Q2041543"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "662df1ff39a9fb30010684968d31222b0ef0f606",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 23855657,
+                      "id": "Q23855657"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q1640168$6294B636-0CEB-4680-8781-1B071A6ACB69",
+            "rank": "normal"
+          }
+        ],
+        "P3827": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3827",
+              "hash": "c12e936cd29d352a8d433cf0c96e538fd8c59440",
+              "datavalue": {
+                "value": "stony-meteorites",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1640168$6EE4E2DA-C8ED-48FC-83A8-5A2437BD5BBD",
+            "rank": "normal"
+          }
+        ],
+        "P508": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P508",
+              "hash": "0044e456ba5638d74db07edd462578d57dd8fcb9",
+              "datavalue": {
+                "value": "75185",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4770e1a51ac0d95d3536e4829612140335c62898",
+                  "datavalue": {
+                    "value": "Aeroliti",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q1640168$f9085d2f-41d6-e0df-220e-dc97a973dd72",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Каменни метеорити",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Steinmeteorit",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Meteorito rocoso",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Météorite pierreuse",
+          "badges": []
+        },
+        "iowiki": {
+          "site": "iowiki",
+          "title": "Stonometeorito",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "石質隕石",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Steemeteorit",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Aerolitai",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Meteoryt kamienny",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Aerolit",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Кам'яні метеорити",
+          "badges": []
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "Tosh meteoritlar",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

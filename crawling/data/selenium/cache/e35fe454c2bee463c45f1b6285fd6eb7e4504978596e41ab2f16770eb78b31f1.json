@@ -1,0 +1,678 @@
+{
+  "entities": {
+    "Q247899": {
+      "type": "item",
+      "id": "Q247899",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "수성 일면통과"
+        }
+      },
+      "descriptions": {},
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "수성 일식"
+          }
+        ]
+      },
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "d1c33875a15b25372bc06136d4dd49b516fdfaf3",
+              "datavalue": {
+                "value": "Transits of Mercury",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q247899$9657A717-5185-418D-B4B6-F9BA704576FF",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "e2f31477c31704ca03f7d8d0e618c7ccb29733fd",
+              "datavalue": {
+                "value": "/m/02ys3p",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q247899$D22B0438-3549-4DFA-A806-BF68E0FF4E13",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "149097f7e60c927c14f235d37073c4919ccebb6b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 15850347,
+                  "id": "Q15850347"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q247899$ED3F3463-1DD5-4815-982B-84AE7E909E3D",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P61": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P61",
+              "hash": "4bd7be8ea012928cc1542d2abb5bee2b8e3d58e3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 192315,
+                  "id": "Q192315"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "9d2e4f7df69deecaed11ea14b84cc4f56dd893be",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1631-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585"
+            ],
+            "id": "Q247899$ca276ddf-4f64-feb8-36bb-d828f31aca7a",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P527": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "9f08d9aae52cadd9fedfdbdf6683ba06618286e8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21522690,
+                  "id": "Q21522690"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q247899$ce0958c1-4421-d3c7-398d-d11fb934c214",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "1ed765b44c112e56a42b0a293b5612bef811e3e1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 74258437,
+                  "id": "Q74258437"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q247899$378d4f1a-49ee-424d-6f7f-5420d05ffb07",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "acefa4da08bb42167a944843307fd8bebc0b6c91",
+              "datavalue": {
+                "value": "Mercury transit 2.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q247899$e4836891-4e72-432a-1bf3-a8c6363d4f1a",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "3666a4b1f61888f182f512653e8a5585562d088a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6888,
+                  "id": "Q6888"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q247899$cc0e70a4-46d3-b60e-277d-b36c9bc4d3c8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "c048d00f6f52d1d412a42c62861cdd027eb0db29",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7556892,
+                  "id": "Q7556892"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q247899$246712d9-4768-8a51-2d17-d389ea8173ce",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "1f917935d5f8eb5a87f1c9deaf7489aeab01c2a0",
+              "datavalue": {
+                "value": "534773279",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q247899$E6404100-1DE9-4FCD-8642-E347CB9F1865",
+            "rank": "normal"
+          }
+        ],
+        "P1343": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "eda63bed5c3d7a3460033092338ab321a2374c7f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2041543,
+                  "id": "Q2041543"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "144a5e22ee07529e9ae4f538b4959475b9f8293b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 23859842,
+                      "id": "Q23859842"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q247899$CF7A065F-5A04-4144-915B-905EAACCDB1D",
+            "rank": "normal"
+          }
+        ],
+        "P8408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8408",
+              "hash": "ccd42f671035d2c65b1c71de0752c4dd54e387df",
+              "datavalue": {
+                "value": "TransitOfMercury",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q247899$CD51E6D2-0CA7-4199-AB2C-94ADC7B39EC8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64139102,
+                          "id": "Q64139102"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-07-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P367": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P367",
+              "hash": "e35d42b5740d45aefc812227aa3f9a20d85b83e3",
+              "datavalue": {
+                "value": "Mercury transit symbol.svg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q247899$59ad901b-4799-7d31-ea0c-7cfcabaf85f0",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "عبور عطارد",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Праходжанне Меркурыя па дыску Сонца",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Trànsit de Mercuri",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Přechod Merkuru",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Merkurpassage",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Merkurtransit",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Διάβαση του Ερμή",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Transit of Mercury",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Pasado de Merkuro",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Tránsito de Mercurio",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Merkurioren trantsitu",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "گذر عطارد",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Merkuriuksen ylikulku",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Transit de Mercure",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Tránsito de Mercurio",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "מעבר כוכב חמה על פני השמש",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Merkurov prijelaz",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Transito di Mercurio dalla Terra",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "水星の太陽面通過",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "მერკურის ტრანზიტი",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "수성 일면통과",
+          "badges": []
+        },
+        "lawiki": {
+          "site": "lawiki",
+          "title": "Transitus Mercurii",
+          "badges": []
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "ബുധസംതരണം",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Mercuriusovergang",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Merkurpassasje",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Tranzyt Merkurego",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Trânsito de Mercúrio",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Tranzitul lui Mercur",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Прохождение Меркурия по диску Солнца",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Merkurov prijelaz",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Prechod Merkúra",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Merkuriuspassage",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Mpito wa Utaridi",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Merkür geçişi",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Проходження Меркурія по диску Сонця",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Sự đi qua của Sao Thủy",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "水星凌日",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "水星凌日",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

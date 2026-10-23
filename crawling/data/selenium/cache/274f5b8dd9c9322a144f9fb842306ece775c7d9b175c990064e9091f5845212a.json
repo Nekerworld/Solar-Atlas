@@ -1,0 +1,249 @@
+{
+  "entities": {
+    "Q116118210": {
+      "type": "item",
+      "id": "Q116118210",
+      "labels": {},
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "c1c6e2ada33177e90a6d2b79e9bdcdeef4f8974b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3249551,
+                  "id": "Q3249551"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q116118210$ba974137-4b27-4c30-2851-0cbefd49b969",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "25ae2f38c14b5ddff698413b73d59ada22b421c0",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "478f2780097346cfeab21c3f38f2fbb9c51cab7e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 31110555,
+                          "id": "Q31110555"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "146bdbb88a125be2d750e9256b497ccdd9909635",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-01-08T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "a146f784c18b5852875549ab7e293a6070189566",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 141506583,
+                  "id": "Q141506583"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q116118210$f5c6a039-4fb0-cc82-9c43-1738e7413009",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "bb07d2ad52a4c6add6f7df65bbbe6d6d71d55645",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "d86d5135e742170fa98db7c750025235e82685fd",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 141439101,
+                          "id": "Q141439101"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1709": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "f5f88124164fd406128f3891ed171868e4c92aac",
+              "datavalue": {
+                "value": "http://www.ontospace.uni-bremen.de/ontology/stable/GUM-3.owl#Ambience",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "d6a0724e0c2200b4055df843cf708be81429197d",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 141506583,
+                      "id": "Q141506583"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4900"
+            ],
+            "id": "Q116118210$0dacef29-47af-4986-5da0-5b37c891017d",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "bb07d2ad52a4c6add6f7df65bbbe6d6d71d55645",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "d86d5135e742170fa98db7c750025235e82685fd",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 141439101,
+                          "id": "Q141439101"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "5544226b4962b23760998e1086965ef4824ce88e",
+              "datavalue": {
+                "value": "http://www.kyoto-project.eu/ontologies/Kyoto#verb_weather",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q116118210$bbd22fc4-4c98-9c75-6fe8-cd2e095ed9c2",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fb5ae519d819caf4e8a63937d5a30921e79e0ad8",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "fd5d04c10a9f12c83908efea59aea095e560f062",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 141581983,
+                          "id": "Q141581983"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3859": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3859",
+              "hash": "7c311b81b37de407c5842a0a95f3b1eb864f7cc1",
+              "datavalue": {
+                "value": "02500000",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q116118210$a9eb1164-43e5-0258-3294-093d882dbb22",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {}
+    }
+  },
+  "success": 1
+}

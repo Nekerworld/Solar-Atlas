@@ -1,0 +1,897 @@
+{
+  "entities": {
+    "Q1931185": {
+      "type": "item",
+      "id": "Q1931185",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "전파원"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "241f52664b75766805a7e126fcf57385c9577248",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8273549,
+                  "id": "Q8273549"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1931185$D21EE17B-9C70-4C0E-A303-7F4A17C1BC9A",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "5aafe9fa1724d773273bb0952b874e2dcaaf38c5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6999,
+                  "id": "Q6999"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1931185$a8dd8f6c-4b3a-f3ed-5283-ea344b2e8d4a",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "b88375c1ff9b743102ac9088812b63d7763632ac",
+              "datavalue": {
+                "value": "/m/04b8hk",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1931185$08C9E150-D9C2-4AC9-9264-CDB294BC4ACA",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "0e521e6fd1116ebf6579a10cccaf08c5fd7f4c30",
+              "datavalue": {
+                "value": "topic/radio-source",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "eab5e94da881f3bc23419c5d9476daf40600b128",
+                  "datavalue": {
+                    "value": "radio source",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q1931185$756ec2a1-4f98-ebdc-0966-1776581bc40e",
+            "rank": "normal"
+          }
+        ],
+        "P3827": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3827",
+              "hash": "7d687cd572c2cf176456def19a28dd9ccdaf4073",
+              "datavalue": {
+                "value": "radio-sources",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1931185$D3D6898F-CFBC-41C8-9580-DA88135A6C9E",
+            "rank": "normal"
+          }
+        ],
+        "P4466": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4466",
+              "hash": "a1fe7c6efe341003db8e8c7cf159b7ce34cb19c3",
+              "datavalue": {
+                "value": "1358",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1931185$7129601B-620D-4E0F-9DEB-CE503E080E55",
+            "rank": "normal"
+          }
+        ],
+        "P2581": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2581",
+              "hash": "e8232d3e8fcfde40ff9ff6ef72be2b862734b8aa",
+              "datavalue": {
+                "value": "00274355n",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1931185$28F76773-6180-4B99-93D4-9A3B33BB1221",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "248ac337a217a5f5eed7139a82a4e60931611af0",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "25b816aab41db18565946259c950aed6de05dd1e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4837690,
+                          "id": "Q4837690"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P4746": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4746",
+              "hash": "bd1add08d2e11a425e6a68932a5d9f969e4a159b",
+              "datavalue": {
+                "value": "136037",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1931185$0A043644-AE75-4744-8176-5CE6AAD96727",
+            "rank": "normal"
+          }
+        ],
+        "P3219": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3219",
+              "hash": "02e257b7cf4d013134f940bf8e868303b858dcf0",
+              "datavalue": {
+                "value": "radiosources",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1931185$79391B32-10B6-4068-AAD6-2C8B24CD231C",
+            "rank": "normal"
+          }
+        ],
+        "P244": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P244",
+              "hash": "e2988ab1532aa9312a60e764a349e989c2a1c0b1",
+              "datavalue": {
+                "value": "sh85110574",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1931185$2394BAFE-763E-4EAE-8307-3150E1590EAF",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ac5d47e9fbcc281bc0d27a205ae02e22ad24ce31",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "b560dc6b281a39d061e189d2eb299a426a06f1a2",
+                      "datavalue": {
+                        "value": "https://github.com/JohnMarkOckerbloom/ftl/blob/master/data/wikimap",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "0dcf4f64e93fdcc654e2c7534285881fe48b9f3d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2019-04-03T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "b6d0b60e2a342f7340794353340d54a640e1ccd6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 17444909,
+                  "id": "Q17444909"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1931185$D688267C-1060-4F8F-A218-956CAA4DA1DB",
+            "rank": "normal"
+          }
+        ],
+        "P7497": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7497",
+              "hash": "ea1cd6d88f21cbfdeb215a19952379eb7e0fe344",
+              "datavalue": {
+                "value": "AstronomicalRadioSource",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1931185$767fb916-49b5-20eb-29d9-570aad600099",
+            "rank": "normal"
+          }
+        ],
+        "P508": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P508",
+              "hash": "63f6296c157faf235d87a0eb90cbcf4e2297f922",
+              "datavalue": {
+                "value": "21950",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1931185$3C51AF65-1FE6-4D5B-9057-C47A5ADE8867",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ff65511d37e885bcf005b99c2241192548c3f03a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "3b090a7bae73c288393b2c8b9846cc7ed9a58f91",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 16583225,
+                          "id": "Q16583225"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P5869": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5869",
+              "hash": "64e8ca51ba0b6998e8fab1edd59d18c264dfa0b3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 487255,
+                  "id": "Q487255"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P11527": [
+                {
+                  "snaktype": "value",
+                  "property": "P11527",
+                  "hash": "03333cd9754e182cbd8cf05cf461c34d428ffcbe",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "property",
+                      "numeric-id": 31,
+                      "id": "P31"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-property"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P11527"
+            ],
+            "id": "Q1931185$a09557e0-4e77-a698-e769-c678fabf4976",
+            "rank": "normal"
+          }
+        ],
+        "P268": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P268",
+              "hash": "9bbee6f2f85990ca42df690794bc22be38defb05",
+              "datavalue": {
+                "value": "119788938",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "b52af14a342f5e766b4becc15cf72365a17b49fd",
+                  "datavalue": {
+                    "value": "Radiosources",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q1931185$7b2aa17d-881e-4d43-95c6-f49e5ef4f2cf",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "145e6456b67e845336493f119c8309b6a2baf03d",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "3b090a7bae73c288393b2c8b9846cc7ed9a58f91",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 16583225,
+                          "id": "Q16583225"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "c5aa1e568ea3f716eabe18a3b5ba52ea0a60944a",
+                      "datavalue": {
+                        "value": "https://thes.bncf.firenze.sbn.it/termine.php?id=21950",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "09605b06f747dbbaf6e1418b14bc02970b818f18",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2021-06-14T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7305": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7305",
+              "hash": "1850532560fa8c2648d7cba4640cb4f958bd3d2a",
+              "datavalue": {
+                "value": "3965490",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "088f35c968d8582b3a59377f9021d7dffcc76a13",
+                  "datavalue": {
+                    "value": "radioźródła",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q1931185$1a7f722f-498f-73d8-a2e5-a0b605f9dbf9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8219391d98c6519169f0b72c4a2314ee01d67dce",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "6bf26717ea52eb7aa7bd66d321ac6579d7cad861",
+                      "datavalue": {
+                        "value": "https://encyklopedia.pwn.pl/haslo/radiozrodla;3965490.html",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8189": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8189",
+              "hash": "b82f73e99f63b5cc0411518ac11fa1440b15fce5",
+              "datavalue": {
+                "value": "987007558197205171",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "1e6ffc348906f813c97e78675eff8ccb90e503af",
+                  "datavalue": {
+                    "value": {
+                      "text": "Radio sources (Astronomy)",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "fe2c8f6910b904488c04b0bbbedd3090044008c0",
+                  "datavalue": {
+                    "value": {
+                      "text": "מקורות רדיו (אסטרונומיה)",
+                      "language": "he"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P14457"
+            ],
+            "id": "Q1931185$7AAB6ED6-72F7-410A-83B3-2EDF05243512",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ecb7a39cf436eb1fba419853af168ef9f2ba1dab",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a03bb6ffe37be9554492f4eea5bd18afcb57df19",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 106509962,
+                          "id": "Q106509962"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P13591": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13591",
+              "hash": "6271e9669451758cfd734a097ed4e6190f96ba03",
+              "datavalue": {
+                "value": "concept/dc0ebaf1-7792-4a62-be0f-bf52ba2e24ab",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1931185$B2B9214C-5F8D-4873-A58B-278F746E188B",
+            "rank": "normal"
+          }
+        ],
+        "P527": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "7fba1255755fc00aee9c48aa80aab74649e3e2bf",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 67201491,
+                  "id": "Q67201491"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1931185$3f6e5604-4273-80c4-add8-92e1375aa1f0",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "0f880200dd2337938ab185bb3c1dfe198ce4c122",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 67201524,
+                  "id": "Q67201524"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1931185$ccae40ea-4a28-1e67-71f6-e5ef82810e43",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "b3bf4a762adf796e3ba7dd99882290e908bcb2b6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 67201561,
+                  "id": "Q67201561"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1931185$77cc93af-4b37-2e6f-9630-975c70f1d598",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "1f871c0bfca9ff285af4939562198915ca843ba8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 67201574,
+                  "id": "Q67201574"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1931185$1c2977e7-4505-160b-3c1c-c52623819f79",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "24b899cb7ac0e3a7aa1fdd0825eb70944b7f1675",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 67201586,
+                  "id": "Q67201586"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1931185$3fdd61fe-4b12-f2ee-dee9-a7c56d2bcf6e",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "مصدر راديو فلكي",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Radiofont",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Radioquelle",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Astronomical radio source",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Radiofuente",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "منبع رادیویی در اخترشناسی",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Radiosource",
+          "badges": []
+        },
+        "gawiki": {
+          "site": "gawiki",
+          "title": "Radafhoinse réalteolaíoch",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "खगोलीय रेडियो स्रोत",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Radioizvori u svemiru",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Radiosorgente",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "電波源",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "전파원",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Radioquell",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "Radiokjelde",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Radioźródło",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Fonte de rádio astronômica",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Астрономический радиоисточник",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Астрономічні радіоджерела",
+          "badges": []
+        },
+        "xmfwiki": {
+          "site": "xmfwiki",
+          "title": "ასტრონომიული რადიოწყუ",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "無線電波源",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

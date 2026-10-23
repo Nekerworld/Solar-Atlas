@@ -1,0 +1,457 @@
+{
+  "entities": {
+    "Q3240484": {
+      "type": "item",
+      "id": "Q3240484",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "소흑점"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "해왕성 남반구에 있던 작은 폭풍"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "e062b925a73f9ab6dc89faac00c91399cd32bc59",
+              "datavalue": {
+                "value": "Small Dark Spot",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q3240484$B66A66AD-082A-41D4-A2A9-4FD2B0660F3E",
+            "rank": "normal"
+          }
+        ],
+        "P376": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P376",
+              "hash": "a0d31ba6aed634e3f4bf475e9e14307aef213e6e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 332,
+                  "id": "Q332"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q3240484$22a8d3d3-4472-d9dc-c082-22c97063e60e",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "2f7419b831f76ab5ac70fcd97157d7f07098c30f",
+              "datavalue": {
+                "value": "/m/0fmhwp",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3240484$11BF1BFF-A989-4C2D-8089-6BBFAD66910D",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "5c564a4c068821e5abe6264252f99285c67e1571",
+              "datavalue": {
+                "value": "topic/Small-Dark-Spot",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "29ee3042230ae2cd3709e2715d90164c4aca28ab",
+                  "datavalue": {
+                    "value": "Small Dark Spot",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q3240484$8612FA95-DEA2-4D95-AF2A-7951E52F7BEA",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "80c35b0e376d3976a26f6073aad1245fd54e3ddc",
+              "datavalue": {
+                "value": "17956799",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3240484$F98EB501-80E8-4F3E-B529-C1A042957F39",
+            "rank": "normal"
+          }
+        ],
+        "P576": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P576",
+              "hash": "b048d1fecfd6f662ec23561b846dfba74138a315",
+              "datavalue": {
+                "value": {
+                  "time": "+1990-00-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 8,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1326": [
+                {
+                  "snaktype": "value",
+                  "property": "P1326",
+                  "hash": "a473e6f90a0af72c97136756c6cfe78b6f62ea48",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1994-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1326"
+            ],
+            "id": "Q3240484$f472d403-4f92-0760-a54c-20f2e64c1d5e",
+            "rank": "normal"
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "somevalue",
+              "property": "P571",
+              "hash": "6738a7099bb4f22cc0577088a076bf2faa9b02b6",
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1326": [
+                {
+                  "snaktype": "value",
+                  "property": "P1326",
+                  "hash": "16a814cf716128f9770972ac88eddc66a559a748",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1989-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1326"
+            ],
+            "id": "Q3240484$80e17b8e-4abd-7f2d-c2f3-fc48bcb37c2f",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "196ae52745be141bfbe972fdf399f5b5d676d782",
+              "datavalue": {
+                "value": "PIA00064 Neptune's Dark Spot (D2), 1989.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q3240484$532b45c2-43b4-6d7e-c4bc-9fd4b7cd89d7",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "544278d0bb238ecad0e7ddcbda131061ed22bcdf",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5422262,
+                  "id": "Q5422262"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3240484$ca4e15ac-4c5f-2713-bc9a-33b2dc45609c",
+            "rank": "normal"
+          }
+        ],
+        "P361": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P361",
+              "hash": "78c907acf32ed4712dfc49ae49725e3cf6ea438b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2869537,
+                  "id": "Q2869537"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3240484$9B1E45A7-389E-4DA4-BFA0-D00C41DC9AC1",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Klein Donker Vlek",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Kiçik Tutqun Ləkə",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Petita Taca Fosca",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Small Dark Spot",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Malá tmavá skvrna",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Μικρή Σκοτεινή Κηλίδα",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Small Dark Spot",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Pequeña Mancha Oscura",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "لکه سیاه کوچک",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Pieni tumma pilkku",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Petite Tache sombre",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Pequena Mancha Escura de Neptuno",
+          "badges": []
+        },
+        "hawiki": {
+          "site": "hawiki",
+          "title": "Ƙananan Ƙarƙashin Duhu",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Փոքր մութ հետք",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Piccola Macchia Scura",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "小暗斑",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "소흑점",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Мала Темна Дамка",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Mała Ciemna Plama",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Pequena Mancha Escura",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Mica Pată Întunecată",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Малое Тёмное Пятно",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Small Dark Spot",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Küçük Kara Leke",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Мала темна пляма",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Vết Tối Nhỏ",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "小暗斑",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

@@ -1,0 +1,121 @@
+{
+  "entities": {
+    "Q141710437": {
+      "type": "item",
+      "id": "Q141710437",
+      "labels": {},
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P1709": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "0ba386beac1af0af44ada44770d6cfceaa8b8ade",
+              "datavalue": {
+                "value": "http://galoes.org/ontologies/occult.owl#Conversational_goals",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "9dd9eb1184762f6d35f796aa6925a3eab15ee9f3",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 141710434,
+                      "id": "Q141710434"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4900"
+            ],
+            "id": "Q141710437$CD4AAA7B-861B-4C7F-ACAC-4F6EFDACA94F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "07c38dcf7192fd119904dd9afc7de535ce2f7949",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "41d95fa839233711ac3df14639d74c25776d08a3",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 141703392,
+                          "id": "Q141703392"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "53a1734fc202baa14cf6088051ad8fee66ffea2b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 141710434,
+                  "id": "Q141710434"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q141710437$dafb537c-482b-af36-2ea5-e687ea13f2ca",
+            "rank": "normal"
+          }
+        ],
+        "P1343": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "b065f1f0e65f614c50c1c6ca83f57d56818acf56",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 120440713,
+                  "id": "Q120440713"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q141710437$c7a51c54-4cf4-7351-c910-d5d2a39ce89b",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {}
+    }
+  },
+  "success": 1
+}

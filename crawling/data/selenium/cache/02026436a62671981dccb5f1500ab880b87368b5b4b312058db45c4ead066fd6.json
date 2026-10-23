@@ -1,0 +1,791 @@
+{
+  "entities": {
+    "Q181175": {
+      "type": "item",
+      "id": "Q181175",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "스칼라 물리량"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "크기만 있고 방향은 없는 1차원적인 물리량"
+        }
+      },
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "스칼라량"
+          },
+          {
+            "language": "ko",
+            "value": "스칼라"
+          }
+        ]
+      },
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "5f8a9464ce632cd9fa784f809c75f6aeab6d2ad1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 107715,
+                  "id": "Q107715"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q181175$bfc5dde5-4ae6-80ce-fbe6-ee3571f68639",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "ee43541936948196b96c784990f26d54fdc4980e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1289248,
+                  "id": "Q1289248"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2241": [
+                {
+                  "snaktype": "value",
+                  "property": "P2241",
+                  "hash": "f9aeed8b7bc10ff3547bf93434b92ac40ab8e7c8",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 14946528,
+                      "id": "Q14946528"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2241"
+            ],
+            "id": "Q181175$72aa38b8-437c-f09e-abe2-0721f035f782",
+            "rank": "deprecated"
+          }
+        ],
+        "P461": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P461",
+              "hash": "62122d56e6c491592c2da4b26e9168645e253ebf",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2672914,
+                  "id": "Q2672914"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q181175$e27e0197-4c46-ce07-ca42-37c2a897349a",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "dfb622c1f059f376216921e3704834e1b5a3e3f9",
+              "datavalue": {
+                "value": "/m/09nblb",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q181175$3F86ABA5-186B-447F-9E09-B1BAEEF65D70",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1343": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "81419a79161181a005e6cc3cb042a699f10507e7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 124737637,
+                  "id": "Q124737637"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P304": [
+                {
+                  "snaktype": "value",
+                  "property": "P304",
+                  "hash": "cc94b7b23f8747c6dd9404625e0b7b2be9021b69",
+                  "datavalue": {
+                    "value": "436",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P304"
+            ],
+            "id": "Q181175$f2e2d7c6-328d-44d8-a3fb-be09e5588d7f",
+            "rank": "normal"
+          }
+        ],
+        "P2581": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2581",
+              "hash": "6e0a9c94b51bde76246b1ab55dd5345b033f6720",
+              "datavalue": {
+                "value": "00069460n",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q181175$DF6AB435-E14C-43FE-9DA6-5FE6B37F2705",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "248ac337a217a5f5eed7139a82a4e60931611af0",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "25b816aab41db18565946259c950aed6de05dd1e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4837690,
+                          "id": "Q4837690"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1889": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "ead1f68b094c8b114e189c0ae9c3a796c1721f67",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1289248,
+                  "id": "Q1289248"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q181175$1FE37E5B-9FB2-4A59-9B23-D8B361B43D24",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "36ef0a38dff4a063c6338ccc684a4072025c281d",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "10c9263369e4df75dc80723980e83de9c4517293",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 1289248,
+                          "id": "Q1289248"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "e21c41746813d5c6d77166101a49e920b1118397",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 28733284,
+                  "id": "Q28733284"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q181175$edb50590-450c-d609-abfa-72c30ac4151c",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "b11fdef0ba5ef10ed741fec7a5eb625b50208e91",
+              "datavalue": {
+                "value": "topic/scalar",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "0b4bb32d58d14ae362f65aecb7430cfabab2611c",
+                  "datavalue": {
+                    "value": "scalar",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q181175$7B232101-1901-4C66-B422-78B5C6FF4C9D",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "f59a0ed01ba43365dfb9e24b48f7e6ba5e98e06c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 71758646,
+                  "id": "Q71758646"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q181175$b8745d58-443e-2ee4-31fb-e567e010ebee",
+            "rank": "normal"
+          }
+        ],
+        "P6771": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6771",
+              "hash": "def5340ed4fecd4d5c45aa350c263b021b36bf6e",
+              "datavalue": {
+                "value": "293267",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q181175$aaed9555-42a2-410a-c7da-ca999dd65482",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "84c144d25f62cfa454054e844f66d2fdfedcce1a",
+              "datavalue": {
+                "value": "44663343",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q181175$AB66EA93-694A-4D9E-BBF8-CEFB5CB2FF9E",
+            "rank": "normal"
+          }
+        ],
+        "P8408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8408",
+              "hash": "cd21c67c3bcd6d1b8d401568306b7a6f93a3c749",
+              "datavalue": {
+                "value": "OneDimensionalQuantity",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q181175$3B78A455-47A1-44BE-BF09-E78BD8BC4E23",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64139102,
+                          "id": "Q64139102"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-07-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8855": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8855",
+              "hash": "fa68f8891394b3dbef5d7f4b12acd1bc51af9ca2",
+              "datavalue": {
+                "value": "102-02-19",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q181175$3EB49A3A-51F5-481A-9133-30768EC0A12C",
+            "rank": "normal"
+          }
+        ],
+        "P1552": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1552",
+              "hash": "fec2e700c49dee9a3121d0108a1d2215ec48e3ce",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 28733284,
+                  "id": "Q28733284"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q181175$51956797-4a7e-26b6-53c0-5eb1644cdfa7",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1552",
+              "hash": "ff38479e4cf62f166bb3082837cb4dc7593b74f4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19110,
+                  "id": "Q19110"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q181175$3be07045-4df6-6505-cb29-1406ca26917f",
+            "rank": "normal"
+          }
+        ],
+        "P6781": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6781",
+              "hash": "0de660535c2a76628084d3bd351b8508eaf4feca",
+              "datavalue": {
+                "value": "Definition:Scalar_Quantity",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q181175$ce75be06-45ef-a254-c9c2-3526e7c057e1",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "كمية سلمية",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Skalyar kəmiyyət",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Скалярная велічыня",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Escalar (física)",
+          "badges": []
+        },
+        "ckbwiki": {
+          "site": "ckbwiki",
+          "title": "پێوانەیی (فیزیک)",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Skalar (Physik)",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Scalar (physics)",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Skalaro (fiziko)",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Escalar (física)",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Skalaarne suurus",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "کمیت نرده‌ای",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Skalaarisuure",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Scalaire (physique)",
+          "badges": []
+        },
+        "gawiki": {
+          "site": "gawiki",
+          "title": "Scálach",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "סקלר (פיזיקה)",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "अदिश राशि",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Skalar (fizika)",
+          "badges": []
+        },
+        "htwiki": {
+          "site": "htwiki",
+          "title": "Eskalè (fizik)",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Skalár (fizika)",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Սկալյար մեծություն",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Skalar (fisika)",
+          "badges": []
+        },
+        "iowiki": {
+          "site": "iowiki",
+          "title": "Skalaro (fiziko)",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Grandezza scalare",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "スカラー (物理学)",
+          "badges": []
+        },
+        "kkwiki": {
+          "site": "kkwiki",
+          "title": "Скалярлық шама",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "스칼라 (물리)",
+          "badges": []
+        },
+        "kswiki": {
+          "site": "kswiki",
+          "title": "مینوُن (بُوَنزان)",
+          "badges": []
+        },
+        "lawiki": {
+          "site": "lawiki",
+          "title": "Scalar (physica)",
+          "badges": []
+        },
+        "lmowiki": {
+          "site": "lmowiki",
+          "title": "Scalar (fisega)",
+          "badges": []
+        },
+        "magwiki": {
+          "site": "magwiki",
+          "title": "अदिश राशि",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Скалар (физика)",
+          "badges": []
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "അദിശം",
+          "badges": []
+        },
+        "pawiki": {
+          "site": "pawiki",
+          "title": "ਸਕੇਲਰ (ਭੌਤਿਕ ਵਿਗਿਆਨ)",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Skalar (fizyka)",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Mărime fizică scalară",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Скалярная величина",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Scalar (physics)",
+          "badges": [
+            "Q70893996"
+          ]
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Skalárna veličina",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สเกลาร์ (ฟิสิกส์)",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Skaler (fizik)",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Скаляр (фізика)",
+          "badges": []
+        },
+        "urwiki": {
+          "site": "urwiki",
+          "title": "غیر سمتیہ (طبیعیات)",
+          "badges": []
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "Skalyar (fizika)",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Đại lượng vô hướng",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "純量",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "标量 (物理学)",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

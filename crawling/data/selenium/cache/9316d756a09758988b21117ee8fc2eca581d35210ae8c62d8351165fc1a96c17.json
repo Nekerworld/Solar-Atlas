@@ -1,0 +1,1399 @@
+{
+  "entities": {
+    "Q5875": {
+      "type": "item",
+      "id": "Q5875",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "거성"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "c3d2a3b6427bc65cd70d7b35548842d80b24b58c",
+              "datavalue": {
+                "value": "Giant stars",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q5875$20241F60-0C4D-4986-9C0D-886A399A8F2E",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "24d17a68d99180a89dba2528290a4b260bd519bd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 523,
+                  "id": "Q523"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q5875$9b3340c3-4fb0-3f42-7501-417cf86fdec1",
+            "rank": "normal"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "431bff5686668e7aa36ba2f4bb914033eec40a08",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6161457,
+                  "id": "Q6161457"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q5875$D4DAE0B0-994C-4B5B-97C2-53BF52790B11",
+            "rank": "normal"
+          }
+        ],
+        "P349": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P349",
+              "hash": "b575c7229e47c73fe6b06a8803d128ef22df33ca",
+              "datavalue": {
+                "value": "00575862",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5875$142B5EC4-36B9-47BF-B432-451BECFD8831",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "6ea36c1684b16cce2712cabf20bfe7332ccedd60",
+              "datavalue": {
+                "value": "/m/02qz9h",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5875$08A6D9CF-A069-4FB0-8E6F-6F51AA16A932",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "1a188a65f8453286b1f2648515023d484034f0a0",
+              "datavalue": {
+                "value": "4178136-3",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5875$49BA65A7-EDB5-4F6E-9C1C-AFB5784F4E4C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P269": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P269",
+              "hash": "05913b7ffb743f0795f49fd8fa22df607b0f3c2e",
+              "datavalue": {
+                "value": "035625627",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5875$4E06D685-9F09-4843-8BF3-32CE527C4B30",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P268": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P268",
+              "hash": "910c79e71be16b06bf20823f4c7ca15362f05d82",
+              "datavalue": {
+                "value": "13325484p",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5875$AA5FCF63-1072-4A47-AF8A-936706C92094",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1051": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1051",
+              "hash": "cb6ed102fd50aaecc35320d76291b6fc9b0c3bbd",
+              "datavalue": {
+                "value": "403",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5875$5ADCAFD4-3B04-458D-A7AE-D2E1B003D38C",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "dc98d6ffb94448ab20cc57e7e740a830fde8fcef",
+              "datavalue": {
+                "value": "topic/giant-star",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "249a70922f6049cfc2a9496edf809cea1903b4e2",
+                  "datavalue": {
+                    "value": "giant star",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q5875$9d6e2883-4973-47bb-9383-58d09d8eef5b",
+            "rank": "normal"
+          }
+        ],
+        "P3827": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3827",
+              "hash": "a82a61cfde47b519ea467ff7971bd9a2f642f8e2",
+              "datavalue": {
+                "value": "giant-stars",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5875$61C2CA05-234D-4B86-A8CC-7E18164536AE",
+            "rank": "normal"
+          }
+        ],
+        "P4466": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4466",
+              "hash": "a7e0e3f04281968625f421450d44cd0c10bb5e1d",
+              "datavalue": {
+                "value": "655",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5875$1A6502F7-2FE1-4609-857E-6CF1BAE3E3F6",
+            "rank": "normal"
+          }
+        ],
+        "P2581": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2581",
+              "hash": "42f0fc3a86f8fcdcbda41c14749008fa6ed61cde",
+              "datavalue": {
+                "value": "00040390n",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5875$47F2696D-B253-438B-8CB5-7FAE202DE53E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "248ac337a217a5f5eed7139a82a4e60931611af0",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "25b816aab41db18565946259c950aed6de05dd1e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4837690,
+                          "id": "Q4837690"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P4746": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4746",
+              "hash": "dae7afab379719b1f1793ee5af13dffe9fd8ba18",
+              "datavalue": {
+                "value": "023194",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5875$D1BF4DE0-0391-4CB6-8C74-57BD4C24A8CB",
+            "rank": "normal"
+          }
+        ],
+        "P3569": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3569",
+              "hash": "4627a66bbdfd72e45e17f8fd2faf8ff3ddf40bd8",
+              "datavalue": {
+                "value": "natuurkunde-scheikunde-en-sterrenkunde/reuzenster",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5875$2CC4C3AC-DAF7-46C8-B7D1-E2C77665003A",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "5c21ee8dc720b92ca8ba83c6155e1b7c7aa8fee9",
+              "datavalue": {
+                "value": "85837739",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5875$F2B08935-41DB-4058-8D85-730C5C87F8E7",
+            "rank": "normal"
+          }
+        ],
+        "P244": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P244",
+              "hash": "d022a2f63a7da5733aec4a607089ad0043529c90",
+              "datavalue": {
+                "value": "sh2003001064",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "36606cd06634da6b5a9ad7c172bfcca97484faab",
+                  "datavalue": {
+                    "value": "Giant stars",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q5875$959E4B6F-36FB-41E2-A748-9C872E92879F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ced024eb12b5fe38ed87cb5720ea18f3c54229a9",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "019a50b7de741e0068bde41c9d9955b22a5de47b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 36578,
+                          "id": "Q36578"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3553": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3553",
+              "hash": "77bd3df589e0c5a2e228a446ed362429fad836ca",
+              "datavalue": {
+                "value": "20030061",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "d4e59b4557289db8644b5497ded9504d29c575f7",
+                  "datavalue": {
+                    "value": "巨星",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q5875$598C4266-9DD0-4050-BA46-903DF746F80E",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "7fb1650b49360a86f839e3b1aee640ed91808d76",
+              "datavalue": {
+                "value": "Structure of Stars (artist’s impression).jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q5875$1dfec373-4f1f-63cf-e416-04c01b24dd0c",
+            "rank": "normal"
+          }
+        ],
+        "P8189": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8189",
+              "hash": "7446855b014185e55b51cf89fd44e05d3448f2b7",
+              "datavalue": {
+                "value": "987007535067805171",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "5491fe88bce7a1586f4437e8a4e84ab78643504e",
+                  "datavalue": {
+                    "value": {
+                      "text": "Giant stars",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "aae8bb0cabe0499c3d443b23065a01ac87a2cd3a",
+                  "datavalue": {
+                    "value": {
+                      "text": "כוכבים ענקיים",
+                      "language": "he"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "cdbb7e1aee12269e09f75f47f34d958571fc3adf",
+                  "datavalue": {
+                    "value": {
+                      "text": "النجوم العملاقة",
+                      "language": "ar"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P14457"
+            ],
+            "id": "Q5875$9C61189B-C1A4-4923-ADC7-34D6F5038FA5",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c8a47202c92936005b390eb36ddd267921b51f43",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "0ea73b3596b49258a7b7ec6495950779b99e875d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 188915,
+                          "id": "Q188915"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P10283": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "1c7f612fb78dbab71d087d2a3eecc38715a97410",
+              "datavalue": {
+                "value": "C85837739",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5875$023E9FA3-DA0B-4D09-BD7E-EAD1DB8ADD48",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c13ba4d7902ead2693f79396bc25bd35d4d14030",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7305": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7305",
+              "hash": "4e5374516ce73b6fd9f9b04c50818aa8bcb58f73",
+              "datavalue": {
+                "value": "3950700",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "9970549a6c82192898a32d43bea7c46c204b995d",
+                  "datavalue": {
+                    "value": "olbrzymy",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q5875$545384f1-46b9-f2e3-8549-c36ea4106ace",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "43635589ebe333daf3ed6cd596cb7ad7af3ef960",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "71d58ac4c7ebb268e7ce7a44c8d34bb43b3ad8ea",
+                      "datavalue": {
+                        "value": "https://encyklopedia.pwn.pl/haslo/olbrzymy;3950700.html",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8814": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8814",
+              "hash": "1d572de7711f76ff8f0a308032e39b5ee78b05b4",
+              "datavalue": {
+                "value": "09311675-n",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5875$A511BC77-16DD-447E-B050-77FCCFF27D6F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3f8c4934cc38de77b597e01bd5028acb514abd2d",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "b43a9435cc2672909edd2b524141c9dbfa50f967",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 112258758,
+                          "id": "Q112258758"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P691": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P691",
+              "hash": "1485ab2319bb766cd391798fbe92a574bb11b0e8",
+              "datavalue": {
+                "value": "ph217741",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "52a71a4a771ddd9489d9e94478d8a2f3d9a54f4c",
+                  "datavalue": {
+                    "value": "obři (hvězdy)",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q5875$7D4B8E71-1AE0-404C-A92D-6142D35134D0",
+            "rank": "normal"
+          }
+        ],
+        "P5008": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5008",
+              "hash": "136e3fbe19158e73e4bfebf3f2d98a9df8638b7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6173448,
+                  "id": "Q6173448"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "7661f66dd5b82a1ea92515ddb16c09ce3088edea",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-10-31T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585"
+            ],
+            "id": "Q5875$60183F0F-C499-46FB-9408-DC446D77A88D",
+            "rank": "normal"
+          }
+        ],
+        "P10376": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "f697dd36f43b7657a38239c88087a4be7d024a2c",
+              "datavalue": {
+                "value": "physics-and-astronomy/giant-stars",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5875$ea64e920-4417-5854-6d39-b73b2d644a56",
+            "rank": "normal"
+          }
+        ],
+        "P12086": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12086",
+              "hash": "3f49ab5134a3f8d80d67877262a5afb78a8df204",
+              "datavalue": {
+                "value": "Reuzenster",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "c24ba0a6796381acf70d0cf3328a6f5454154b7c",
+                  "datavalue": {
+                    "value": "157867",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P9675"
+            ],
+            "id": "Q5875$A15284EE-5D6B-4DDE-9704-BBAF1F93377E",
+            "rank": "normal"
+          }
+        ],
+        "P508": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P508",
+              "hash": "9a30be78fa8ac48a294a252056d6de0c59b0d9e3",
+              "datavalue": {
+                "value": "75051",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5875$CEC40B0A-145C-4043-B7C1-A863E17888AC",
+            "rank": "normal"
+          }
+        ],
+        "P1036": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1036",
+              "hash": "6a0b523eecdd300467fdbe428101c8d4ab11f084",
+              "datavalue": {
+                "value": "523.88",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5875$9BB504B6-7B73-4FC8-B727-1801525ADE90",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c351a22d729f693d44bcd9cce7b4047909dd9d1d",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "019a50b7de741e0068bde41c9d9955b22a5de47b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 36578,
+                          "id": "Q36578"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P227": [
+                    {
+                      "snaktype": "value",
+                      "property": "P227",
+                      "hash": "1a188a65f8453286b1f2648515023d484034f0a0",
+                      "datavalue": {
+                        "value": "4178136-3",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "9c5e4cd814e272ef5594154b203b6deeeaa93f8f",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-11-23T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P227",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P11408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11408",
+              "hash": "fa88092f9b5584131549dfe9704728d889345fac",
+              "datavalue": {
+                "value": "巨星",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q5875$73604f7b-433f-d96f-cd01-6e5c36736e1e",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "b6d0b60e2a342f7340794353340d54a640e1ccd6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 17444909,
+                  "id": "Q17444909"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q5875$5c69a473-49d5-a2ce-e289-fcae63a9243b",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Reusester",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "نجم عملاق",
+          "badges": []
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Estrella xigante",
+          "badges": []
+        },
+        "azbwiki": {
+          "site": "azbwiki",
+          "title": "دوو اولدوز",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Nəhəng ulduz",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Зорка-гігант",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Гигант (звезда)",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "দৈত্য তারা",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Divovska zvijezda",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Estrella gegant",
+          "badges": []
+        },
+        "ckbwiki": {
+          "site": "ckbwiki",
+          "title": "ئەستێرەی زەبەلاح",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Obr (hvězda)",
+          "badges": []
+        },
+        "cvwiki": {
+          "site": "cvwiki",
+          "title": "Гигант (астрономи)",
+          "badges": []
+        },
+        "cywiki": {
+          "site": "cywiki",
+          "title": "Seren gawr",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Riesenstern",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Γίγαντας αστέρας",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Giant star",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Giganto (stelo)",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Estrella gigante",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Hiidtäht",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Izar erraldoi",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "ستاره غول",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Jättiläistähti",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Étoile géante",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "ענק (כוכב)",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "दानव तारा",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Óriáscsillag",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Հսկա աստղ",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Bintang raksasa",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Stella gigante",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "巨星",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "거성",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Risestär",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Milžinė (žvaigždė)",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Milzu zvaigzne",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Џиновска ѕвезда",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Bintang gergasi",
+          "badges": []
+        },
+        "mywiki": {
+          "site": "mywiki",
+          "title": "ဧရာမ ကြယ်",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Reuzenster",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Kjempestjerne",
+          "badges": []
+        },
+        "pawiki": {
+          "site": "pawiki",
+          "title": "ਦਾਨਵ ਤਾਰਾ",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Olbrzym (gwiazda)",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Estrela gigante",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Stea gigantă",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Звезда-гигант",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Giant star",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Obor (hviezda)",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Zvezda orjakinja",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Divovska zvezda",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Jättestjärna",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "ดาวยักษ์",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Dev yıldız",
+          "badges": []
+        },
+        "ttwiki": {
+          "site": "ttwiki",
+          "title": "Зур йолдыз",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Гігант (зоря)",
+          "badges": []
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "Gigant yulduzlar",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Sao khổng lồ",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "巨星",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "巨星 (天文)",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "巨星",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

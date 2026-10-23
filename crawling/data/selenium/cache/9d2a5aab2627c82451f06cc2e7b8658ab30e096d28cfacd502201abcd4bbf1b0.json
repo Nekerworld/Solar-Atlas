@@ -1,0 +1,838 @@
+{
+  "entities": {
+    "Q3045": {
+      "type": "item",
+      "id": "Q3045",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "목성의 대기"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "c49720a1b960130ea8cacd8a4a4bbeead296179c",
+              "datavalue": {
+                "value": "Atmosphere of Jupiter",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q3045$5990C90B-1170-4038-8F50-CEFEE28C289E",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "3187215299be039583c9de2ccd04a990082abfbc",
+              "datavalue": {
+                "value": "/m/04gpvd9",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3045$169B3361-3F5D-402A-9235-983BD3AF371A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P361": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P361",
+              "hash": "42dd9f012a140c72bd605442d97be25cfb1dc17e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 319,
+                  "id": "Q319"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3045$f9b2391c-476b-efa2-6445-359352c01d3d",
+            "rank": "normal"
+          }
+        ],
+        "P244": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P244",
+              "hash": "6808e2111f9c100c71e29df3192f0283e1189d72",
+              "datavalue": {
+                "value": "sh85071064",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3045$DBFE54AF-48F2-4623-A46E-B3E7DE5ABEFF",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ac5d47e9fbcc281bc0d27a205ae02e22ad24ce31",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "b560dc6b281a39d061e189d2eb299a426a06f1a2",
+                      "datavalue": {
+                        "value": "https://github.com/JohnMarkOckerbloom/ftl/blob/master/data/wikimap",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "0dcf4f64e93fdcc654e2c7534285881fe48b9f3d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2019-04-03T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "8f4ba9665205c685b5e4b86cb3efcf290a3142a1",
+              "datavalue": {
+                "value": "177871831",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3045$E930C8CD-D36D-40BA-AFF4-492380965313",
+            "rank": "normal"
+          }
+        ],
+        "P527": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "4de32cddcd5eb004c41d433adaac37b8a4acebf8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 194256,
+                  "id": "Q194256"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3045$01f24fb6-43b9-c04e-4a5d-a5c9b5c61e9f",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "23d615f1e6abd9f095517bf1375ca0d5cd8b40b5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2319297,
+                  "id": "Q2319297"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3045$2ae71f0a-47b8-d8a8-a392-494a42b672ed",
+            "rank": "normal"
+          }
+        ],
+        "P376": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P376",
+              "hash": "46cc4e3119d7bd25b47bff588e0fe86aaf5ca7dc",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 319,
+                  "id": "Q319"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3045$e5283910-4f62-23fe-822e-5fcfedfff6d8",
+            "rank": "normal"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "610f9e1af3450fb8a003246cfce8e74f61b95e77",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9053134,
+                  "id": "Q9053134"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3045$cca0790d-4b68-578b-b737-ccad882531ad",
+            "rank": "normal"
+          }
+        ],
+        "P366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P366",
+              "hash": "34b7d392563eec3c5384f815727b8afe66dba23b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7886409,
+                  "id": "Q7886409"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P5102": [
+                {
+                  "snaktype": "value",
+                  "property": "P5102",
+                  "hash": "3727b665ad7a4a1d13d5d36baea237f943ce5888",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 50376823,
+                      "id": "Q50376823"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P5102"
+            ],
+            "id": "Q3045$4818b365-4353-2e17-f4bf-d8b1ad4db638",
+            "rank": "normal"
+          }
+        ],
+        "P10283": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "3c12d03032a8ab2555b735d65fbecc986794eb6d",
+              "datavalue": {
+                "value": "C177871831",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3045$7BD13BAD-BB7B-4594-B2A5-230F20C66BD8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "e0b27d817c9a9b3247df341000fc490bafcba862",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1065": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1065",
+                      "hash": "3134281f51e2490f88272d53c56ee95d9cc24e2c",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20220125070108/https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P2960": [
+                    {
+                      "snaktype": "value",
+                      "property": "P2960",
+                      "hash": "f7ff3a0de7f9571ecb5e0740cba4122c6703e1ec",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854",
+                  "P1065",
+                  "P2960"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "b7576654a573c8c56e2fac5fb60fa4117023ec04",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19704068,
+                  "id": "Q19704068"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3045$A12AFC1F-5E8D-4B75-8FC0-33705B376BEE",
+            "rank": "normal"
+          }
+        ],
+        "P8189": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8189",
+              "hash": "5aac3063cd69a49bc402f120bf96ec98094593ad",
+              "datavalue": {
+                "value": "987007538525005171",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "f210ac72a7416c3be079bc2bf40231c730ca0150",
+                  "datavalue": {
+                    "value": {
+                      "text": "Jupiter (Planet) Atmosphere",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "ec7f342e23e65d3fe371d01b3d14ae1825720c52",
+                  "datavalue": {
+                    "value": {
+                      "text": "צדק (כוכב לכת) אטמוספרה",
+                      "language": "he"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P14457"
+            ],
+            "id": "Q3045$82403088-B519-4A09-92CA-1685EAC3C643",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ecb7a39cf436eb1fba419853af168ef9f2ba1dab",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a03bb6ffe37be9554492f4eea5bd18afcb57df19",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 106509962,
+                          "id": "Q106509962"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P10376": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "36ae7156f5215ef5c931390220a66ae0f10a999b",
+              "datavalue": {
+                "value": "earth-and-planetary-sciences/jupiter-atmosphere",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3045$91de00d4-450f-02c4-74e1-ee82a16673ff",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "efc16500e44995d54623148af0020ed47bd9511f",
+              "datavalue": {
+                "value": "physics-and-astronomy/jupiter-atmosphere",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3045$7d4d7b29-4899-8f41-bca3-65c8f98ba80e",
+            "rank": "normal"
+          }
+        ],
+        "P1617": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1617",
+              "hash": "843735d0b529e5a8bd4ee88a1a1a79389a5fe612",
+              "datavalue": {
+                "value": "e3687237-740c-44de-8a21-bc03d8b784e2",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3045$462439F9-9A4D-4B8F-8A48-7024E47D0C79",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8582d8416671f1f2567247201bac753552435ca5",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "ea55dc6ac5c3ab77c77d4ae7979e3276d0d4cd20",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 18336371,
+                          "id": "Q18336371"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "fb91c3e06b5282bf75efd3b5919706ba5cf0de17",
+              "datavalue": {
+                "value": "Jupiter's Polar Cyclone Storms (Juno) (2020-38-4719-Image).tiff",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q3045$852a147a-41e9-555f-b9d3-74b20092b195",
+            "rank": "normal"
+          }
+        ],
+        "P186": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P186",
+              "hash": "f4afc5692d96a99cb87c5c2502c84c8e8884015b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 556,
+                  "id": "Q556"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3045$57cc0fa8-45de-36a1-8cf9-5039716af2a7",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P186",
+              "hash": "23db8f6afcc7aef50c40f38a93181a4fa2f31a72",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 560,
+                  "id": "Q560"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3045$789b53d5-4d0b-85ae-33b2-f4ae1d9dde65",
+            "rank": "normal"
+          }
+        ],
+        "P13591": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13591",
+              "hash": "d210f659fcbd0da11bc718cbf8bca8dc0aa4a2b6",
+              "datavalue": {
+                "value": "concept/90b5615a-2c24-4895-b174-a072ab7877a0",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3045$5E60FF96-D6BA-4061-BDAE-577B433DA76D",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "غلاف المشتري الجوي",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Атмасфера Юпітэра",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "বৃহস্পতির বায়ুমণ্ডল",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Atmosfera de Júpiter",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Jupiters atmosfære",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Atmosphere of Jupiter",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Atmósfera de Júpiter",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "جو مشتری",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Jupiterin pilvet",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Atmosphère de Jupiter",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "बृहस्पति का वायुमंडल",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Jupiterova atmosfera",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Յուպիտերի մթնոլորտ",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Atmosfer Jupiter",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Atmosfera di Giove",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "木星の大気",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "knwiki": {
+          "site": "knwiki",
+          "title": "ಗುರು ಗ್ರಹದ ವಾಯುಮಂಡಲ",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "목성의 대기",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Атмосфера на Јупитер",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Jupiters atmosfære",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Atmosfera de Júpiter",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Atmosfera lui Jupiter",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Атмосфера Юпитера",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Atmosphere of Jupiter",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Atmosféra Jupitera",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Jüpiter'in atmosferi",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Атмосфера Юпітера",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Khí quyển Sao Mộc",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "木星大氣層",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

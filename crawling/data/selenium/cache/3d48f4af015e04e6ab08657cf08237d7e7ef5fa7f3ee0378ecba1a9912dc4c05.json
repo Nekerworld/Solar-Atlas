@@ -1,0 +1,1171 @@
+{
+  "entities": {
+    "Q244743": {
+      "type": "item",
+      "id": "Q244743",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "지구의 자전"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "지구가 하루에 한 바퀴의 주기로 회전하는 현상"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "bf6add6f2d8d274f8ae9c088bfb4316ec38e1283",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3392253,
+                  "id": "Q3392253"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q244743$7c297a62-4764-1b34-dc44-0070e14c7ff1",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "581eb903a4e7db115ec2ef2596a0c71068c9e783",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 107617,
+                  "id": "Q107617"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q244743$b615fa80-470f-d221-9b99-48925f17e180",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "b8affe30193fc5df2ecdd35f4c9986163fcc578d",
+              "datavalue": {
+                "value": "/m/0b__74",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q244743$E74554B6-6D95-487F-918C-E710B99D2600",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "a87f4dfce4742076a0cb9a3ff31132eee1bf7bee",
+              "datavalue": {
+                "value": "Earth's rotation",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q244743$B397B6F5-9BEC-4B6B-A6D0-341BE32637E1",
+            "rank": "normal"
+          }
+        ],
+        "P3417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3417",
+              "hash": "92fd5e3bc72ad54a1ae181f4e2a6590894c25e6f",
+              "datavalue": {
+                "value": "Earths-Rotation",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q244743$2247629D-2837-4B7C-8F87-EF0DE4749F81",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3b0a5bb3c1f955edce73740124f7d935698092ad",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "3ac9682e789a3a3791d4fd088b265ea03abef101",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 51711,
+                          "id": "Q51711"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "e01d6d5887e65fbe96dacf2a0db375bd4150e13e",
+              "datavalue": {
+                "value": "4015205-4",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q244743$95F23A5A-5748-4A21-B6BD-2C86EB043F24",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7033": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7033",
+              "hash": "2f46e24d629484e16b8c80bf2d5f5c8f5ceb422b",
+              "datavalue": {
+                "value": "scot/4457",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q244743$8C296560-42E4-4728-B42F-7626CC2C9A30",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "96c1161b497a001cd1eb3fd8281a82846ee34d1b",
+              "datavalue": {
+                "value": "142670403",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q244743$039CAC54-4CAE-4042-8B13-B53704148F5F",
+            "rank": "normal"
+          }
+        ],
+        "P8408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8408",
+              "hash": "1c3104616464d13c9872397977b1d95bee1a50c5",
+              "datavalue": {
+                "value": "RotationOfEarth",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q244743$F26E8C65-2A86-4E6E-A856-05E27F1DE2F7",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64139102,
+                          "id": "Q64139102"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-07-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P244": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P244",
+              "hash": "f09c371030927ed186d36259f4f9664ebed8f582",
+              "datavalue": {
+                "value": "sh85040448",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "21b41cadb90fef981dfa35dde5ba67177a115ffb",
+                  "datavalue": {
+                    "value": "Earth (Planet)--Rotation",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q244743$E6379DDC-7F95-4247-A479-C45CD6875CAC",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ced024eb12b5fe38ed87cb5720ea18f3c54229a9",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "019a50b7de741e0068bde41c9d9955b22a5de47b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 36578,
+                          "id": "Q36578"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "1e229f6b446e88d15d7c21aec53ab36909ebcf78",
+              "datavalue": {
+                "value": "Earth rotation.gif",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q244743$a6a5cad9-49a9-4c74-e142-624724405a5b",
+            "rank": "normal"
+          }
+        ],
+        "P8189": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8189",
+              "hash": "8bfa432ecddc26ae907633b67a5d5c5b8a7ba295",
+              "datavalue": {
+                "value": "987007567853605171",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "e4d55f9bcad87ff980d7355ba7486712df53d343",
+                  "datavalue": {
+                    "value": {
+                      "text": "Earth (Planet) Rotation",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "50bfe2596e44d2ba523a124abcdf0e236861abd8",
+                  "datavalue": {
+                    "value": {
+                      "text": "כדור הארץ (כוכב) סיבוב",
+                      "language": "he"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P14457"
+            ],
+            "id": "Q244743$D40FF5CD-F709-4641-B538-F1CFEAAB2AF3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c8a47202c92936005b390eb36ddd267921b51f43",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "0ea73b3596b49258a7b7ec6495950779b99e875d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 188915,
+                          "id": "Q188915"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P10283": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "823d05064aa0259b15084862665bfd50e64b5947",
+              "datavalue": {
+                "value": "C142670403",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q244743$6A6E0A2A-0C14-4CD2-9636-1E9C18AD7883",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "e0b27d817c9a9b3247df341000fc490bafcba862",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1065": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1065",
+                      "hash": "3134281f51e2490f88272d53c56ee95d9cc24e2c",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20220125070108/https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P2960": [
+                    {
+                      "snaktype": "value",
+                      "property": "P2960",
+                      "hash": "f7ff3a0de7f9571ecb5e0740cba4122c6703e1ec",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854",
+                  "P1065",
+                  "P2960"
+                ]
+              }
+            ]
+          }
+        ],
+        "P10": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10",
+              "hash": "8226cda2d1c1f891c68edb7e1414dc3eddf52659",
+              "datavalue": {
+                "value": "Earth-Rotation-Milkyway.gif",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q244743$33A081A8-3A14-4E5D-A6A5-601DF5C8B033",
+            "rank": "normal"
+          }
+        ],
+        "P10565": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10565",
+              "hash": "dd5ed5f8a4b156a5d46b1953c6347e593f019a16",
+              "datavalue": {
+                "value": "152079",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q244743$9B1BB1DA-CF9F-41DE-8CF2-BE7CBB69DCD0",
+            "rank": "normal"
+          }
+        ],
+        "P691": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P691",
+              "hash": "8a12a06bf4d4e4c3e7515297e2a5a92028d27cc3",
+              "datavalue": {
+                "value": "ph127609",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "bc8ee1a877799c63a5f18a210284b5ff6942676a",
+                  "datavalue": {
+                    "value": "zemská rotace",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q244743$BAA818AA-094E-4E21-9E06-8B21180EB5A6",
+            "rank": "normal"
+          }
+        ],
+        "P1617": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1617",
+              "hash": "3d59d45f8acb87b897849d6b7b01c7d395d3577f",
+              "datavalue": {
+                "value": "771a8180-2df3-4889-a497-5dea64cc0771",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q244743$F57C9411-1A5F-4623-8D2F-2733500B7CCE",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8582d8416671f1f2567247201bac753552435ca5",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "ea55dc6ac5c3ab77c77d4ae7979e3276d0d4cd20",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 18336371,
+                          "id": "Q18336371"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P12800": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12800",
+              "hash": "4ea4ab0d800faa7beed5fda53ffe37ef2c2da5d0",
+              "datavalue": {
+                "value": "fr:Rotation_de_la_Terre",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q244743$0A47D11E-F5DC-4840-8673-8C24EB6EA3D3",
+            "rank": "normal"
+          }
+        ],
+        "P1542": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1542",
+              "hash": "dddefc001896e3fd52bb9b37086d11fc2869780d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 130255498,
+                  "id": "Q130255498"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q244743$b9167d6b-49ef-f322-8702-8baa2d457e26",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1542",
+              "hash": "58160b1000e43f300aa17e7e756e6cfde6c35608",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1348694,
+                  "id": "Q1348694"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q244743$1feea31a-4417-9dca-bce8-0d2e4176fb32",
+            "rank": "normal"
+          }
+        ],
+        "P13591": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13591",
+              "hash": "41d0393443e8d722ef4c8c5e23cb8c2c2d048f7c",
+              "datavalue": {
+                "value": "concept/ec5dd56e-7626-44b0-96b7-abb826d62ab1",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q244743$DF564CAF-939E-4CED-831C-9B412A6A3A32",
+            "rank": "normal"
+          }
+        ],
+        "P12912": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12912",
+              "hash": "f49ff7284e2c074d506241ada8786c7c2057e395",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2,
+                  "id": "Q2"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q244743$FF6B1CD4-6EAE-4C44-AB1A-D4BF536B96E0",
+            "rank": "normal"
+          }
+        ],
+        "P14541": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14541",
+              "hash": "19bf75687616ca22284b7aa8625409636b219775",
+              "datavalue": {
+                "value": "DkkrE",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "f1c381e9745b9895d8155c1c49cbdb1ada268677",
+                  "datavalue": {
+                    "value": "地球自转",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P5017": [
+                {
+                  "snaktype": "value",
+                  "property": "P5017",
+                  "hash": "55c1c4879fb81d21e76a8ef5d0d2f3d443e1a32b",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-10-12T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P5017"
+            ],
+            "id": "Q244743$989924A9-9B32-4010-851F-3E96B33479E0",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "دوران الأرض",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Yerin fırlanması",
+          "badges": []
+        },
+        "banwiki": {
+          "site": "banwiki",
+          "title": "Rotasi gumi",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Сутачнае вярчэнне Зямлі",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Движения на Земята",
+          "badges": []
+        },
+        "bhwiki": {
+          "site": "bhwiki",
+          "title": "पृथिवी के घूर्णन",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "পৃথিবীর আহ্নিক গতি",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Zemljina rotacija",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Rotació de la Terra",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Earth's rotation",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Rotace Země",
+          "badges": []
+        },
+        "cvwiki": {
+          "site": "cvwiki",
+          "title": "Çĕрĕн талăкри хăй тĕнĕлĕ таври çаврăнăвĕ",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Jordens rotation",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Erdrotation",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Περιστροφή της Γης",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Earth's rotation",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Terrotacio",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Rotación de la Tierra",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Maa pöörlemine",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Lurraren errotazioa",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "حرکت وضعی زمین",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Rotation de la Terre",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Rotación da Terra",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "סיבוב כדור הארץ",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Zemljina rotacija",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Երկրի օրապտույտ",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Rotasi Bumi",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Snúningur jarðar",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "地球の自転",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "დედამიწის ბრუნვა",
+          "badges": []
+        },
+        "kkwiki": {
+          "site": "kkwiki",
+          "title": "Жердің айналуы",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "지구의 자전",
+          "badges": []
+        },
+        "kuwiki": {
+          "site": "kuwiki",
+          "title": "Dorvegera Dinyayê",
+          "badges": []
+        },
+        "kywiki": {
+          "site": "kywiki",
+          "title": "Жердин айлануусу",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Äerdrotatioun",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Žemės sukimasis apie ašį",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Земјино вртење",
+          "badges": []
+        },
+        "mrwiki": {
+          "site": "mrwiki",
+          "title": "पृथ्वीचे परिवलन",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Putaran Bumi",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "Jordrotasjon",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Jordrotasjonen",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Ruch obrotowy Ziemi",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Rotação da Terra",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Rotația Pământului",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Суточное вращение Земли",
+          "badges": []
+        },
+        "sdwiki": {
+          "site": "sdwiki",
+          "title": "ڌرتي جي چرپر",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Zemljina rotacija",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Earth's spin",
+          "badges": []
+        },
+        "siwiki": {
+          "site": "siwiki",
+          "title": "පෘථිවියෙහි භ්‍රමණය",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Rotácia Zeme",
+          "badges": []
+        },
+        "sqwiki": {
+          "site": "sqwiki",
+          "title": "Rrotullimi i Tokës",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Zemljina rotacija",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Jordrotation",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "புவியின் சுழற்சி",
+          "badges": []
+        },
+        "tewiki": {
+          "site": "tewiki",
+          "title": "భూభ్రమణం",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "การหมุนของโลก",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Dünya'nın dönüşü",
+          "badges": []
+        },
+        "ttwiki": {
+          "site": "ttwiki",
+          "title": "Җирнең тәүлеклек әйләнүе",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Обертання Землі",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Hiện tượng tự quay của Trái Đất",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "地球自转",
+          "badges": []
+        },
+        "zh_min_nanwiki": {
+          "site": "zh_min_nanwiki",
+          "title": "Tē-kiû chū-choán",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "地球自轉",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "地球自转",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

@@ -1,0 +1,260 @@
+{
+  "entities": {
+    "Q906363": {
+      "type": "item",
+      "id": "Q906363",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "화성의 일식"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "7c4b1fb859a0bed9179ac0a68b75b8952b3e8941",
+              "datavalue": {
+                "value": "/m/0fwbcq",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q906363$E16AE095-9D73-4E2E-8A3C-1F2B88A3EC94",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "30f1c63b4ea4f37f0b22408689229df21d91b9f0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3887,
+                  "id": "Q3887"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P276": [
+                {
+                  "snaktype": "value",
+                  "property": "P276",
+                  "hash": "4735917cb351047ff618fadc2aff3549c41a2532",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 111,
+                      "id": "Q111"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P276"
+            ],
+            "id": "Q906363$927606f3-498c-ec93-09ce-770d14f6b798",
+            "rank": "normal"
+          }
+        ],
+        "P376": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P376",
+              "hash": "bd838695900ae63ace2ed11fa4a3800cbcbdf065",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 111,
+                  "id": "Q111"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q906363$1c43971b-4b8e-6bfc-b943-36f6a207ae8e",
+            "rank": "normal"
+          }
+        ],
+        "P828": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P828",
+              "hash": "251f242f5b812d07d9dbbc25058b54376263d4cd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 177268,
+                  "id": "Q177268"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q906363$0b18dc88-45f2-f49d-19fc-c8cdc24079b3",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "c626e195d71d8b5fc5f6daadccee685d478efda4",
+              "datavalue": {
+                "value": "PIA17356-MarsCuriosityRover-EclipseOfSunByPhobos.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q906363$C8E04B0B-CCCD-43FD-B2E4-79BA9A725337",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Сонечнае зацьменне на Марсе",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Eclipsis solars a Mart",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Solar eclipses on Mars",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "화성의 일식",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Zonsverduistering vanaf Mars",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Eclipses solares em Marte",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Eclipse solare pe Marte",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Солнечное затмение на Марсе",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Solar eclipses on Mars",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Sončevi mrki na Marsu",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "สุริยุปราคาบนดาวอังคาร",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Сонячні затемнення на Марсі",
+          "badges": []
+        },
+        "urwiki": {
+          "site": "urwiki",
+          "title": "مریخ پر سورج گرہن",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Nhật thực trên Sao Hỏa",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "火星日食",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

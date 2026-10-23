@@ -1,0 +1,119 @@
+{
+  "entities": {
+    "Q121010900": {
+      "type": "item",
+      "id": "Q121010900",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "순서 볼록 집합"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "e98ec63f421718f96ca30695d564297be4c968f4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 177646,
+                  "id": "Q177646"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q121010900$394f4aec-4ff5-1f0f-15c9-d4d089a9fa65",
+            "rank": "normal"
+          }
+        ],
+        "P361": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P361",
+              "hash": "aaf01ed2706ef49db8d038e0d4c23393f3ba7ff6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 78054942,
+                  "id": "Q78054942"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2868": [
+                {
+                  "snaktype": "value",
+                  "property": "P2868",
+                  "hash": "f49da773ff5bd1a446d3879e46afd29fe78265b2",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 177646,
+                      "id": "Q177646"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2868"
+            ],
+            "id": "Q121010900$14c98b80-4505-4418-916f-9431605bcca8",
+            "rank": "normal"
+          }
+        ],
+        "P2579": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2579",
+              "hash": "af562f76e1e425d472dbdeee750529a813ddaca4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 24175351,
+                  "id": "Q24175351"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q121010900$21009f6a-4246-fc91-6fd7-88787e345139",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Order-convex set",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "순서 볼록 집합",
+          "badges": [
+            "Q70894304"
+          ]
+        }
+      }
+    }
+  },
+  "success": 1
+}

@@ -1,0 +1,487 @@
+{
+  "entities": {
+    "Q904031": {
+      "type": "item",
+      "id": "Q904031",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "화성 솔"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "화성에서의 하루를 뜻하는 말"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "e5db78706f07eca9dab72c4fa7e989c369c41ca1",
+              "datavalue": {
+                "value": "/m/05wmj7",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q904031$0D9A4A95-E0C7-4364-B154-03C457DE8977",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "98a1e85b80bda7ff493c25a6b805599da715c077",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1790144,
+                  "id": "Q1790144"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q904031$61D697EB-0ED0-477E-8A3D-613803DAE7CB",
+            "rank": "normal"
+          }
+        ],
+        "P2370": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2370",
+              "hash": "efd7ec3ce9e843a2e743b34f3294014764db6e87",
+              "datavalue": {
+                "value": {
+                  "amount": "+88765.244",
+                  "unit": "http://www.wikidata.org/entity/Q11574"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q904031$7e3eb800-43b0-8e20-7d8b-ef44119bbdc4",
+            "rank": "normal"
+          }
+        ],
+        "P111": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P111",
+              "hash": "0024acf32e47fdc8140f1c19f7e127aa0372128e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2199864,
+                  "id": "Q2199864"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q904031$544E340E-B80B-4BCD-910A-CF67E2A347DB",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "5bbe97789237ce4f617c76b2ebdfca50a4ab24a2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 186081,
+                  "id": "Q186081"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q904031$2c379693-43f7-feff-24c8-3f4bd857580a",
+            "rank": "normal"
+          }
+        ],
+        "P7007": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7007",
+              "hash": "80e0782e221354899df2fb2aba5362d7a67a49ec",
+              "datavalue": {
+                "value": "\"MartianSolarDays\"",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q904031$8992b456-42e3-0787-8033-15f15392fa0a",
+            "rank": "normal"
+          }
+        ],
+        "P3921": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3921",
+              "hash": "014d4c0628a7b1d00ba10041c512f80cd5d3a762",
+              "datavalue": {
+                "value": "wd:Q904031 p:P2370/psn:P2370 [wikibase:quantityAmount ?source; wikibase:quantityUnit ?base]. ?item p:P2370/psn:P2370 [wikibase:quantityAmount ?target; wikibase:quantityUnit ?base]. BIND(?source / ?target as ?value)",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q904031$A1F8DBBE-77B8-4287-9319-04AAEB11E9A7",
+            "rank": "normal"
+          }
+        ],
+        "P2442": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2442",
+              "hash": "333f9342da913080bcda13c41c5fabc2f42ede53",
+              "datavalue": {
+                "value": {
+                  "amount": "+1479.4207333",
+                  "unit": "http://www.wikidata.org/entity/Q7727"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q904031$95ace49a-4cb3-e9b9-1822-309a059a9252",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2442",
+              "hash": "e143668f525244386b35ff96971af87aab877e0e",
+              "datavalue": {
+                "value": {
+                  "amount": "+24.65701222",
+                  "unit": "http://www.wikidata.org/entity/Q25235"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q904031$a321fcd2-420f-6e1d-0406-b75a39f8a61f",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2442",
+              "hash": "432eb1f313854ef8bb9018d566efe91cbf80f866",
+              "datavalue": {
+                "value": {
+                  "amount": "+1.02749125",
+                  "unit": "http://www.wikidata.org/entity/Q573"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q904031$cb99c4c8-487f-02fb-eb5f-f441faad7487",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "b6b64c2258bed3e7d41fe3fbd61e1f5b46deccb9",
+              "datavalue": {
+                "value": "/g/11bc5c9lg6",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q904031$D9F1C0C2-9040-4E9A-9AF5-56B37758F996",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "2d30f0804b9c813c7e966f8713f1d358b92a938b",
+              "datavalue": {
+                "value": "/g/11b6zphpz8",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2241": [
+                {
+                  "snaktype": "value",
+                  "property": "P2241",
+                  "hash": "74bd46d0bbe97d05804856f1f73b6a7480c68cec",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 45403344,
+                      "id": "Q45403344"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2241"
+            ],
+            "id": "Q904031$8B93B8C1-5214-44F2-8DD8-EC94B89D5B5E",
+            "rank": "deprecated"
+          }
+        ],
+        "P8313": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8313",
+              "hash": "445854afb611d6f828ed8138bc562fbfc0c3465e",
+              "datavalue": {
+                "value": "sol_-_døgn_på_Mars",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q904031$ca504ceb-49d0-8e7d-8cf6-d3b2ed46a973",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "يوم مريخي",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Marsovski dan",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Sol (dia marcià)",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Sol (Mars)",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Sol (døgn på Mars)",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Sol (Marstag)",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Mars sol",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Día marciano",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "سول (روز در مریخ)",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Sol (Marsovski dan)",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Sol (marsi nap)",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Sol (hari di Mars)",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Sol (astronomia)",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "火星日",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "화성 솔",
+          "badges": []
+        },
+        "kuwiki": {
+          "site": "kuwiki",
+          "title": "Sol (Behram)",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Sol (Zäiteenheet)",
+          "badges": []
+        },
+        "lmowiki": {
+          "site": "lmowiki",
+          "title": "Sol (astronomia)",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Sol (tijdseenheid)",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Sol (tidsenhet)",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Sol (Mars)",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Sol (dia marciano)",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Sol (zi marțiană)",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Sol (Mars)",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Sol (tidsenhet)",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "செவ்வாய் நாள்",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "วันดาวอังคาร",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Mars sol",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Марсіанський сол",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Sol (ngày trên sao Hỏa)",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "火星日",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

@@ -1,0 +1,157 @@
+{
+  "entities": {
+    "Q1422863": {
+      "type": "item",
+      "id": "Q1422863",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "외행성에서 본 목성 일면통과"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "다른 행성에서 목성이 태양면을 통과하는 천문 현상"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "03066b64f4dc3842562060ff5088286bcf02ee9e",
+              "datavalue": {
+                "value": "/m/036brz",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1422863$33E1841F-4F65-4CEB-A238-0D94E07C93BB",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "3666a4b1f61888f182f512653e8a5585562d088a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6888,
+                  "id": "Q6888"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1422863$426ddaac-410f-cf67-227b-22c9fc0365e0",
+            "rank": "normal"
+          }
+        ],
+        "P367": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P367",
+              "hash": "f2ff8d58e466a984224eaa83e29512751ff740ba",
+              "datavalue": {
+                "value": "Jupiter transit symbol.svg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q1422863$24b9fe7d-4bee-e481-27e0-4319ff499d5d",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Jupiterdurchgang von Saturn, Neptun oder Uranus aus",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Transito di Giove dai pianeti esterni",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "木星の太陽面通過",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "외행성에서 본 목성 일면통과",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Jupiterpassage",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "木星凌日",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

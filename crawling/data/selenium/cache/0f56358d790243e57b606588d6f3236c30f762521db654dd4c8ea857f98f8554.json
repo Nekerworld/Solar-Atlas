@@ -1,0 +1,572 @@
+{
+  "entities": {
+    "Q1136730": {
+      "type": "item",
+      "id": "Q1136730",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "태양열 자동차"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "태양열로 움직이는 차"
+        }
+      },
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "태양전지자동차"
+          },
+          {
+            "language": "ko",
+            "value": "태양광 자동차"
+          },
+          {
+            "language": "ko",
+            "value": "태양전지 자동차"
+          },
+          {
+            "language": "ko",
+            "value": "솔라카"
+          },
+          {
+            "language": "ko",
+            "value": "태양열자동차"
+          },
+          {
+            "language": "ko",
+            "value": "태양 전지 자동차"
+          },
+          {
+            "language": "ko",
+            "value": "태양광자동차"
+          }
+        ]
+      },
+      "claims": {
+        "P618": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P618",
+              "hash": "865b2d9da47fac3ae3c0c93e42ead5155fd3b429",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 40015,
+                  "id": "Q40015"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1136730$B918347F-E009-489F-894B-8D8BFA55F9E5",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "231c068f282b07c1cf8f75f0de6ff03a77ae07d5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 13629441,
+                  "id": "Q13629441"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1136730$76F603A6-C041-466C-9D20-93329532726F",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "f95a34b3faa3047a98f10c989c02012f4d0d2794",
+              "datavalue": {
+                "value": "Solar-powered vehicles",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q1136730$A4634338-CC85-4108-A74C-A2AE50040005",
+            "rank": "normal"
+          }
+        ],
+        "P349": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P349",
+              "hash": "f60e50c48523b324d72bdb6cdba15e091b9efda2",
+              "datavalue": {
+                "value": "00577237",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1136730$52F4D51D-2391-43DC-84EB-7737B637C874",
+            "rank": "normal"
+          }
+        ],
+        "P516": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P516",
+              "hash": "d86dd1fd92a95c39757e6ae01093d334cb6cb845",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 72313,
+                  "id": "Q72313"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1136730$D103157E-40D7-4BC0-9CDA-1D99FD4601CE",
+            "rank": "normal"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "fa2e37d23c89d94d536a8d9b5c4edb600a346f27",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8759508,
+                  "id": "Q8759508"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1136730$719E233C-703F-4B59-A632-E979BD9B1B20",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3417",
+              "hash": "395ebb4a158390eb00c9355d1b4842f1d68fd74e",
+              "datavalue": {
+                "value": "Solar-Vehicle",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1136730$5697BCBA-35BE-4F08-8CB4-14A0FDD1B9A0",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3b0a5bb3c1f955edce73740124f7d935698092ad",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "3ac9682e789a3a3791d4fd088b265ea03abef101",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 51711,
+                          "id": "Q51711"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "9aa5a4c1f4fd12b216a937c5c964568fdfc1adce",
+              "datavalue": {
+                "value": "540793156",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1136730$10F3F4F1-E8F8-4A15-BAC8-23F0D982B311",
+            "rank": "normal"
+          }
+        ],
+        "P1889": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "68178dd6af19af53dbb0608de3d7cbf19f68032f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1113875,
+                  "id": "Q1113875"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1136730$cf2d716e-4cde-35ea-2ad9-6d6812e67373",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "8360b0518ee58ec95b3e14c6efbce066b3a9a1e8",
+              "datavalue": {
+                "value": "/m/0g9yjp0",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1136730$197F7625-3BB9-4459-9968-E3EED50A5096",
+            "rank": "normal"
+          }
+        ],
+        "P12086": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12086",
+              "hash": "e45d1fcc305a7c438046355024b6984d75c4c408",
+              "datavalue": {
+                "value": "Zonnewagen",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "fbd293176d4e4929a9cda1235ca255c7e79c8f7d",
+                  "datavalue": {
+                    "value": "47419",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P9675"
+            ],
+            "id": "Q1136730$8BE7DEEB-6B45-435B-A885-2295A9F8477D",
+            "rank": "normal"
+          }
+        ],
+        "P8189": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8189",
+              "hash": "635178626d61411ce92731f110604682c1768dc2",
+              "datavalue": {
+                "value": "987007532480005171",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "d3cf039869c6ad34549de50af4084594345427ec",
+                  "datavalue": {
+                    "value": {
+                      "text": "Solar vehicles",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "dae3214c5b49fd49c3aeb04da1484c2e07eec0b1",
+                  "datavalue": {
+                    "value": {
+                      "text": "רכב סולרי",
+                      "language": "he"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "a5ae334a45a5464df5aba7288917ce88b142a839",
+                  "datavalue": {
+                    "value": {
+                      "text": "سيارة شمسية",
+                      "language": "ar"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P14457"
+            ],
+            "id": "Q1136730$19240F87-45F8-4AF7-A019-9915D8191B15",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ecb7a39cf436eb1fba419853af168ef9f2ba1dab",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a03bb6ffe37be9554492f4eea5bd18afcb57df19",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 106509962,
+                          "id": "Q106509962"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "2a2ba54a27c24921a052cde8096284842210aee6",
+              "datavalue": {
+                "value": "Solar Car Tokai Challenger.JPG",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q1136730$33EF3203-183A-4A11-961D-5A2F1811F73C",
+            "rank": "normal"
+          }
+        ],
+        "P1617": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1617",
+              "hash": "1c2154008470d8ba3c3b1178efd9fafb772e675b",
+              "datavalue": {
+                "value": "d4a351e6-2125-46ed-b518-8aed8cf29199",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1136730$fd08a228-399e-4460-8101-a8d7af19d096",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8582d8416671f1f2567247201bac753552435ca5",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "ea55dc6ac5c3ab77c77d4ae7979e3276d0d4cd20",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 18336371,
+                          "id": "Q18336371"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "سيارة شمسية",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Solarfahrzeug",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Solar vehicle",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Vehículo solar",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "وسیله نقلیه خورشیدی",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Aurinkoauto",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "सौर वाहन",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Sunčevo vozilo",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Kendaraan surya",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "ソーラーカー",
+          "badges": []
+        },
+        "kkwiki": {
+          "site": "kkwiki",
+          "title": "Гелиомобиль",
+          "badges": []
+        },
+        "knwiki": {
+          "site": "knwiki",
+          "title": "ಸೌರ ವಾಹನ",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "태양광 자동차",
+          "badges": []
+        },
+        "liwiki": {
+          "site": "liwiki",
+          "title": "Zonnewage",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Zonnewagen",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Veículo solar",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "சூரிய வாகனம்",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "太陽能車",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

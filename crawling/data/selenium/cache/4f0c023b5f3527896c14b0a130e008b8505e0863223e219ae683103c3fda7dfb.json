@@ -1,0 +1,861 @@
+{
+  "entities": {
+    "Q3060": {
+      "type": "item",
+      "id": "Q3060",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "목성의 고리"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "목성 주변에 있는 고리"
+        }
+      },
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "목성 고리"
+          }
+        ]
+      },
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "d73e0eb462a4f50ab13e53333b6c165ca611d6ed",
+              "datavalue": {
+                "value": "Jupiter (rings)",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q3060$618582E6-59D1-4ECC-8654-49442921F80A",
+            "rank": "normal"
+          }
+        ],
+        "P397": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P397",
+              "hash": "716f6ca6016a33a319e8aa67e7342e82cd172acb",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 319,
+                  "id": "Q319"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q3060$5ff49aa7-4a88-d492-4121-176d8e8f8bb6",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "3a5336f1355539b618715093c36853c250f3196d",
+              "datavalue": {
+                "value": "/m/03w6wf",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3060$C707EBE7-7E41-47E2-B17A-E8D3D00A1C9F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "bbe8bc9de6e18d452981b6a37129fa54a7a7785f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9015424,
+                  "id": "Q9015424"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3060$EE42235D-2E1A-41C8-ABB2-0F67EFE1E6B2",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5a343e7e758a4282a01316d3e959b6e653b767fc",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 11920,
+                          "id": "Q11920"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "bb09d37602f69841ba3e0467ceedd1a184bebf35",
+              "datavalue": {
+                "value": "PIA01627 Ringe.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2096": [
+                {
+                  "snaktype": "value",
+                  "property": "P2096",
+                  "hash": "72b98948017fdd3cfec41c1ea9d5ea9ca6cc7355",
+                  "datavalue": {
+                    "value": {
+                      "text": "बृहस्पति की वलय प्रणाली का एक आरेख, जो इसके चार मुख्य घटकों को दर्शाता है। सरलता के लिए, मेटिस और एड्रास्टिया को एक ही कक्षा साझा करते हुए चित्रित किया गया है।",
+                      "language": "hi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2096"
+            ],
+            "id": "Q3060$CCF9E41F-8F9D-4D36-BD5A-5EB0A64973F4",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "1cde4d4dd7d817cc26c2d15e799fc09d2de78285",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 179792,
+                  "id": "Q179792"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3060$951b7324-4802-d7ee-a789-b50d369e7e72",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "65da477eebff09a416a2a38e1b029f76eff97fc3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 109645909,
+                  "id": "Q109645909"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3060$CB12F202-4326-4170-BEF7-B9968649C40F",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "78ca25ac9ffc88e3fb08617fc3836bdc11bad993",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 28951811,
+                  "id": "Q28951811"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3060$266b71ad-4df9-e549-a060-84c47b492a77",
+            "rank": "normal"
+          }
+        ],
+        "P575": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P575",
+              "hash": "28634831061e002c6a66657b9f16a3dcef20cbe4",
+              "datavalue": {
+                "value": {
+                  "time": "+1979-00-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 9,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q3060$c5d18d4c-4e37-aa37-5f7f-749116a19dc5",
+            "rank": "normal"
+          }
+        ],
+        "P61": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P61",
+              "hash": "dbad5d2ffe4de6865880786c17d427f397a9b2b6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 48469,
+                  "id": "Q48469"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3060$484eab99-41b1-afba-6401-a96cba71af4c",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "b57c6022ffe19065f776dbb598420e06ce9c5948",
+              "datavalue": {
+                "value": "138353262",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3060$AAF7B686-D50F-4088-96ED-B4DD189FC7CF",
+            "rank": "normal"
+          }
+        ],
+        "P8408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8408",
+              "hash": "c81a3d9f942140c1f8c7fb9438be083930e3514f",
+              "datavalue": {
+                "value": "RingsOfJupiter",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3060$41057774-A9BA-424B-96D8-174058B3B4B9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64139102,
+                          "id": "Q64139102"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-07-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P527": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "35f8a67bd83454c244bd403f562b5700938195fa",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 945984,
+                  "id": "Q945984"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3060$fba79b47-43a7-cf04-9107-de62dabe5af7",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "6335a6c67b5822bbbc98d7c5b2179e04b93e3ac3",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "f66016619def75bacdbb41191ccd90d518aca95c",
+                      "datavalue": {
+                        "value": "https://www.universetoday.com/38059/how-many-rings-does-jupiter-have/",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "1967d18864495b6ef8c868d880d8ea561ae5b0e5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 378590,
+                  "id": "Q378590"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3060$ef8a8c4f-4f47-c9ad-7b34-c21c984f40a8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "6335a6c67b5822bbbc98d7c5b2179e04b93e3ac3",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "f66016619def75bacdbb41191ccd90d518aca95c",
+                      "datavalue": {
+                        "value": "https://www.universetoday.com/38059/how-many-rings-does-jupiter-have/",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "6d82443fdd27ad6746d4877ca9ef5c943bb78c2b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3680049,
+                  "id": "Q3680049"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1932": [
+                {
+                  "snaktype": "value",
+                  "property": "P1932",
+                  "hash": "f8a6b6225bd33468628519b4d08a63e3a64c8e53",
+                  "datavalue": {
+                    "value": "Amalthea gossamer ring",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P1932",
+                  "hash": "8d6a88e3462870031e9c21c14b9975c4666769b7",
+                  "datavalue": {
+                    "value": "Thebe gossamer ring",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1932"
+            ],
+            "id": "Q3060$2c44d5bb-481d-529e-b8ad-5c3f9163df09",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "6335a6c67b5822bbbc98d7c5b2179e04b93e3ac3",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "f66016619def75bacdbb41191ccd90d518aca95c",
+                      "datavalue": {
+                        "value": "https://www.universetoday.com/38059/how-many-rings-does-jupiter-have/",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "abstractwiki": {
+          "site": "abstractwiki",
+          "title": "Q3060",
+          "badges": []
+        },
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Jupiter se ringe",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "حلقات المشتري",
+          "badges": []
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Aniellos de Xúpiter",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "azbwiki": {
+          "site": "azbwiki",
+          "title": "موشتری اوزوکلری",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Yupiterin halqaları",
+          "badges": []
+        },
+        "be_x_oldwiki": {
+          "site": "be_x_oldwiki",
+          "title": "Кольцы Юпітэра",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Кольцы Юпітэра",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Пръстени на Юпитер",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "বৃহস্পতি গ্রহের বলয়",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Jupiterovi prstenovi",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Anells de Júpiter",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "ckbwiki": {
+          "site": "ckbwiki",
+          "title": "بازنەکانی ھورمز",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Prstence Jupiteru",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Jupiterringe",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Δακτύλιοι του Δία",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Rings of Jupiter",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Jupiteraj ringoj",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Anillos de Júpiter",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Jupiterren eraztunak",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "حلقه‌های مشتری",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Jupiterin renkaat",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Anneaux de Jupiter",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Aneis de Xúpiter",
+          "badges": []
+        },
+        "gnwiki": {
+          "site": "gnwiki",
+          "title": "Húpiter kuairũnguéra",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "טבעות צדק",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "बृहस्पति के वलय",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Յուպիտերի օղակներ",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Cincin Jupiter",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Anelli di Giove",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "木星の環",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "목성의 고리",
+          "badges": []
+        },
+        "kywiki": {
+          "site": "kywiki",
+          "title": "Юпитердин шакектери",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Jupiterio žiedai",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Jupitera gredzeni",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Јупитерови прстени",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Gelang Musytari",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Ringen van Jupiter",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "Ringane til Jupiter",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Jupiters ringer",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Pierścienie Jowisza",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Anéis de Júpiter",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Inelele lui Jupiter",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Кольца Юпитера",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Jupiterovi prstenovi",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Rings of Jupiter",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Prstence Jupitera",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Jupitrovi obroči",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Јупитерови прстенови",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Jupiters ringar",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Jüpiter'in halkaları",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Кільця Юпітера",
+          "badges": []
+        },
+        "urwiki": {
+          "site": "urwiki",
+          "title": "حلقہ ہائے مشتری",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Vành đai Sao Mộc",
+          "badges": []
+        },
+        "zh_min_nanwiki": {
+          "site": "zh_min_nanwiki",
+          "title": "Bo̍k-chheⁿ khoân",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "木星環",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "木星環",
+          "badges": [
+            "Q17437798"
+          ]
+        }
+      }
+    }
+  },
+  "success": 1
+}

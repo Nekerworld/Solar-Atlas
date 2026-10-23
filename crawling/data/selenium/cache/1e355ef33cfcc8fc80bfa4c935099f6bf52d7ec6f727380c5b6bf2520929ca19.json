@@ -1,0 +1,4914 @@
+{
+  "entities": {
+    "Q11663": {
+      "type": "item",
+      "id": "Q11663",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "날씨"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "강수, 바람, 구름 등 대기 중에서 일어나는 각종 물리적인 현상"
+        }
+      },
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "기상"
+          },
+          {
+            "language": "ko",
+            "value": "일기"
+          }
+        ]
+      },
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "c08ac62b0b2819ecdf9a6f877cb44412d32a92cf",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 16332653,
+                  "id": "Q16332653"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11663$9e7ea78a-44ea-d68c-8207-bb39861d799b",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "b3d3923e2bd44a86e9826341da3544b65f8e06b5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3505845,
+                  "id": "Q3505845"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11663$a312fa19-4151-a28f-95e5-542686bc51ad",
+            "rank": "normal"
+          }
+        ],
+        "P361": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P361",
+              "hash": "b4ee72e80d2db3b5e55eedac34a08e1c07241d9b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2615451,
+                  "id": "Q2615451"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q11663$eb5a672b-405e-2e97-427c-61fc00e530ce",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P361",
+              "hash": "18f2a24edfb265a205137816f863fdddd0edf136",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1281564,
+                  "id": "Q1281564"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11663$f9dc6d8c-4aa8-efca-2507-e79ad5b12b0b",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "d3aff9ca248c262358b17fa1c7c1e71128cbaed3",
+              "datavalue": {
+                "value": "Weather",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q11663$af95156f-4656-f3e4-b7cf-9fc8fe707232",
+            "rank": "normal"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "e6bfc0500176b30c5addf081240421f5adc94f08",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6465519,
+                  "id": "Q6465519"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11663$0BDB5767-9261-4195-B8DB-B8E655ECFD3E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "19dbcaac62f44092b359bb975075a74669b763c7",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "b6be31bd41dfa35375079bfa008d9b18e56c1999",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 6465519,
+                          "id": "Q6465519"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452"
+                ]
+              }
+            ]
+          }
+        ],
+        "P349": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P349",
+              "hash": "bcd8cfab795ba9f5a0ec216ecd5f11e98372abd4",
+              "datavalue": {
+                "value": "00572831",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4c40668b3d9abca77d1745690f9c45ee03052c9e",
+                  "datavalue": {
+                    "value": "天気",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P1814": [
+                {
+                  "snaktype": "value",
+                  "property": "P1814",
+                  "hash": "4edb14f10e120d2f0ea9656bb6a0c013e822e61b",
+                  "datavalue": {
+                    "value": "テンキ",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P2125": [
+                {
+                  "snaktype": "value",
+                  "property": "P2125",
+                  "hash": "3b9156cb6027cdd8c2d81c8ce35cdde5d0e96831",
+                  "datavalue": {
+                    "value": "Tenki",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P1814",
+              "P2125"
+            ],
+            "id": "Q11663$0D066BD5-C6B6-4F6B-9379-B39E8D1D304E",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "54b2e53f5fabf0d62e61b2b20df33860dd0345a3",
+              "datavalue": {
+                "value": "/m/0866r",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$85C44F64-D615-49E7-918E-4ACC249EDD94",
+            "rank": "normal"
+          }
+        ],
+        "P1051": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1051",
+              "hash": "17b63cef003be10d749aa5c96c6141ee9a190547",
+              "datavalue": {
+                "value": "4202",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "57750ba40a5a57357063e594bbff9306b1235dae",
+                  "datavalue": {
+                    "value": "počasí",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$182105A9-EE8F-486B-871B-648C5FAB0BC4",
+            "rank": "normal"
+          }
+        ],
+        "P1343": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "211b792235e2143729b80dc1ce654b29b41b6dfb",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 16387823,
+                  "id": "Q16387823"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11663$E422ABC8-03AA-4B8E-ADF5-49AD426EFD5D",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "eda63bed5c3d7a3460033092338ab321a2374c7f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2041543,
+                  "id": "Q2041543"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "f57d30db0e6c18b05b0b092c459ccda91c6628dc",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 23855397,
+                      "id": "Q23855397"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q11663$6890D96B-028E-4A6E-AD4A-EC064E96803C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "03ea04aeb1463438b60647af311caa3b26798015",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "79a460957b6bc4d7f2489ee2d1e2921748a73fa4",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 23855397,
+                          "id": "Q23855397"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "84572678e248e466ecbd897aa03c811d7e4250bd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19230683,
+                  "id": "Q19230683"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "470ab3b4fcfd19ab51877a23e55bece7d11cca52",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 113079823,
+                      "id": "Q113079823"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q11663$6DB509AB-23B7-40FB-90E7-C16CECCA3D4F",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "88389772f86dcd7d415ddd029f601412e5cc894a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 602358,
+                  "id": "Q602358"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "67baff8208539f60e035cdd65b32c0b86101c3f5",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 24485654,
+                      "id": "Q24485654"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q11663$c746a9d3-4f79-48f4-e9ce-6df04a52e295",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "42346dfe9209b7359c1f5db829a368b38d407797",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19180675,
+                  "id": "Q19180675"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "ccdec587f1d30b5660b3a8fe7024e2b536ebadfb",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 24824812,
+                      "id": "Q24824812"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q11663$4cf4d336-419e-d21f-7ca6-2b1a3ae3445c",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "cc623969772776f2a8b109402b0ac5fa5c123233",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19219752,
+                  "id": "Q19219752"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "f74c0a3193e8fbd849de1c6ee28b6ed94a2108f2",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 117838484,
+                      "id": "Q117838484"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q11663$DB44F7A5-23FB-4596-BF94-3CFB04B1FDF5",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "1e87e0f7d2db06ab0ef5ccabd7c6275641f36553",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 867541,
+                  "id": "Q867541"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "4c19157120bc1cfcf567401bc8d8ddaadb255a75",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 84653584,
+                      "id": "Q84653584"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q11663$E1547609-2F91-4B62-B551-34820C181720",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "ecb04d74140f2ee856c06658b03ec90a21c2edf2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1970746,
+                  "id": "Q1970746"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "15f084cd68d9f58e77f913f4d5ddf9f1175e84ec",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 30214225,
+                      "id": "Q30214225"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q11663$9276dbf3-45ea-16e2-1167-e22123fcf355",
+            "rank": "normal"
+          }
+        ],
+        "P1014": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1014",
+              "hash": "d6ed10ce5ab8739ba0da3401c9b3930addbf0643",
+              "datavalue": {
+                "value": "300055366",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4f889ebdf02ec2b525895c1219aa124b11d24513",
+                  "datavalue": {
+                    "value": "weather",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$251B9411-F234-4A96-B43B-798334008F4C",
+            "rank": "normal"
+          }
+        ],
+        "P2612": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2612",
+              "hash": "19c3b645d21edc27407874a04a479252567d64a4",
+              "datavalue": {
+                "value": "weather",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$36CDF00E-8F4C-42F5-829F-E043B9C46E22",
+            "rank": "normal"
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "2d3651c0af94ee63e1c434c26541b0df90862e39",
+              "datavalue": {
+                "value": "4065852-1",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "ef797bc9f2eed4a7b230ed1ca377980abeb9e875",
+                  "datavalue": {
+                    "value": "Wetter",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$9836E41A-1F38-40FF-9A7A-F4685680DEA0",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P244": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P244",
+              "hash": "9d8a5756c070f2fed52ef54edb676e969df97a4f",
+              "datavalue": {
+                "value": "sh85145843",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4d18f2e4af2c353308565969eafb5785cdbabe5c",
+                  "datavalue": {
+                    "value": "Weather",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$D9BD19C3-4B2E-4EC6-BBEA-98E2FD2CECD2",
+            "rank": "normal"
+          }
+        ],
+        "P3417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3417",
+              "hash": "d3466f3d0465d724a70d25924a32882cf70980b8",
+              "datavalue": {
+                "value": "Weather",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$D50B046E-2FFC-40C3-9967-6942391B7463",
+            "rank": "normal"
+          }
+        ],
+        "P486": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P486",
+              "hash": "1cafbce75059b66f58ee1cbd8d3e1e8b432a9f8b",
+              "datavalue": {
+                "value": "D014887",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4d18f2e4af2c353308565969eafb5785cdbabe5c",
+                  "datavalue": {
+                    "value": "Weather",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$4481d73e-44c4-9243-cf9b-d7cc1fc4b819",
+            "rank": "normal"
+          }
+        ],
+        "P1151": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1151",
+              "hash": "4291b5922d53ed2f075de67a18e3154279a8ad44",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 10814956,
+                  "id": "Q10814956"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11663$05e6a70e-4964-6d9d-49c7-618c17b17844",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3479": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3479",
+              "hash": "28aa2f7596fcbed3c3fee69a1645bb6ffdac2e0b",
+              "datavalue": {
+                "value": "f11481c8262ab2bdba66cc80c54c4f9eeacccb61",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "551c7c219725cbc72b7cc10fd6b921fcbabc9fcc",
+                  "datavalue": {
+                    "value": "Väder",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$2c1b7f41-49c8-9470-1ee9-ac533f501852",
+            "rank": "normal"
+          }
+        ],
+        "P3827": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3827",
+              "hash": "194bb3a138ed898eb3c255f60b1d59ff570578ee",
+              "datavalue": {
+                "value": "weather-conditions",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$A912C6E5-6BD4-47EE-A317-E6A2A1708C40",
+            "rank": "normal"
+          }
+        ],
+        "P2579": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2579",
+              "hash": "2dab18f744f29d76eceeb56a69b8210aead2f2a7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 25261,
+                  "id": "Q25261"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11663$4b3daa6c-49d0-94f7-4347-8bc5625fe118",
+            "rank": "normal"
+          }
+        ],
+        "P3916": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3916",
+              "hash": "445f78c9df2939dd3cfe67b63c8c36e1864f6808",
+              "datavalue": {
+                "value": "concept3279",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4d18f2e4af2c353308565969eafb5785cdbabe5c",
+                  "datavalue": {
+                    "value": "Weather",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "3ca586df09cb39e7bdd388a503668d2f27a420ee",
+                  "datavalue": {
+                    "value": "طقس",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "04bd4d3e8c5b5d41da5302a846f9c2ef1f8570c7",
+                  "datavalue": {
+                    "value": "Погода",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$C8198AF1-F900-4568-BCBF-EA8CE55FE577",
+            "rank": "normal"
+          }
+        ],
+        "P1225": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1225",
+              "hash": "7ae7fa83b2962219a3d5849a6a6fcded6382fd79",
+              "datavalue": {
+                "value": "10642860",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4d18f2e4af2c353308565969eafb5785cdbabe5c",
+                  "datavalue": {
+                    "value": "Weather",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$D9260F80-9835-4988-A16E-C1C9F31F323A",
+            "rank": "normal"
+          }
+        ],
+        "P1687": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1687",
+              "hash": "435d6a41f64f4c7cb7d12ecb70b428fea1272165",
+              "datavalue": {
+                "value": {
+                  "entity-type": "property",
+                  "numeric-id": 4150,
+                  "id": "P4150"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-property"
+            },
+            "type": "statement",
+            "id": "Q11663$A0814474-9894-4DE6-B9B4-4BADED21A02D",
+            "rank": "normal"
+          }
+        ],
+        "P2581": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2581",
+              "hash": "e698dfc6fc28178513cb832bcbdfee3375ee2be4",
+              "datavalue": {
+                "value": "00006808n",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4f889ebdf02ec2b525895c1219aa124b11d24513",
+                  "datavalue": {
+                    "value": "weather",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$83C17632-B0F5-44ED-A58A-E8AF03A44BA7",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "248ac337a217a5f5eed7139a82a4e60931611af0",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "25b816aab41db18565946259c950aed6de05dd1e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4837690,
+                          "id": "Q4837690"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P4254": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4254",
+              "hash": "de1b38b766f223fd97eacce8e08618496110d2a5",
+              "datavalue": {
+                "value": "আবহাওয়া",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$7B0F8B8C-15FC-47B2-9E61-E528AF94EE3F",
+            "rank": "normal"
+          }
+        ],
+        "P3984": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3984",
+              "hash": "1c5766a71c01bcd2d19269557dad554337caa522",
+              "datavalue": {
+                "value": "WeatherGifs",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "b0f9a0c2a4ccb85b055faec17ce57eb91c182dab",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2015-08-07T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "d92d6901ffc4722bd9799bccfef2e79b1d5dd480",
+                  "datavalue": {
+                    "value": "Weather in Motion",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407",
+              "P580",
+              "P1810"
+            ],
+            "id": "Q11663$dace2ea3-499a-5648-de53-d07d34aaa6c0",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "848c7514b88b1f487526b9556ccde288c97daabd",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "be0f82c1f563fe0acd805d40974b9ab3e372c220",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-05-06T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3984",
+              "hash": "601179626849a8705e9b6b329925d7687c702e22",
+              "datavalue": {
+                "value": "weather",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "14d13e9d334d68e09b50d663c726cff52ad0c605",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2008-05-21T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "362dc3d5f37cb82b3d90d1f285838dbb992f8c41",
+                  "datavalue": {
+                    "value": "Weather subreddit",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407",
+              "P580",
+              "P1810"
+            ],
+            "id": "Q11663$de4d73ec-4a02-2c5a-e904-41d2e1ebddf1",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "848c7514b88b1f487526b9556ccde288c97daabd",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "be0f82c1f563fe0acd805d40974b9ab3e372c220",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-05-06T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P5008": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5008",
+              "hash": "d8037e40c3d12c404489a97a78937213939ff1cd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5460604,
+                  "id": "Q5460604"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11663$12E019F6-A7D7-45EA-B1A4-2BBB6A9D9FBC",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5008",
+              "hash": "136e3fbe19158e73e4bfebf3f2d98a9df8638b7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6173448,
+                  "id": "Q6173448"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "7661f66dd5b82a1ea92515ddb16c09ce3088edea",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-10-31T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585"
+            ],
+            "id": "Q11663$125E63D0-C47A-4393-877D-090A50088ECD",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5008",
+              "hash": "ec0eba728564a9d4d063f3ab986e88b723e23c2c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 138638986,
+                  "id": "Q138638986"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11663$27A5562B-DA1D-46BB-BF3A-C4E0CD2B882E",
+            "rank": "normal"
+          }
+        ],
+        "P1536": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1536",
+              "hash": "4dc69d48f56b570961f98faef7046c49aac45ff6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 989946,
+                  "id": "Q989946"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11663$63726e79-445f-8ed8-b081-72f2b6e31a6f",
+            "rank": "normal"
+          }
+        ],
+        "P2888": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2888",
+              "hash": "f2051333b32d91fa9806ace41d7305906bf62d9f",
+              "datavalue": {
+                "value": "http://cv.iptc.org/newscodes/productgenre/weather",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q11663$d3057a64-4b74-a64e-352a-5f20c945fb7c",
+            "rank": "normal"
+          }
+        ],
+        "P5250": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5250",
+              "hash": "77abb1e324f284325b9d2db090dd3fcdb7578916",
+              "datavalue": {
+                "value": "390",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$4CDA8110-13FE-415D-97DB-8B40C89561FC",
+            "rank": "normal"
+          }
+        ],
+        "P6573": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6573",
+              "hash": "cb4c2d859e166f80ae64b5245cf4a2e3780bd097",
+              "datavalue": {
+                "value": "Wetter",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$B28BA8A0-05B9-4137-9A68-CD4644690B7E",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "992d6e4f534553dec1b1844391e2f1bfa5687e46",
+              "datavalue": {
+                "value": "Wikinews weather.png",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q11663$0ff13806-4bf0-d4a8-7343-36dab8e3a294",
+            "rank": "normal"
+          }
+        ],
+        "P6849": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6849",
+              "hash": "159cbfe3ecf8efd25a5ec326e3cd86c2777c3a59",
+              "datavalue": {
+                "value": "vejret",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$aead396b-4f81-9e9c-93dd-8b08ae39d815",
+            "rank": "normal"
+          }
+        ],
+        "P1424": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1424",
+              "hash": "c965d13257c580cfad83d0273a8f6b8aeeb8fc14",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 20376438,
+                  "id": "Q20376438"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11663$33243740-467d-d5a8-29ad-55865594c1b7",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1424",
+              "hash": "1433e45ca38e45ee4e8cfd8f202b007ade170a95",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8067988,
+                  "id": "Q8067988"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11663$3009791f-b4f9-42e3-8caf-8a52a072b23a",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "6ffbe02f0123eb2c93f6ab6391e0f6a75f0fca06",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "855e1a4a6db0a8cf71e65d32bf8b2b34895fb37e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8067988,
+                          "id": "Q8067988"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7033": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7033",
+              "hash": "ba787ef304045c1c3fa58cc757082888021cda8c",
+              "datavalue": {
+                "value": "scot/897",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4d18f2e4af2c353308565969eafb5785cdbabe5c",
+                  "datavalue": {
+                    "value": "Weather",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$B7D2321B-2884-4CBF-B351-A6ACB98A9C7E",
+            "rank": "normal"
+          }
+        ],
+        "P3553": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3553",
+              "hash": "1818b857d6df1610d6a72b3c3b49c7f039e98818",
+              "datavalue": {
+                "value": "19553158",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "f36080446877cb8c0cd325825747a55369bd4497",
+                  "datavalue": {
+                    "value": "天气",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$E39E52F4-3763-49CD-B2F9-19FB582ABD73",
+            "rank": "normal"
+          }
+        ],
+        "P1245": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1245",
+              "hash": "7f44d1e32f4bd2b85c396276a9411e08ee806c75",
+              "datavalue": {
+                "value": "4129",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$5264C186-D553-4FA5-BD55-A7436ED5C506",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "3359a98e8be5754fe005a6bf2f7c6c75d6941e81",
+              "datavalue": {
+                "value": "science/weather",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4f889ebdf02ec2b525895c1219aa124b11d24513",
+                  "datavalue": {
+                    "value": "weather",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$81C1EF2D-4789-46F8-B95C-0F53D0A09D2F",
+            "rank": "normal"
+          }
+        ],
+        "P7697": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7697",
+              "hash": "f562a98dac59e7d8076abfc5c8c8669877541cc5",
+              "datavalue": {
+                "value": "weather",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$F33A4DB9-AD42-4957-9E37-E1265F05C28D",
+            "rank": "normal"
+          }
+        ],
+        "P2347": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2347",
+              "hash": "43f40399eacdcf999460d4da26486baa4c924ed1",
+              "datavalue": {
+                "value": "1283",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "3d48be9321cf0c37a047d9ae420d453f51738833",
+                  "datavalue": {
+                    "value": {
+                      "text": "sää",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "9f2a3afdd312fdd1a5d1b1d704f9b05bfe826122",
+                  "datavalue": {
+                    "value": {
+                      "text": "dálki",
+                      "language": "se"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "365f438bda2e08da9790713fdbeebd75121da9c2",
+                  "datavalue": {
+                    "value": {
+                      "text": "weather",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "6cc028cb0869c5f1922f422b75d113cfc83f3f72",
+                  "datavalue": {
+                    "value": {
+                      "text": "väderlek",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P14458": [
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "1fcaabfab4da0ceca001632b9d013253a4c08086",
+                  "datavalue": {
+                    "value": {
+                      "text": "väder",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P14457",
+              "P14458"
+            ],
+            "id": "Q11663$E45AB8D3-740D-4F35-B136-34DFA05B7D7D",
+            "rank": "normal"
+          }
+        ],
+        "P8408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8408",
+              "hash": "f0e4a3743b9d742da17e1304d8f9fffb28eb9f55",
+              "datavalue": {
+                "value": "Weather",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$29199063-BA16-4F5D-BF25-AA782689B922",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64139102,
+                          "id": "Q64139102"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-07-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8519": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8519",
+              "hash": "797e6b2b9adaa9f83997df9c112aec942bf61ede",
+              "datavalue": {
+                "value": "63231",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$ac22eaa5-38f0-438c-9f6f-e632e60567ab",
+            "rank": "normal"
+          }
+        ],
+        "P8799": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8799",
+              "hash": "551cdf49351a8143f74d6b8370766cb1e5d82a66",
+              "datavalue": {
+                "value": "8b3b089d-aae5-4a00-8d10-b01a28451b08",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2241": [
+                {
+                  "snaktype": "value",
+                  "property": "P2241",
+                  "hash": "98b26a1a943d6e058e53849ded191e13012a38b8",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 21441764,
+                      "id": "Q21441764"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2241"
+            ],
+            "id": "Q11663$9AC7045A-5F7F-4847-8F6C-2B9B6A54D643",
+            "rank": "deprecated"
+          }
+        ],
+        "P8672": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8672",
+              "hash": "61e6e2ac137d4dd1597b936fcef098943dd230ae",
+              "datavalue": {
+                "value": "857083369514876928",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4d18f2e4af2c353308565969eafb5785cdbabe5c",
+                  "datavalue": {
+                    "value": "Weather",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$fb4ca13d-4bb1-d40d-ec14-724eed9ab736",
+            "rank": "normal"
+          }
+        ],
+        "P8814": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8814",
+              "hash": "2238fe6827809f8926948a514607cb4304c974eb",
+              "datavalue": {
+                "value": "11545095-n",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$4FB78ED9-0F2D-46FF-9EDC-DCE766F339F5",
+            "rank": "normal"
+          }
+        ],
+        "P4527": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4527",
+              "hash": "f744b26c2cf968e4f7fba2086218b868c1250152",
+              "datavalue": {
+                "value": "93480",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4d18f2e4af2c353308565969eafb5785cdbabe5c",
+                  "datavalue": {
+                    "value": "Weather",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$0713B997-F515-4E4C-BB9F-87C821F4CC57",
+            "rank": "normal"
+          }
+        ],
+        "P9318": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9318",
+              "hash": "3342717f93d787547e2f6e145af84104ae7a69cc",
+              "datavalue": {
+                "value": "dalki",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$353357c0-44a5-4be4-b4be-5ce9814fad70",
+            "rank": "normal"
+          }
+        ],
+        "P6293": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6293",
+              "hash": "239bc0dcf96e9e877bef4803d8895a928e136a96",
+              "datavalue": {
+                "value": "Y99197",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "126d973e070255ffc48193c2583cd8eca6969164",
+                  "datavalue": {
+                    "value": "sää",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$8c875990-42f5-b1f8-9b0f-9885b46d39ca",
+            "rank": "normal"
+          }
+        ],
+        "P8309": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8309",
+              "hash": "0035f03812c47b4577cde3c7e45d1e0ed4c2e7dd",
+              "datavalue": {
+                "value": "18-215833",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "f13501a9ed33c80616f88bf7d150172affbae581",
+                  "datavalue": {
+                    "value": "Sää",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$eb9c534e-4df8-a3ad-0ba7-cc24cadb8670",
+            "rank": "normal"
+          }
+        ],
+        "P8248": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8248",
+              "hash": "ed7d160a0ee8405c4f750daee9d872a3a5c57b1a",
+              "datavalue": {
+                "value": "U281",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P747": [
+                {
+                  "snaktype": "value",
+                  "property": "P747",
+                  "hash": "050115e00610f532de12a73d97ee504d8443bfb7",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 95449814,
+                      "id": "Q95449814"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P747"
+            ],
+            "id": "Q11663$0942063C-36CF-4928-8859-EED23B4C5C5E",
+            "rank": "normal"
+          }
+        ],
+        "P9545": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9545",
+              "hash": "90e71b1e98871ecf287145a11ce7ddac296fa728",
+              "datavalue": {
+                "value": "233814",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$A5C70477-113C-4D06-A2F5-C1D66756E261",
+            "rank": "normal"
+          }
+        ],
+        "P9272": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9272",
+              "hash": "1457cf88d510eefe50680c9b8083a4febd464c7f",
+              "datavalue": {
+                "value": "15289",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4d18f2e4af2c353308565969eafb5785cdbabe5c",
+                  "datavalue": {
+                    "value": "Weather",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$4E37EDC2-073A-4C8B-A9C2-5286D655E149",
+            "rank": "normal"
+          }
+        ],
+        "P9100": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9100",
+              "hash": "eec507f61825e1a43157357f5a4a6bdce4b13071",
+              "datavalue": {
+                "value": "weather",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$E8DA83D1-0D5D-4C02-9A4D-8A5A9208AC00",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "035a72264ecdf693e663190bf42d33eb146b7060",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "3f186865e9fac5971b84fc08f9299ddf4994f6ec",
+                      "datavalue": {
+                        "value": "https://github.com/topics/weather",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "28fbced2d48fff65f4cda87b87c070de41f6702c",
+                      "datavalue": {
+                        "value": {
+                          "text": "weather · GitHub Topics · GitHub",
+                          "language": "en"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "8655c9658ea5d304f89dfa913c515caef816cd57",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2021-07-21T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P1476",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P5429": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5429",
+              "hash": "5f728d778e44ef3416d7ddd6ba2c462ea629ae89",
+              "datavalue": {
+                "value": "mediatopic/17000000",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4f889ebdf02ec2b525895c1219aa124b11d24513",
+                  "datavalue": {
+                    "value": "weather",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$71664524-4d6c-c73d-c739-fa4c4218cf89",
+            "rank": "normal"
+          }
+        ],
+        "P2004": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2004",
+              "hash": "f2aee3a3f893aec8e088c4c23bb8e1dad1f92b3e",
+              "datavalue": {
+                "value": "5862",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4f889ebdf02ec2b525895c1219aa124b11d24513",
+                  "datavalue": {
+                    "value": "weather",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$85394CB8-5560-44CE-9BB6-0F813E2CDE5F",
+            "rank": "normal"
+          }
+        ],
+        "P8189": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8189",
+              "hash": "901e9e8db0869b77c4e7207baa4c1dc795b14190",
+              "datavalue": {
+                "value": "987007553646705171",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "0183fd779a1ebc56b6e19da80e7dc4cc96f86265",
+                  "datavalue": {
+                    "value": {
+                      "text": "Weather",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "4f1e4123d955cd745452245ad32e971abd238e39",
+                  "datavalue": {
+                    "value": {
+                      "text": "מזג אוויר",
+                      "language": "he"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "e031c59c6586af37340f57d8d041d699eca2fe8a",
+                  "datavalue": {
+                    "value": {
+                      "text": "الطقس",
+                      "language": "ar"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P14457"
+            ],
+            "id": "Q11663$49111DA7-34C6-443F-8872-25530BEA0A70",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c8a47202c92936005b390eb36ddd267921b51f43",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "0ea73b3596b49258a7b7ec6495950779b99e875d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 188915,
+                          "id": "Q188915"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P9084": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9084",
+              "hash": "956b0b9e667462f46ea64c9e680d05369e91143b",
+              "datavalue": {
+                "value": "weather",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$A05EF070-80B6-40C3-8B71-E5D335054A54",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "f00c469d96e62534c54623955a609318ee5f0b5f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1322005,
+                  "id": "Q1322005"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11663$9fe0471c-4fea-0f32-2376-0189e34435ff",
+            "rank": "normal"
+          }
+        ],
+        "P10283": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "2a4eed22335d1b39f06b4b162b971336c765e45c",
+              "datavalue": {
+                "value": "C2993336609",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "193c423d67d37df83ecfa009ac7f1fab68cb5081",
+                  "datavalue": {
+                    "value": "Weather patterns",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$38F7BBA2-496E-4307-A52A-E8B582A8B426",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c13ba4d7902ead2693f79396bc25bd35d4d14030",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P10804": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10804",
+              "hash": "4cfdc2dfcb09b5dbce69952477747787988cd773",
+              "datavalue": {
+                "value": "234073791",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P123": [
+                {
+                  "snaktype": "value",
+                  "property": "P123",
+                  "hash": "06634a92b41e141ed50e5f4a309ec408be378d6c",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1390577,
+                      "id": "Q1390577"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P123"
+            ],
+            "id": "Q11663$B85D7A9D-A9AB-40CD-8CA6-A851FC3B1C6F",
+            "rank": "normal"
+          }
+        ],
+        "P10565": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10565",
+              "hash": "f628dc9e3b929b3d0893a773a7064fa68dab6e50",
+              "datavalue": {
+                "value": "47061",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "f36080446877cb8c0cd325825747a55369bd4497",
+                  "datavalue": {
+                    "value": "天气",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$add36342-4b7a-ebbf-2b5f-9d15d45b6d1c",
+            "rank": "normal"
+          }
+        ],
+        "P691": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P691",
+              "hash": "dfa06f7c495a4781eaa02c9c57fd07d71301c5e4",
+              "datavalue": {
+                "value": "ph124495",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "57750ba40a5a57357063e594bbff9306b1235dae",
+                  "datavalue": {
+                    "value": "počasí",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$5E5180AB-D22B-4FD5-9EFF-4576134F7481",
+            "rank": "normal"
+          }
+        ],
+        "P10916": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10916",
+              "hash": "c43820b878932e2cf9f74a9ebc59a212817e4ec6",
+              "datavalue": {
+                "value": "Wetter",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$2512478b-4425-342b-ff1e-435ba95e8067",
+            "rank": "normal"
+          }
+        ],
+        "P6385": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6385",
+              "hash": "86a28aa9fb353c9c73ffb94f78edb869285962d1",
+              "datavalue": {
+                "value": "fizika/pogoda-i-klimat-zemli",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$241dd68b-420b-0bc8-88e0-550ff410df46",
+            "rank": "normal"
+          }
+        ],
+        "P2924": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2924",
+              "hash": "d726b18ddea4cfd029c8752bc570bf738d7c63f6",
+              "datavalue": {
+                "value": "3148415",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "61a4b4beef472249d55ce396f0a7e7ce7eb84c27",
+                  "datavalue": {
+                    "value": "ПОГОДА",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$056c37ec-4584-d1b5-a131-cae5123da1c9",
+            "rank": "normal"
+          }
+        ],
+        "P7820": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7820",
+              "hash": "8c5a31f940f1c59015ee4c8f963a7e217212525d",
+              "datavalue": {
+                "value": "ਮੌਸਮ",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$0283e609-4793-c8f3-f351-ad9de8cf68be",
+            "rank": "normal"
+          }
+        ],
+        "P1889": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "a581b20d63dfc8fa100a84cec776d9850b9101c3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7937,
+                  "id": "Q7937"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11663$6225fe40-4f39-8608-c15c-1bb6793e3781",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d57a5580158ef753510c6617adb9263834bd3612",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "2aa27c92c2889dbd7021b10e096ad5991c34adb3",
+                      "datavalue": {
+                        "value": "https://www.ouest-france.fr/environnement/climat/coup-de-froid-et-rechauffement-climatique-pourquoi-il-ne-faut-pas-confondre-meteo-et-climat-3daa692c-3b30-11ed-a64e-162cc23a7f46",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7870": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7870",
+              "hash": "e0c189d2b35ca0e12ba587167b5e5511b3022727",
+              "datavalue": {
+                "value": "20817",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4d18f2e4af2c353308565969eafb5785cdbabe5c",
+                  "datavalue": {
+                    "value": "Weather",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$0C7E8229-1577-4509-942A-E1D6C4127B04",
+            "rank": "normal"
+          }
+        ],
+        "P9497": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9497",
+              "hash": "0ff6a380e65b48048958bde2242dca2f0f7d44e8",
+              "datavalue": {
+                "value": "4567",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4d18f2e4af2c353308565969eafb5785cdbabe5c",
+                  "datavalue": {
+                    "value": "Weather",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$BDF07212-8585-45BD-B716-0C975F9E33D7",
+            "rank": "normal"
+          }
+        ],
+        "P4073": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4073",
+              "hash": "3de0dd9bf95cdd6242fb6817e8c24ac2db691545",
+              "datavalue": {
+                "value": "weather",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407"
+            ],
+            "id": "Q11663$f1c00aaf-4cde-4091-bc01-544a40c46dac",
+            "rank": "normal"
+          }
+        ],
+        "P6262": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6262",
+              "hash": "469389719281a8369bb0d6bbe5539493be258d03",
+              "datavalue": {
+                "value": "weather:Weather",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4d18f2e4af2c353308565969eafb5785cdbabe5c",
+                  "datavalue": {
+                    "value": "Weather",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "a290a5ad8835dbde69d8b618a771dba7ffa81a97",
+                  "datavalue": {
+                    "value": "2211",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P407",
+              "P9675"
+            ],
+            "id": "Q11663$6d76dfe8-4f96-73d0-76e4-2078bdaca6c4",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6262",
+              "hash": "6f19dee31f3d46b5229a26e7f3a61457605a9895",
+              "datavalue": {
+                "value": "ru.weather:Погода",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "04bd4d3e8c5b5d41da5302a846f9c2ef1f8570c7",
+                  "datavalue": {
+                    "value": "Погода",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "d291ddb7cd77c94a7bd709a8395934147e0864fc",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 7737,
+                      "id": "Q7737"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P407"
+            ],
+            "id": "Q11663$2a097761-4036-919f-0c0e-396851d3b2b8",
+            "rank": "normal"
+          }
+        ],
+        "P2572": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2572",
+              "hash": "08f02a41b43672231e9f3c40c6ad4c8864815eb2",
+              "datavalue": {
+                "value": "Weather",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q11663$1a186c09-496b-dbb7-7a6a-a8d080ec2b0c",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2572",
+              "hash": "9bd8ab98634d867b8de26ada3403ce84c2f90045",
+              "datavalue": {
+                "value": "Погода",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q11663$22391607-442b-878c-246b-b1f2addaca9e",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2572",
+              "hash": "31e8e747f8f7523b7cef6fda375e508b0d256cb4",
+              "datavalue": {
+                "value": "Wetter",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 188,
+                      "id": "Q188"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407"
+            ],
+            "id": "Q11663$0c389546-4d18-69bb-d0f5-f93e8e9c47b5",
+            "rank": "normal"
+          }
+        ],
+        "P9223": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9223",
+              "hash": "7ea81382e86fbfea21749fc8c9c5e0faf725dc2a",
+              "datavalue": {
+                "value": "539ad1d9-f94b-4a5a-ad7b-9095381a8a35",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "57750ba40a5a57357063e594bbff9306b1235dae",
+                  "datavalue": {
+                    "value": "počasí",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$12500F7E-32AA-4714-BB51-594977175744",
+            "rank": "normal"
+          }
+        ],
+        "P1617": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1617",
+              "hash": "4cafc96ecfb04ba641c06e4e0f949ec17972af64",
+              "datavalue": {
+                "value": "221d1d26-bd66-4a76-bc9e-5001c0a68753",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4d18f2e4af2c353308565969eafb5785cdbabe5c",
+                  "datavalue": {
+                    "value": "Weather",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$A22197AF-161D-47F5-A01E-26899205472D",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8582d8416671f1f2567247201bac753552435ca5",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "ea55dc6ac5c3ab77c77d4ae7979e3276d0d4cd20",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 18336371,
+                          "id": "Q18336371"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3911": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3911",
+              "hash": "5efa075be06d0debf1b6b7cc7e7e7f4e87725678",
+              "datavalue": {
+                "value": "19622-6",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4390": [
+                {
+                  "snaktype": "value",
+                  "property": "P4390",
+                  "hash": "1a4df62914ea9afca349bd5fb5d8efd5832d83fa",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 39893449,
+                      "id": "Q39893449"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4d18f2e4af2c353308565969eafb5785cdbabe5c",
+                  "datavalue": {
+                    "value": "Weather",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4390",
+              "P1810"
+            ],
+            "id": "Q11663$8DBB679E-B124-41DF-9BF9-0EE5551CD14D",
+            "rank": "normal"
+          }
+        ],
+        "P9475": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9475",
+              "hash": "e4b5bbfef5ab3e646c1679ff9659cf37f9b5fe8a",
+              "datavalue": {
+                "value": "E0008273",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$E32B0E61-44F3-4097-BD84-BB70F8D43657",
+            "rank": "normal"
+          }
+        ],
+        "P12455": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12455",
+              "hash": "9525cb5708e3c9ce996c4e76880d693b3cbccc69",
+              "datavalue": {
+                "value": "Weather",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$69deb6bb-4f26-eebb-1eda-80a54cd8c41f",
+            "rank": "normal"
+          }
+        ],
+        "P12596": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12596",
+              "hash": "699fd5145d12c9810ad906debce3ffb4a86020c5",
+              "datavalue": {
+                "value": "17966",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4d18f2e4af2c353308565969eafb5785cdbabe5c",
+                  "datavalue": {
+                    "value": "Weather",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$B7C121F9-2840-4AD9-96CE-55E707E57030",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12596",
+              "hash": "2cb8191ac91569a0ef136d584e182f9735dc597e",
+              "datavalue": {
+                "value": "54615",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$D876D5ED-463C-4920-92A3-A2A70A1296E0",
+            "rank": "normal"
+          }
+        ],
+        "P12800": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12800",
+              "hash": "4468b9b5d8fd682ae2719b62967567f79a400155",
+              "datavalue": {
+                "value": "eu:Eguraldi",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$9875866E-4185-4234-86C5-4B9A8779033F",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12800",
+              "hash": "85eb11cbfa949873cfcaeda53d8536b3581a73a0",
+              "datavalue": {
+                "value": "fr:Temps_(météorologie)",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$F0416DFE-BED0-426C-A72F-E43F79CECA9E",
+            "rank": "normal"
+          }
+        ],
+        "P11473": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11473",
+              "hash": "97e26abab3d33c8e6fb02289dc3fc175e1fa630e",
+              "datavalue": {
+                "value": "952",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "9ed19fd311df5456e0fe91085485e12aad0e4368",
+                  "datavalue": {
+                    "value": "WEATHER",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$c6e4d929-4b01-8b7a-931e-528524072cbf",
+            "rank": "normal"
+          }
+        ],
+        "P8370": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8370",
+              "hash": "7f817f49f65ed0d28261e31d7e365f741cc94067",
+              "datavalue": {
+                "value": "1006977",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "9ed19fd311df5456e0fe91085485e12aad0e4368",
+                  "datavalue": {
+                    "value": "WEATHER",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q11663$D029DCC3-DDA5-4727-9B70-2988928BC5DD",
+            "rank": "normal"
+          }
+        ],
+        "P672": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P672",
+              "hash": "45d52d1aa235976091679b616a7d147f8f411bcf",
+              "datavalue": {
+                "value": "G16.500.275.063.725",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "0afbc6546bc96137824820e5480b229b17af90e7",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8104,
+                      "id": "Q8104"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4900"
+            ],
+            "id": "Q11663$245919f5-4687-4019-4b5a-054d2c860ae9",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P672",
+              "hash": "c67a96771da33bf45ba7ead9814495964a1c62d6",
+              "datavalue": {
+                "value": "G16.500.750.775",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "f3cce5642d95664dd3736411f86febc781aba4a6",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 58928516,
+                      "id": "Q58928516"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4900"
+            ],
+            "id": "Q11663$ca863ce6-474c-3cc8-b18d-eae42a0e82a3",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P672",
+              "hash": "a2738562b6b68fdf87171f5c1050ec417695c1d8",
+              "datavalue": {
+                "value": "N06.230.300.100.725",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "0afbc6546bc96137824820e5480b229b17af90e7",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 8104,
+                      "id": "Q8104"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4900"
+            ],
+            "id": "Q11663$915d7642-4c9f-e72f-adbd-021441d27bc4",
+            "rank": "normal"
+          }
+        ],
+        "P13044": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13044",
+              "hash": "94b5dc85679d806f07d6be5543cc1b354d2aff8c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3230,
+                  "id": "Q3230"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11663$0CBF7A6C-6277-4776-A9CE-A528879DBD91",
+            "rank": "normal"
+          }
+        ],
+        "P11924": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11924",
+              "hash": "53055afc809376b9a1063f884e08c1cc709b27e3",
+              "datavalue": {
+                "value": "weather",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$D51CB66F-8795-4DF0-90AA-7C88F90F270A",
+            "rank": "normal"
+          }
+        ],
+        "P13591": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13591",
+              "hash": "97dcedb07aecf66bb453bff39352ebae39878628",
+              "datavalue": {
+                "value": "concept/20eac23e-9956-4708-b535-742421662d48",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$D5ED97D4-6221-41E1-BF66-F62C804EB712",
+            "rank": "normal"
+          }
+        ],
+        "P10234": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10234",
+              "hash": "2fe9966a47928809a776ad812c168fa0491ccdf5",
+              "datavalue": {
+                "value": "weather_en",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$2801F322-2C85-40AC-AD7C-2805DDE3CC12",
+            "rank": "normal"
+          }
+        ],
+        "P8636": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8636",
+              "hash": "335af9ae006b378b5331aaf326334e8dfa34fcda",
+              "datavalue": {
+                "value": "W/weather",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$1c9616a2-4d59-8a00-ac91-b0cddc889be1",
+            "rank": "normal"
+          }
+        ],
+        "P9069": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9069",
+              "hash": "9f49f84bc3c1ccf9b133df175adc2ce198a65a98",
+              "datavalue": {
+                "value": "W/weather",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$c4433da2-43ed-4398-8b44-5b692fcde79b",
+            "rank": "normal"
+          }
+        ],
+        "P5395": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5395",
+              "hash": "656d979ded0a34c33e25079134dc06945c20a53c",
+              "datavalue": {
+                "value": "weather",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$f684a5b3-4dc0-8439-ced9-4d1a82de6065",
+            "rank": "normal"
+          }
+        ],
+        "P13526": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13526",
+              "hash": "c0ab7f41075aca1c86f171863115ada679c194bc",
+              "datavalue": {
+                "value": "weather",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$DFF7A815-2894-4952-ACD1-F81FFA130BD2",
+            "rank": "normal"
+          }
+        ],
+        "P9322": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9322",
+              "hash": "fbb90dadb544041f2bbc6268f172bf2674a85bfa",
+              "datavalue": {
+                "value": "h0000840-pocasi",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$04BA811A-F2EF-407D-AD9F-F63D9A5D9068",
+            "rank": "normal"
+          }
+        ],
+        "P14537": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14537",
+              "hash": "c5f8aac6e7b9c1ebe3e2890aaa487af3a7e8be68",
+              "datavalue": {
+                "value": "zwv2wnb",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$1107b932-7d72-4f78-a148-659671551bf3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "0828a32e871332c738ac8b14ecd8a2fd57c97410",
+                "snaks": {
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "0a3f25d7bcb739418c2288b0449d55f1cab0fb0b",
+                      "datavalue": {
+                        "value": "https://www.wikidata.org/wiki/Wikidata:Property_proposal/BBC_Bitesize_topic_ID",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P13772": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13772",
+              "hash": "5b8755e8b0f98f896cf12d717a19b357eeb66296",
+              "datavalue": {
+                "value": "weather",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$CCE255BC-D448-4A9B-84E6-16D230B0F6A5",
+            "rank": "normal"
+          }
+        ],
+        "P14541": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14541",
+              "hash": "64c8959e41a2a3f76efbaf9838e292cf05f307f3",
+              "datavalue": {
+                "value": "jIObP",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "f36080446877cb8c0cd325825747a55369bd4497",
+                  "datavalue": {
+                    "value": "天气",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P5017": [
+                {
+                  "snaktype": "value",
+                  "property": "P5017",
+                  "hash": "5f48472d4d7b6627d4ee799eed5781a64c40f22a",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-05-08T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P5017"
+            ],
+            "id": "Q11663$5AE4E200-8B6C-412D-BAA7-B42B1B156E35",
+            "rank": "normal"
+          }
+        ],
+        "P10381": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10381",
+              "hash": "b35dc2716db89095bae3870cb7d9f6428dc6e71e",
+              "datavalue": {
+                "value": "C7098",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$1C5AE666-7983-4DA0-8E07-F038C9DB77EC",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f91910e67998111fe20657d43662693f4ea02be1",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "86db484afa02dd6455d91c788dd095d222b9ac15",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 66817486,
+                          "id": "Q66817486"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "b227818615538729ea0c5cb449d81f0e8002113f",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-08-17T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6104": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6104",
+              "hash": "04b775ed2b7a95245c87073f6fcbeba89237e00a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 124152390,
+                  "id": "Q124152390"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q11663$30d5ae37-4fd0-3423-76d9-77d7d16be763",
+            "rank": "normal"
+          }
+        ],
+        "P3509": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3509",
+              "hash": "74481de4ab04f15654b204c6d733bd4f1683931b",
+              "datavalue": {
+                "value": "vader",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$92F204A9-1193-4998-9B61-AF742D500CEC",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "7e27775afedd0e48d2a0bbb055ddde8e2288fe75",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "51110f5c5dbd87faae7c80396ae978b43577f413",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 1126918,
+                          "id": "Q1126918"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P950": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P950",
+              "hash": "97e71e908c4e57af95aab113db0d600e68c77dfe",
+              "datavalue": {
+                "value": "XX525288",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$088d56cf-4851-48b4-521e-777ba852e5ae",
+            "rank": "normal"
+          }
+        ],
+        "P3859": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3859",
+              "hash": "df5258f7c47a3f5feb14f03cca06fd40ca1685f2",
+              "datavalue": {
+                "value": "01001078",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$A75C9831-3966-4FA4-AF23-F59793E73D8E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3a68961cf54affed693b2fb0e435a171f971e3a2",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "c89134350a0b56f30622038075701f2900f39910",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-09-29T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2263": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2263",
+              "hash": "bb5c96b0a717bbec13ff4d1611acd24fc1ea295f",
+              "datavalue": {
+                "value": "4526",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q11663$7B58CCCF-65F0-48A9-8304-514226B21F12",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f809f8da483bf77cb2fc4eaf0db095115a906d71",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "faa4e5d59dbd4099b912db5afeb7ec2d2b172bb2",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 5974188,
+                          "id": "Q5974188"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Weer (meteorologie)",
+          "badges": []
+        },
+        "alswiki": {
+          "site": "alswiki",
+          "title": "Wetter",
+          "badges": []
+        },
+        "angwiki": {
+          "site": "angwiki",
+          "title": "Weder",
+          "badges": []
+        },
+        "anwiki": {
+          "site": "anwiki",
+          "title": "Orache",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "طقس",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "طقس",
+          "badges": []
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Tiempu atmosféricu",
+          "badges": []
+        },
+        "aswiki": {
+          "site": "aswiki",
+          "title": "বতৰ",
+          "badges": []
+        },
+        "avwiki": {
+          "site": "avwiki",
+          "title": "Гьава-бакъ",
+          "badges": []
+        },
+        "awawiki": {
+          "site": "awawiki",
+          "title": "मौसम",
+          "badges": []
+        },
+        "barwiki": {
+          "site": "barwiki",
+          "title": "Weda",
+          "badges": []
+        },
+        "bat_smgwiki": {
+          "site": "bat_smgwiki",
+          "title": "Uorā",
+          "badges": []
+        },
+        "bawiki": {
+          "site": "bawiki",
+          "title": "Һауа торошо",
+          "badges": []
+        },
+        "bclwiki": {
+          "site": "bclwiki",
+          "title": "Panahon (meteorolohiya)",
+          "badges": []
+        },
+        "be_x_oldwiki": {
+          "site": "be_x_oldwiki",
+          "title": "Надвор’е",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Надвор’е",
+          "badges": []
+        },
+        "bewwiki": {
+          "site": "bewwiki",
+          "title": "Hawa",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Време (метеорология)",
+          "badges": []
+        },
+        "bhwiki": {
+          "site": "bhwiki",
+          "title": "मौसम",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "আবহাওয়া",
+          "badges": []
+        },
+        "brwiki": {
+          "site": "brwiki",
+          "title": "Amzer (meteorologiezh)",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Vrijeme (meteorologija)",
+          "badges": []
+        },
+        "bxrwiki": {
+          "site": "bxrwiki",
+          "title": "Сагай уларил",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Temps atmosfèric",
+          "badges": []
+        },
+        "chrwiki": {
+          "site": "chrwiki",
+          "title": "ᏙᏯᏗᏜ ᏂᎦᎵᏍᏔᏅᏍᎬ",
+          "badges": []
+        },
+        "ckbwiki": {
+          "site": "ckbwiki",
+          "title": "کەشوھەوا",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Weather",
+          "badges": []
+        },
+        "csbwiki": {
+          "site": "csbwiki",
+          "title": "Wiodro",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Počasí",
+          "badges": []
+        },
+        "cswikiquote": {
+          "site": "cswikiquote",
+          "title": "Počasí",
+          "badges": []
+        },
+        "cvwiki": {
+          "site": "cvwiki",
+          "title": "Çанталăк",
+          "badges": []
+        },
+        "cywiki": {
+          "site": "cywiki",
+          "title": "Tywydd",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Vejr",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Wetter",
+          "badges": []
+        },
+        "dewikiquote": {
+          "site": "dewikiquote",
+          "title": "Wetter",
+          "badges": []
+        },
+        "dtywiki": {
+          "site": "dtywiki",
+          "title": "मौसम",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Καιρός",
+          "badges": []
+        },
+        "elwikiquote": {
+          "site": "elwikiquote",
+          "title": "Καιρός",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Weather",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "enwikibooks": {
+          "site": "enwikibooks",
+          "title": "High School Earth Science/Weather",
+          "badges": []
+        },
+        "enwikiquote": {
+          "site": "enwikiquote",
+          "title": "Weather",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Vetero",
+          "badges": []
+        },
+        "eowikiquote": {
+          "site": "eowikiquote",
+          "title": "Vetero",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Tiempo atmosférico",
+          "badges": []
+        },
+        "eswikiquote": {
+          "site": "eswikiquote",
+          "title": "Tiempo atmosférico",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Ilm",
+          "badges": []
+        },
+        "etwikiquote": {
+          "site": "etwikiquote",
+          "title": "Ilm",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Eguraldi",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "هوا",
+          "badges": []
+        },
+        "fiu_vrowiki": {
+          "site": "fiu_vrowiki",
+          "title": "Ilm",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Sää",
+          "badges": []
+        },
+        "fiwikiquote": {
+          "site": "fiwikiquote",
+          "title": "Sää",
+          "badges": []
+        },
+        "fjwiki": {
+          "site": "fjwiki",
+          "title": "Draki",
+          "badges": []
+        },
+        "fowiki": {
+          "site": "fowiki",
+          "title": "Veður",
+          "badges": []
+        },
+        "frrwiki": {
+          "site": "frrwiki",
+          "title": "Weder",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Temps (météorologie)",
+          "badges": []
+        },
+        "gawiki": {
+          "site": "gawiki",
+          "title": "Aimsir (meitéareolaíocht)",
+          "badges": []
+        },
+        "gcrwiki": {
+          "site": "gcrwiki",
+          "title": "Tan (météoroloji)",
+          "badges": []
+        },
+        "gdwiki": {
+          "site": "gdwiki",
+          "title": "Aimsir",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Tempo atmosférico",
+          "badges": []
+        },
+        "gomwiki": {
+          "site": "gomwiki",
+          "title": "हवामान",
+          "badges": []
+        },
+        "guwiki": {
+          "site": "guwiki",
+          "title": "હવામાન",
+          "badges": []
+        },
+        "hawiki": {
+          "site": "hawiki",
+          "title": "Yanayi",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "מזג אוויר",
+          "badges": []
+        },
+        "hewikiquote": {
+          "site": "hewikiquote",
+          "title": "מזג אוויר",
+          "badges": []
+        },
+        "hifwiki": {
+          "site": "hifwiki",
+          "title": "Mausam",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "मौसम",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Vrijeme (meteorologija)",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Időjárás",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Եղանակ",
+          "badges": []
+        },
+        "iawiki": {
+          "site": "iawiki",
+          "title": "Tempore (meteorologia)",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Cuaca",
+          "badges": []
+        },
+        "iewiki": {
+          "site": "iewiki",
+          "title": "Tempe",
+          "badges": []
+        },
+        "ikwiki": {
+          "site": "ikwiki",
+          "title": "Siḷa",
+          "badges": []
+        },
+        "ilowiki": {
+          "site": "ilowiki",
+          "title": "Tiempo (atmosperiko)",
+          "badges": []
+        },
+        "inhwiki": {
+          "site": "inhwiki",
+          "title": "Хаоттам",
+          "badges": []
+        },
+        "iowiki": {
+          "site": "iowiki",
+          "title": "Vetero",
+          "badges": []
+        },
+        "isvwiki": {
+          "site": "isvwiki",
+          "title": "Pogoda",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Veður",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Tempo (meteorologia)",
+          "badges": []
+        },
+        "itwikiquote": {
+          "site": "itwikiquote",
+          "title": "Tempo (meteorologia)",
+          "badges": []
+        },
+        "jamwiki": {
+          "site": "jamwiki",
+          "title": "Weda",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "天気",
+          "badges": []
+        },
+        "jawikibooks": {
+          "site": "jawikibooks",
+          "title": "中学校理科 第2分野/天気とその変化",
+          "badges": []
+        },
+        "jvwiki": {
+          "site": "jvwiki",
+          "title": "Swaca",
+          "badges": []
+        },
+        "kaawiki": {
+          "site": "kaawiki",
+          "title": "Hawa rayı",
+          "badges": []
+        },
+        "kabwiki": {
+          "site": "kabwiki",
+          "title": "Tignewt",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "ამინდი",
+          "badges": []
+        },
+        "kiwiki": {
+          "site": "kiwiki",
+          "title": "Mũtahato",
+          "badges": []
+        },
+        "kkwiki": {
+          "site": "kkwiki",
+          "title": "Ауа райы",
+          "badges": []
+        },
+        "kncwiki": {
+          "site": "kncwiki",
+          "title": "Weather",
+          "badges": []
+        },
+        "knwiki": {
+          "site": "knwiki",
+          "title": "ಹವಾಮಾನ",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "기상",
+          "badges": []
+        },
+        "kowikibooks": {
+          "site": "kowikibooks",
+          "title": "공통 지구 과학/날씨",
+          "badges": []
+        },
+        "krcwiki": {
+          "site": "krcwiki",
+          "title": "Кюнню халы",
+          "badges": []
+        },
+        "kswiki": {
+          "site": "kswiki",
+          "title": "موٗسِم",
+          "badges": []
+        },
+        "kwwiki": {
+          "site": "kwwiki",
+          "title": "Kewer",
+          "badges": []
+        },
+        "kywiki": {
+          "site": "kywiki",
+          "title": "Аба ырайы",
+          "badges": []
+        },
+        "lawiki": {
+          "site": "lawiki",
+          "title": "Status caeli",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Wieder",
+          "badges": []
+        },
+        "lfnwiki": {
+          "site": "lfnwiki",
+          "title": "Clima",
+          "badges": []
+        },
+        "liwiki": {
+          "site": "liwiki",
+          "title": "Waer",
+          "badges": []
+        },
+        "lmowiki": {
+          "site": "lmowiki",
+          "title": "Temp (atmosfera)",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Orai",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Laikapstākļi",
+          "badges": []
+        },
+        "maiwiki": {
+          "site": "maiwiki",
+          "title": "मौसम",
+          "badges": []
+        },
+        "mdfwiki": {
+          "site": "mdfwiki",
+          "title": "Ушесь",
+          "badges": []
+        },
+        "mgwiki": {
+          "site": "mgwiki",
+          "title": "Toetrandro",
+          "badges": []
+        },
+        "minwiki": {
+          "site": "minwiki",
+          "title": "Cuaco",
+          "badges": []
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "കാലാവസ്ഥ",
+          "badges": []
+        },
+        "mlwikiquote": {
+          "site": "mlwikiquote",
+          "title": "കാലാവസ്ഥ",
+          "badges": []
+        },
+        "mnwiki": {
+          "site": "mnwiki",
+          "title": "Цаг агаар",
+          "badges": []
+        },
+        "mrwiki": {
+          "site": "mrwiki",
+          "title": "हवामान",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Cuaca",
+          "badges": []
+        },
+        "myvwiki": {
+          "site": "myvwiki",
+          "title": "Венелькс",
+          "badges": []
+        },
+        "mywiki": {
+          "site": "mywiki",
+          "title": "မိုးလေဝသ",
+          "badges": []
+        },
+        "nds_nlwiki": {
+          "site": "nds_nlwiki",
+          "title": "Weer",
+          "badges": []
+        },
+        "ndswiki": {
+          "site": "ndswiki",
+          "title": "Wedder",
+          "badges": []
+        },
+        "newiki": {
+          "site": "newiki",
+          "title": "मौसम",
+          "badges": []
+        },
+        "newwiki": {
+          "site": "newwiki",
+          "title": "मौसम",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Weer (meteorologie)",
+          "badges": []
+        },
+        "nlwikibooks": {
+          "site": "nlwikibooks",
+          "title": "Wikijunior:Aardrijkskunde/Weer",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "Vêr",
+          "badges": []
+        },
+        "nnwikiquote": {
+          "site": "nnwikiquote",
+          "title": "Vêr",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Vær",
+          "badges": []
+        },
+        "nsowiki": {
+          "site": "nsowiki",
+          "title": "Boso",
+          "badges": []
+        },
+        "ocwiki": {
+          "site": "ocwiki",
+          "title": "Temps (meteorologia)",
+          "badges": []
+        },
+        "orwiki": {
+          "site": "orwiki",
+          "title": "ପାଣିପାଗ",
+          "badges": []
+        },
+        "papwiki": {
+          "site": "papwiki",
+          "title": "Wer",
+          "badges": []
+        },
+        "pawiki": {
+          "site": "pawiki",
+          "title": "ਮੌਸਮ",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Pogoda",
+          "badges": []
+        },
+        "plwikiquote": {
+          "site": "plwikiquote",
+          "title": "Pogoda",
+          "badges": []
+        },
+        "pnbwiki": {
+          "site": "pnbwiki",
+          "title": "موسم",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Tempo (meteorologia)",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Vreme",
+          "badges": []
+        },
+        "ruewiki": {
+          "site": "ruewiki",
+          "title": "Хвіля",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Погода",
+          "badges": []
+        },
+        "ruwikiquote": {
+          "site": "ruwikiquote",
+          "title": "Погода",
+          "badges": []
+        },
+        "sahwiki": {
+          "site": "sahwiki",
+          "title": "Күн-дьыл туруга",
+          "badges": []
+        },
+        "satwiki": {
+          "site": "satwiki",
+          "title": "ᱦᱚᱭ-ᱦᱤᱥᱤᱫ",
+          "badges": []
+        },
+        "scowiki": {
+          "site": "scowiki",
+          "title": "Wather",
+          "badges": []
+        },
+        "sdwiki": {
+          "site": "sdwiki",
+          "title": "موسم",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Vrijeme (meteorologija)",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Weather",
+          "badges": []
+        },
+        "siwiki": {
+          "site": "siwiki",
+          "title": "කාලගුණය",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Počasie",
+          "badges": []
+        },
+        "skwikiquote": {
+          "site": "skwikiquote",
+          "title": "Počasie",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Vreme",
+          "badges": []
+        },
+        "snwiki": {
+          "site": "snwiki",
+          "title": "Hwewa",
+          "badges": []
+        },
+        "sqwiki": {
+          "site": "sqwiki",
+          "title": "Moti",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Време (метеорологија)",
+          "badges": []
+        },
+        "stqwiki": {
+          "site": "stqwiki",
+          "title": "Weeder",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Väder",
+          "badges": [
+            "Q17559452"
+          ]
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Hali ya hewa",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "வானிலை",
+          "badges": []
+        },
+        "taywiki": {
+          "site": "taywiki",
+          "title": "kayal(天空;天氣)",
+          "badges": []
+        },
+        "tewiki": {
+          "site": "tewiki",
+          "title": "పవనస్థితి",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "ลมฟ้าอากาศ",
+          "badges": []
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Panahon",
+          "badges": []
+        },
+        "tokwiki": {
+          "site": "tokwiki",
+          "title": "sijelo pi kon ma",
+          "badges": []
+        },
+        "towiki": {
+          "site": "towiki",
+          "title": "ʻEa",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Hava durumu",
+          "badges": []
+        },
+        "tswiki": {
+          "site": "tswiki",
+          "title": "Maxelo",
+          "badges": []
+        },
+        "ttwiki": {
+          "site": "ttwiki",
+          "title": "Һава торышы",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Погода",
+          "badges": []
+        },
+        "ukwikiquote": {
+          "site": "ukwikiquote",
+          "title": "Погода",
+          "badges": []
+        },
+        "urwiki": {
+          "site": "urwiki",
+          "title": "موسم",
+          "badges": []
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "Ob-havo",
+          "badges": []
+        },
+        "vepwiki": {
+          "site": "vepwiki",
+          "title": "Sä",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Thời tiết",
+          "badges": []
+        },
+        "viwikiquote": {
+          "site": "viwikiquote",
+          "title": "Thời tiết",
+          "badges": []
+        },
+        "warwiki": {
+          "site": "warwiki",
+          "title": "Panahon (meteorolohiya)",
+          "badges": []
+        },
+        "wawiki": {
+          "site": "wawiki",
+          "title": "Tins (k' i fwait)",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "天氣",
+          "badges": []
+        },
+        "xmfwiki": {
+          "site": "xmfwiki",
+          "title": "ტაროსი",
+          "badges": []
+        },
+        "yiwiki": {
+          "site": "yiwiki",
+          "title": "וועטער",
+          "badges": []
+        },
+        "zawiki": {
+          "site": "zawiki",
+          "title": "Dienheiq",
+          "badges": []
+        },
+        "zghwiki": {
+          "site": "zghwiki",
+          "title": "ⴰⵏⵣⵡⵉ",
+          "badges": []
+        },
+        "zh_min_nanwiki": {
+          "site": "zh_min_nanwiki",
+          "title": "Thiⁿ-khì",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "天氣",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "天气",
+          "badges": []
+        },
+        "zuwiki": {
+          "site": "zuwiki",
+          "title": "Isimo sezulu",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

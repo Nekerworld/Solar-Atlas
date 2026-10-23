@@ -1,0 +1,125 @@
+{
+  "entities": {
+    "Q7834369": {
+      "type": "item",
+      "id": "Q7834369",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "천왕성에서 본 수성 일면통과"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "2d12ef50bb985c5bb994e3193fcf42940a83be5f",
+              "datavalue": {
+                "value": "/m/0406lxr",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7834369$34122CAA-5AD9-42EE-AC23-7C24A3B0FDF1",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "0b6811f501e6a2a1cee38cd1c418fdd546b35f70",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6888,
+                  "id": "Q6888"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7834369$31761f95-40c2-f328-9adc-ba1e8ff210e2",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "jawiki": {
+          "site": "jawiki",
+          "title": "水星の太陽面通過 (天王星)",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "천왕성에서 본 수성 일면통과",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Merkuriuspassage (Uranus)",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "水星凌日 (天王星)",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

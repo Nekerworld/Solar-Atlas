@@ -1,0 +1,681 @@
+{
+  "entities": {
+    "Q47580": {
+      "type": "item",
+      "id": "Q47580",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "앨런 구릉 84001"
+        }
+      },
+      "descriptions": {},
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "ALH 84001"
+          },
+          {
+            "language": "ko",
+            "value": "ALH84001"
+          }
+        ]
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "f8463bf49f4ee897fdc1235b88627873bbe8b95f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 913970,
+                  "id": "Q913970"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q47580$F244B389-1FF3-432F-87BB-062282A65AA9",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "ea7b1b83ba5563ed42b6479da6285f5ac873b3f9",
+              "datavalue": {
+                "value": "Allan Hills 84001",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q47580$CE9C4DE9-A5F2-47CB-8858-B17414F0D399",
+            "rank": "normal"
+          }
+        ],
+        "P625": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P625",
+              "hash": "99dfa21c859ca364f021a28955cc3789ae78e5f3",
+              "datavalue": {
+                "value": {
+                  "latitude": -76.920277777778,
+                  "longitude": 156.77361111111,
+                  "altitude": null,
+                  "precision": null,
+                  "globe": "http://www.wikidata.org/entity/Q2"
+                },
+                "type": "globecoordinate"
+              },
+              "datatype": "globe-coordinate"
+            },
+            "type": "statement",
+            "id": "q47580$426DE153-FC30-4520-B13A-4408B44CE5DA",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "2bb6ea39c77b3cc75ca68c9dd896176784802664",
+              "datavalue": {
+                "value": "/m/0192tq",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q47580$56FE2F7C-CB0D-40FB-B04D-CC3B26824C6F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "0410d074eecdb4425b9a81022802e3d497749bb1",
+              "datavalue": {
+                "value": "topic/ALH84001",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "f8b4ba44c2e72d6948414078528d03eb38529028",
+                  "datavalue": {
+                    "value": "ALH84001",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P2093": [
+                {
+                  "snaktype": "value",
+                  "property": "P2093",
+                  "hash": "973db72dce9f636f0c62ff6dd7ab6798c5b6919b",
+                  "datavalue": {
+                    "value": "Harry Y. McSween",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P2093"
+            ],
+            "id": "Q47580$1B61DF14-9DC3-4AF3-9177-67EC43DCA775",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "67a659c38efb8967812dea94a5c3a35f357b8b1f",
+              "datavalue": {
+                "value": "ALH84001.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q47580$e249c3dd-46c8-a521-94f6-7eee57722a47",
+            "rank": "normal"
+          }
+        ],
+        "P575": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P575",
+              "hash": "ff9fb822be8c71e95496655095638df8129f3428",
+              "datavalue": {
+                "value": {
+                  "time": "+1984-12-27T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q47580$B72FE466-ABE3-4D51-88E3-F4660F012304",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P189": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P189",
+              "hash": "147f395f278d4828c642a5f90949d3f5967b06b4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 370398,
+                  "id": "Q370398"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q47580$c13c4110-4230-131a-2e67-0aeed3cd56fb",
+            "rank": "normal"
+          }
+        ],
+        "P2067": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2067",
+              "hash": "e17bad7a0121e1c93255b1112405ec3fc583ca60",
+              "datavalue": {
+                "value": {
+                  "amount": "+1930.9",
+                  "unit": "http://www.wikidata.org/entity/Q41803"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q47580$bd713010-4a94-90ef-b065-2b20ba1574fb",
+            "rank": "normal"
+          }
+        ],
+        "P61": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P61",
+              "hash": "91a94bb8c355d733b2db6b48ec61ae46ace200c1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 571151,
+                  "id": "Q571151"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q47580$43e77109-4878-6d4e-597c-27d1f174acdb",
+            "rank": "normal"
+          }
+        ],
+        "P824": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P824",
+              "hash": "12af0507518d53a9805605aad1afb27a7d2c70a5",
+              "datavalue": {
+                "value": "604",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "f290deb6434541bc83dca7d97699ec715fe0d972",
+                  "datavalue": {
+                    "value": "Allan Hills 84001",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q47580$54437d1f-4596-59d5-be8c-98a4a45ef49b",
+            "rank": "normal"
+          }
+        ],
+        "P1813": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1813",
+              "hash": "e8cf54f3eb257e37deab89ea99488811fff03a3d",
+              "datavalue": {
+                "value": {
+                  "text": "ALH 84001",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q47580$90c46daf-43ae-e84b-d45d-ae6f6b9ff697",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2218b3cc4aa9657b6caababb1b5d7fb7f3408594",
+                "snaks": {
+                  "P824": [
+                    {
+                      "snaktype": "value",
+                      "property": "P824",
+                      "hash": "12af0507518d53a9805605aad1afb27a7d2c70a5",
+                      "datavalue": {
+                        "value": "604",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "eefff8c99ce78dcc1898ec95fabd7e8746d2b338",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2021-01-10T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P824",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P4342": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4342",
+              "hash": "d6de257fee2f4857b984e487ab9c02480d13ae28",
+              "datavalue": {
+                "value": "ALH_84001",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q47580$778F8D82-DEDE-4352-A2DA-8DB95156FF15",
+            "rank": "normal"
+          }
+        ],
+        "P65": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P65",
+              "hash": "1d7a4c76a625f14d62d943d54cf5f41e42f9f1fa",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 319671,
+                  "id": "Q319671"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q47580$6d34d374-422b-fd49-12c5-2cfd20cfca47",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Allan Hills 84001",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "تلال ألان 84001",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "الان هيلز 84001",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "ALH 84001",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "ALH84001",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "অ্যালান হিলস ৮৪০০১",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "ALH 84001",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Allan Hills 84001",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "ALH 84001",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Allan Hills 84001",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "ALH 84001 (Meteorit)",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Allan Hills 84001",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "ALH84001",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "آلن هیلز ۸۴۰۰۱",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "ALH 84001",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "ALH 84001",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "ALH 84001",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "ALH 84001",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "ALH 84001",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Allan Hills 84001",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "ALH 84001",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "アラン・ヒルズ84001",
+          "badges": []
+        },
+        "jvwiki": {
+          "site": "jvwiki",
+          "title": "Allan Hills 84001",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "앨런 구릉 84001",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Allan Hills 84001",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "ALH 84001",
+          "badges": []
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "അലൻ ഹിൽസ് 84001",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "ALH 84001",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "ALH 84001",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "ALH 84001",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Allan Hills 84001",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "ALH 84001",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "ALH84001",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "ALH 84001",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Allan Hills 84001",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "ALH 84001",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "ALH 84001",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Allan Hills 84001",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "เอแอลเอช 84001",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "ALH 84001",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Allan Hills 84001",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "ALH84001",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "艾伦丘陵陨石84001",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

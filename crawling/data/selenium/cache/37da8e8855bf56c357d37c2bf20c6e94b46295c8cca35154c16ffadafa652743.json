@@ -1,0 +1,615 @@
+{
+  "entities": {
+    "Q303397": {
+      "type": "item",
+      "id": "Q303397",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "토성의 대기"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P361": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P361",
+              "hash": "acc6b408f3cf192332cb41c7d545b5c7c11bc24b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 193,
+                  "id": "Q193"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q303397$2a1057bc-4bc2-f0eb-975b-1abf9e283418",
+            "rank": "normal"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "2455d1b2556aaf93714509b096d91de58f2060e2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9053211,
+                  "id": "Q9053211"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q303397$20cbf584-4770-3c14-a673-11b66f8f0292",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "277c7b57f351b7c1eeb6234f912c48f2052892e4",
+              "datavalue": {
+                "value": "Atmosphere of Saturn",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q303397$1008D7C7-4E59-4508-AC51-4AE327515A3A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "09c3dcf20ab24e3fc1af3c0dd6bd7904fec5ff87",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "47ee136101573a55c52f5ab72e197563436eb12c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 9053211,
+                          "id": "Q9053211"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452"
+                ]
+              }
+            ]
+          }
+        ],
+        "P376": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P376",
+              "hash": "3d526a61c3dc2355cf9466ca632f3060f1c97252",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 193,
+                  "id": "Q193"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q303397$19625a2a-487a-87b6-2003-88a31a9ad8df",
+            "rank": "normal"
+          }
+        ],
+        "P186": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P186",
+              "hash": "175adcd64e116f39f59ea3c475b719db4adcac11",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3027893,
+                  "id": "Q3027893"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1107": [
+                {
+                  "snaktype": "value",
+                  "property": "P1107",
+                  "hash": "c6ea019f2ed93d31b3bb37753c516104e93b65e0",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+0.963",
+                      "unit": "1",
+                      "upperBound": "+0.987",
+                      "lowerBound": "+0.939"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1107"
+            ],
+            "id": "Q303397$87335e64-4705-347e-5195-4a01c327dea5",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ac8f957860752a332e5bc1974bb5ebd293463008",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "38a2b7c86ce955ec41f986c37a88f6c978895eee",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20170717071200/https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P186",
+              "hash": "23db8f6afcc7aef50c40f38a93181a4fa2f31a72",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 560,
+                  "id": "Q560"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1107": [
+                {
+                  "snaktype": "value",
+                  "property": "P1107",
+                  "hash": "628463d992124406590dfc309131f3ed7b33123a",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+0.0325",
+                      "unit": "1",
+                      "upperBound": "+0.0565",
+                      "lowerBound": "+0.0085"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1107"
+            ],
+            "id": "Q303397$e3eeb883-4056-5fc7-f25c-98df28f27efc",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ac8f957860752a332e5bc1974bb5ebd293463008",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "38a2b7c86ce955ec41f986c37a88f6c978895eee",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20170717071200/https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P186",
+              "hash": "78f2f52c5929fbf0dda97bdea0acafabb250e942",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 37129,
+                  "id": "Q37129"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1107": [
+                {
+                  "snaktype": "value",
+                  "property": "P1107",
+                  "hash": "88c084dfca1e4d3f90ccd82655c75ca9d3f3cd51",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+0.0045",
+                      "unit": "1",
+                      "upperBound": "+0.0065",
+                      "lowerBound": "+0.0025"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1107"
+            ],
+            "id": "Q303397$e4c2a31c-478b-27c5-5559-7947d073294c",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ac8f957860752a332e5bc1974bb5ebd293463008",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "38a2b7c86ce955ec41f986c37a88f6c978895eee",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20170717071200/https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P186",
+              "hash": "4bf08ab5d7d365f731c20582167bf30ca2ff5474",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4087,
+                  "id": "Q4087"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1107": [
+                {
+                  "snaktype": "value",
+                  "property": "P1107",
+                  "hash": "94d0473a1dfe9c6eebd36da4fe63e9cbc21e0d5a",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+0.000125",
+                      "unit": "1",
+                      "upperBound": "+0.000200",
+                      "lowerBound": "+0.000050"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1107"
+            ],
+            "id": "Q303397$7649a93e-4176-0e61-9e91-4fbda1971be2",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ac8f957860752a332e5bc1974bb5ebd293463008",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "38a2b7c86ce955ec41f986c37a88f6c978895eee",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20170717071200/https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P186",
+              "hash": "7d047db0729e4d27735014be3549aa1bdda0d291",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1444906,
+                  "id": "Q1444906"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1107": [
+                {
+                  "snaktype": "value",
+                  "property": "P1107",
+                  "hash": "776ad2d5b54d7b804dec3ebe83c64eceb906fafa",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+0.00011",
+                      "unit": "1",
+                      "upperBound": "+0.000168",
+                      "lowerBound": "+0.000052"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1107"
+            ],
+            "id": "Q303397$22da8306-4546-4758-a927-8fbfedf2ac4e",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ac8f957860752a332e5bc1974bb5ebd293463008",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "38a2b7c86ce955ec41f986c37a88f6c978895eee",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20170717071200/https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P186",
+              "hash": "7b6d6321180dd947ba24a1072c5c5a5bbc10cc1d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 52858,
+                  "id": "Q52858"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1107": [
+                {
+                  "snaktype": "value",
+                  "property": "P1107",
+                  "hash": "494123feb2783da37f3e502326fc5a2cdc2ec98f",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+0.000007",
+                      "unit": "1",
+                      "upperBound": "+0.0000085",
+                      "lowerBound": "+0.0000055"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1107"
+            ],
+            "id": "Q303397$33686036-4feb-7ddd-65c6-0dad108cbc0c",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ac8f957860752a332e5bc1974bb5ebd293463008",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "38a2b7c86ce955ec41f986c37a88f6c978895eee",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20170717071200/https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "14fb5ce373a81afd0d1fed191869fb89ca1ad984",
+              "datavalue": {
+                "value": "/m/05q4nhy",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q303397$E9A13C26-ECCB-4C4B-BE3A-5777773DF4A0",
+            "rank": "normal"
+          }
+        ],
+        "P2789": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2789",
+              "hash": "2690a751311ce8685be55d4e27227f20ef3dcc9e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2851405,
+                  "id": "Q2851405"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q303397$d4e37398-4660-e8a3-5d3a-4b9a31425372",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "b7576654a573c8c56e2fac5fb60fa4117023ec04",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19704068,
+                  "id": "Q19704068"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q303397$70980A5C-6D9C-4B96-9C46-FD1FA5EBE91D",
+            "rank": "normal"
+          }
+        ],
+        "P10376": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "1389c05db54fa32916bc1245eae56c8dd2f799d1",
+              "datavalue": {
+                "value": "earth-and-planetary-sciences/saturn-atmosphere",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q303397$3c58eece-4e61-6748-756d-b1b0ec99183c",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "d12e4008e578c719c408c7d014ffad167d3e4139",
+              "datavalue": {
+                "value": "JetStream Saturn IMG002593-br500.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q303397$3b986fae-4f41-4d86-4139-942120a155b6",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Atmosphère de Saturne",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Atmosfera di Saturno",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "토성의 대기",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

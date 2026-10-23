@@ -1,0 +1,754 @@
+{
+  "entities": {
+    "Q194256": {
+      "type": "item",
+      "id": "Q194256",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "대적점"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "목성 대기에서 지속적으로 유지되는 고기압성 폭풍"
+        }
+      },
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "대적반"
+          }
+        ]
+      },
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "7a880ec3b39b17edcde877213a8d683cc9bb3758",
+              "datavalue": {
+                "value": "Great Red Spot",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q194256$54B4BD6E-5494-419E-B8C1-B27A72892019",
+            "rank": "normal"
+          }
+        ],
+        "P61": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P61",
+              "hash": "020d850a653082e389cdc2feaa71a80f8a7871fc",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 46830,
+                  "id": "Q46830"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q194256$170241b7-4e47-4440-fb6c-dcaf51b0ca1b",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P376": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P376",
+              "hash": "46cc4e3119d7bd25b47bff588e0fe86aaf5ca7dc",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 319,
+                  "id": "Q319"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q194256$82e8f586-4195-0b18-bf7a-c2a3b7b4f617",
+            "rank": "normal"
+          }
+        ],
+        "P3417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3417",
+              "hash": "9960ca1f25b4a25ec08ace462b1d115b11f5971f",
+              "datavalue": {
+                "value": "Great-Red-Spot",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q194256$8D074F07-F243-4D94-B7BE-B95E05132FD4",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3b0a5bb3c1f955edce73740124f7d935698092ad",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "3ac9682e789a3a3791d4fd088b265ea03abef101",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 51711,
+                          "id": "Q51711"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3827": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3827",
+              "hash": "4626188acbad38c9e702e189bff34577f74f2659",
+              "datavalue": {
+                "value": "jupiter-red-spot",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q194256$53ACE9DA-DCEA-4AA4-8922-28D59023C2B1",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "026ff82e619f97b74944647d4535c4d83e705ad5",
+              "datavalue": {
+                "value": "place/Great-Red-Spot",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "5f51d475b01ee2e1f1a914eeafd37a4fe858b5bf",
+                  "datavalue": {
+                    "value": "Great Red Spot",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q194256$4CCF43A2-972D-4185-AE9E-5045C6B7B224",
+            "rank": "normal"
+          }
+        ],
+        "P361": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P361",
+              "hash": "8faa25e3569e32b310c78bc14d612caa23d93276",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3045,
+                  "id": "Q3045"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q194256$f98a975d-4798-0b99-347f-71a33d20855b",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "fa7246a1f40856f20a6ce1445ce97672f1dffc4c",
+              "datavalue": {
+                "value": "Jupiter - Great Red Spot - PJ7-60 61 62 - Balanced (49803032983).png",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q194256$574ec081-4457-8ff9-ce70-179944f16912",
+            "rank": "normal"
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "somevalue",
+              "property": "P571",
+              "hash": "6738a7099bb4f22cc0577088a076bf2faa9b02b6",
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1326": [
+                {
+                  "snaktype": "value",
+                  "property": "P1326",
+                  "hash": "59a4b5d3fd834dc75ad61b8a79c5885dcb89d4ba",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1665-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1326"
+            ],
+            "id": "Q194256$7edd0ff3-4fac-58e4-74be-936286166769",
+            "rank": "normal"
+          }
+        ],
+        "P4342": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4342",
+              "hash": "7de5d7f2e1a06284b90b6e3011d4454218246baf",
+              "datavalue": {
+                "value": "røde_flekk",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q194256$B796C1E6-3588-429B-8E2B-67DE4407ED30",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "15fc6b9de2661a71c8dc145bf39f9d7a7919a99d",
+              "datavalue": {
+                "value": "2778998593",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q194256$6C373235-CE95-4428-BD46-1215B1E4FABB",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "3cb605e02c9e6d39389e867a39cc58395cb64543",
+              "datavalue": {
+                "value": "/m/0hqmf",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q194256$764C46DC-30BE-4D8A-96F9-41F7DCB8C705",
+            "rank": "normal"
+          }
+        ],
+        "P462": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P462",
+              "hash": "d764eafaefe32ab8774f38f77cfcc0404ddd7243",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3142,
+                  "id": "Q3142"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q194256$fa57402f-4a1e-4c7d-ae38-bce7f19bfcdb",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "49600180ae3a1f1184efb8fc3fe758e4d3df6e95",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1070332,
+                  "id": "Q1070332"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q194256$da9bc26e-4975-7072-412d-80c2f604b2f3",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "544278d0bb238ecad0e7ddcbda131061ed22bcdf",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5422262,
+                  "id": "Q5422262"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q194256$2612fcd0-46b3-1aa0-b0b2-1183216bb5aa",
+            "rank": "normal"
+          }
+        ],
+        "P6058": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6058",
+              "hash": "d4868c7dc873ab52d3cf003d1894eb5ede0905e5",
+              "datavalue": {
+                "value": "images/Jupiter_la_grande_tache_rouge/1314205",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q194256$05220d37-4693-6fd6-f73e-985c29559074",
+            "rank": "normal"
+          }
+        ],
+        "P12800": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12800",
+              "hash": "68fe13b6c44d1a256a482510819b1ad354cd62cf",
+              "datavalue": {
+                "value": "fr:Grande_Tache_rouge",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q194256$EA4235D5-DBAF-4D1E-ABEF-1DF1EF06F935",
+            "rank": "normal"
+          }
+        ],
+        "P575": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P575",
+              "hash": "fa517bba976eccb24facebfb75c0129ff284d73d",
+              "datavalue": {
+                "value": {
+                  "time": "+1831-09-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 10,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q194256$70f247b3-42f5-5af3-76f4-45d6eba59f25",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Groot Rooi Vlek",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "البقعة الحمراء العظيمة",
+          "badges": []
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Gran Mancha Colorada",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Böyük qırmızı ləkə",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Вялікая чырвоная пляма",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Голямо червено петно",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "বৃহৎ লাল বিন্দু",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Gran Taca Vermella",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Great Red Spot",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Velká rudá skvrna",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Großer Roter Fleck",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Μεγάλη Ερυθρά Κηλίδα",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Great Red Spot",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Granda Ruĝa Makulo",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Gran Mancha Roja",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Suur Punane Laik",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Orban Gorri Handia",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "لکه سرخ بزرگ",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Jupiterin suuri punainen pilkku",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Grande Tache rouge",
+          "badges": []
+        },
+        "gawiki": {
+          "site": "gawiki",
+          "title": "Spota Mór Dearg",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Gran Mancha Vermella",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "הכתם האדום הגדול",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Velika crvena pjega",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Nagy Vörös Folt",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Մեծ կարմիր բիծ",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Bintik Merah Raksasa",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Grande Macchia Rossa",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "大赤斑",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "დიდი წითელი ლაქა",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "대적점",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Raudonoji dėmė",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Lielais Sarkanais plankums",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Голема Црвена Дамка",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Tompok Merah Besar",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Grote rode vlek",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "Den store raude flekken",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Den store røde flekken",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Wielka Czerwona Plama",
+          "badges": []
+        },
+        "pnbwiki": {
+          "site": "pnbwiki",
+          "title": "عظیم سرخ دھبہ",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Grande Mancha Vermelha",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Marea Pată Roșie",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Большое красное пятно",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Great Red Spot",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Veľká červená škvrna",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Velika rdeča pega",
+          "badges": []
+        },
+        "sqwiki": {
+          "site": "sqwiki",
+          "title": "Njolla e Madhe e Kuqe",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Велика црвена пега",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Stora röda fläcken",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "பெருஞ்சிவப்புப் பிரதேசம்",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "จุดแดงใหญ่",
+          "badges": []
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Dambuhalang Pulang Batik",
+          "badges": []
+        },
+        "tokwiki": {
+          "site": "tokwiki",
+          "title": "sike loje suli",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Büyük Kırmızı Leke",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Велика червона пляма",
+          "badges": []
+        },
+        "urwiki": {
+          "site": "urwiki",
+          "title": "عظیم سرخ دھبہ",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Vết Đỏ Lớn",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "大紅斑",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "大紅斑",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

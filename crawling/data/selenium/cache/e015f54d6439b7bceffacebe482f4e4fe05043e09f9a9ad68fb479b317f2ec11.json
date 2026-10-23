@@ -1,0 +1,142 @@
+{
+  "entities": {
+    "Q141447598": {
+      "type": "item",
+      "id": "Q141447598",
+      "labels": {},
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "d89ca8dfdcd35450ba6f3e4ce56e495f8e0588af",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 141447513,
+                  "id": "Q141447513"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q141447598$BCF349FE-CB01-4AF0-A3BE-0E02B9988DF9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "bb07d2ad52a4c6add6f7df65bbbe6d6d71d55645",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "d86d5135e742170fa98db7c750025235e82685fd",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 141439101,
+                          "id": "Q141439101"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1709": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "31ebf78916138983f0e265c83726c47efe4a513c",
+              "datavalue": {
+                "value": "http://www.ontospace.uni-bremen.de/ontology/stable/GUM-3.owl#Circumstance",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "6e9b9a716ba54a576b5422878e709ac43ba564ed",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 141447513,
+                      "id": "Q141447513"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P9570": [
+                {
+                  "snaktype": "value",
+                  "property": "P9570",
+                  "hash": "917c915a1cb6b517fab87162cb8dc520f5290e84",
+                  "datavalue": {
+                    "value": {
+                      "text": "Circumstances are often realized as adverbial groups or prepositional phrases. The kinds of entities that can be used as circumstances (places, times, etc.) can also serve as participants in the appropriate configurations. Circumstances fill circumstantial roles in figures. Most circumstantial elements embody some feature of grammatical metaphor. Of those that do not, the most usual are those of time, place, manner, quality and intensity. Circumstances are realized as adverbial groups or prepositional phrases. Circumstances expressed as adverbial groups come from the CIRCUMSTANCE hierarchy, while those expressed as prepositional phrases are represented as circumstantial relations [HM99, p. ].",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4900",
+              "P9570"
+            ],
+            "id": "Q141447598$f1c5727e-4972-69e7-a407-05eafda80fc4",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "bb07d2ad52a4c6add6f7df65bbbe6d6d71d55645",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "d86d5135e742170fa98db7c750025235e82685fd",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 141439101,
+                          "id": "Q141439101"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {}
+    }
+  },
+  "success": 1
+}

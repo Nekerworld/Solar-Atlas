@@ -1,0 +1,28 @@
+{
+  "name": "Kleopatra",
+  "source": "https://echo.jpl.nasa.gov/asteroids/shapes/shapes.html",
+  "credit": "NASA/JPL radar shape model: Shepard et al. (2018)",
+  "terms": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "surface": "No image texture available in this package. Neutral gray material only; no invented surface map.",
+  "changes": "Converted to glTF; Z-up to Y-up rigid rotation, generated smooth normals, volume-equivalent normalization; 2292 triangles. No shape simplification. Display phase and pole orientation are illustrative.",
+  "model": "scene.gltf",
+  "download": "https://echo.jpl.nasa.gov/asteroids/shapes/kleo.v2.7.1148.mod.wf",
+  "retrieved": "2026-10-22",
+  "files": [
+    {
+      "path": "original.obj",
+      "bytes": 70014,
+      "sha256": "a05fd7a837019da249466cf1fb6300f58d99819272156cb2f45f98d36eda3ec3"
+    },
+    {
+      "path": "scene.bin",
+      "bytes": 55056,
+      "sha256": "e1a02b07a9acdf68c9026952b27b5c33479d5c8cc33851c06e15cdfb65398b07"
+    },
+    {
+      "path": "scene.gltf",
+      "bytes": 1067,
+      "sha256": "f5511cf80a73451d4c31342786f76c08ed4c6b2a9ed41f2066d98589092a4fd2"
+    }
+  ]
+}

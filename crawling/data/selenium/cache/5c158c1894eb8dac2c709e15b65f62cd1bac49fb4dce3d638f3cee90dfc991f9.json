@@ -1,0 +1,246 @@
+{
+  "entities": {
+    "Q141328123": {
+      "type": "item",
+      "id": "Q141328123",
+      "labels": {},
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "213d7c8d548420534acfa3b7c5b2b595dad60313",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 141152464,
+                  "id": "Q141152464"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q141328123$721CBBBB-F141-4982-A2DE-27436997EA8D",
+            "rank": "normal"
+          }
+        ],
+        "P14439": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14439",
+              "hash": "a569d059b7feafddd0cade8382c1a7ce0860ab76",
+              "datavalue": {
+                "value": "000136",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "8702e4256389f9557144aafe32995ca46f2732e4",
+                  "datavalue": {
+                    "value": "description",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P9570": [
+                {
+                  "snaktype": "value",
+                  "property": "P9570",
+                  "hash": "7dd5f1fe06838b788854a024e473e891fa6a7b43",
+                  "datavalue": {
+                    "value": {
+                      "text": "A description is language entity in which elements of a language (formal or natural) are used to characterize an entity.",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "b0bd7cdfe6a7e9c2cc04c773d75493ebf1c1764b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 141152464,
+                      "id": "Q141152464"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P9570",
+              "P4900"
+            ],
+            "id": "Q141328123$C1B9A144-C79F-4E85-9540-26EF5481C06F",
+            "rank": "normal"
+          }
+        ],
+        "P14853": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14853",
+              "hash": "977aa9efb89b83d2bfcf5a0689bdba1886dfe9d4",
+              "datavalue": {
+                "value": "0000991",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P4900": [
+                {
+                  "snaktype": "value",
+                  "property": "P4900",
+                  "hash": "46ad00a6d0ec823dbe6fdcc5ee30a8d2e4fdb3c2",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 141152439,
+                      "id": "Q141152439"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "47289ae79085248cec981cd13d76339465c1d95a",
+                  "datavalue": {
+                    "value": "proposition",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P4970": [
+                {
+                  "snaktype": "value",
+                  "property": "P4970",
+                  "hash": "12dcb8d4aec352dc128d4d7f5fac882811b4f1d2",
+                  "datavalue": {
+                    "value": "content",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P4970",
+                  "hash": "b78e66532fcba068b89a31ca10650446bb672bfb",
+                  "datavalue": {
+                    "value": "statement",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P4970",
+                  "hash": "7128641397120b119e6abfd4865576631a0bd737",
+                  "datavalue": {
+                    "value": "assertion",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P9570": [
+                {
+                  "snaktype": "value",
+                  "property": "P9570",
+                  "hash": "94fc00726b997acc91d29cc210abdbd15b18d008",
+                  "datavalue": {
+                    "value": {
+                      "text": "A proposition is an information content entity that is statement or assertion that has a truth value.",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P4900",
+              "P1810",
+              "P4970",
+              "P9570"
+            ],
+            "id": "Q141328123$1db6cdb9-4fef-9fe5-d04f-97bdd5bdec4b",
+            "rank": "normal"
+          }
+        ],
+        "P1709": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "5a58f84e26d541055ded222dcf14206234f9870e",
+              "datavalue": {
+                "value": "https://spec.industrialontologies.org/ontology/construct/DescriptiveInformationContentEntity",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q141328123$2625508f-4a30-7e11-e155-a86737cc924a",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "07073dab3df4653aab1796e8dacf74daf2d5646b",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9bcda007431267c78b656c864e53ee0741c45263",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 140479716,
+                          "id": "Q140479716"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {}
+    }
+  },
+  "success": 1
+}

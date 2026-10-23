@@ -1,0 +1,931 @@
+{
+  "entities": {
+    "Q321703": {
+      "type": "item",
+      "id": "Q321703",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "전제"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "주장을 지지하는 진술"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "ba4324bec6433bd59aa027d65fb6fe571eb939f4",
+              "datavalue": {
+                "value": "/m/026msn4",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q321703$4708B298-4173-4102-AD05-18D04F1BFD5B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "2d8b1735b356aed9946c18b22da470961347186f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 108163,
+                  "id": "Q108163"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q321703$528f6990-4b96-14bf-de69-c6b9b9491eaf",
+            "rank": "normal"
+          }
+        ],
+        "P3569": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3569",
+              "hash": "00549f40d3660f9ccb68e0f4ccd5c4e3b60ebc70",
+              "datavalue": {
+                "value": "filosofie/premisse",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q321703$8895E242-32F3-4F0C-B671-0B3C0D4D8CEF",
+            "rank": "normal"
+          }
+        ],
+        "P460": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P460",
+              "hash": "35bf90263862ade1df0783151e854915ffbfaa20",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 260460,
+                  "id": "Q260460"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q321703$a7adba8d-47f4-b4de-4b83-42e712ab410e",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "70e5e0fba100dd23be36d87ad75c706a7b941145",
+              "datavalue": {
+                "value": "topic/premise",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "0b363e300c5c85678b30123690fa417d5d40ebd3",
+                  "datavalue": {
+                    "value": "premise",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q321703$8AF07FEE-4F13-4030-BB7D-EF1B23ABB2F1",
+            "rank": "normal"
+          }
+        ],
+        "P1296": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1296",
+              "hash": "81f849108cd029328b1ada52af8f4d885aea51b6",
+              "datavalue": {
+                "value": "0134243",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q321703$18DA74A1-414C-421D-9430-BDCE0A71F474",
+            "rank": "normal"
+          }
+        ],
+        "P1245": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1245",
+              "hash": "0947a32348cbb2da17f7e3035434eeae8cf694ba",
+              "datavalue": {
+                "value": "451284",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q321703$DB720210-C63B-4E9D-91CB-4306B10AB4B4",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "3ecdbcd4263ca3bded2dbec64fc74c3f159a3f12",
+              "datavalue": {
+                "value": "2778023277",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q321703$624CACAC-89BF-478D-BE2F-9927DD108060",
+            "rank": "normal"
+          }
+        ],
+        "P2579": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2579",
+              "hash": "727d1f88aab91d53714e9d1bdbc7c575c36699f2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8078,
+                  "id": "Q8078"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q321703$9c0f15d5-44be-c59a-cb6c-1504f323c170",
+            "rank": "normal"
+          }
+        ],
+        "P2347": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2347",
+              "hash": "35283bb9648119e9b889a36ceb5f873abea7deb0",
+              "datavalue": {
+                "value": "19190",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2241": [
+                {
+                  "snaktype": "value",
+                  "property": "P2241",
+                  "hash": "f9aeed8b7bc10ff3547bf93434b92ac40ab8e7c8",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 14946528,
+                      "id": "Q14946528"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P8327": [
+                {
+                  "snaktype": "value",
+                  "property": "P8327",
+                  "hash": "7fa6a006ac20b2795abc6a2deff561410716fdf0",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 95972591,
+                      "id": "Q95972591"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P14457": [
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "764fd4ad5461ca0521917272ad6e7d3788813a8f",
+                  "datavalue": {
+                    "value": {
+                      "text": "påståenden",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "03482ab2768ffec0a0a59895198a81610b1badd6",
+                  "datavalue": {
+                    "value": {
+                      "text": "väittämät",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "b9976adc658c60ad0bb8fb6b871093e47b683259",
+                  "datavalue": {
+                    "value": {
+                      "text": "čuoččuhusat",
+                      "language": "se"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14457",
+                  "hash": "9bd05e13414a120e601041f2d2b7de18c169ec53",
+                  "datavalue": {
+                    "value": {
+                      "text": "statements (claims)",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P14458": [
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "42e74947fa5bb13dcdce8f1a99a0d4f1d46e8489",
+                  "datavalue": {
+                    "value": {
+                      "text": "argument",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "435de257545ea3dcc68abd0ba8f857c327e44863",
+                  "datavalue": {
+                    "value": {
+                      "text": "väitelauseet",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "92ee90f56e7e3a230044cca980077cf99e36ff00",
+                  "datavalue": {
+                    "value": {
+                      "text": "väitteet",
+                      "language": "fi"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "1d1f4e04bb3a70574b0701a800217ae362df333e",
+                  "datavalue": {
+                    "value": {
+                      "text": "teorem",
+                      "language": "sv"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "eb3f78d23fc9c47e48b5ce3a2a5968b07383cc82",
+                  "datavalue": {
+                    "value": {
+                      "text": "arguments",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P14458",
+                  "hash": "a16540d84dfcb15023522588971d1c22687110de",
+                  "datavalue": {
+                    "value": {
+                      "text": "theorems",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2241",
+              "P8327",
+              "P14457",
+              "P14458"
+            ],
+            "id": "Q321703$AF7EC608-CD0A-472C-BED4-DB54FD97CCE3",
+            "rank": "deprecated",
+            "references": [
+              {
+                "hash": "e5fe28150ece4f5cad8ddd10a83cb85e350db185",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "7133f11674741f52cadaae6029068fad9cbb52e3",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 89345680,
+                          "id": "Q89345680"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "9b7001794325f108a52dd793e905d11557d0ae63",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2021-11-29T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P10283": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "14a97ddc6e15dcae695ee07dcce428ee0fe379ae",
+              "datavalue": {
+                "value": "C2778023277",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q321703$EF97A00A-9632-4AFC-8EAB-68B67C260940",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "e0b27d817c9a9b3247df341000fc490bafcba862",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1065": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1065",
+                      "hash": "3134281f51e2490f88272d53c56ee95d9cc24e2c",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20220125070108/https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P2960": [
+                    {
+                      "snaktype": "value",
+                      "property": "P2960",
+                      "hash": "f7ff3a0de7f9571ecb5e0740cba4122c6703e1ec",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854",
+                  "P1065",
+                  "P2960"
+                ]
+              }
+            ]
+          }
+        ],
+        "P12385": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12385",
+              "hash": "88e29caf2d9b6d7f9ae9e040f2ecded5addb599f",
+              "datavalue": {
+                "value": "premissa-0",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q321703$f5cd5ddb-48c9-41e3-bf9f-b43f7b72a99c",
+            "rank": "normal"
+          }
+        ],
+        "P2812": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2812",
+              "hash": "3be670f97e1f1da86e97c78db6301340cd0f76dc",
+              "datavalue": {
+                "value": "Premise",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "3d424863b6d55d056c00830955344000abf6290d",
+                  "datavalue": {
+                    "value": "Premise",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q321703$8DCB1C0A-3A4E-48AD-AE7C-245B6896CF20",
+            "rank": "normal"
+          }
+        ],
+        "P4342": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4342",
+              "hash": "c8703e3349e7a5fa0a1014218697ac5211266a8e",
+              "datavalue": {
+                "value": "premisser",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q321703$dacfa560-4346-5ce9-4a7d-b165088029c3",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "مقدمة (منطق)",
+          "badges": []
+        },
+        "bewwiki": {
+          "site": "bewwiki",
+          "title": "Sarapan (mantèk)",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Premissa",
+          "badges": []
+        },
+        "ckbwiki": {
+          "site": "ckbwiki",
+          "title": "پێشەکی (لۆژیک)",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Premisa",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Præmis",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Prämisse",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Premise",
+          "badges": [
+            "Q17437798",
+            "Q17437796"
+          ]
+        },
+        "enwikiquote": {
+          "site": "enwikiquote",
+          "title": "Premise",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Premiso",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Premisa",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Eeldus",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Premisa",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "پیش‌فرض",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Premissi",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Prémisse",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Premisa",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "הנחה (לוגיקה)",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "आधार (तर्क)",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Premisa",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Premissza",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Նախադրույթ",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Premis",
+          "badges": []
+        },
+        "iowiki": {
+          "site": "iowiki",
+          "title": "Premiso",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Premessa",
+          "badges": []
+        },
+        "itwikiquote": {
+          "site": "itwikiquote",
+          "title": "Premessa",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "前提",
+          "badges": []
+        },
+        "kiwiki": {
+          "site": "kiwiki",
+          "title": "Kĩrica (premise)",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "전제 (논리학)",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Prielaida",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Premisa",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Премиса",
+          "badges": []
+        },
+        "mywiki": {
+          "site": "mywiki",
+          "title": "သိထားချက်",
+          "badges": []
+        },
+        "ndswiki": {
+          "site": "ndswiki",
+          "title": "Prämisse",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Premisse (logica)",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Premiss",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Przesłanka",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Premissa",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Premisă",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Посылка (логика)",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Premisa",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Premise",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Premisa",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Премиса",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Premiss",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "மூலக்கூற்று",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "ข้อตั้ง",
+          "badges": []
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Palagay",
+          "badges": []
+        },
+        "ttwiki": {
+          "site": "ttwiki",
+          "title": "Алшарт",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Засновок",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "前題",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "前提",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

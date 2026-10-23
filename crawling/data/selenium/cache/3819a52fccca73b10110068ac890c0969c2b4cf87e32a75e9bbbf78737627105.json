@@ -1,0 +1,83 @@
+{
+  "entities": {
+    "Q7359562": {
+      "type": "item",
+      "id": "Q7359562",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "떠돌이 항성"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "위키미디어 동음이의어 문서"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "0ebb78ffecd3415a2dbc8db900881ff784fead2a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4167410,
+                  "id": "Q4167410"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7359562$57E6EC46-B4CD-45B9-9879-CE049F20AF02",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Rogue star",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "떠돌이 항성",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

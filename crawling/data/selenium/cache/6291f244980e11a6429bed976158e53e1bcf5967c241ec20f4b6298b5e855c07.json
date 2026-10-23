@@ -1,0 +1,452 @@
+{
+  "entities": {
+    "Q729623": {
+      "type": "item",
+      "id": "Q729623",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "C형 소행성"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "45dc2567708243faa1e266b528ed3baf93abcbe2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3863,
+                  "id": "Q3863"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q729623$826C372E-4236-4508-AF1C-3B4D3890A2BF",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "7e8897a2fc84b4fcebded4b0f9ddf64383620ca7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1750705,
+                  "id": "Q1750705"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q729623$610FF58F-C6BF-43CE-BD83-B2F2613C6074",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "94b1f939dac08cead3d9a7b90ea1ea5419ba8b75",
+              "datavalue": {
+                "value": "/m/02m9m4",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q729623$6CAC6005-DF6F-4D4F-BED5-09D3FB1E7C80",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "b14de2434171e5040b8567d451c2f9b7fa5ae625",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8334051,
+                  "id": "Q8334051"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q729623$52A0C17D-82CF-439C-92D3-B4109C89BA34",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "c0a742d621503a6f964c03e6a907a7b3d9fd7dff",
+              "datavalue": {
+                "value": "topic/C-class-asteroid",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "2dd073d8b44f2e363cf9025d5eb524873767ecdc",
+                  "datavalue": {
+                    "value": "C-class asteroid",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q729623$4F01CAC7-78FC-4039-986E-A60B0DF897C2",
+            "rank": "normal"
+          }
+        ],
+        "P8979": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8979",
+              "hash": "d4ee22ed8439cc86b8a3e0f66b0d209c7049663e",
+              "datavalue": {
+                "value": "Q12663",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q729623$CA9FBAAD-AFC6-4D48-AABC-D4AC02AC7C3D",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a9b3b0e4b3198b05cbcd4fc7e6420f745119932",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a2ac1ed0ae645b4097f29fb39df42d509a29c148",
+                      "datavalue": {
+                        "value": "https://data.wikitrek.org/wiki/Item:Q12663",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "6d66cf77e99bd2c50ea0100a552cc8b66f85d501",
+                      "datavalue": {
+                        "value": {
+                          "text": "Type C asteroid - DataTrek",
+                          "language": "it"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "f3d0838e979e1d5517d912366a698b1f892e8158",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-03-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P1476",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "كويكب كربوني",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "К-клас астероид",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Asteroide de tipus C",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "C-type asteroid",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Asteroide de tipo C",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "C-motako asteroide",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "سیارک نوع سی",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "C-tyypin asteroidi",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Astéroïde de type C",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "सी-श्रेणी क्षुद्रग्रह",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Ugljikov asteroid",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "C típusú kisbolygók",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Աստերոիդների դաս C",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Asteroid tipe C",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Asteroide di tipo C",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "C型小惑星",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "C형 소행성",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "C tipa asteroīds",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Астероид од типот C",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "C-type planetoïde",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "C-type-asteroide",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "C-type-asteroide",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Planetoida klasy C",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Asteroide tipo C",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Asteroid de tip C",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Астероид класса C",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "C-type asteroid",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Planétka typu C",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Asteroid tipa C",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "C-tipi asteroit",
+          "badges": []
+        },
+        "tyvwiki": {
+          "site": "tyvwiki",
+          "title": "C-типтиг астероидтер",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Астероїд типу C",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Tiểu hành tinh kiểu C",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "C-型小行星",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

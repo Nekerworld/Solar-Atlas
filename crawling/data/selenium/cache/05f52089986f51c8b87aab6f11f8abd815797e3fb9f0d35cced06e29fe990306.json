@@ -1,0 +1,797 @@
+{
+  "entities": {
+    "Q139592810": {
+      "type": "item",
+      "id": "Q139592810",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "2MASS J09374158+0246330"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "G형 주계열성"
+        }
+      },
+      "aliases": {
+        "ko": [
+          {
+            "language": "ko",
+            "value": "WISEA J093741.57+024633.0"
+          },
+          {
+            "language": "ko",
+            "value": "Gaia DR3 3847694044654797696"
+          },
+          {
+            "language": "ko",
+            "value": "SSTSL2 J093741.58+024633.1"
+          },
+          {
+            "language": "ko",
+            "value": "SDSS J093741.58+024633.0"
+          }
+        ]
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9a1c0cfb46226db5ced4fc18d890b819eb50bc66",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 523,
+                  "id": "Q523"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139592810$a04ea6ff-01ed-4a85-800d-1adcb710ba78",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "fbd6f25429ac786024b9af0a88d4625a53cbe0ba",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5864,
+                  "id": "Q5864"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139592810$270ec2c3-f8d3-4ce3-a2d6-253484315db4",
+            "rank": "normal"
+          }
+        ],
+        "P59": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P59",
+              "hash": "d2fcc7efc03a6777240fe10050a384b69f3a3f3e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 10578,
+                  "id": "Q10578"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q139592810$a68eb50f-bc2c-4077-90a7-075f109e921d",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "5a9748e69cbac2065858beeb89363f571e6ab40a",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "56f99b6701feb379816767ae88bb77e0e74981b3",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 17985,
+                          "id": "Q17985"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "a649e00e046c09a2ff2dafd23b0e15b96b7a7cf5",
+                      "datavalue": {
+                        "value": "https://ko.wikipedia.org/wiki/2MASS_J09374158%2B0246330?title=2MASS_J09374158%2B0246330&oldid=41353163",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "2d6f29f7eb962b5ab5dd7bce31a74cd9a4a35bf9",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-04-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7584": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7584",
+              "hash": "0890730b19bd8c0732a9ff1cb9d3201d3552734c",
+              "datavalue": {
+                "value": {
+                  "amount": "+1480000000",
+                  "unit": "http://www.wikidata.org/entity/Q577"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q139592810$c22d0ac8-4a72-0d76-0671-f4bc8fd19fa8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "5a9748e69cbac2065858beeb89363f571e6ab40a",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "56f99b6701feb379816767ae88bb77e0e74981b3",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 17985,
+                          "id": "Q17985"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "a649e00e046c09a2ff2dafd23b0e15b96b7a7cf5",
+                      "datavalue": {
+                        "value": "https://ko.wikipedia.org/wiki/2MASS_J09374158%2B0246330?title=2MASS_J09374158%2B0246330&oldid=41353163",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "2d6f29f7eb962b5ab5dd7bce31a74cd9a4a35bf9",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-04-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P215": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P215",
+              "hash": "dbb1f7982606950b3f5e78681573df2649484996",
+              "datavalue": {
+                "value": "G2V",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q139592810$6f825e09-a586-4af6-84b5-5fceaeac0944",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "5a9748e69cbac2065858beeb89363f571e6ab40a",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "56f99b6701feb379816767ae88bb77e0e74981b3",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 17985,
+                          "id": "Q17985"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "a649e00e046c09a2ff2dafd23b0e15b96b7a7cf5",
+                      "datavalue": {
+                        "value": "https://ko.wikipedia.org/wiki/2MASS_J09374158%2B0246330?title=2MASS_J09374158%2B0246330&oldid=41353163",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "2d6f29f7eb962b5ab5dd7bce31a74cd9a4a35bf9",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-04-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2120": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2120",
+              "hash": "abe20fc37495c54f033e7f246d2dc59070b24394",
+              "datavalue": {
+                "value": {
+                  "amount": "+0.953",
+                  "unit": "http://www.wikidata.org/entity/Q48440"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q139592810$db2ac1a6-8507-4750-8bdb-49863ef6ac3b",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "5a9748e69cbac2065858beeb89363f571e6ab40a",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "56f99b6701feb379816767ae88bb77e0e74981b3",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 17985,
+                          "id": "Q17985"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "a649e00e046c09a2ff2dafd23b0e15b96b7a7cf5",
+                      "datavalue": {
+                        "value": "https://ko.wikipedia.org/wiki/2MASS_J09374158%2B0246330?title=2MASS_J09374158%2B0246330&oldid=41353163",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "2d6f29f7eb962b5ab5dd7bce31a74cd9a4a35bf9",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-04-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2583": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2583",
+              "hash": "27d2cf23e89aa7bfa77685b8cb072be237b37ad2",
+              "datavalue": {
+                "value": {
+                  "amount": "+568.586",
+                  "unit": "http://www.wikidata.org/entity/Q12129"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q139592810$9c491091-a10e-4dba-a98e-89ff158ff120",
+            "rank": "preferred",
+            "references": [
+              {
+                "hash": "5a9748e69cbac2065858beeb89363f571e6ab40a",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "56f99b6701feb379816767ae88bb77e0e74981b3",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 17985,
+                          "id": "Q17985"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "a649e00e046c09a2ff2dafd23b0e15b96b7a7cf5",
+                      "datavalue": {
+                        "value": "https://ko.wikipedia.org/wiki/2MASS_J09374158%2B0246330?title=2MASS_J09374158%2B0246330&oldid=41353163",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "2d6f29f7eb962b5ab5dd7bce31a74cd9a4a35bf9",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-04-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656",
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2583",
+              "hash": "4544448342668c89286e90966b0bb5b2518148cf",
+              "datavalue": {
+                "value": {
+                  "amount": "+1853.17",
+                  "unit": "http://www.wikidata.org/entity/Q531"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q139592810$9652e5c4-9750-423c-8656-cb09f6d1167c",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "5a9748e69cbac2065858beeb89363f571e6ab40a",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "56f99b6701feb379816767ae88bb77e0e74981b3",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 17985,
+                          "id": "Q17985"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "a649e00e046c09a2ff2dafd23b0e15b96b7a7cf5",
+                      "datavalue": {
+                        "value": "https://ko.wikipedia.org/wiki/2MASS_J09374158%2B0246330?title=2MASS_J09374158%2B0246330&oldid=41353163",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "2d6f29f7eb962b5ab5dd7bce31a74cd9a4a35bf9",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-04-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2067": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2067",
+              "hash": "00ed9edf2d285e2c37ee45e27548ebba17218c29",
+              "datavalue": {
+                "value": {
+                  "amount": "+0.9406",
+                  "unit": "http://www.wikidata.org/entity/Q180892"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q139592810$f5cd580b-3625-4aae-b34a-1dc2a24eaf0d",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "5a9748e69cbac2065858beeb89363f571e6ab40a",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "56f99b6701feb379816767ae88bb77e0e74981b3",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 17985,
+                          "id": "Q17985"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "a649e00e046c09a2ff2dafd23b0e15b96b7a7cf5",
+                      "datavalue": {
+                        "value": "https://ko.wikipedia.org/wiki/2MASS_J09374158%2B0246330?title=2MASS_J09374158%2B0246330&oldid=41353163",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "2d6f29f7eb962b5ab5dd7bce31a74cd9a4a35bf9",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-04-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2076": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2076",
+              "hash": "66cd8806a6e3dc1460f46bda8c83c82f9af7830f",
+              "datavalue": {
+                "value": {
+                  "amount": "+6014.108",
+                  "unit": "http://www.wikidata.org/entity/Q11579"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q139592810$996ca323-bb20-4c19-bdaf-3dd6d1eac6af",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "5a9748e69cbac2065858beeb89363f571e6ab40a",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "56f99b6701feb379816767ae88bb77e0e74981b3",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 17985,
+                          "id": "Q17985"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "a649e00e046c09a2ff2dafd23b0e15b96b7a7cf5",
+                      "datavalue": {
+                        "value": "https://ko.wikipedia.org/wiki/2MASS_J09374158%2B0246330?title=2MASS_J09374158%2B0246330&oldid=41353163",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "2d6f29f7eb962b5ab5dd7bce31a74cd9a4a35bf9",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-04-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2060": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2060",
+              "hash": "5962d311b7eaf9fb64cd4c3d30b8aa690c1ad7bf",
+              "datavalue": {
+                "value": {
+                  "amount": "+1.067",
+                  "unit": "http://www.wikidata.org/entity/Q843877"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q139592810$dbc02822-8da2-4740-b79a-e929950127dd",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "5a9748e69cbac2065858beeb89363f571e6ab40a",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "56f99b6701feb379816767ae88bb77e0e74981b3",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 17985,
+                          "id": "Q17985"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "a649e00e046c09a2ff2dafd23b0e15b96b7a7cf5",
+                      "datavalue": {
+                        "value": "https://ko.wikipedia.org/wiki/2MASS_J09374158%2B0246330?title=2MASS_J09374158%2B0246330&oldid=41353163",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "2d6f29f7eb962b5ab5dd7bce31a74cd9a4a35bf9",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-04-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "kowiki": {
+          "site": "kowiki",
+          "title": "2MASS J09374158+0246330",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

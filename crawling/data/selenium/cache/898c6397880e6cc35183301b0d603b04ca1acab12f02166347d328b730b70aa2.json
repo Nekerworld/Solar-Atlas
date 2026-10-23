@@ -1,0 +1,526 @@
+{
+  "entities": {
+    "Q27096213": {
+      "type": "item",
+      "id": "Q27096213",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "지리 요소"
+        }
+      },
+      "descriptions": {
+        "ko": {
+          "language": "ko",
+          "value": "지리학적 가치를 지닌 장소 또는 사물"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P2737": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2737",
+              "hash": "e285d583d5dd18d0e147749d71ad99788f87fd22",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 23766486,
+                  "id": "Q23766486"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P11260": [
+                {
+                  "snaktype": "value",
+                  "property": "P11260",
+                  "hash": "11b2eb3a0dac513a263f26764e41e315e7549366",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 27096220,
+                      "id": "Q27096220"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P11260",
+                  "hash": "1e2da0b1724e01b6e57edde53b29a503262efc02",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 27096235,
+                      "id": "Q27096235"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P11260"
+            ],
+            "id": "Q27096213$859cea37-4b2f-12af-76d4-387e72dc34c8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "0e6f4bcaba266b0fc5cf3da526c46751d02f1524",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "28b223038ca77b4d8557c009b97e01ed1e659830",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 27096223,
+                          "id": "Q27096223"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "3ad3b962db97519a9eed93910751e12a840db8e3",
+                      "datavalue": {
+                        "value": "http://www.toponymie.gouv.qc.ca/ct/references-utiles/glossaire/entite-geographique.html",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1552": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1552",
+              "hash": "6ff7bc6342e7aba509f8ff603a7daf18e896f2ea",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2221906,
+                  "id": "Q2221906"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P5102": [
+                {
+                  "snaktype": "value",
+                  "property": "P5102",
+                  "hash": "242fa6856d81e981d1175ea50b08a0e00aec5d43",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 28962312,
+                      "id": "Q28962312"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P5102"
+            ],
+            "id": "Q27096213$3de4d00f-401f-599f-596b-5db338062d37",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1552",
+              "hash": "237ed97249b8609662ae93d7c68b8f5a4ae397ba",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 17334923,
+                  "id": "Q17334923"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q27096213$15ababad-4086-844a-d352-eddf7e935d5a",
+            "rank": "normal"
+          }
+        ],
+        "P1709": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1709",
+              "hash": "d414f109ef2fff08b2f5457911a8cd8a9abd96da",
+              "datavalue": {
+                "value": "http://iflastandards.info/ns/lrm/lrmer/E10",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "44b941f75446a567e1bb367f6c883cba5233e5b2",
+                  "datavalue": {
+                    "value": "Place",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q27096213$16758b50-4795-4ed4-04e9-2f38dafcbe1b",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "6da4d967d8eaa345bd8ee7bcada96f3199cd9cc3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 123349660,
+                  "id": "Q123349660"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q27096213$d8852b85-486f-aca0-5f93-07ff8ade43eb",
+            "rank": "normal"
+          }
+        ],
+        "P10565": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10565",
+              "hash": "8ab7454e26fb53c2d03304bc78f13e5930188a23",
+              "datavalue": {
+                "value": "226455",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "1f2cee318dce8adf4dcd4c21d1f99e30591b7a5e",
+                  "datavalue": {
+                    "value": "地理实体",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q27096213$9d3a7f07-4c73-1f79-ae44-8d1ad51e0343",
+            "rank": "normal"
+          }
+        ],
+        "P1269": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1269",
+              "hash": "642fbee8f5574538b1d296136ce7e87f81cbb643",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 11692743,
+                  "id": "Q11692743"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q27096213$7f581224-4cca-f43c-1d7f-bd4a5a673bfb",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9d92a68f335b0880463efc7f95c8ce2c72ea6ab8",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "d9efab68095e197fda8a9fdd854ff088e89a8c2c",
+                      "datavalue": {
+                        "value": "https://www.sciencedirect.com/topics/engineering/geographic-entity",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "2848c4ae18ed1182cb643e625130baed971ecb71",
+                      "datavalue": {
+                        "value": {
+                          "text": "Geographic Entity - an overview | ScienceDirect Topics",
+                          "language": "en"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "e63173d524c707c35445e1b9d58a67942360bd6b",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-11-15T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P1476",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P5869": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5869",
+              "hash": "cb7ba5fe597650b03c03f93dfeea5318f8719c58",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 399984,
+                  "id": "Q399984"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P11527": [
+                {
+                  "snaktype": "value",
+                  "property": "P11527",
+                  "hash": "03333cd9754e182cbd8cf05cf461c34d428ffcbe",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "property",
+                      "numeric-id": 31,
+                      "id": "P31"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-property"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P11527"
+            ],
+            "id": "Q27096213$30a18600-45a1-7b56-2f48-1eb62671f8e3",
+            "rank": "normal"
+          }
+        ],
+        "P1963": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1963",
+              "hash": "5cfcaeb4140baef481089867381252fd68b95424",
+              "datavalue": {
+                "value": {
+                  "entity-type": "property",
+                  "numeric-id": 8453,
+                  "id": "P8453"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-property"
+            },
+            "type": "statement",
+            "id": "Q27096213$f7770762-4e3e-8fe7-9cea-0b231776444b",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "4b1f7e210f2bb3807510eee58465801bef21b3d0",
+              "datavalue": {
+                "value": "Geographical entities",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q27096213$69acd399-1786-4cef-a781-f53eb6b8d8ee",
+            "rank": "normal"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "1275f686a6da76a160ba7fd809e76ce0557fe4f7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6576428,
+                  "id": "Q6576428"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q27096213$6c158539-417e-6183-280d-5df55d9c9249",
+            "rank": "normal"
+          }
+        ],
+        "P14541": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14541",
+              "hash": "9a0bc420551b427b0a4ce4edbf4c143648709499",
+              "datavalue": {
+                "value": "YAciJ",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "1f2cee318dce8adf4dcd4c21d1f99e30591b7a5e",
+                  "datavalue": {
+                    "value": "地理实体",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P5017": [
+                {
+                  "snaktype": "value",
+                  "property": "P5017",
+                  "hash": "4102f68ef6a3e38f38a98753d6cc1bfbff5c97c5",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-01-20T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P5017"
+            ],
+            "id": "Q27096213$19BCDF47-A71D-461B-A411-8492F6D4E702",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d57a31148a30160bc676d8a1eec423129158db72",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "c0f85186f0a917ee1cf9453043bc96193aaea4c0",
+                      "datavalue": {
+                        "value": "https://www.zgbk.com/ecph/words?SiteID=1&Name=%E5%9C%B0%E7%90%86%E5%AE%9E%E4%BD%93",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {}
+    }
+  },
+  "success": 1
+}

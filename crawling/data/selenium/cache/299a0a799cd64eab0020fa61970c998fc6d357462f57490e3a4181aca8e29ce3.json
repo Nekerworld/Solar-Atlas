@@ -1,0 +1,1019 @@
+{
+  "entities": {
+    "Q35273": {
+      "type": "item",
+      "id": "Q35273",
+      "labels": {
+        "ko": {
+          "language": "ko",
+          "value": "광학망원경"
+        }
+      },
+      "descriptions": {},
+      "aliases": {},
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "9a3346a7ffdfeb64eab58d2027a9989481c9c78a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4213,
+                  "id": "Q4213"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q35273$CC6503BC-0968-414F-B5F2-155B3996AA22",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "6f5517407803a61a84a9387e34bfebe51d92d312",
+              "datavalue": {
+                "value": "/m/01ngsz",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q35273$834632ED-DFCD-4161-9F70-090D8A69FC1A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "d463d2c58c7c1cd1f56e4ee6d653781193f82ae1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9049651,
+                  "id": "Q9049651"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q35273$91276232-8C38-4175-9300-A21C87278B98",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "0975ffcb38a4d06c3927b333f9008fa8ba0208d2",
+              "datavalue": {
+                "value": "science/optical-telescope",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "9cc532dda5e80e8069bc4ced7328c84184e404b4",
+                  "datavalue": {
+                    "value": "telescope",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P2093": [
+                {
+                  "snaktype": "value",
+                  "property": "P2093",
+                  "hash": "c21a4ca68fb01a8c7e9a2466dc86bda57b68fece",
+                  "datavalue": {
+                    "value": "Kenneth I. Kellermann",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2093",
+                  "hash": "0a7e5c31102f400daf510cadb4c8fdbdbd9f4613",
+                  "datavalue": {
+                    "value": "B.L. Klock",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P2093"
+            ],
+            "id": "Q35273$8d9d39fc-4770-cb2d-ff67-4f72b52c530e",
+            "rank": "normal"
+          }
+        ],
+        "P3827": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3827",
+              "hash": "8cd79850b5f9122c4253f345f2718aca92d82ba0",
+              "datavalue": {
+                "value": "optical-telescopes",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q35273$1F324916-49FC-4358-BC05-2E728344C159",
+            "rank": "normal"
+          }
+        ],
+        "P4466": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4466",
+              "hash": "b2834bafdc592ee0fba60befd28a19a3e98cab5e",
+              "datavalue": {
+                "value": "1174",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q35273$E0322E64-7E42-4729-83D7-4955288B5137",
+            "rank": "normal"
+          }
+        ],
+        "P2581": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2581",
+              "hash": "a900e69284491e2903e29260d61c1fd35aaa74de",
+              "datavalue": {
+                "value": "00059220n",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q35273$AB136C5B-49A6-44B5-A4A8-3D4907687F79",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "248ac337a217a5f5eed7139a82a4e60931611af0",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "25b816aab41db18565946259c950aed6de05dd1e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4837690,
+                          "id": "Q4837690"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "e018cc0dbf0dc33e68914590d71181c32ce5f578",
+              "datavalue": {
+                "value": "202572682",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q35273$ED0A5755-6555-465A-8B5A-954BAB9EBED5",
+            "rank": "normal"
+          }
+        ],
+        "P443": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P443",
+              "hash": "0d30190ad79d0b555738ac2888ea06f32c3ad5c8",
+              "datavalue": {
+                "value": "LL-Q9217 (tha)-Patsagorn Y.-กล้องส่องทางไกล.wav",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "8c313cf850c6e371c45c4680e2ca50572d2ae46c",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 9217,
+                      "id": "Q9217"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407"
+            ],
+            "id": "Q35273$eb4b0466-bc40-49a9-a943-ac417fba64ac",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "715b6c0de9682b0a893d710a06b66c6a72fc9464",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "e4d2991d23cc8de1b83a2b58dcf1952612d888e1",
+                      "datavalue": {
+                        "value": "https://lingualibre.org/wiki//Q391355",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8834": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8834",
+              "hash": "6a4b922620ad8963e75432c5cfc57aa6e34730c5",
+              "datavalue": {
+                "value": "opticalTelescope",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q35273$36cee5a8-4aea-7138-61ce-b748abfaf478",
+            "rank": "normal"
+          }
+        ],
+        "P1282": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1282",
+              "hash": "a039bc3d9a84f9082e005d3cd1830856fa0cef32",
+              "datavalue": {
+                "value": "telescope:type=optical",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q35273$c11815f7-4c19-ea91-40d4-0f856d6c95c6",
+            "rank": "normal"
+          }
+        ],
+        "P10283": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "34ba15bfb9026a5b27ed94303e92190a5de77a0b",
+              "datavalue": {
+                "value": "C202572682",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q35273$BB1C0216-8F90-425D-A5B1-44CD09979C90",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "e0b27d817c9a9b3247df341000fc490bafcba862",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1065": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1065",
+                      "hash": "3134281f51e2490f88272d53c56ee95d9cc24e2c",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20220125070108/https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P2960": [
+                    {
+                      "snaktype": "value",
+                      "property": "P2960",
+                      "hash": "f7ff3a0de7f9571ecb5e0740cba4122c6703e1ec",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854",
+                  "P1065",
+                  "P2960"
+                ]
+              }
+            ]
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "652f3423ec5195280d5332801cb64fa8c230037a",
+              "datavalue": {
+                "value": "Optical telescopes",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q35273$F1F9CAD1-C90C-4A08-8BBE-F850821D8CD3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "06ef52e28fe37c4ba516a2b28a59925dba88c5bd",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 206855,
+                          "id": "Q206855"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "f2b8e633df896ec7d29e19100911864cc29709de",
+                      "datavalue": {
+                        "value": "https://ru.wikipedia.org/w/index.php?title=Оптический_телескоп&oldid=120773019",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7502": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7502",
+              "hash": "b9fcdc413b0519eb3ad1517073be80e9d54cc38b",
+              "datavalue": {
+                "value": "Optical_telescope-A6BZJ",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q35273$596A819A-9F68-4A9E-8BCD-C2603418BEF6",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3b6638d334155f55c9a46670087858345e48ecaf",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "849bf31a75ee81eef52deceed6ee34b2f429e12c",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-09-10T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "2e2920060dd627a894c4b14df02e794fa019016b",
+                      "datavalue": {
+                        "value": "https://golden.com/wiki/Optical_telescope-A6BZJ",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P10565": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10565",
+              "hash": "00d2d9363fb4003244da13e9dfc5345cfdd927cc",
+              "datavalue": {
+                "value": "299466",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "0d277fbfb864e66f4128ce1bd769c8d9fe9c27af",
+                  "datavalue": {
+                    "value": "光学望远镜",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q35273$0062738a-4ead-3080-3318-3e254e7a2fe9",
+            "rank": "normal"
+          }
+        ],
+        "P1343": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "33ab2ff1837135909882dcf832d394373dee0ebf",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 56441911,
+                  "id": "Q56441911"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "27047315dbfb40e5b8abd5dc292b3d129943d27c",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 123955852,
+                      "id": "Q123955852"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q35273$ADCBF78D-0345-42BF-8D58-AC836010E917",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "cc623969772776f2a8b109402b0ac5fa5c123233",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19219752,
+                  "id": "Q19219752"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "a22e289523c88e7efe0e83d0fce7e22e9faf5ee7",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 124078431,
+                      "id": "Q124078431"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q35273$0C237A9A-2E61-4C79-9652-9E057D7A4B5C",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "405c3f758323a00574a234812347561d49dac742",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3099911,
+                  "id": "Q3099911"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q35273$01ab87b4-4c17-41b9-3391-dc042e042c73",
+            "rank": "normal"
+          }
+        ],
+        "P14541": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14541",
+              "hash": "1168146d07f0eb81442e87a2600aa782b6338763",
+              "datavalue": {
+                "value": "3YbrlL",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "0d277fbfb864e66f4128ce1bd769c8d9fe9c27af",
+                  "datavalue": {
+                    "value": "光学望远镜",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P5017": [
+                {
+                  "snaktype": "value",
+                  "property": "P5017",
+                  "hash": "a0c41e71a1f671dd9e95e56ce9c00442d6d24260",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2026-02-27T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P5017"
+            ],
+            "id": "Q35273$144E012F-41FD-4524-B2B6-BC701EBEC8BC",
+            "rank": "normal"
+          }
+        ],
+        "P14692": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P14692",
+              "hash": "b6e4152baede3625be51d59407b7ab97c3d183da",
+              "datavalue": {
+                "value": "Q5566",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q35273$6F01406D-83E7-47F0-A7E3-8571E5EFBC6E",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "مقراب بصري",
+          "badges": []
+        },
+        "barwiki": {
+          "site": "barwiki",
+          "title": "Zuawaziaga (Refraktor)",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "আলোকীয় দূরবীক্ষণ যন্ত্র",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Telescopi òptic",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Optisches Teleskop",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Οπτικό τηλεσκόπιο",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Optical telescope",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Telescopio óptico",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "تلسکوپ نوری",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "טלסקופ אופטי",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "प्रकाशीय दूरदर्शी",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Optički teleskop",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Teleskop optik",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Telescopio ottico",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "光学望遠鏡",
+          "badges": []
+        },
+        "knwiki": {
+          "site": "knwiki",
+          "title": "ದೃಕ್ ದೂರದರ್ಶಕ",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "광학망원경",
+          "badges": []
+        },
+        "kywiki": {
+          "site": "kywiki",
+          "title": "Рефрактор",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Optescht Teleskop",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Optinis teleskopas",
+          "badges": []
+        },
+        "mnwiki": {
+          "site": "mnwiki",
+          "title": "Оптик телескоп",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Teleskop optik",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Optisk teleskop",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Teleskop optyczny",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Telescópio ótico",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Оптический телескоп",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Optički teleskop",
+          "badges": []
+        },
+        "siwiki": {
+          "site": "siwiki",
+          "title": "ප්‍රකාශ දුරේක්ෂය",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Optický ďalekohľad",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Оптички телескоп",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Optiskt teleskop",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "กล้องโทรทรรศน์เชิงแสง",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Optik teleskop",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Оптичний телескоп",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Kính viễn vọng quang học",
+          "badges": []
+        },
+        "warwiki": {
+          "site": "warwiki",
+          "title": "Teleskopyo optiko",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "光學望遠鏡",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "光學望遠鏡",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}
