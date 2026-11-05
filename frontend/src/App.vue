@@ -1,9 +1,13 @@
 <script setup>
-import { computed, ref } from "vue";
+import { computed, defineAsyncComponent, ref } from "vue";
 import SolarCanvas from "./components/SolarCanvas.vue";
 import SettingsPanel from "./components/SettingsPanel.vue";
 import LoadingScreen from "./components/LoadingScreen.vue";
-import ChatDock from "./components/ChatDock.vue";
+// Keep backend-dependent chat unmounted in the default static deployment.
+const atlasEnabled = import.meta.env.VITE_ENABLE_ATLAS === "true";
+const ChatDock = atlasEnabled
+  ? defineAsyncComponent(() => import("./components/ChatDock.vue"))
+  : null;
 import BodyPicker from "./components/BodyPicker.vue";
 import ZoomControl from "./components/ZoomControl.vue";
 import InfoPanel from "./components/InfoPanel.vue";
@@ -35,7 +39,7 @@ const distance = computed(() => store.appSettings.cameraDistance.toLocaleString(
       <ZoomControl />
       <InfoPanel />
       <BodyPicker />
-      <ChatDock />
+      <ChatDock v-if="atlasEnabled" />
     </template>
   </div>
   <Transition name="launch" @after-leave="reveal">

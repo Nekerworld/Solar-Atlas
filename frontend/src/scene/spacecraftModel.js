@@ -1,3 +1,4 @@
+import { assetUrl } from "../assetUrl";
 import { Box3, Group, Mesh, PMREMGenerator, Sphere, Vector3 } from "three";
 import { DRACOLoader, GLTFLoader, RoomEnvironment, mergeBufferGeometries } from "three-stdlib";
 
@@ -78,13 +79,13 @@ export async function loadSpacecraftTemplates(data, manager) {
   visit(data);
   const templates = new Map();
   if (!paths.size) return templates;
-  const draco = new DRACOLoader(manager).setDecoderPath("/assets/models/draco/");
+  const draco = new DRACOLoader(manager).setDecoderPath(assetUrl("/assets/models/draco/"));
   draco.setWorkerLimit(1);
   const loader = new GLTFLoader(manager).setDRACOLoader(draco);
   try {
     await Promise.all([...paths].map(async path => {
       try {
-        const { scene } = await loader.loadAsync(path);
+        const { scene } = await loader.loadAsync(assetUrl(path));
         templates.set(path, scene);
       } catch (error) {
         console.warn(`3D model could not load: ${path}; keeping its marker.`, error);

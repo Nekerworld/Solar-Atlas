@@ -1,4 +1,5 @@
 <script setup>
+import { assetUrl } from "../assetUrl";
 import { onBeforeUnmount, ref } from "vue";
 const dialog = ref();
 function open() { if (!dialog.value.open) dialog.value.showModal(); }
@@ -19,9 +20,9 @@ onBeforeUnmount(close);
         </header>
         <p class="info-description">태양계를 탐험하는 데 사용한 모델과 이미지의 출처를 확인할 수 있습니다.</p>
         <div class="info-links">
-          <a href="/assets/models/CREDITS.html" target="_blank" rel="noopener noreferrer"><span>인공물 3D 모델</span><span aria-hidden="true">↗</span></a>
-          <a href="/assets/models/natural/CREDITS.html" target="_blank" rel="noopener noreferrer"><span>자연 천체 모델 · 표면 표현</span><span aria-hidden="true">↗</span></a>
-          <a href="/assets/planet-texture-maps/CREDITS.html" target="_blank" rel="noopener noreferrer"><span>천체 텍스처 이미지</span><span aria-hidden="true">↗</span></a>
+          <a :href="assetUrl('/assets/models/CREDITS.html')" target="_blank" rel="noopener noreferrer"><span>인공물 3D 모델</span><span aria-hidden="true">↗</span></a>
+          <a :href="assetUrl('/assets/models/natural/CREDITS.html')" target="_blank" rel="noopener noreferrer"><span>자연 천체 모델 · 표면 표현</span><span aria-hidden="true">↗</span></a>
+          <a :href="assetUrl('/assets/planet-texture-maps/CREDITS.html')" target="_blank" rel="noopener noreferrer"><span>천체 텍스처 이미지</span><span aria-hidden="true">↗</span></a>
         </div>
         <p class="info-note">자료별 저작자·사용 조건·수정 내역은 각 출처 안내에 기재되어 있습니다. 일부 표면과 궤도는 시각화를 위한 근사 표현입니다.</p>
         <footer>A solar system experience built with Vue & Three.js.<br />by <a href="https://github.com/Nekerworld" target="_blank" rel="noopener noreferrer">Nekerworld</a></footer>

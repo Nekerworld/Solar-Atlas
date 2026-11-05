@@ -6,7 +6,7 @@ on:
     branches: [master]
     paths:
       - "frontend/**"
-      - ".github/workflows/deploy.yml"
+      - ".github/workflows/deplay.yml"
   workflow_dispatch:
 
 permissions:
@@ -43,6 +43,8 @@ jobs:
       - name: Build frontend
         working-directory: frontend
         run: npm run build
+        env:
+          VITE_ENABLE_ATLAS: "false"
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

@@ -1,3 +1,4 @@
+import { assetUrl } from "../assetUrl";
 import { zoomDistance } from "./zoomScale";
 import { syncBackgroundCamera } from "./backgroundCamera";
 import {
@@ -119,7 +120,7 @@ export class SolarScene {
     const loader = new TextureLoader(manager);
     await Promise.all(
       [...paths].map(async (path) => {
-        const texture = await loader.loadAsync(path);
+        const texture = await loader.loadAsync(assetUrl(path));
         // Clouds carry opacity data, while day/night maps carry sRGB color.
         texture.encoding = path.endsWith("8k_earth_clouds.jpg") ? LinearEncoding : sRGBEncoding;
         if (path.includes("8k_earth_")) {
