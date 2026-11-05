@@ -1,4 +1,6 @@
-<h1 align="center">🪐 Solar Atlas</h1>
+<h1 align="center">
+  <a href="https://nekerworld.github.io/Solar-Atlas/">🪐 Solar Atlas</a>
+</h1>
 <p align="center">SSAFY AI 코어 프로젝트 · RAG 기반 도메인 지식 서비스</p>
 
 ![Solar Atlas 로고](./data/readme_images/logo.png)
