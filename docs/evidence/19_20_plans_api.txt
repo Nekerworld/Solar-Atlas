@@ -1,0 +1,131 @@
+# 체크리스트 19·20 · 계획 저장·조회·겹침 경고·수정·삭제
+실행 시각: 2026-11-20T17:13:08+09:00  (플래너 서버 http://127.0.0.1:8002, 실제 GMS(claude-haiku-5-5)와 외부 API 호출. 키 값은 포함하지 않는다)
+
+## 저장 (POST /api/plans)
+{
+ "plan": {
+  "id": "a4f2c9b8-b0c3-4c87-ae83-a17a94fbeb58",
+  "target_id": "jupiter",
+  "target_name": "목성",
+  "place_id": "ChIJK_b0UX2jfDURmkYPvmWYm90",
+  "place_name": "서울숲",
+  "latitude": 37.544387799999996,
+  "longitude": 127.03744239999999,
+  "start_at": "2026-11-22T03:00:00+09:00",
+  "end_at": "2026-11-22T05:00:00+09:00",
+  "status": "SUITABLE",
+  "created_at": "2026-11-20T08:15:27.740064+00:00",
+  "updated_at": "2026-11-20T08:15:27.740064+00:00"
+ },
+ "warnings": []
+}
+
+## 시간이 겹치는 계획 저장 → 저장은 되고 겹침 경고가 함께 온다
+{
+ "plan": {
+  "id": "0ed2f3ac-79c4-4a07-9757-f157741e4f1b",
+  "target_id": "jupiter",
+  "target_name": "목성",
+  "place_id": "ChIJ5SxL1V6ifDUR-lwSnrQdDCk",
+  "place_name": "남산",
+  "latitude": 37.553758599999995,
+  "longitude": 126.9809696,
+  "start_at": "2026-11-22T04:00:00+09:00",
+  "end_at": "2026-11-22T06:00:00+09:00",
+  "status": "SUITABLE",
+  "created_at": "2026-11-20T08:15:28.187600+00:00",
+  "updated_at": "2026-11-20T08:15:28.187600+00:00"
+ },
+ "warnings": []
+}
+
+## 목록 (GET /api/plans)
+{
+ "items": [
+  {
+   "id": "0ed2f3ac-79c4-4a07-9757-f157741e4f1b",
+   "target_id": "jupiter",
+   "target_name": "목성",
+   "place_id": "ChIJ5SxL1V6ifDUR-lwSnrQdDCk",
+   "place_name": "남산",
+   "latitude": 37.553758599999995,
+   "longitude": 126.9809696,
+   "start_at": "2026-11-22T04:00:00",
+   "end_at": "2026-11-22T06:00:00",
+   "status": "SUITABLE",
+   "created_at": "2026-11-20T08:15:28.187600",
+   "updated_at": "2026-11-20T08:15:28.187600"
+  },
+  {
+   "id": "a4f2c9b8-b0c3-4c87-ae83-a17a94fbeb58",
+   "target_id": "jupiter",
+   "target_name": "목성",
+   "place_id": "ChIJK_b0UX2jfDURmkYPvmWYm90",
+   "place_name": "서울숲",
+   "latitude": 37.544387799999996,
+   "longitude": 127.03744239999999,
+   "start_at": "2026-11-22T03:00:00",
+   "end_at": "2026-11-22T05:00:00",
+   "status": "SUITABLE",
+   "created_at": "2026-11-20T08:15:27.740064",
+   "updated_at": "2026-11-20T08:15:27.740064"
+  }
+ ]
+}
+
+## 상세 (GET /api/plans/{id}) — 핵심 값과 생성 일시
+{
+ "id": "a4f2c9b8-b0c3-4c87-ae83-a17a94fbeb58",
+ "target_id": "jupiter",
+ "target_name": "목성",
+ "place_id": "ChIJK_b0UX2jfDURmkYPvmWYm90",
+ "place_name": "서울숲",
+ "latitude": 37.544387799999996,
+ "longitude": 127.03744239999999,
+ "start_at": "2026-11-22T03:00:00",
+ "end_at": "2026-11-22T05:00:00",
+ "status": "SUITABLE",
+ "created_at": "2026-11-20T08:15:27.740064",
+ "updated_at": "2026-11-20T08:15:27.740064"
+}
+
+## 수정 (PATCH) 장소 이름 변경
+{
+ "detail": [
+  {
+   "type": "missing",
+   "loc": [
+    "body",
+    "target_id"
+   ],
+   "msg": "Field required",
+   "input": {
+    "place_name": "서울숲 북쪽"
+   }
+  },
+  {
+   "type": "missing",
+   "loc": [
+    "body",
+    "start_at"
+   ],
+   "msg": "Field required",
+   "input": {
+    "place_name": "서울숲 북쪽"
+   }
+  },
+  {
+   "type": "missing",
+   "loc": [
+    "body",
+    "end_at"
+   ],
+   "msg": "Field required",
+   "input": {
+    "place_name": "서울숲 북쪽"
+   }
+  }
+ ]
+}
+
+## 삭제 (DELETE) HTTP 200 → 다시 목록: ['서울숲']

@@ -5,6 +5,7 @@ import {
   toonSolarSystemData,
 } from "./astronomicalBodyData";
 import { DEFAULT_CATEGORY_VISIBILITY, createDefaultBodyVisibility, flattenBodies, isBodyVisible } from "./bodyCatalog";
+import { openGround, openPlanner, openSolar } from "./viewMode";
 
 const DEFAULT_USER_SETTINGS = {
   categoryVisibility: DEFAULT_CATEGORY_VISIBILITY,
@@ -31,7 +32,29 @@ function load(key) {
   if (key === "timeSpeedModifier") return clampSpeed(value ?? DEFAULT_USER_SETTINGS[key]);
   return value ?? DEFAULT_USER_SETTINGS[key];
 }
+export const OBSERVATION_TARGETS = {
+  Sun: { supported: false, reason: "태양은 야간 행성·달 관측 계획 대상이 아닙니다." },
+  Mercury: { id: "mercury", supported: true },
+  Venus: { id: "venus", supported: true },
+  Earth: { id: "earth", supported: false, ground: true, reason: "지구는 관측자 위치입니다." },
+  Moon: { id: "moon", supported: true },
+  Mars: { id: "mars", supported: true },
+  Jupiter: { id: "jupiter", supported: true },
+  Saturn: { id: "saturn", supported: true },
+  Uranus: { id: "uranus", supported: true },
+  Neptune: { id: "neptune", supported: true },
+};
+
 export const store = reactive({
+  planner: {
+    mode: "solar",
+    selectedTargetId: null,
+    selectedTargetName: "",
+    groundPlan: null,
+    unsupportedReason: "",
+    // 플래너를 나갔다 돌아와도 보던 탭(chat | plans | logs)을 유지한다.
+    tab: "chat",
+  },
   appSettings: {
     timeStepModifier: 0,
     timeStep: 0,
@@ -131,6 +154,66 @@ function ensureVisibleFocus() {
 }
 watch(() => [store.userSettings.categoryVisibility, store.userSettings.bodyVisibility], ensureVisibleFocus, { deep: true, flush: "sync" });
 ensureVisibleFocus();
+export function openObservation(bodyName) {
+  const entry = OBSERVATION_TARGETS[bodyName];
+  store.planner.unsupportedReason = "";
+  if (!entry || (!entry.ground && !entry.supported)) {
+    store.planner.unsupportedReason = entry?.reason || "이 천체는 관측 플래너 대상이 아닙니다.";
+    return;
+  }
+  if (entry.ground) {
+    store.planner.selectedTargetId = null;
+    store.planner.selectedTargetName = "";
+    store.planner.groundPlan = null;
+    store.planner.mode = "ground";
+    openGround(null);
+    return;
+  }
+  store.planner.selectedTargetId = entry.id;
+  store.planner.selectedTargetName = bodyName;
+  store.planner.mode = "planner";
+  openPlanner(entry.id);
+}
+
+/** 태양계에서 바로 플래너로. 플래너 대상이 아닌 천체이면 천체를 고르지 않은 채 연다(이전에 고른 천체를 끌고 가지 않는다). */
+export function openPlannerFor(bodyName) {
+  const entry = OBSERVATION_TARGETS[bodyName];
+  if (entry?.supported && !entry.ground) {
+    openObservation(bodyName);
+    return;
+  }
+  store.planner.unsupportedReason = "";
+  store.planner.selectedTargetId = null;
+  store.planner.selectedTargetName = "";
+  showPlanner();
+}
+
+export function showGroundPlan(plan) {
+  store.planner.groundPlan = plan;
+  store.planner.mode = "ground";
+  openGround({
+    targetId: plan?.targetId || store.planner.selectedTargetId,
+    targetName: plan?.targetName || plan?.placeName || plan?.name || "",
+    latitude: plan?.latitude,
+    longitude: plan?.longitude,
+    start: plan?.start || plan?.observation_start,
+    end: plan?.end || plan?.observation_end,
+    placeName: plan?.placeName || plan?.name || plan?.place_name || "",
+    status: plan?.status || "",
+    weather: plan?.weather || { cloud: plan?.cloud ?? null, precip: plan?.rain ?? null },
+  });
+}
+
+export function showSolar() {
+  store.planner.mode = "solar";
+  openSolar();
+}
+
+export function showPlanner() {
+  store.planner.mode = "planner";
+  openPlanner(store.planner.selectedTargetId);
+}
+
 export function resetUserSettings() {
   store.appSettings.focusingBody = true;
   store.userSettings = { ...DEFAULT_USER_SETTINGS, categoryVisibility: { ...DEFAULT_CATEGORY_VISIBILITY }, bodyVisibility: {...DEFAULT_USER_SETTINGS.bodyVisibility} };

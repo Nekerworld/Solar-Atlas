@@ -1,0 +1,26 @@
+# 체크리스트 2 · 기준 없이 호출, 조회할 수 없는 기준으로 호출
+실행 시각: 2026-11-20T17:11:28+09:00  (실제 외부 API를 호출한 결과이며 키 값은 포함하지 않는다)
+
+
+## 기준 날짜·시간을 주지 않고 search_places 호출 → 정의한 기본값 적용과 추정 사실 표시
+{
+ "requested_region": "서울",
+ "requested_query": "서울숲",
+ "queried_date": "2026-11-21",
+ "queried_time_start": "18:00",
+ "queried_time_end": "24:00",
+ "estimated": true,
+ "estimate_reason": "날짜가 없어 서비스 시간대 기준 다음 지역 날짜와 18:00~24:00을 조회했습니다. 시간창이 없어 18:00~24:00을 사용했습니다."
+}
+
+## 예보 범위 밖(약 60일 뒤) 날짜로 get_weather 호출 → 값을 만들지 않고 조회 불가를 밝힘
+{
+ "ok": false,
+ "tool": "get_weather",
+ "data": null,
+ "error": {
+  "code": "FORECAST_UNAVAILABLE",
+  "message": "요청한 기간의 날씨 예보가 없습니다."
+ },
+ "source": null
+}

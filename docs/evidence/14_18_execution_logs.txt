@@ -1,0 +1,91 @@
+# 체크리스트 14·16·17·18 · 이벤트 발행·저장, 세션 분리, LLM 판단 이벤트, 원본 대조, 로그 API
+실행 시각: 2026-11-20T17:13:08+09:00  (플래너 서버 http://127.0.0.1:8002, 실제 GMS(claude-haiku-5-5)와 외부 API 호출. 키 값은 포함하지 않는다)
+
+## 세션 목록 (GET /api/logs/sessions)
+{
+ "sessions": [
+  "0528c4e1-3c96-4601-a1a3-51f14b7668af",
+  "0d3c38f6-fbf4-49da-866a-58af608e3d22",
+  "0f35e061-0488-4cfc-961b-228111065067",
+  "104f5ece-6553-467c-892c-9c6b3e9b6287",
+  "31606ab3-1b10-45cc-aeb6-5885ce330a79",
+  "3eb47a6d-9e87-41ab-9c89-89b8bd2c04ce",
+  "40aaa448-5b75-4ca5-abb9-2d191d9612bd",
+  "a2e5ab08-7fa8-44a1-ab40-aa2ae35ecd4b",
+  "a6b8607b-9ce4-46c2-a7f7-9216c75db179",
+  "d8ebbe28-bf41-4f36-9a80-23ef1ed14738",
+  "f1feeb6b-c5ac-473b-aea8-4b19a8dff5ff"
+ ]
+}
+
+## 세션 둘을 만들어 각각 요청한 뒤 이벤트 대조
+세션 A(관측 요청) 이벤트 33개, 세션 B(인사) 이벤트 7개. 순번은 각 세션에서 1부터 이어진다: A=[1, 2, 3, 4, 5]...33, B=[1, 2, 3, 4, 5, 6, 7]
+세션 B의 이벤트 종류: ['intent_analyzed', 'response_ready', 'stage_entered', 'stage_exited']  (세션 A의 Tool 이벤트가 섞이지 않음: True)
+
+## 발행된 이벤트와 저장된 로그 대조 (응답의 events vs GET /api/logs/sessions/A)
+발행 33개 / 저장 33개 / 순서·종류·내용 동일: True
+
+## LLM 판단 이벤트(intent_analyzed)의 판단·이유 필드
+[
+ {
+  "sequence": 3,
+  "stage": "analyze_request",
+  "payload": {
+   "intent": "plan_observation",
+   "reason": "사용자가 특정 날짜, 시간대, 장소에서 목성 관측을 계획하고 있으므로 관측 계획 요청이다."
+  }
+ }
+]
+
+## 저장된 이벤트 종류
+['candidate_evaluated', 'intent_analyzed', 'response_ready', 'stage_entered', 'stage_exited', 'task_plan_created', 'tool_call_completed', 'tool_call_requested']
+Tool 호출 요청·완료 이벤트 쌍과 소요 시간 예: [
+ {
+  "sequence": 11,
+  "type": "tool_call_completed",
+  "stage": "execute_tools",
+  "tool_name": "search_places",
+  "payload": {
+   "provider": "google_places",
+   "ok": true,
+   "error_code": null
+  },
+  "duration_ms": 406,
+  "created_at": "2026-11-20T08:13:27.969668"
+ },
+ {
+  "sequence": 13,
+  "type": "tool_call_completed",
+  "stage": "execute_tools",
+  "tool_name": "get_place_details",
+  "payload": {
+   "provider": "google_places",
+   "ok": true,
+   "error_code": null
+  },
+  "duration_ms": 171,
+  "created_at": "2026-11-20T08:13:28.153257"
+ }
+]
+
+## 로그 API (OpenAPI)
+{
+ "/api/logs/sessions": [
+  "GET"
+ ],
+ "/api/logs/sessions/{session_id}": [
+  "DELETE",
+  "GET"
+ ]
+}
+PATCH 시도 → HTTP 405, PUT 시도 → HTTP 405 (수정 API 없음)
+
+## 삭제 (DELETE /api/logs/sessions/B)
+HTTP 200 {'deleted': 'a6b8607b-9ce4-46c2-a7f7-9216c75db179'} → 다시 조회하면 이벤트 0개, 세션 A는 그대로 33개
+
+## 같은 대화에 요청 2건을 보낸 세션의 순번 (순서가 요청을 넘어 이어지는지)
+의도 분석 이벤트 2개(= 요청 2건), 이벤트 54개, 순번 [1, 2, 3, 4]...[52, 53, 54], 1..54로 끊김·중복 없음: True
+
+## 로깅 Agent의 LLM 호출 여부 (체크리스트 16)
+`planner_backend/app/logging_agent.py`에서 llm·requests·gms·openai·langchain을 검색한 결과: 0건 []
+저장 과정에서 쓰는 것은 SQLAlchemy 세션뿐이다. 위 세션의 이벤트 종류에도 LLM 호출을 뜻하는 이벤트가 로깅 Agent 쪽에서 발생하지 않는다(intent_analyzed는 메인 Agent의 의도 분석 결과다).

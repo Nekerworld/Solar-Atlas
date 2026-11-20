@@ -1,0 +1,185 @@
+# 체크리스트 7 · 앞선 Tool 결과가 다음 입력으로 전달, Tool 하나 실패해도 진행·서비스 지속
+실행 시각: 2026-11-20T17:13:08+09:00  (플래너 서버 http://127.0.0.1:8002, 실제 GMS(claude-haiku-5-5)와 외부 API 호출. 키 값은 포함하지 않는다)
+
+## 입력 전달 (S1 요청의 로그에서 대조)
+[
+ {
+  "sequence": null,
+  "type": "tool_call_requested",
+  "stage": "execute_tools",
+  "tool_name": "search_places",
+  "payload": {
+   "provider": "google_places",
+   "arguments": {
+    "region": "서울숲",
+    "query": "서울숲",
+    "limit": "3",
+    "date": "2026-11-22",
+    "time_start": "03:00",
+    "time_end": "05:30"
+   }
+  },
+  "duration_ms": null
+ },
+ {
+  "sequence": null,
+  "type": "tool_call_requested",
+  "stage": "execute_tools",
+  "tool_name": "get_place_details",
+  "payload": {
+   "provider": "google_places",
+   "arguments": {
+    "place_id": "ChIJK_b0UX2jfDURmkYPvmWYm90"
+   }
+  },
+  "duration_ms": null
+ },
+ {
+  "sequence": null,
+  "type": "tool_call_requested",
+  "stage": "execute_tools",
+  "tool_name": "get_place_details",
+  "payload": {
+   "provider": "google_places",
+   "arguments": {
+    "place_id": "ChIJ5zJtW3GlfDURH3JA5u66uXI"
+   }
+  },
+  "duration_ms": null
+ },
+ {
+  "sequence": null,
+  "type": "tool_call_requested",
+  "stage": "execute_tools",
+  "tool_name": "get_place_details",
+  "payload": {
+   "provider": "google_places",
+   "arguments": {
+    "place_id": "ChIJube8kJykfDURdgFxlfZ9Kpo"
+   }
+  },
+  "duration_ms": null
+ },
+ {
+  "sequence": null,
+  "type": "tool_call_requested",
+  "stage": "execute_tools",
+  "tool_name": "get_ephemeris",
+  "payload": {
+   "provider": "jpl_horizons",
+   "arguments": {
+    "target_id": "jupiter",
+    "latitude": "37.544387799999996",
+    "longitude": "127.03744239999999",
+    "elevation_m": "0",
+    "start_at": "2026-11-22T03:00:00+09:00",
+    "end_at": "2026-11-22T05:30:00+09:00",
+    "step_minutes": "30"
+   }
+  },
+  "duration_ms": null
+ },
+ {
+  "sequence": null,
+  "type": "tool_call_requested",
+  "stage": "execute_tools",
+  "tool_name": "get_weather",
+  "payload": {
+   "provider": "open_meteo",
+   "arguments": {
+    "latitude": "37.544387799999996",
+    "longitude": "127.03744239999999",
+    "start_at": "2026-11-22T03:00:00+09:00",
+    "end_at": "2026-11-22T05:30:00+09:00"
+   }
+  },
+  "duration_ms": null
+ },
+ {
+  "sequence": null,
+  "type": "tool_call_requested",
+  "stage": "execute_tools",
+  "tool_name": "get_ephemeris",
+  "payload": {
+   "provider": "jpl_horizons",
+   "arguments": {
+    "target_id": "jupiter",
+    "latitude": "37.544800599999995",
+    "longitude": "127.0420263",
+    "elevation_m": "0",
+    "start_at": "2026-11-22T03:00:00+09:00",
+    "end_at": "2026-11-22T05:30:00+09:00",
+    "step_minutes": "30"
+   }
+  },
+  "duration_ms": null
+ },
+ {
+  "sequence": null,
+  "type": "tool_call_requested",
+  "stage": "execute_tools",
+  "tool_name": "get_weather",
+  "payload": {
+   "provider": "open_meteo",
+   "arguments": {
+    "latitude": "37.544800599999995",
+    "longitude": "127.0420263",
+    "start_at": "2026-11-22T03:00:00+09:00",
+    "end_at": "2026-11-22T05:30:00+09:00"
+   }
+  },
+  "duration_ms": null
+ },
+ {
+  "sequence": null,
+  "type": "tool_call_requested",
+  "stage": "execute_tools",
+  "tool_name": "get_ephemeris",
+  "payload": {
+   "provider": "jpl_horizons",
+   "arguments": {
+    "target_id": "jupiter",
+    "latitude": "37.543655",
+    "longitude": "127.04470300000001",
+    "elevation_m": "0",
+    "start_at": "2026-11-22T03:00:00+09:00",
+    "end_at": "2026-11-22T05:30:00+09:00",
+    "step_minutes": "30"
+   }
+  },
+  "duration_ms": null
+ },
+ {
+  "sequence": null,
+  "type": "tool_call_requested",
+  "stage": "execute_tools",
+  "tool_name": "get_weather",
+  "payload": {
+   "provider": "open_meteo",
+   "arguments": {
+    "latitude": "37.543655",
+    "longitude": "127.04470300000001
+ ... (이하 생략)
+→ search_places가 준 place_id가 get_place_details 입력으로, get_place_details의 좌표가 get_ephemeris·get_weather 입력으로 넘어간다.
+
+## 예보 범위 밖 날짜 요청: get_weather만 실패하고 나머지는 계속
+Tool 완료 이벤트: [('search_places', True, None), ('get_place_details', True, None), ('get_place_details', True, None), ('get_place_details', True, None), ('get_ephemeris', True, None), ('get_weather', False, 'FORECAST_UNAVAILABLE'), ('get_ephemeris', True, None), ('get_weather', False, 'FORECAST_UNAVAILABLE'), ('get_ephemeris', True, None), ('get_weather', False, 'FORECAST_UNAVAILABLE')]
+실패 사유 기록: [
+ {
+  "sequence": null,
+  "type": "tool_call_completed",
+  "stage": "execute_tools",
+  "tool_name": "get_weather",
+  "payload": {
+   "provider": "open_meteo",
+   "ok": false,
+   "error_code": "FORECAST_UNAVAILABLE"
+  },
+  "duration_ms": 891
+ }
+]
+응답 상태: COMPLETED / errors=[{'code': 'FORECAST_UNAVAILABLE', 'message': '요청한 기간의 날씨 예보가 없습니다.'}]
+
+## 이어서 다른 요청 실행
+사용법 질문 → HTTP 200, state=COMPLETED
+관측 요청 → HTTP 200, state=COMPLETED, 후보 상태=['SUITABLE', 'SUITABLE', 'SUITABLE']

@@ -1,0 +1,20 @@
+# 체크리스트 21 · FastAPI 경로 목록 (/openapi.json에서 추출, 문서 docs/API.md와 대조)
+실행 시각: 2026-11-20T17:13:08+09:00  (플래너 서버 http://127.0.0.1:8002, 실제 GMS(claude-haiku-5-5)와 외부 API 호출. 키 값은 포함하지 않는다)
+
+POST   /api/conversations
+GET    /api/conversations/{conversation_id}/events
+GET    /api/conversations/{conversation_id}/events/stream
+POST   /api/conversations/{conversation_id}/messages
+GET    /api/logs/sessions
+GET    /api/logs/sessions/{session_id}
+DELETE /api/logs/sessions/{session_id}
+GET    /api/plans
+POST   /api/plans
+GET    /api/plans/{plan_id}
+PATCH  /api/plans/{plan_id}
+DELETE /api/plans/{plan_id}
+POST   /api/sky
+GET    /api/sky/bodies
+GET    /api/sky/orbit
+GET    /api/targets
+GET    /health

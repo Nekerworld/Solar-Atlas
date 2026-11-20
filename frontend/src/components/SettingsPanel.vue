@@ -1,6 +1,7 @@
 <script setup>
 import { computed, onMounted, onBeforeUnmount } from "vue";
 import { resetUserSettings, setSimulationSpeed, toggleSimulationPause, store } from "../data/store";
+import { viewMode } from "../data/viewMode";
 import { adjustSpeed, speedLabel, acceptsPauseShortcut } from "../utils/simulationControls";
 const speed = computed(() => store.userSettings.timeSpeedModifier);
 const label = computed(() => speedLabel(speed.value));
@@ -14,6 +15,9 @@ function reflectPointer(event) {
 }
 function changeSpeed(direction) { setSimulationSpeed(adjustSpeed(speed.value,direction)); }
 function pauseShortcut(event) {
+  // 태양계 화면은 지상 모드에서도 마운트된 채로 남아 있다. 여기서 스페이스바를 받으면
+  // preventDefault 때문에 지상 천구의 일시정지가 무시된다.
+  if (viewMode.value !== "solar") return;
   if (!acceptsPauseShortcut(event) || document.querySelector('dialog[open], [aria-modal="true"], .application-shell[inert]')) return;
   event.preventDefault();
   toggleSimulationPause();

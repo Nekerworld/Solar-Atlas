@@ -45,8 +45,7 @@ def generate_interim(data, stage, context):
             history = [{"question": turn.question[:1000],
                         "answer": turn.result.get("answer", "")[:1500]} for turn in reversed(list(turns))]
         observed = next((body["name_ko"] for body in CATALOG if body["id"] == data["item_id"]), None)
-        model = GMSJSONModel(IndexConfig.from_django().env_file, "gpt-6-luna",
-                             timeout=12, max_retries=0)
+        model = GMSJSONModel(IndexConfig.from_django().env_file, timeout=12, max_retries=0)
         result = model.json(PROMPT, {"question": data["question"], "observed_body": observed,
                                     "stage_snapshot": stage, "history": history, **context})
         message = result.get("message")

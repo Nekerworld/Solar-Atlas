@@ -2,13 +2,13 @@
 import argparse
 from pathlib import Path
 from dotenv import load_dotenv
-from solar.config import DEFAULT_ENV, ROOT, GROUPS
+from solar.config import DEFAULT_ENV, ROOT, GROUPS, MODEL
 from solar.pipeline import run
 
 
 def parser():
-    p = argparse.ArgumentParser(description="태양계 천체·영역 수집 (GMS gpt-6-luna)")
-    p.add_argument("--env-file", type=Path, default=DEFAULT_ENV, help="기본값: collect.py와 같은 폴더의 .env")
+    p = argparse.ArgumentParser(description="태양계 천체·영역 수집 (GMS claude-haiku-5-5)")
+    p.add_argument("--env-file", type=Path, default=DEFAULT_ENV, help="기본값: 저장소 루트의 .env")
     p.add_argument("--output", type=Path, default=ROOT/"data"/"solar_v1")
     p.add_argument("--group", choices=GROUPS, default="all", help="expansion: 최근 추가 30종, new: 기존 확장 57종과 최근 30종")
     p.add_argument("--only", nargs="+", help="부분 수집: 달 또는 Q405 등")
@@ -46,7 +46,7 @@ def main():
         report = read_json(report_path) if report_path.exists() else {'items': []}
         from solar.wiki import now
         report['enrichment_exported_at'] = now()
-        report['model'] = 'gpt-6-luna'
+        report['model'] = MODEL
         result = export_processed(args.output.resolve(), chosen, report)
         return result if success else 1
     except (ValueError, OSError) as error:

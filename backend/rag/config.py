@@ -7,7 +7,7 @@ class IndexConfig:
     data_dir: Path
     chroma_dir: Path
     env_file: Path
-    model: str = "text-embedding-3-large"
+    model: str = "gemini-embedding-2"
     dimensions: int = 3072
     chunk_size: int = 1000
     chunk_overlap: int = 150
@@ -16,16 +16,16 @@ class IndexConfig:
     document_collection: str = "external_documents"
 
     def validate(self):
-        if self.model != "text-embedding-3-large":
-            raise ValueError("This indexing pipeline permits text-embedding-3-large only")
+        if self.model != "gemini-embedding-2":
+            raise ValueError("This indexing pipeline permits gemini-embedding-2 only")
         if not 100 <= self.chunk_size <= 6000:
             raise ValueError("chunk_size must be between 100 and 6000 characters.")
         if not 0 <= self.chunk_overlap < self.chunk_size:
             raise ValueError("chunk_overlap must be >= 0 and smaller than chunk_size.")
-        if not 1 <= self.batch_size <= 128:
-            raise ValueError("batch_size must be between 1 and 128.")
-        if not 1 <= self.dimensions <= 3072:
-            raise ValueError("dimensions must be between 1 and 3072.")
+        if not 1 <= self.batch_size <= 100:
+            raise ValueError("batch_size must be between 1 and 100.")
+        if not 128 <= self.dimensions <= 3072:
+            raise ValueError("dimensions must be between 128 and 3072.")
         if self.metadata_collection == self.document_collection:
             raise ValueError("Metadata and document collections must be different.")
 

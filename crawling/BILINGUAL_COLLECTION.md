@@ -4,8 +4,8 @@
 
 ## 모델 제한
 
-- 수집 중 근거 추출·품질 진단·검색어 생성·영어 번역·번역 검증: `gpt-6-luna`만 사용합니다. 기존 고정 GMS Responses 클라이언트를 사용하며 다른 모델로 승격하지 않습니다.
-- 벡터 임베딩: `text-embedding-3-large`, 기본 3072차원. 다른 임베딩 모델 설정은 거부합니다.
+- 수집 중 근거 추출·품질 진단·검색어 생성·영어 번역·번역 검증: `claude-haiku-5-5`만 사용합니다. GMS Anthropic 경로의 OpenAI 호환 chat completions(`Authorization`과 `x-api-key` 헤더)를 쓰며 다른 모델로 승격하지 않습니다. 이전에 `gpt-6-luna`로 번역한 데이터는 색인에서 계속 인정하고, 다시 수집하면 Haiku로 새로 번역합니다.
+- 벡터 임베딩: `gemini-embedding-2`(GMS Gemini 경로 `batchEmbedContents`), 기본 3072차원. 다른 임베딩 모델 설정은 거부합니다. 임베딩 모델을 바꾸면 기존 Chroma 색인과 섞을 수 없으므로 새 `--chroma-dir`로 다시 색인합니다.
 - 채팅 요청은 이 작업에 필요하지 않습니다. 채팅의 기존 모델 승격 설정과 별개인 수집 경로입니다.
 
 ## 실행 순서
@@ -56,4 +56,4 @@ cd ../backend
 python manage.py test api.test_indexing api.test_bilingual_indexing -v 2
 ```
 
-테스트는 가짜 모델·벡터와 로컬 fixture를 사용합니다. 실제 Luna/임베딩 품질과 크롤링 사이트 연결은 실제 실행 로그로 확인해야 합니다.
+테스트는 가짜 모델·벡터와 로컬 fixture를 사용합니다. 실제 모델/임베딩 품질과 크롤링 사이트 연결은 실제 실행 로그로 확인해야 합니다.

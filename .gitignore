@@ -41,6 +41,8 @@ htmlcov/
 node_modules/
 .npm-cache/
 dist/
+# 지상 모드 천구(천구 엔진) 번들과 데이터: npm run build:sky 로 만든다.
+/frontend/public/sky/
 test-results/
 playwright-report/
 work/
@@ -51,5 +53,7 @@ Thumbs.db
 # Private Django conversation history (keep local files).
 /backend/db.sqlite3
 /backend/db.sqlite3-*
+/planner_backend/data/
+/planner_backend/**/*.sqlite
 /backend/rag_runtime/conversations/
 

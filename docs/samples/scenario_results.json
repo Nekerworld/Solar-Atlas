@@ -1,0 +1,760 @@
+[
+  {
+    "id": "S1",
+    "title": "한 번에 성공하는 관측 계획",
+    "http_status": 200,
+    "elapsed_ms": 7485,
+    "state": "COMPLETED",
+    "intent": "plan_observation",
+    "replan_count": 0,
+    "tasks": [
+      "search_places",
+      "get_place_details",
+      "get_ephemeris",
+      "get_weather"
+    ],
+    "tool_calls": [
+      {
+        "tool": "search_places",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 530
+      },
+      {
+        "tool": "get_place_details",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 218
+      },
+      {
+        "tool": "get_place_details",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 188
+      },
+      {
+        "tool": "get_place_details",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 218
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1047
+      },
+      {
+        "tool": "get_weather",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 968
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1016
+      },
+      {
+        "tool": "get_weather",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 968
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1046
+      },
+      {
+        "tool": "get_weather",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 968
+      }
+    ],
+    "reused": 0,
+    "replan_events": [],
+    "replan_skipped": [],
+    "graph_path": [
+      "analyze_request",
+      "validate_information",
+      "plan_tasks",
+      "execute_tools",
+      "evaluate_candidates",
+      "generate_response"
+    ],
+    "candidates": [
+      {
+        "name": "Seoul Forest Park",
+        "status": "SUITABLE",
+        "checks": [
+          "altitude=MET",
+          "sun_altitude=MET",
+          "cloud_cover=MET",
+          "precipitation_probability=MET"
+        ]
+      },
+      {
+        "name": "Seoul Forest",
+        "status": "SUITABLE",
+        "checks": [
+          "altitude=MET",
+          "sun_altitude=MET",
+          "cloud_cover=MET",
+          "precipitation_probability=MET"
+        ]
+      },
+      {
+        "name": "Seoul Forest",
+        "status": "SUITABLE",
+        "checks": [
+          "altitude=MET",
+          "sun_altitude=MET",
+          "cloud_cover=MET",
+          "precipitation_probability=MET"
+        ]
+      }
+    ],
+    "event_count": 33,
+    "message": "Seoul Forest Park에서 11월 22일 03:00 (KST)부터 11월 22일 05:30 (KST)까지 확인된 조건을 충족합니다. 연속 150분, 점수 87.87.\naltitude=55.069121 deg 기준 20.0 MET\nsun_altitude=-33.122548 deg 기준 -12.0 MET\ncloud_cover=0 pct 기준 50.0 MET\nprecipitation_probability=0 pct 기준 30.0 MET"
+  },
+  {
+    "id": "S2",
+    "title": "재계획으로 성공하는 경우",
+    "http_status": 200,
+    "elapsed_ms": 13853,
+    "state": "COMPLETED",
+    "intent": "plan_observation",
+    "replan_count": 1,
+    "tasks": [
+      "search_places",
+      "get_place_details",
+      "get_ephemeris",
+      "get_weather"
+    ],
+    "tool_calls": [
+      {
+        "tool": "search_places",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 390
+      },
+      {
+        "tool": "get_place_details",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 188
+      },
+      {
+        "tool": "get_place_details",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 359
+      },
+      {
+        "tool": "get_place_details",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 202
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1015
+      },
+      {
+        "tool": "get_weather",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 984
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1031
+      },
+      {
+        "tool": "get_weather",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 985
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1016
+      },
+      {
+        "tool": "get_weather",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 985
+      },
+      {
+        "tool": "search_places",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 313
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1015
+      },
+      {
+        "tool": "get_weather",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 905
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1014
+      },
+      {
+        "tool": "get_weather",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 968
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1015
+      },
+      {
+        "tool": "get_weather",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 968
+      }
+    ],
+    "reused": 3,
+    "replan_events": [
+      {
+        "replan_count": 1,
+        "axis": "time",
+        "reason": "충족 후보가 없습니다."
+      }
+    ],
+    "replan_skipped": [],
+    "graph_path": [
+      "analyze_request",
+      "validate_information",
+      "plan_tasks",
+      "execute_tools",
+      "evaluate_candidates",
+      "replan_tasks",
+      "execute_tools",
+      "evaluate_candidates",
+      "generate_response"
+    ],
+    "candidates": [
+      {
+        "name": "Seoul Forest Park",
+        "status": "SUITABLE",
+        "checks": [
+          "altitude=MET",
+          "sun_altitude=MET",
+          "cloud_cover=MET",
+          "precipitation_probability=MET"
+        ]
+      },
+      {
+        "name": "Seoul Forest",
+        "status": "SUITABLE",
+        "checks": [
+          "altitude=MET",
+          "sun_altitude=MET",
+          "cloud_cover=MET",
+          "precipitation_probability=MET"
+        ]
+      },
+      {
+        "name": "Seoul Forest",
+        "status": "SUITABLE",
+        "checks": [
+          "altitude=MET",
+          "sun_altitude=MET",
+          "cloud_cover=MET",
+          "precipitation_probability=MET"
+        ]
+      }
+    ],
+    "event_count": 55,
+    "message": "충족 후보가 없어 1회 재계획했습니다. 마지막으로 바꾼 기준은 시간대입니다.\nSeoul Forest Park에서 11월 23일 04:00 (KST)부터 11월 23일 05:30 (KST)까지 확인된 조건을 충족합니다. 연속 90분, 점수 59.99.\naltitude=60.030765 deg 기준 20.0 MET\nsun_altitude=-27.356886 deg 기준 -12.0 MET\ncloud_cover=16 pct 기준 50.0 MET\nprecipitation_probability=3 pct 기준 30.0 MET"
+  },
+  {
+    "id": "S3",
+    "title": "재계획 상한(3회)에서 멈추는 경우",
+    "http_status": 200,
+    "elapsed_ms": 21780,
+    "state": "COMPLETED",
+    "intent": "plan_observation",
+    "replan_count": 3,
+    "tasks": [
+      "search_places",
+      "get_place_details",
+      "get_ephemeris",
+      "get_weather"
+    ],
+    "tool_calls": [
+      {
+        "tool": "search_places",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 484
+      },
+      {
+        "tool": "get_place_details",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 218
+      },
+      {
+        "tool": "get_place_details",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 188
+      },
+      {
+        "tool": "get_place_details",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 202
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1046
+      },
+      {
+        "tool": "get_weather",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 953
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1078
+      },
+      {
+        "tool": "get_weather",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 906
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1061
+      },
+      {
+        "tool": "get_weather",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 890
+      },
+      {
+        "tool": "search_places",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 343
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1110
+      },
+      {
+        "tool": "get_weather",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 983
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1078
+      },
+      {
+        "tool": "get_weather",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 889
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1031
+      },
+      {
+        "tool": "get_weather",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 968
+      },
+      {
+        "tool": "search_places",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 328
+      },
+      {
+        "tool": "get_place_details",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 202
+      },
+      {
+        "tool": "get_place_details",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 186
+      },
+      {
+        "tool": "get_place_details",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 203
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1063
+      },
+      {
+        "tool": "get_weather",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 889
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1063
+      },
+      {
+        "tool": "get_weather",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 969
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1031
+      },
+      {
+        "tool": "get_weather",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 968
+      },
+      {
+        "tool": "search_places",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 360
+      }
+    ],
+    "reused": 9,
+    "replan_events": [
+      {
+        "replan_count": 1,
+        "axis": "time",
+        "reason": "충족 후보가 없습니다."
+      },
+      {
+        "replan_count": 2,
+        "axis": "place",
+        "reason": "충족 후보가 없습니다."
+      },
+      {
+        "replan_count": 3,
+        "axis": "place",
+        "reason": "충족 후보가 없습니다."
+      }
+    ],
+    "replan_skipped": [],
+    "graph_path": [
+      "analyze_request",
+      "validate_information",
+      "plan_tasks",
+      "execute_tools",
+      "evaluate_candidates",
+      "replan_tasks",
+      "execute_tools",
+      "evaluate_candidates",
+      "replan_tasks",
+      "execute_tools",
+      "evaluate_candidates",
+      "replan_tasks",
+      "execute_tools",
+      "evaluate_candidates",
+      "generate_response"
+    ],
+    "candidates": [
+      {
+        "name": "Seoul Forest Park",
+        "status": "UNSUITABLE",
+        "checks": []
+      },
+      {
+        "name": "Seoul Forest",
+        "status": "UNSUITABLE",
+        "checks": []
+      }
+    ],
+    "event_count": 93,
+    "message": "충족 후보가 없어 3회 재계획했습니다. 마지막으로 바꾼 기준은 검색 장소입니다.\n확인한 후보 중 필수 조건을 모두 충족한 장소는 없습니다.\n제외 또는 미확인: Seoul Forest Park (UNSUITABLE) altitude 기준 85deg을 맞춘 시각이 0/25개(가장 좋은 값 65.5deg); sun_altitude 기준 -12.0deg을 맞춘 시각이 24/25개(가장 좋은 값 -72.5deg); cloud_cover 기준 0pct을 맞춘 시각이 0/25개(가장 좋은 값 16pct)\n제외 또는 미확인: Seoul Forest (UNSUITABLE) altitude 기준 85deg을 맞춘 시각이 0/25개(가장 좋은 값 65.5deg); sun_altitude 기준 -12.0deg을 맞춘 시각이 24/25개(가장 좋은 값 -72.5deg); cloud_cover 기준 0pct을 맞춘 시각이 0/25개(가장 좋은 값 16pct)\n재계획 상한 3회에 도달해 멈췄습니다."
+  },
+  {
+    "id": "S4",
+    "title": "Tool 하나가 실패해도 나머지가 계속되는 경우",
+    "http_status": 200,
+    "elapsed_ms": 7415,
+    "state": "COMPLETED",
+    "intent": "plan_observation",
+    "replan_count": 0,
+    "tasks": [
+      "search_places",
+      "get_place_details",
+      "get_ephemeris",
+      "get_weather"
+    ],
+    "tool_calls": [
+      {
+        "tool": "search_places",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 327
+      },
+      {
+        "tool": "get_place_details",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 186
+      },
+      {
+        "tool": "get_place_details",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 203
+      },
+      {
+        "tool": "get_place_details",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 343
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1031
+      },
+      {
+        "tool": "get_weather",
+        "ok": false,
+        "error_code": "FORECAST_UNAVAILABLE",
+        "duration_ms": 968
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1063
+      },
+      {
+        "tool": "get_weather",
+        "ok": false,
+        "error_code": "FORECAST_UNAVAILABLE",
+        "duration_ms": 969
+      },
+      {
+        "tool": "get_ephemeris",
+        "ok": true,
+        "error_code": null,
+        "duration_ms": 1047
+      },
+      {
+        "tool": "get_weather",
+        "ok": false,
+        "error_code": "FORECAST_UNAVAILABLE",
+        "duration_ms": 889
+      }
+    ],
+    "reused": 0,
+    "replan_events": [],
+    "replan_skipped": [
+      {
+        "reason": "non_retryable",
+        "codes": [
+          "FORECAST_UNAVAILABLE"
+        ]
+      }
+    ],
+    "graph_path": [
+      "analyze_request",
+      "validate_information",
+      "plan_tasks",
+      "execute_tools",
+      "evaluate_candidates",
+      "generate_response"
+    ],
+    "candidates": [
+      {
+        "name": "Seoul Forest Park",
+        "status": "UNVERIFIED",
+        "checks": [
+          "altitude=MET",
+          "sun_altitude=MET",
+          "cloud_cover=UNKNOWN",
+          "precipitation_probability=UNKNOWN"
+        ]
+      },
+      {
+        "name": "Seoul Forest",
+        "status": "UNVERIFIED",
+        "checks": [
+          "altitude=MET",
+          "sun_altitude=MET",
+          "cloud_cover=UNKNOWN",
+          "precipitation_probability=UNKNOWN"
+        ]
+      },
+      {
+        "name": "Seoul Forest",
+        "status": "UNVERIFIED",
+        "checks": [
+          "altitude=MET",
+          "sun_altitude=MET",
+          "cloud_cover=UNKNOWN",
+          "precipitation_probability=UNKNOWN"
+        ]
+      }
+    ],
+    "event_count": 34,
+    "message": "확인한 후보 중 필수 조건을 모두 충족한 장소는 없습니다.\n제외 또는 미확인: Seoul Forest Park (UNVERIFIED) cloud_cover UNKNOWN, precipitation_probability UNKNOWN\n제외 또는 미확인: Seoul Forest (UNVERIFIED) cloud_cover UNKNOWN, precipitation_probability UNKNOWN\n제외 또는 미확인: Seoul Forest (UNVERIFIED) cloud_cover UNKNOWN, precipitation_probability UNKNOWN\n다시 시도해도 결과가 같은 오류라 재계획하지 않았습니다. 요청한 날짜는 날씨 예보 범위를 벗어났습니다."
+  },
+  {
+    "id": "S5",
+    "title": "Tool이 필요 없는 사용법 질문",
+    "http_status": 200,
+    "elapsed_ms": 73,
+    "state": "COMPLETED",
+    "intent": "help",
+    "replan_count": 0,
+    "tasks": [],
+    "tool_calls": [],
+    "reused": 0,
+    "replan_events": [],
+    "replan_skipped": [],
+    "graph_path": [
+      "analyze_request",
+      "validate_information",
+      "generate_response"
+    ],
+    "candidates": [],
+    "event_count": 7,
+    "message": "관측하고 싶은 천체, 날짜, 지역을 말해 주세요. 예: 이번 토요일 서울에서 목성을 보고 싶어. 이동시간 제한이 있으면 출발 위치와 수단도 알려 주세요."
+  },
+  {
+    "id": "S6",
+    "title": "지식 질문(search_knowledge) - 지식 서버가 꺼져 있는 경우",
+    "http_status": 200,
+    "elapsed_ms": 2181,
+    "state": "COMPLETED",
+    "intent": "ask_knowledge",
+    "replan_count": 0,
+    "tasks": [
+      "search_knowledge"
+    ],
+    "tool_calls": [
+      {
+        "tool": "search_knowledge",
+        "ok": false,
+        "error_code": "KNOWLEDGE_UNAVAILABLE",
+        "duration_ms": 2030
+      }
+    ],
+    "reused": 0,
+    "replan_events": [],
+    "replan_skipped": [],
+    "graph_path": [
+      "analyze_request",
+      "validate_information",
+      "plan_tasks",
+      "execute_tools",
+      "generate_response"
+    ],
+    "candidates": [],
+    "event_count": 14,
+    "message": "지식 검색 서버에 연결하지 못했습니다. 서버가 켜져 있는지 확인해 주세요."
+  },
+  {
+    "id": "S7",
+    "title": "다시 시도해도 결과가 같은 오류(API 키 누락)",
+    "http_status": 200,
+    "elapsed_ms": 148,
+    "state": "COMPLETED",
+    "intent": "plan_observation",
+    "replan_count": 0,
+    "tasks": [
+      "search_places",
+      "get_place_details",
+      "get_ephemeris",
+      "get_weather"
+    ],
+    "tool_calls": [
+      {
+        "tool": "search_places",
+        "ok": false,
+        "error_code": "MISSING_API_KEY",
+        "duration_ms": 0
+      }
+    ],
+    "reused": 0,
+    "replan_events": [],
+    "replan_skipped": [
+      {
+        "reason": "non_retryable",
+        "codes": [
+          "MISSING_API_KEY"
+        ]
+      }
+    ],
+    "graph_path": [
+      "analyze_request",
+      "validate_information",
+      "plan_tasks",
+      "execute_tools",
+      "evaluate_candidates",
+      "generate_response"
+    ],
+    "candidates": [],
+    "event_count": 16,
+    "message": "확인할 수 있는 장소 후보가 없습니다.\n다시 시도해도 결과가 같은 오류라 재계획하지 않았습니다. 외부 API 키가 서버에 없습니다."
+  }
+]

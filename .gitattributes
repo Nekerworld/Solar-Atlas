@@ -1,0 +1,8 @@
+# Exclude collected and generated data from GitHub's language statistics.
+# These files remain tracked in Git; only Linguist classification is affected.
+/crawling/data/** linguist-vendored
+/backend/chroma_db/** linguist-vendored
+/backend/rag_runtime/** linguist-vendored
+/planner_backend/planner_backend/data/** linguist-vendored
+
+# Keep actual frontend HTML, JavaScript, and application source counted.

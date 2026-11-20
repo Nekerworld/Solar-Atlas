@@ -5,6 +5,9 @@ from urllib.parse import urlparse
 
 from .chunking import CHUNKER_VERSION, chunk_document
 
+# 색인이 받아들이는 번역 모델: 지금의 claude-haiku-5-5와, 이미 수집된 데이터의 gpt-6-luna.
+TRANSLATION_MODELS = ("claude-haiku-5-5", "gpt-6-luna")
+
 
 @dataclass(frozen=True)
 class Record:
@@ -124,7 +127,7 @@ def build_plans(config, only=None, *, include_english_originals=False):
                 text_hash = hashlib.sha256(json.dumps(document["paragraphs"], sort_keys=True, ensure_ascii=False).encode()).hexdigest()
                 if translation.get("text_hash") != text_hash:
                     raise ValueError(f"{document_id}: translated text changed after verification")
-                if translation.get("model") != "gpt-6-luna" or str(translation.get("source_revision")) != str(document["revision_id"]):
+                if translation.get("model") not in TRANSLATION_MODELS or str(translation.get("source_revision")) != str(document["revision_id"]):
                     raise ValueError(f"{document_id}: translation model/revision mismatch")
             pieces = chunk_document(document, config.chunk_size, config.chunk_overlap)
             if not pieces:

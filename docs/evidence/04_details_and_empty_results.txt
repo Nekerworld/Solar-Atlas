@@ -1,0 +1,82 @@
+# 체크리스트 3·4 · 식별자로 상세 조회, 결과가 없는 조건
+실행 시각: 2026-11-20T17:11:28+09:00  (실제 외부 API를 호출한 결과이며 키 값은 포함하지 않는다)
+
+
+## 검색이 돌려준 후보와 식별자
+{
+ "ok": true,
+ "tool": "search_places",
+ "data": {
+  "places": [
+   {
+    "place_id": "ChIJK_b0UX2jfDURmkYPvmWYm90",
+    "name": "서울숲공원",
+    "address": "서울특별시 성동구 뚝섬로 273"
+   },
+   {
+    "place_id": "ChIJ5zJtW3GlfDURH3JA5u66uXI",
+    "name": "서울숲",
+    "address": "서울특별시 성동구 성수1가제1동"
+   }
+  ],
+  "requested_region": "서울",
+  "requested_query": "서울숲",
+  "queried_date": "2026-11-21",
+  "queried_time_start": "18:00",
+  "queried_time_end": "24:00",
+  "estimated": true,
+  "estimate_reason": "날짜가 없어 서비스 시간대 기준 다음 지역 날짜와 18:00~24:00을 조회했습니다. 시간창이 없어 18:00~24:00을 사용했습니다."
+ },
+ "error": null,
+ "source": {
+  "provider": "google_places",
+  "retrieved_at": "2026-11-20T08:11:28.447060+00:00",
+  "reference": "https://places.googleapis.com/v1/places:searchText"
+ }
+}
+
+## 그 식별자로 상세 조회 (이름·주소·링크·좌표)
+{
+ "ok": true,
+ "tool": "get_place_details",
+ "data": {
+  "place_id": "ChIJK_b0UX2jfDURmkYPvmWYm90",
+  "name": "Seoul Forest Park",
+  "address": "273 Ttukseom-ro, Seongdong-gu, Seoul, South Korea",
+  "maps_url": "https://maps.google.com/?cid=15968524466520016538&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "latitude": 37.544387799999996,
+  "longitude": 127.03744239999999
+ },
+ "error": null,
+ "source": {
+  "provider": "google_places",
+  "retrieved_at": "2026-11-20T08:11:32.428894+00:00",
+  "reference": "https://places.googleapis.com/v1/places/{place_id}"
+ }
+}
+
+## 결과가 없는 조건으로 검색 (정의된 NO_RESULT 응답)
+{
+ "ok": false,
+ "tool": "search_places",
+ "data": null,
+ "error": {
+  "code": "NO_RESULT",
+  "message": "'서울'에서 'zzqqxx없는장소명9' 장소 후보가 없습니다."
+ },
+ "source": null
+}
+
+## 존재하지 않는 식별자로 상세 조회
+{
+ "ok": false,
+ "tool": "get_place_details",
+ "data": null,
+ "error": {
+  "code": "EXTERNAL_API_ERROR",
+  "message": "장소 상세 조회가 실패했습니다."
+ },
+ "source": null
+}
+
+좌표가 비어 있는 후보는 천문력·날씨를 호출하지 않고 UNVERIFIED로 남는다(`engine.py`의 '좌표가 없어 고도를 판단하지 않았습니다').

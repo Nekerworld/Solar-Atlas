@@ -20,8 +20,8 @@ class FakeHTTP:
 
 
 class Tests(unittest.TestCase):
-    def test_default_env_is_beside_entrypoint(self):
-        self.assertEqual(DEFAULT_ENV, ROOT / '.env')
+    def test_default_env_is_repository_root(self):
+        self.assertEqual(DEFAULT_ENV, ROOT.parent / '.env')
         self.assertEqual(parser().parse_args([]).env_file, DEFAULT_ENV)
 
     def test_llm_loads_key_from_env_file(self):
@@ -65,10 +65,18 @@ class Tests(unittest.TestCase):
         good,bad = validate_facts({'facts':[fact,{**fact,'evidence':[{'paragraph_id':'p1','quote':'없는 문장'}]}]},[{'id':'p1','text':'달은 같은 면을 보인다.'}],'kowiki:1','Q405')
         self.assertEqual((len(good),len(bad)),(1,1))
 
-    def test_responses_wire_format(self):
+    def test_chat_completions_wire_format(self):
+        def chat(text, finish='stop'):
+            return {'choices':[{'finish_reason':finish,'message':{'role':'assistant','content':text}}]}
         with patch.dict('os.environ',{'GMS_KEY':'test-placeholder'}):
-            llm=LLM(FakeHTTP({'status':'completed','output':[{'type':'reasoning'},{'type':'message','content':[{'type':'output_text','text':'{"facts":[]}'}]}]}),'nonexistent.env')
+            llm=LLM(FakeHTTP(chat('{"facts":[]}')),'nonexistent.env')
             self.assertEqual(llm.json('task',{}),{'facts':[]})
+            self.assertEqual(llm.last_payload['model'],'claude-haiku-5-5')
+            self.assertEqual(llm.last_payload['messages'][0]['role'],'user')
+            self.assertEqual(LLM(FakeHTTP(chat('```json\n{"facts":[1]}\n```')),'nonexistent.env').json('task',{}),{'facts':[1]})
+            for bad in (chat('{"facts":[]}','length'),chat('not json'),{'output':[]}):
+                with self.subTest(bad=bad), self.assertRaises(ValueError):
+                    LLM(FakeHTTP(bad),'nonexistent.env').json('task',{})
 
     def test_parser_preserves_tables_and_revisions(self):
         wiki=Wikipedia(FakeHTTP({'parse':{'pageid':1,'revid':2,'title':'달','text':'<h2>자전</h2><p>같은 면</p><table class="infobox"><tr><td>질량</td><td>123</td></tr></table><div class="navbox"><p>불필요</p></div>'}}))

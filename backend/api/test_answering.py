@@ -1,10 +1,13 @@
 """Grounding/citation regressions with fake model responses; no API calls."""
 import unittest
 from types import SimpleNamespace
-from unittest.mock import Mock
+from unittest.mock import Mock, patch
 
 from rag.answering import answer_from_retrieval, select_evidence, generate_answer
-from rag.generation import parse_json_message, GMSJSONModel
+import requests
+
+from rag.generation import parse_chat_json, GMSJSONModel
+from rag.gms import GMS_CHAT_URL, GMS_MODEL
 
 
 def retrieval():
@@ -39,22 +42,75 @@ def generated(coverage="sufficient", ids=None, text="달의 크레이터는 주�
     ]}
 
 
+class FakeResponse:
+    def __init__(self, status_code, body):
+        self.status_code, self._body = status_code, body
+
+    def json(self):
+        return self._body
+
+
+def output_payload(text, finish_reason="stop"):
+    """OpenAI 호환 chat completions 응답."""
+    return {"choices": [{"index": 0, "finish_reason": finish_reason, "message": {"role": "assistant", "content": text}}]}
+
+
 class AnsweringTests(unittest.TestCase):
-    def test_invalid_json_is_retried_once_without_exposing_body(self):
+    def make_model(self, max_retries=0):
         model = GMSJSONModel.__new__(GMSJSONModel)
-        model.client = Mock()
-        model.client.invoke.side_effect = [SimpleNamespace(response_metadata={}, content='{"broken":'),
-                                          SimpleNamespace(response_metadata={}, content='{"ok":true}')]
-        self.assertEqual(model.json("Return JSON", {}), {"ok": True})
-        self.assertEqual(model.client.invoke.call_count, 2)
+        model.key, model.timeout, model.max_retries, model.json_attempts = "test-key-not-real", 5, max_retries, 2
+        return model
+
+    def test_invalid_json_is_retried_once_without_exposing_body(self):
+        model = self.make_model()
+        with patch.object(model, "_post", side_effect=[output_payload('{"broken":'), output_payload('{"ok":true}')]) as post:
+            self.assertEqual(model.json("Return JSON", {}), {"ok": True})
+        self.assertEqual(post.call_count, 2)
 
     def test_blocked_response_is_not_retried_as_a_format_error(self):
-        model = GMSJSONModel.__new__(GMSJSONModel)
-        model.client = Mock()
-        model.client.invoke.return_value = SimpleNamespace(response_metadata={"finish_reason": "content_filter"}, content="")
-        with self.assertRaises(ValueError):
+        model = self.make_model()
+        blocked = output_payload("{}", finish_reason="content_filter")
+        with patch.object(model, "_post", return_value=blocked) as post, self.assertRaises(ValueError):
             model.json("Return JSON", {})
-        self.assertEqual(model.client.invoke.call_count, 1)
+        self.assertEqual(post.call_count, 1)
+
+    def test_request_follows_chat_completions_with_fixed_endpoint_and_model(self):
+        model = self.make_model()
+        captured = {}
+
+        def fake_post(url, headers, json, timeout):
+            captured.update(url=url, headers=headers, body=json, timeout=timeout)
+            return FakeResponse(200, output_payload('{"ok": true}'))
+
+        with patch("rag.generation.requests.post", side_effect=fake_post):
+            self.assertEqual(model.json("Return JSON", {"q": "달"}), {"ok": True})
+        self.assertEqual(captured["url"], GMS_CHAT_URL)
+        self.assertEqual(GMS_CHAT_URL, "https://gms.ssafy.io/gmsapi/api.anthropic.com/v1/chat/completions")
+        self.assertEqual(captured["headers"]["x-api-key"], "test-key-not-real")
+        self.assertEqual(captured["headers"]["Authorization"], "Bearer test-key-not-real")
+        self.assertEqual(captured["body"]["model"], "claude-haiku-5-5")
+        self.assertEqual(GMS_MODEL, "claude-haiku-5-5")
+        self.assertEqual(set(captured["body"]), {"model", "messages", "max_tokens"})
+        system, user = captured["body"]["messages"]
+        self.assertEqual((system["role"], user["role"]), ("system", "user"))
+        self.assertIn("Return JSON", system["content"])
+
+    def test_rate_limit_is_not_retried_and_hides_key_and_body(self):
+        model = self.make_model(max_retries=2)
+        response = FakeResponse(429, {"error": {"code": "organization_spend_limit_exceeded"}})
+        with patch("rag.generation.requests.post", return_value=response) as post, self.assertRaises(RuntimeError) as caught:
+            model.json("Return JSON", {})
+        self.assertEqual(post.call_count, 1)
+        self.assertIn("HTTP 429", str(caught.exception))
+        self.assertNotIn("test-key-not-real", str(caught.exception))
+        self.assertNotIn("organization", str(caught.exception))
+
+    def test_server_errors_and_timeouts_are_retried_up_to_the_limit(self):
+        model = self.make_model(max_retries=2)
+        results = [FakeResponse(503, {}), requests.Timeout("slow"), FakeResponse(200, output_payload('{"ok": true}'))]
+        with patch("rag.generation.requests.post", side_effect=results) as post, patch("rag.generation.time.sleep"):
+            self.assertEqual(model.json("Return JSON", {}), {"ok": True})
+        self.assertEqual(post.call_count, 3)
 
     def test_assessed_distinctions_reach_composer_without_becoming_evidence(self):
         model = Mock()
@@ -158,17 +214,17 @@ class AnsweringTests(unittest.TestCase):
 
 
 class JSONMessageTests(unittest.TestCase):
-    def test_responses_text_blocks_ignore_reasoning(self):
-        message = SimpleNamespace(response_metadata={"status": "completed"}, content=[
-            {"type": "reasoning", "text": "not answer text"},
-            {"type": "text", "text": '{"ok": true}'},
-        ])
-        self.assertEqual(parse_json_message(message), {"ok": True})
+    def test_message_text_is_read_from_the_first_choice(self):
+        self.assertEqual(parse_chat_json(output_payload('{"ok": true}')), {"ok": True})
+
+    def test_single_json_fence_is_accepted(self):
+        self.assertEqual(parse_chat_json(output_payload('```json\n{"ok": true}\n```')), {"ok": True})
 
     def test_incomplete_invalid_or_empty_json_fails(self):
-        for content, metadata in [
-            ('{"ok": true}', {"status": "incomplete"}),
-            ("not JSON", {}), ("[]", {}), ([], {}),
+        for payload in [
+            output_payload('{"ok": true}', finish_reason="length"),
+            output_payload(""), {"choices": []},
+            output_payload("not JSON"), output_payload("[]"), None, [],
         ]:
-            with self.subTest(content=content), self.assertRaises(ValueError):
-                parse_json_message(SimpleNamespace(content=content, response_metadata=metadata))
+            with self.subTest(payload=payload), self.assertRaises(ValueError):
+                parse_chat_json(payload)

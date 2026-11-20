@@ -1,0 +1,42 @@
+# 체크리스트 6 · LangGraph 그래프 구조 (PLANNER_GRAPH.get_graph().draw_mermaid())
+실행 시각: 2026-11-20T17:11:28+09:00  (실제 외부 API를 호출한 결과이며 키 값은 포함하지 않는다)
+
+노드: __start__, analyze_request, validate_information, ask_clarification, plan_tasks, execute_tools, evaluate_candidates, replan_tasks, generate_response, __end__
+
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	analyze_request(analyze_request)
+	validate_information(validate_information)
+	ask_clarification(ask_clarification)
+	plan_tasks(plan_tasks)
+	execute_tools(execute_tools)
+	evaluate_candidates(evaluate_candidates)
+	replan_tasks(replan_tasks)
+	generate_response(generate_response)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> analyze_request;
+	analyze_request -.-> __end__;
+	analyze_request -.-> validate_information;
+	evaluate_candidates -.-> __end__;
+	evaluate_candidates -.-> generate_response;
+	evaluate_candidates -.-> replan_tasks;
+	execute_tools -.-> __end__;
+	execute_tools -.-> evaluate_candidates;
+	execute_tools -.-> generate_response;
+	plan_tasks -.-> __end__;
+	plan_tasks -.-> execute_tools;
+	replan_tasks --> execute_tools;
+	validate_information -.-> __end__;
+	validate_information -.-> ask_clarification;
+	validate_information -.-> generate_response;
+	validate_information -.-> plan_tasks;
+	ask_clarification --> __end__;
+	generate_response --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

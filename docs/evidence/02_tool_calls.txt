@@ -1,0 +1,239 @@
+# 체크리스트 1 · Tool별 정상 호출 1회와 실패 호출(잘못된 입력, 키 비움)
+실행 시각: 2026-11-20T17:11:28+09:00  (실제 외부 API를 호출한 결과이며 키 값은 포함하지 않는다)
+
+
+## search_places 정상
+호출: search_places({"region": "서울", "query": "서울숲", "limit": 2})
+{
+ "ok": true,
+ "tool": "search_places",
+ "data": {
+  "places": [
+   {
+    "place_id": "ChIJK_b0UX2jfDURmkYPvmWYm90",
+    "name": "서울숲공원",
+    "address": "서울특별시 성동구 뚝섬로 273"
+   },
+   {
+    "place_id": "ChIJ5zJtW3GlfDURH3JA5u66uXI",
+    "name": "서울숲",
+    "address": "서울특별시 성동구 성수1가제1동"
+   }
+  ],
+  "requested_region": "서울",
+  "requested_query": "서울숲",
+  "queried_date": "2026-11-21",
+  "queried_time_start": "18:00",
+  "queried_time_end": "24:00",
+  "estimated": true,
+  "estimate_reason": "날짜가 없어 서비스 시간대 기준 다음 지역 날짜와 18:00~24:00을 조회했습니다. 시간창이 없어 18:00~24:00을 사용했습니다."
+ },
+ "error": null,
+ "source": {
+  "provider": "google_places",
+  "retrieved_at": "2026-11-20T08:11:28.828583+00:00",
+  "reference": "https://places.googleapis.com/v1/places:searchText"
+ }
+}
+
+## search_places 잘못된 입력(지역 없음)
+호출: search_places({"region": "", "query": "서울숲"})
+{
+ "ok": false,
+ "tool": "search_places",
+ "data": null,
+ "error": {
+  "code": "INVALID_INPUT",
+  "message": "관측 지역은 필수입니다. 지역을 추정해 채우지 않습니다."
+ },
+ "source": null
+}
+
+## get_place_details 정상(검색이 준 place_id)
+호출: get_place_details({"place_id": "ChIJK_b0UX2jfDURmkYPvmWYm90"})
+{
+ "ok": true,
+ "tool": "get_place_details",
+ "data": {
+  "place_id": "ChIJK_b0UX2jfDURmkYPvmWYm90",
+  "name": "Seoul Forest Park",
+  "address": "273 Ttukseom-ro, Seongdong-gu, Seoul, South Korea",
+  "maps_url": "https://maps.google.com/?cid=15968524466520016538&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "latitude": 37.544387799999996,
+  "longitude": 127.03744239999999
+ },
+ "error": null,
+ "source": {
+  "provider": "google_places",
+  "retrieved_at": "2026-11-20T08:11:29.003938+00:00",
+  "reference": "https://places.googleapis.com/v1/places/{place_id}"
+ }
+}
+
+## get_place_details 잘못된 입력(식별자 없음)
+호출: get_place_details({"place_id": ""})
+{
+ "ok": false,
+ "tool": "get_place_details",
+ "data": null,
+ "error": {
+  "code": "INVALID_INPUT",
+  "message": "장소 식별자가 없습니다."
+ },
+ "source": null
+}
+
+## get_ephemeris 정상
+호출: get_ephemeris({"target_id": "jupiter", "latitude": 37.5665, "longitude": 126.978, "start_at": "2026-11-21T21:00:00+09:00", "end_at": "2026-11-22T00:00:00+09:00", "step_minutes": 60})
+{
+ "ok": true,
+ "tool": "get_ephemeris",
+ "data": {
+  "samples": [
+   {
+    "time": "2026-11-21T12:00:00+00:00",
+    "azimuth_deg": 43.199366,
+    "altitude_deg": -27.357532,
+    "sun_altitude_deg": -43.806505
+   },
+   {
+    "time": "2026-11-21T13:00:00+00:00",
+    "azimuth_deg": 55.672938,
+    "altitude_deg": -18.295009,
+    "sun_altitude_deg": -55.320877
+   },
+   {
+    "time": "2026-11-21T14:00:00+00:00",
+    "azimuth_deg": 66.224152,
+    "altitude_deg": -7.876904,
+    "sun_altitude_deg": -65.593881
+   },
+   "... 총 4개 중 앞 3개만 표시"
+  ],
+  "target_id": "jupiter"
+ },
+ "error": null,
+ "source": {
+  "provider": "jpl_horizons",
+  "retrieved_at": "2026-11-20T08:11:30.058801+00:00",
+  "reference": "https://ssd.jpl.nasa.gov/api/horizons.api"
+ }
+}
+
+## get_ephemeris 잘못된 입력(없는 천체)
+호출: get_ephemeris({"target_id": "nowhere", "latitude": 37.5, "longitude": 127.0, "start_at": "2026-11-21T21:00:00+09:00", "end_at": "2026-11-22T00:00:00+09:00"})
+{
+ "ok": false,
+ "tool": "get_ephemeris",
+ "data": null,
+ "error": {
+  "code": "TARGET_NOT_FOUND",
+  "message": "관측 천문력을 계산할 수 있는 대상이 아닙니다."
+ },
+ "source": null
+}
+
+## get_ephemeris 잘못된 입력(위도가 숫자 아님)
+호출: get_ephemeris({"target_id": "jupiter", "latitude": "abc", "longitude": 127.0, "start_at": "2026-11-21T21:00:00+09:00", "end_at": "2026-11-22T00:00:00+09:00"})
+{
+ "ok": false,
+ "tool": "get_ephemeris",
+ "data": null,
+ "error": {
+  "code": "INVALID_INPUT",
+  "message": "천문력 조회 값이 올바르지 않습니다."
+ },
+ "source": null
+}
+
+## get_weather 정상
+호출: get_weather({"latitude": 37.5665, "longitude": 126.978, "start_at": "2026-11-21T21:00:00+09:00", "end_at": "2026-11-22T00:00:00+09:00"})
+{
+ "ok": true,
+ "tool": "get_weather",
+ "data": {
+  "hours": [
+   {
+    "time": "2026-11-21T12:00:00+00:00",
+    "cloud_cover_pct": 0,
+    "precipitation_probability_pct": 0,
+    "precipitation_mm": 0.0
+   },
+   {
+    "time": "2026-11-21T13:00:00+00:00",
+    "cloud_cover_pct": 0,
+    "precipitation_probability_pct": 0,
+    "precipitation_mm": 0.0
+   },
+   {
+    "time": "2026-11-21T14:00:00+00:00",
+    "cloud_cover_pct": 0,
+    "precipitation_probability_pct": 0,
+    "precipitation_mm": 0.0
+   },
+   "... 총 4개 중 앞 3개만 표시"
+  ],
+  "latitude": 37.5665,
+  "longitude": 126.978
+ },
+ "error": null,
+ "source": {
+  "provider": "open_meteo",
+  "retrieved_at": "2026-11-20T08:11:30.950646+00:00",
+  "reference": "https://api.open-meteo.com/v1/forecast"
+ }
+}
+
+## get_weather 잘못된 입력(종료가 시작보다 앞)
+호출: get_weather({"latitude": 37.5, "longitude": 127.0, "start_at": "2026-11-22T00:00:00+09:00", "end_at": "2026-11-21T21:00:00+09:00"})
+{
+ "ok": false,
+ "tool": "get_weather",
+ "data": null,
+ "error": {
+  "code": "INVALID_INPUT",
+  "message": "날씨 조회 시각이 올바르지 않습니다."
+ },
+ "source": null
+}
+
+## 등록되지 않은 Tool
+호출: no_such_tool({})
+{
+ "ok": false,
+ "tool": "no_such_tool",
+ "data": null,
+ "error": {
+  "code": "INVALID_INPUT",
+  "message": "등록되지 않은 Tool입니다."
+ },
+ "source": null
+}
+
+## 키 비움 상태 (Google 키를 비운 설정으로 대체해 호출)
+
+### search_places 키 비움
+{
+ "ok": false,
+ "tool": "search_places",
+ "data": null,
+ "error": {
+  "code": "MISSING_API_KEY",
+  "message": "GOOGLE_MAPS_API_KEY가 설정되지 않았습니다."
+ },
+ "source": null
+}
+
+### get_place_details 키 비움
+{
+ "ok": false,
+ "tool": "get_place_details",
+ "data": null,
+ "error": {
+  "code": "MISSING_API_KEY",
+  "message": "GOOGLE_MAPS_API_KEY가 설정되지 않았습니다."
+ },
+ "source": null
+}
+
+get_ephemeris와 get_weather는 키가 필요 없는 공개 API라 '키 비움' 실패 호출이 없다.

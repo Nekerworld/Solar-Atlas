@@ -133,12 +133,13 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Local RAG index. Paths are independent of the shell's working directory.
-# Keep GMS_KEY only in crawling/.env (or the process environment).
+# GMS_KEY는 저장소 루트 .env(또는 프로세스 환경변수)에서만 읽는다. 플래너와 같은 파일이다.
 RAG_INDEX = {
     "data_dir": BASE_DIR.parent / "crawling" / "data" / "solar_v1" / "processed",
-    "chroma_dir": BASE_DIR / "chroma_db",
-    "env_file": BASE_DIR.parent / "crawling" / ".env",
-    "model": "text-embedding-3-large",
+    # gemini-embedding-2 색인. 이전 OpenAI 임베딩 색인(chroma_db)과는 벡터를 섞을 수 없어 폴더를 나눴다.
+    "chroma_dir": BASE_DIR / "chroma_db_gemini",
+    "env_file": BASE_DIR.parent / ".env",
+    "model": "gemini-embedding-2",
     "dimensions": 3072,
     "chunk_size": 1000,
     "chunk_overlap": 150,
@@ -152,9 +153,7 @@ RAG_AGENT_MAX_SEARCHES = 2
 RAG_AGENT_MAX_DECISIONS = 4
 RAG_AGENT_TIME_BUDGET = 90
 
-# Per chat request: at most two Sol calls, no Sol transport/JSON retries.
-# Set 0 to keep every stage on Luna. Interim messages remain on Luna.
-RAG_SOL_MAX_CALLS = 2
+# 모델은 claude-haiku-5-5로 고정한다(rag/gms.py). 상위 모델 승급 설정은 없다.
 
 # Bound condition discovery payloads and model batches.
 RAG_DISCOVERY_CANDIDATES = 24

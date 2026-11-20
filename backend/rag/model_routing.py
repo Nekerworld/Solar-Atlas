@@ -1,49 +1,28 @@
-"""Request-local, bounded Sol use; routine and collection work stays on Luna."""
-import logging
-
-from django.conf import settings
-
+"""모델은 claude-haiku-5-5로 고정한다. 단계 이름 인터페이스만 남기고, 상위 모델로 올리는 경로는 없다."""
 from .generation import GMSJSONModel
 
 
 class RoutedModel:
     def __init__(self, env_file, *, factory=GMSJSONModel):
         self.env_file, self.factory = env_file, factory
-        self.clients = {}
+        self.client = None
+        # 상위 모델 호출 한도. 모델을 고정했으므로 항상 0이다.
+        self.limit = 0
         self.escalated = False
-        self.sol_calls = 0
-        self.limit = max(0, int(getattr(settings, "RAG_SOL_MAX_CALLS", 2)))
 
     def escalate(self, reason):
-        if self.limit and not self.escalated:
-            self.escalated = True
-            logging.getLogger("rag.timing").info("[ATLAS MODEL] escalation=%s", reason)
+        """호출부 호환용. 모델을 올리지 않는다."""
 
-    def _client(self, name):
-        if name not in self.clients:
-            options = {"max_retries": 0, "json_attempts": 1, "reasoning_effort": "low"} if name == "gpt-6.1-sol" else {}
-            self.clients[name] = self.factory(self.env_file, name, **options)
-        return self.clients[name]
+    def _client(self):
+        if self.client is None:
+            self.client = self.factory(self.env_file)
+        return self.client
 
     def json(self, instruction, data):
-        return self._client("gpt-6-luna").json(instruction, data)
+        return self._client().json(instruction, data)
 
     def for_stage(self, stage):
-        owner = self
-
-        class StageModel:
-            def json(self, instruction, data):
-                if owner.escalated and stage in {"assess", "compose", "review"} and owner.sol_calls < owner.limit:
-                    owner.sol_calls += 1
-                    logging.getLogger("rag.timing").info("[ATLAS MODEL] stage=%s model=gpt-6.1-sol call=%d/%d", stage, owner.sol_calls, owner.limit)
-                    try:
-                        return owner._client("gpt-6.1-sol").json(instruction, data)
-                    except (RuntimeError, ValueError) as error:
-                        # No repeated paid Sol requests; normal citation checks still apply.
-                        logging.getLogger("rag.timing").warning("[ATLAS MODEL] sol_fallback=%s", type(error).__name__)
-                return owner.json(instruction, data)
-
-        return StageModel()
+        return self
 
 
 def stage_model(model, stage):

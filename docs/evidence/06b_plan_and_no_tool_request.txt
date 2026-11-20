@@ -1,0 +1,29 @@
+# 체크리스트 6 · 계획과 Tool 호출 순서, 부를 Tool이 없는 요청
+실행 시각: 2026-11-20T17:13:08+09:00  (플래너 서버 http://127.0.0.1:8002, 실제 GMS(claude-haiku-5-5)와 외부 API 호출. 키 값은 포함하지 않는다)
+
+## 관측 요청의 작업 계획과 Tool 호출 순서
+[
+ {
+  "sequence": null,
+  "type": "task_plan_created",
+  "stage": "plan_tasks",
+  "tool_name": null,
+  "payload": {
+   "tasks": [
+    "search_places",
+    "get_place_details",
+    "get_ephemeris",
+    "get_weather"
+   ],
+   "reason": "장소 후보 탐색, 좌표 확인, 목성 천문력, 날씨 순서로 필요한 정보를 모은다. 이동시간 제한이 없어 get_route는 넣지 않았다.",
+   "source": "llm"
+  },
+  "duration_ms": null
+ }
+]
+호출 순서: ['search_places', 'get_place_details', 'get_place_details', 'get_place_details', 'get_ephemeris', 'get_weather', 'get_ephemeris', 'get_weather', 'get_ephemeris', 'get_weather']
+graph_path: ['analyze_request', 'validate_information', 'plan_tasks', 'execute_tools', 'evaluate_candidates', 'generate_response']
+
+## 인사('안녕!') — Tool 호출 없이 응답
+tasks=[] / 호출한 Tool 이벤트 수=0 / graph_path=['analyze_request', 'validate_information', 'generate_response']
+응답: 관측하고 싶은 천체, 날짜, 지역을 말해 주세요. 예: 이번 토요일 서울에서 목성을 보고 싶어. 이동시간 제한이 있으면 출발 위치와 수단도 알려 주세요.

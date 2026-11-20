@@ -1,0 +1,51 @@
+# 체크리스트 11 · 직전 요청·응답이 후속 요청에 반영, 바꾼 조건만 갱신
+실행 시각: 2026-11-20T17:13:08+09:00  (플래너 서버 http://127.0.0.1:8002, 실제 GMS(claude-haiku-5-5)와 외부 API 호출. 키 값은 포함하지 않는다)
+
+## 1차 요청 조건
+{
+ "baseline": {
+  "target_id": "jupiter",
+  "date_start": "2026-11-22",
+  "date_end": "2026-11-22",
+  "preferred_time_start": "03:00",
+  "preferred_time_end": "05:30"
+ },
+ "preference": {
+  "search_region": "서울숲",
+  "place_query": "서울숲"
+ },
+ "constraint": {},
+ "empty": [
+  "max_travel_minutes",
+  "min_altitude_deg",
+  "max_cloud_cover_pct",
+  "max_precipitation_probability_pct",
+  "origin_name",
+  "transport_mode"
+ ]
+}
+
+## 후속 요청 '같은 날 장소만 남산으로 바꿔 줘.' 후 조건
+{
+ "baseline": {
+  "target_id": "jupiter",
+  "date_start": "2026-11-22",
+  "date_end": "2026-11-22",
+  "preferred_time_start": "03:00",
+  "preferred_time_end": "05:30"
+ },
+ "preference": {
+  "search_region": "남산",
+  "place_query": "남산"
+ },
+ "constraint": {},
+ "empty": [
+  "max_travel_minutes",
+  "min_altitude_deg",
+  "max_cloud_cover_pct",
+  "max_precipitation_probability_pct",
+  "origin_name",
+  "transport_mode"
+ ]
+}
+→ 날짜·시간·천체는 유지되고 장소만 바뀐다.

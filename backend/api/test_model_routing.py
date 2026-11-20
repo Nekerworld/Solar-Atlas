@@ -1,49 +1,37 @@
 from unittest.mock import Mock
 
-from django.test import SimpleTestCase, override_settings
+from django.test import SimpleTestCase
 
-from rag.model_routing import RoutedModel
+from rag.gms import GMS_MODEL
+from rag.model_routing import RoutedModel, escalate, stage_model
 
 
 class ModelRoutingTests(SimpleTestCase):
     def make_router(self):
-        self.luna, self.sol = Mock(), Mock()
-        self.factory = Mock(side_effect=lambda env, name, **kwargs: self.sol if name == "gpt-6.1-sol" else self.luna)
+        self.luna = Mock()
+        self.factory = Mock(return_value=self.luna)
         return RoutedModel("unused.env", factory=self.factory)
 
-    def test_routine_work_does_not_initialize_sol(self):
+    def test_model_is_fixed_to_haiku(self):
+        self.assertEqual(GMS_MODEL, "claude-haiku-5-5")
+
+    def test_every_stage_uses_the_same_single_client(self):
         router = self.make_router()
         router.json("plan", {})
-        router.for_stage("compose").json("simple", {})
-        self.sol.json.assert_not_called()
-        self.assertEqual(router.sol_calls, 0)
+        for stage in ["assess", "compose", "review", "collect"]:
+            stage_model(router, stage).json("task", {})
+        self.assertEqual(self.luna.json.call_count, 5)
+        self.factory.assert_called_once_with("unused.env")
 
-    @override_settings(RAG_SOL_MAX_CALLS=2)
-    def test_budget_is_shared_across_stages_and_collection_stays_luna(self):
+    def test_escalation_does_not_change_the_model(self):
         router = self.make_router()
-        router.escalate("complex_plan")
-        router.json("collect", {})
-        for stage in ["assess", "compose", "review", "assess"]:
-            router.for_stage(stage).json("task", {})
-        self.assertEqual(self.sol.json.call_count, 2)
-        self.assertEqual(self.luna.json.call_count, 3)
-        kwargs = next(call.kwargs for call in self.factory.call_args_list if call.args[1] == "gpt-6.1-sol")
-        self.assertEqual(kwargs["max_retries"], 0)
-        self.assertEqual(kwargs["json_attempts"], 1)
-
-    @override_settings(RAG_SOL_MAX_CALLS=1)
-    def test_failed_sol_call_consumes_budget_and_falls_back(self):
-        router = self.make_router()
-        self.sol.json.side_effect = RuntimeError("sanitized provider error")
+        escalate(router, "complex_plan")
         router.escalate("reassessment")
         router.for_stage("assess").json("task", {})
-        router.for_stage("compose").json("task", {})
-        self.assertEqual(self.sol.json.call_count, 1)
-        self.assertEqual(self.luna.json.call_count, 2)
+        self.assertEqual(router.limit, 0)
+        self.assertFalse(router.escalated)
+        self.factory.assert_called_once_with("unused.env")
 
-    @override_settings(RAG_SOL_MAX_CALLS=0)
-    def test_zero_disables_sol(self):
-        router = self.make_router()
-        router.escalate("complex_plan")
-        router.for_stage("assess").json("task", {})
-        self.sol.json.assert_not_called()
+    def test_client_is_created_only_when_needed(self):
+        self.make_router()
+        self.factory.assert_not_called()

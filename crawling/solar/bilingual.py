@@ -120,8 +120,8 @@ def validate_translation(group, result):
     return validated
 
 def translate_document(llm, doc, output):
-    if MODEL != 'gpt-6-luna':
-        raise ValueError('Translation permits gpt-6-luna only')
+    if MODEL != 'claude-haiku-5-5':
+        raise ValueError('Translation permits claude-haiku-5-5 only')
     originals = [{k: p[k] for k in ('id', 'section', 'kind', 'text') if k in p} for p in paragraphs(doc)]
     signature = fingerprint([VERSION, MODEL, doc['document_id'], doc['revision_id'], originals])
     checkpoint = output / 'translations' / (signature + '.json')
@@ -188,7 +188,7 @@ def enrich(args, http, llm):
             previous = state.get('enrichment', {})
             if previous.get('status') == 'complete' and previous.get('signature') == signature and not args.refresh:
                 outcomes.append({'item_id': qid, 'status': 'cached'}); continue
-            print(name + ': auditing Korean coverage (gpt-6-luna)', flush=True)
+            print(name + ': auditing Korean coverage (claude-haiku-5-5)', flush=True)
             audit = assess(llm, item, docs)
             own = next((d for d in ko if d['document_id'] == item['own_document_id']), None)
             short = not own or sum(len(p['text']) for p in paragraphs(own)) < 1800

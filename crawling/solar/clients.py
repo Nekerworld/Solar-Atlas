@@ -10,7 +10,7 @@ from urllib.parse import urlsplit
 from pathlib import Path
 import requests
 from dotenv import load_dotenv
-from .config import ENDPOINT, MODEL, VERSION
+from .config import ENDPOINT, MAX_TOKENS, MODEL, VERSION
 
 
 def retry_delay(value, fallback):
@@ -115,10 +115,10 @@ class HTTP:
 
 class LLM:
     def __init__(self, http, env_file):
-        if MODEL != "gpt-6-luna":
-            raise ValueError("This collection/translation pipeline permits gpt-6-luna only")
+        if MODEL != "claude-haiku-5-5":
+            raise ValueError("This collection/translation pipeline permits claude-haiku-5-5 only")
         load_dotenv(env_file, override=False)
-        self.key = os.getenv("GMS_KEY")
+        self.key = (os.getenv("GMS_KEY") or os.getenv("GMS_API_KEY") or "").strip()
         if not self.key:
             raise ValueError("GMS_KEY is missing from environment / --env-file")
         self.http = http
@@ -134,11 +134,21 @@ class LLM:
                   "Return one JSON object only, without markdown. Write explanations in Korean. "
                   "Do not invent facts, IDs or quotations. Distinguish hypotheses from established claims. "
                   + task + "\nPipeline version: " + VERSION + "\nDATA:\n" + json.dumps(data, ensure_ascii=False))
-        self.last_payload = {"model": MODEL, "input": prompt}
-        result = self.http.request(ENDPOINT, payload=self.last_payload, headers={"Authorization": "Bearer " + self.key})
-        if result.get("status") not in (None, "completed"):
+        self.last_payload = {"model": MODEL, "max_tokens": MAX_TOKENS, "messages": [{"role": "user", "content": prompt}]}
+        result = self.http.request(ENDPOINT, payload=self.last_payload,
+                                   headers={"Authorization": "Bearer " + self.key, "x-api-key": self.key})
+        try:
+            choice = result["choices"][0]
+            text = choice["message"]["content"]
+        except (KeyError, IndexError, TypeError):
+            raise ValueError("LLM response was unreadable") from None
+        if choice.get("finish_reason") not in (None, "stop"):
+            self.discard_last_response()
             raise ValueError("LLM response did not complete")
-        text = "".join(part.get("text", "") for item in result.get("output", []) if item.get("type") == "message" for part in item.get("content", []) if part.get("type") == "output_text")
+        text = text.strip() if isinstance(text, str) else ""
+        # 앞뒤를 감싼 JSON 코드 펜스 하나만 받아들인다.
+        if text.startswith("```") and text.endswith("```"):
+            text = text[3:-3].removeprefix("json").strip()
         try:
             value = json.loads(text)
         except (ValueError, TypeError):

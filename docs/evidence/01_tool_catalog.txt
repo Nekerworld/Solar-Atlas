@@ -1,0 +1,41 @@
+# 체크리스트 1 · Agent에 넘기는 Tool 목록 (catalog() 출력)
+실행 시각: 2026-11-20T17:11:28+09:00  (실제 외부 API를 호출한 결과이며 키 값은 포함하지 않는다)
+
+
+## search_places  [external]
+설명: 관측 장소 후보의 식별자가 필요할 때 지역과 장소 유형으로 외부 장소 목록을 찾는다.
+입력 스키마: {"type": "object", "properties": {"region": {"type": "string", "description": "사용자가 말한 지역. 비어 있으면 호출하지 않는다."}, "query": {"type": "string", "description": "장소 유형 또는 장소 이름"}, "limit": {"type": "integer", "minimum": 1, "maximum": 5}, "date": {"type": "string", "format": "date"}, "time_start": {"type": "string", "description": "HH:MM"}, "time_end": {"type": "string", "description": "HH:MM, 자정은 24:00"}}, "required": ["region", "query"], "additionalProperties": false}
+출력 스키마: {"type": "object", "properties": {"places": {"type": "array", "items": {"type": "object", "properties": {"place_id": {"type": "string"}, "name": {"type": "string"}, "address": {"type": "string"}}, "required": ["place_id", "name"], "additionalProperties": false}}, "requested_region": {"type": "string"}, "requested_query": {"type": "string"}, "estimated": {"type": "boolean", "description": "날짜나 시간을 
+
+## get_place_details  [external]
+설명: 장소 식별자가 있을 때 이름, 주소, 지도 링크, 좌표를 확인한다.
+입력 스키마: {"type": "object", "properties": {"place_id": {"type": "string", "description": "search_places가 돌려준 식별자"}}, "required": ["place_id"], "additionalProperties": false}
+출력 스키마: {"type": "object", "properties": {"place_id": {"type": "string"}, "name": {"type": "string"}, "address": {"type": "string"}, "maps_url": {"type": "string"}, "latitude": {"type": ["number", "null"]}, "longitude": {"type": ["number", "null"]}}, "required": ["place_id", "name", "latitude", "longitude"], "additionalProperties": false}
+
+## get_ephemeris  [external]
+설명: 장소 좌표와 시각에서 천체 고도, 방위각, 태양 고도가 필요할 때 천문력을 조회한다.
+입력 스키마: {"type": "object", "properties": {"target_id": {"type": "string"}, "latitude": {"type": "number"}, "longitude": {"type": "number"}, "elevation_m": {"type": "number", "default": 0}, "start_at": {"type": "string", "format": "date-time", "description": "시간대가 있는 ISO 8601 시각"}, "end_at": {"type": "string", "format": "date-time", "description": "시간대가 있는 ISO 8601 시각"}, "step_minutes": {"type": "integer", "minimum": 1, "default": 30}}, "required": ["target_id", "latitude", "longitude", "start_at", "end_at"], "additionalProperties": false}
+출력 스키마: {"type": "object", "properties": {"target_id": {"type": "string"}, "samples": {"type": "array", "items": {"type": "object", "properties": {"time": {"type": "string", "format": "date-time", "description": "시간대가 있는 ISO 8601 시각"}, "altitude_deg": {"type": "number"}, "azimuth_deg": {"type": "number"}, "sun_altitude_deg": {"type": "number"}}, "required": ["time", "altitude_deg", "azimuth_deg", "sun_alt
+
+## get_weather  [external]
+설명: 같은 장소와 시각의 구름량, 강수확률, 강수량이 필요할 때 예보를 조회한다.
+입력 스키마: {"type": "object", "properties": {"latitude": {"type": "number"}, "longitude": {"type": "number"}, "start_at": {"type": "string", "format": "date-time", "description": "시간대가 있는 ISO 8601 시각"}, "end_at": {"type": "string", "format": "date-time", "description": "시간대가 있는 ISO 8601 시각"}}, "required": ["latitude", "longitude", "start_at", "end_at"], "additionalProperties": false}
+출력 스키마: {"type": "object", "properties": {"latitude": {"type": "number"}, "longitude": {"type": "number"}, "hours": {"type": "array", "items": {"type": "object", "properties": {"time": {"type": "string", "format": "date-time", "description": "시간대가 있는 ISO 8601 시각"}, "cloud_cover_pct": {"type": ["number", "null"]}, "precipitation_probability_pct": {"type": ["number", "null"]}, "precipitation_mm": {"type": [
+
+## search_knowledge  [local]
+설명: 천체에 대한 설명이나 사실처럼 외부 장소·날씨·천문력 API로 확인할 수 없는 질문일 때 색인된 문서에서 근거와 출처를 찾는다.
+입력 스키마: {"type": "object", "properties": {"question": {"type": "string", "maxLength": 500}, "target_id": {"type": ["string", "null"]}, "top_k": {"type": "integer", "minimum": 1, "maximum": 10, "default": 5}}, "required": ["question"], "additionalProperties": false}
+출력 스키마: {"type": "object", "properties": {"question": {"type": "string"}, "item_id": {"type": ["string", "null"]}, "sources": {"type": "array", "items": {"type": "object", "properties": {"rank": {"type": "integer"}, "item_id": {"type": ["string", "null"]}, "item_name": {"type": ["string", "null"]}, "title": {"type": ["string", "null"]}, "section": {"type": ["string", "null"]}, "source_url": {"type": ["str
+
+get_route는 PLANNER_ROUTES_ENABLED=false라 목록에 나오지 않는다. 호출하면 아래와 같이 실패 응답을 돌려준다.
+
+{
+ "ok": false,
+ "tool": "get_route",
+ "data": null,
+ "error": {
+  "code": "TOOL_DISABLED",
+  "message": "이 Tool은 현재 설정에서 꺼져 있습니다."
+ },
+ "source": null
+}

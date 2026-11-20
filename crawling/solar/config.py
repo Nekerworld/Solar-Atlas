@@ -1,9 +1,12 @@
 import json
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_ENV = ROOT / ".env"
-ENDPOINT = "https://gms.ssafy.io/gmsapi/api.openai.com/v1/responses"
-MODEL = "gpt-6-luna"
+DEFAULT_ENV = ROOT.parent / ".env"  # 저장소 루트 .env
+# 수집·번역 LLM: GMS Anthropic 경로의 OpenAI 호환 chat completions, 모델 claude-haiku-5-5.
+# (Authorization과 x-api-key 헤더를 함께 보낸다. 기존 데이터의 번역 모델 gpt-6-luna는 색인에서 계속 인정한다.)
+ENDPOINT = "https://gms.ssafy.io/gmsapi/api.anthropic.com/v1/chat/completions"
+MODEL = "claude-haiku-5-5"
+MAX_TOKENS = 8192
 VERSION = "solar-v1"
 CATALOG = json.loads((ROOT.parent / 'catalog' / 'solar_targets.json').read_text(encoding='utf-8'))['targets']
 GROUPS = ('all', 'base', 'new', 'expansion', 'moons', 'dwarfs', 'comets', 'artifacts', 'regions')
