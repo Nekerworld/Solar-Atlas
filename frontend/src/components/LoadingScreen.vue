@@ -6,6 +6,7 @@ const steps = [
   {key:"textures",text:"천체의 표면을 준비하고 있어요"},
   {key:"models",text:"행성과 위성의 모습을 불러오고 있어요"},
   {key:"scene",text:"태양계의 궤도를 정돈하고 있어요"},
+  {key:"sky",text:"지상에서 올려다볼 밤하늘을 펼치고 있어요"},
   {key:"frame",text:"탐사를 시작할 준비가 되었어요"},
 ];
 const index = computed(() => Math.max(0,steps.findIndex(step=>step.key===props.stage)));
@@ -24,7 +25,7 @@ const index = computed(() => Math.max(0,steps.findIndex(step=>step.key===props.s
       <h1 class="loading-brand">SOLAR ATLAS</h1>
       <p class="loading-tagline">태양계 탐사를 준비하고 있어요</p>
       <div v-if="!error" class="loading-status" role="status" aria-live="polite" aria-atomic="true">
-        <span class="loading-stage-number" aria-hidden="true">0{{ index+1 }} / 04</span>
+        <span class="loading-stage-number" aria-hidden="true">0{{ index+1 }} / 0{{ steps.length }}</span>
         <p>{{ steps[index].text }}</p>
       </div>
       <div v-else class="loading-error" role="alert">

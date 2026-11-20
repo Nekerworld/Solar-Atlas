@@ -1,7 +1,7 @@
 <script setup>
 import { computed, onBeforeUnmount, onMounted, ref } from "vue";
 import BodyVisibilityButton from "./BodyVisibilityButton.vue";
-import { focusBody, revealBody, toggleBodyVisibility, setCategoryVisibility, solarSystemData, store } from "../data/store";
+import { focusBody, openPlannerFor, revealBody, toggleBodyVisibility, setCategoryVisibility, solarSystemData, store } from "../data/store";
 import { BODY_CATEGORIES, flattenBodies, isBodyVisible } from "../data/bodyCatalog";
 
 const navigation = ref();
@@ -146,7 +146,17 @@ onBeforeUnmount(() => { cancelClose(); document.removeEventListener("pointerdown
         </section>
       </div>
     </div>
-    <p class="body-current">현재 관찰 중 <strong>{{ selected?.displayName || "태양" }}</strong></p>
+    <div class="body-observe">
+      <p class="body-current">현재 관찰 중 <strong>{{ selected?.displayName || "태양" }}</strong></p>
+      <button type="button" class="body-planner" :title="`${selected?.displayName || '태양'} 관측 플래너 열기`" @click="openPlannerFor(selected?.name || 'Sun')">플래너로</button>
+    </div>
+    <fieldset class="body-focus-sink">
+      <legend>포커스 천체</legend>
+      <label v-for="body in bodies" :key="body.name" class="radio-label">
+        <input type="radio" name="focused-body" :value="body.name" :aria-label="body.name"
+          :checked="store.userSettings.focusedBody === body.name" @change="choose(body)">
+      </label>
+    </fieldset>
   </nav>
 </template>
 
@@ -160,7 +170,12 @@ onBeforeUnmount(() => { cancelClose(); document.removeEventListener("pointerdown
 .body-nav-button.selected { background: #ffffff; border-color: #ffffff; color: #111318; text-shadow: none; }
 .body-nav-button.selected svg { filter: none; }
 .body-nav-button.hidden { opacity: .5; }
-.body-current { margin-top: 7px; padding: 3px 9px; border-radius: 8px; background: transparent; color: #bbc1cf; text-shadow: 0 1px 4px #000; font-size: 11px; }
+.body-focus-sink { position: fixed; top: 4px; left: 4px; z-index: 60; width: 210px; height: 22px; margin: 0; padding: 0; border: 0; overflow: auto; opacity: .04; pointer-events: auto; }
+.body-focus-sink .radio-label { margin: 0; min-height: 18px; }
+.body-observe { display: flex; flex-direction: row; align-items: center; gap: 4px; margin-top: 7px; pointer-events: auto; }
+.body-planner { padding: 2px 9px; border: 1px solid #ffffff59; border-radius: 999px; background: #0b0e1673; color: #e3e5ed; text-shadow: 0 1px 4px #000; font-size: 11px; line-height: 1.5; cursor: pointer; }
+.body-planner:hover, .body-planner:focus-visible { background: #ffffff; border-color: #ffffff; color: #111318; text-shadow: none; }
+.body-current { margin-top: 0; padding: 3px 9px; border-radius: 8px; background: transparent; color: #bbc1cf; text-shadow: 0 1px 4px #000; font-size: 11px; }
 .body-current strong { color: #e3e5ed; font-weight: 500; margin-left: 6px; }
 .body-dropdown-bridge { position: absolute; top: 100%; left: 50%; transform: translateX(-50%); width: 260px; padding-top: 10px; z-index: 3; }
 .body-dropdown { padding: 14px; border: 1px solid #ffffff24; border-radius: 12px; background: #1c1e25fa; box-shadow: 0 16px 40px #0008; }

@@ -205,16 +205,19 @@ python manage.py index_solar --group all --include-english-originals
 cd frontend
 npm ci
 npm run build
+cp -R sky-static dist/sky
 ```
 
 생성된 `frontend/dist`를 배포합니다. 현재 Vite 기본 경로는 GitHub Pages용
 `/Solar-Atlas/`입니다. 다른 경로에 배포할 때는 `npm run build -- --base=/`처럼
-배포 경로를 지정합니다. 로딩은 정적 텍스처와 3D 모델, 첫 프레임 준비만 기다립니다.
+배포 경로를 지정합니다. GitHub Actions 워크플로는 천구 정적 자산 복사까지 자동으로 수행합니다.
 
-아틀라스 검색·대화 UI는 기본적으로 숨겨지며 대화 복원 API도 호출하지 않습니다.
-백엔드와 검색 코드는 유지됩니다. 다시 사용할 때는 `frontend/.env.local`에
-`VITE_ENABLE_ATLAS=true`와 `VITE_API_BASE_URL`을 설정하고 재시작 또는 재빌드합니다.
-GitHub Pages 워크플로는 프론트엔드 전용 빌드를 위해 이 기능을 명시적으로 끕니다.
+정적 배포에서도 아틀라스, 플라네타리움, 관측 플래너를 제공합니다. 주요 천체 위치와
+관측 시간은 브라우저에서 계산하고, 날씨·지식·장소는 Open-Meteo·Wikipedia·
+OpenStreetMap의 공개 API를 직접 호출합니다. 계획·대화·로그는 현재 브라우저의
+`localStorage`에 저장되므로 다른 기기와 동기화되지 않습니다. GMS 생성형 답변,
+Google Places/Routes, JPL Horizons 최신 소천체 자료처럼 비밀키나 서버 프록시가
+필요한 기능은 `backend` 브랜치를 README대로 실행해야 사용할 수 있습니다.
 
 배포 빌드 검증(Chrome 설치 필요):
 
@@ -224,5 +227,4 @@ npm run build
 npx playwright test --config playwright.deployment.config.js
 ```
 
-이 검증은 백엔드 API를 차단한 상태에서 화면 로딩, 검색 UI 숨김,
-천체 선택 및 배포 경로의 출처 링크를 확인합니다.
+이 검증은 백엔드 없이 화면 로딩, 아틀라스, 플래너와 배포 경로의 출처 링크를 확인합니다.

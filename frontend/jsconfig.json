@@ -5,8 +5,7 @@
     "moduleResolution": "Bundler",
     "allowJs": true,
     "checkJs": false,
-    "baseUrl": ".",
-    "paths": { "src/*": ["src/*"] }
+    "paths": { "src/*": ["./src/*"] }
   },
   "include": ["src/**/*.js", "src/**/*.vue"],
   "exclude": ["node_modules", "dist", "work"]

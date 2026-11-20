@@ -1,4 +1,4 @@
-const API_BASE = (import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000").replace(/\/$/, "");
+import targetCatalog from "../../../catalog/solar_targets.json";
 
 export class ChatError extends Error {
   constructor(message, { retryable = false, data = null } = {}) {
@@ -9,31 +9,23 @@ export class ChatError extends Error {
   }
 }
 
-async function request(path, options = {}) {
-  let response;
-  try {
-    response = await fetch(`${API_BASE}${path}`, {
-      ...options,
-      headers: { Accept: "application/json", ...options.headers },
-    });
-  } catch (error) {
-    if (error.name === "AbortError") throw error;
-    throw new ChatError("서버에 연결하지 못했습니다. 연결 상태를 확인한 뒤 다시 시도해 주세요.", { retryable: true });
-  }
-  let data;
-  try {
-    data = await response.json();
-  } catch {
-    throw new ChatError("서버 응답을 읽지 못했습니다. 잠시 후 다시 시도해 주세요.", { retryable: true });
-  }
-  if (!response.ok) {
-    const message = data.error?.message || data.question?.[0] || "질문을 처리하지 못했습니다. 다시 시도해 주세요.";
-    throw new ChatError(message, {
-      retryable: response.status >= 500 && data.status !== "failed",
-      data,
-    });
-  }
-  return data;
+const DATA_KEY = "solar-atlas:pages:chat-data:v1";
+const targetById = new Map(targetCatalog.targets.map((target) => [target.id, target]));
+const memory = { conversations: {} };
+
+function loadData() {
+  try { return JSON.parse(localStorage.getItem(DATA_KEY)) || memory; } catch { return memory; }
+}
+function saveData(data) {
+  memory.conversations = data.conversations;
+  try { localStorage.setItem(DATA_KEY, JSON.stringify(data)); } catch { /* memory fallback */ }
+}
+function uuid() {
+  if (globalThis.crypto?.randomUUID) return globalThis.crypto.randomUUID();
+  return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (letter) => {
+    const value = Math.random() * 16 | 0;
+    return (letter === "x" ? value : (value & 3) | 8).toString(16);
+  });
 }
 
 function wait(ms, signal) {
@@ -55,102 +47,80 @@ function wait(ms, signal) {
   });
 }
 
-export async function sendChat(payload, signal, onProgress = () => {}) {
-  let response;
+function targetTerms(payload) {
+  const target = targetById.get(payload.item_id);
+  if (target) return { title: target.name_ko, query: `${target.name_ko} 천문학`, target };
+  const words = payload.question.replace(/[?!.]/g, " ").trim().split(/\s+/).filter((word) => word.length > 1);
+  return { title: words.slice(0, 3).join(" ") || "태양계", query: `${words.slice(0, 4).join(" ")} 천문학`, target: null };
+}
+
+async function wikiSearch(query, signal) {
   try {
-    response = await fetch(`${API_BASE}/api/chat/stream/`, {
-      method: "POST", signal,
-      headers: { "Content-Type": "application/json", Accept: "text/event-stream" },
-      body: JSON.stringify(payload),
+    const params = new URLSearchParams({
+      origin: "*", action: "query", format: "json", generator: "search", gsrsearch: query,
+      gsrlimit: "4", prop: "extracts|info", exintro: "1", explaintext: "1", inprop: "url",
     });
+    const response = await fetch(`https://ko.wikipedia.org/w/api.php?${params}`, { signal });
+    if (!response.ok) throw new Error();
+    return Object.values((await response.json()).query?.pages || {});
   } catch (error) {
     if (error.name === "AbortError") throw error;
-    throw new ChatError("서버에 연결하지 못했습니다. 같은 요청으로 다시 확인해 주세요.", { retryable: true });
+    return [];
   }
-  if (!response.ok || !response.headers.get("content-type")?.includes("text/event-stream")) {
-    let data;
-    try { data = await response.json(); } catch { data = null; }
-    throw new ChatError(data?.error?.message || data?.question?.[0] || "진행 상태 응답을 읽지 못했습니다.", {
-      retryable: response.status >= 500, data,
-    });
-  }
-  if (!response.body) throw new ChatError("스트림을 열지 못했습니다.", { retryable: true });
-  const reader = response.body.getReader();
-  const decoder = new TextDecoder("utf-8");
-  let buffer = "", first = null;
-  try {
-    while (!first) {
-      const { value, done } = await reader.read();
-      buffer += done ? decoder.decode() : decoder.decode(value, { stream: true });
-      let boundary;
-      while ((boundary = /\r?\n\r?\n/.exec(buffer))) {
-        const frame = buffer.slice(0, boundary.index);
-        buffer = buffer.slice(boundary.index + boundary[0].length);
-        let event = "message";
-        const dataLines = [];
-        for (const line of frame.split(/\r?\n/)) {
-          if (line.startsWith("event:")) event = line.slice(6).trim();
-          else if (line.startsWith("data:")) dataLines.push(line.slice(5).replace(/^ /, ""));
-        }
-        if (!dataLines.length) continue; // Heartbeat comment, not a status change.
-        const message = JSON.parse(dataLines.join("\n"));
-        if (event === "status") {
-          if (typeof message.message === "string") onProgress(message);
-        } else if (event === "result" || event === "error") {
-          const data = message.payload;
-          if (event === "error" || message.http_status >= 400) {
-            throw new ChatError(data?.error?.message || "질문 처리를 완료하지 못했습니다.", {
-              retryable: message.http_status >= 500 && data?.status !== "failed", data,
-            });
-          }
-          first = data;
-          break;
-        }
-      }
-      if (first) break;
-      if (done) throw new ChatError("연결이 끊겼습니다. 같은 요청으로 다시 확인해 주세요.", { retryable: true });
-      if (buffer.length > 4 * 1024 * 1024) throw new ChatError("서버 응답이 너무 큽니다.", { retryable: true });
-    }
-  } catch (error) {
-    if (error instanceof ChatError || error.name === "AbortError") throw error;
-    throw new ChatError("진행 상태 연결이 끊겼습니다. 같은 요청으로 다시 확인해 주세요.", { retryable: true });
-  } finally {
-    await reader.cancel().catch(() => {});
-    reader.releaseLock();
-  }
-  if (first.status !== "processing") return first;
-  // A retry of the same request can return 202 while the original still runs.
-  // Poll saved turns without sending another model request.
-  if (!first.conversation_id) throw new ChatError("대화 정보를 읽지 못했습니다.", { retryable: true });
-  const deadline = Date.now() + 5 * 60 * 1000;
-  while (!signal.aborted) {
-    if (Date.now() > deadline) {
-      throw new ChatError("아직 답변을 처리하고 있습니다. 잠시 후 다시 확인해 주세요.", { retryable: true, data: first });
-    }
-    await wait(2500, signal);
-    const page = await request(`/api/conversations/${encodeURIComponent(first.conversation_id)}/turns/`, { signal });
-    const turn = page.results?.find((entry) => entry.request_id === payload.request_id);
-    if (!turn || turn.status === "processing") continue;
-    if (turn.status === "failed") {
-      throw new ChatError("답변 처리를 완료하지 못했습니다. 다시 시도해 주세요.", { data: first });
-    }
-    return {
-      ...turn.result, status: turn.status,
-      conversation_id: first.conversation_id, turn_id: turn.id, request_id: turn.request_id,
-    };
-  }
-  throw new DOMException("Aborted", "AbortError");
 }
 
-export function loadCelestialObjects(signal) {
-  return request("/api/celestial-objects/", { signal });
+export async function sendChat(payload, signal, onProgress = () => {}) {
+  if (signal.aborted) throw new DOMException("Aborted", "AbortError");
+  onProgress({ stage: "search", message: "공개 천문 자료를 찾고 있어요…" });
+  await wait(120, signal);
+  const terms = targetTerms(payload);
+  const pages = await wikiSearch(terms.query, signal);
+  onProgress({ stage: "compose", message: "찾은 근거를 정리하고 있어요…" });
+  const first = pages[0];
+  const fallback = terms.target
+    ? `${terms.title}은 Solar Atlas의 3D 태양계와 관측 플래너에서 위치와 관측 가능 시간을 확인할 수 있습니다. 공개 문서 연결이 없어 일반 안내만 제공합니다.`
+    : "질문과 관련된 공개 천문 문서를 찾지 못했습니다. 천체 이름을 포함해 다시 질문해 주세요.";
+  const answer = first?.extract?.trim().slice(0, 1200) || fallback;
+  const sources = pages.map((page, index) => ({
+    evidence_id: `C${index + 1}`, title: page.title, url: page.fullurl,
+    quote: page.extract?.slice(0, 240) || "", kind: "document",
+    document_id: `kowiki:${page.pageid}`,
+  }));
+  const result = {
+    status: "completed", mode: payload.mode || "global", item_id: payload.item_id || "",
+    answer, display_answer: answer, response_mode: "answer", coverage: sources.length ? "partial" : "insufficient",
+    sources, warnings: sources.length ? ["Wikipedia 공개 자료를 바탕으로 요약한 정적 배포 답변입니다."] : [],
+    conversation_id: payload.conversation_id || uuid(), turn_id: uuid(), request_id: payload.request_id,
+  };
+  const data = loadData();
+  const conversation = data.conversations[result.conversation_id] || {
+    id: result.conversation_id, mode: result.mode, item_id: result.item_id, turns: [],
+  };
+  conversation.turns.push({
+    id: result.turn_id, request_id: payload.request_id, question: payload.question,
+    created_at: new Date().toISOString(), observed_item_id: payload.item_id,
+    allow_external: true, status: "completed", result,
+  });
+  data.conversations[result.conversation_id] = conversation;
+  saveData(data);
+  return result;
 }
 
-// Fetch saved history only; these endpoints never invoke the language model.
-export function loadConversation(id, signal) {
-  return request(`/api/conversations/${encodeURIComponent(id)}/`, {signal});
+export function loadCelestialObjects() {
+  return Promise.resolve(targetCatalog.targets);
 }
-export function loadConversationTurns(id, page = 1, signal) {
-  return request(`/api/conversations/${encodeURIComponent(id)}/turns/?page=${page}`, {signal});
+
+export function loadConversation(id) {
+  const conversation = loadData().conversations[id];
+  if (!conversation) return Promise.reject(new ChatError("저장된 대화를 찾지 못했어요."));
+  return Promise.resolve({ id, mode: conversation.mode, item_id: conversation.item_id });
 }
-export const CHAT_STORAGE_KEY = `solar-atlas:chat:v1:${API_BASE}`;
+export function loadConversationTurns(id, page = 1) {
+  const conversation = loadData().conversations[id];
+  if (!conversation) return Promise.reject(new ChatError("저장된 대화를 찾지 못했어요."));
+  const size = 20;
+  const newest = [...conversation.turns].reverse();
+  const start = (page - 1) * size;
+  return Promise.resolve({ results: newest.slice(start, start + size), next: start + size < newest.length ? page + 1 : null });
+}
+export const CHAT_STORAGE_KEY = "solar-atlas:chat:v3:github-pages";
