@@ -13,8 +13,6 @@
 - [ERD](#erd)
 - [기술 스택](#stack)
 - [실행 방법](#usage)
-- [지상 천구](#ground)
-- [관측 플래너](#planner)
 - [데이터 및 출처](#data)
 
 ---
@@ -101,20 +99,17 @@
 
 ---
 
+<a id="architecture"></a>
 ## 🛠 시스템 아키텍처
-
-> 향후 수정하여 푸쉬하겠습니다.
 
 ![Solar Atlas 시스템 아키텍처](./data/readme_media/Architecture.png)
 
 ---
 
+<a id="erd"></a>
 ## 🔑 ERD
 
-> 향후 수정하여 푸쉬하겠습니다.
-
-![Solar Atlas ERD](./data/readme_media/ERD1.png)
-![Solar Atlas ERD](./data/readme_media/ERD2.png)
+![Solar Atlas ERD](./data/readme_media/ERD.png)
 
 ---
 
@@ -136,90 +131,18 @@
 
 권장 환경: **Python 3.11 이상, Node.js 22.12 이상**
 
-서버는 셋입니다. 1~2번(환경, 천구 번들)을 한 번 준비한 뒤에는 명령 하나로 모두 띄웁니다(3번). 서버를 따로 띄우려면 4~6번을 봅니다.
-
 | 서버 | 폴더 | 포트 | 하는 일 |
 |---|---|---:|---|
 | 프론트엔드 | `frontend` | 5173 | 태양계, 지상 천구, 관측 플래너 화면 |
 | 지식 검색 백엔드 | `backend` | 8000 | RAG 검색. 플래너의 `search_knowledge` Tool이 호출 |
 | 플래너 백엔드 | `planner_backend` | 8001 | Agent, Tool, 천구 위치·궤도, 계획 저장, 실행 로그 |
 
-### 1. Python 환경과 API 키
-
-```powershell
-python -m venv venv
-venv\Scripts\activate
-python -m pip install -r requirements.txt -r planner_backend/requirements.txt
-```
-
-키는 파일로만 넣고 소스나 화면, 로그에 남기지 않습니다. `.env`는 Git에서 제외되어 있습니다.
-
-| 파일 | 키 | 용도 |
-|---|---|---|
-| 저장소 루트 `.env` | `GMS_KEY` (없으면 `GMS_API_KEY`) | SSAFY GMS. 플래너 의도 분석·계획, 지식 검색·챗봇 답변, 질문 임베딩, 크롤링 LLM이 이 키를 읽는다. |
-| 저장소 루트 `.env` | `GOOGLE_MAPS_API_KEY` | Google Places API (New). 장소 검색·상세. 천구의 장소 찾기도 같은 키를 쓴다. |
-| 저장소 루트 `.env` | `WIKI_CONTACT` | 크롤링(`crawling/collect.py`)의 Wikipedia 요청 연락처 |
-
-LLM(의도 분석, 작업 계획, 답변 생성, 크롤링 번역)은 GMS의 Anthropic 호환 경로(`https://gms.ssafy.io/gmsapi/api.anthropic.com/v1/chat/completions`)로 `claude-haiku-5-5`를 부릅니다. 임베딩은 GMS의 Gemini 경로(`gemini-embedding-2`, 3072차원)입니다. 엔드포인트와 모델은 코드에 고정되어 있고 환경변수로 바꾸지 않습니다. 이미 설정된 OS 환경변수가 `.env`보다 우선합니다.
-
-Horizons와 Open-Meteo는 키가 필요 없습니다. 플래너 설정 목록은 `planner_backend/.env.example`, 프론트 주소는 `frontend/.env.example`에 있습니다.
-
-### 2. 한 번에 실행
-
-터미널 하나에서 실행하며, 운영체제나 셸(PowerShell, Git Bash, macOS/Linux)과 상관없이 같은 방법으로 실행할 수 있습니다.
-
 ```bash
 node scripts/dev.mjs
 ```
 
-실행 순서는 **지식 검색 백엔드(8000) → 플래너 백엔드(8001) → 프론트엔드(5173)** 입니다. 앞 서버가 응답해야 다음 서버를 띄우고, 셋이 모두 준비되면 브라우저에서 `http://127.0.0.1:5173/Solar-Atlas/`를 엽니다. 세 서버의 로그는 `[backend]`, `[planner]`, `[frontend]` 머리말을 붙여 한 터미널에 함께 나옵니다.
-
-- `venv/`가 있으면 그 Python을 쓰므로 가상환경을 따로 활성화하지 않아도 됩니다. 없으면 시스템 Python을 씁니다.
-- `frontend/node_modules`가 없으면 `npm install`을 먼저 실행합니다.
-- 한 서버라도 뜨지 못하면(프로세스 종료, 120초 안에 응답 없음, 포트가 이미 사용 중) 마지막 출력을 보여 주고 나머지도 모두 종료합니다.
-- **종료는 `Ctrl+C`** 한 번이면 세 서버가 함께 꺼집니다.
-- 옵션: `--no-open`(브라우저를 열지 않음), `--timeout=<초>`(서버 하나를 기다리는 시간, 기본 120).
-
----
-
-<a id="ground"></a>
-## 🌍 지상 천구
-
-태양계 왼쪽 아래 **지상 관측**, 또는 플래너 머리말의 **플라네타리움**으로 들어갑니다. 브라우저 위치를 허용하면 그 좌표와 현재 시각으로 시작하고, 거부하면 서울을 쓰되 화면에 "내 위치 아님"을 밝힙니다. 좌표는 하늘을 그릴 때 화면 안에서 쓰고, 대상 고도·날씨를 확인할 때와 장소 이름을 찾을 때 플래너 서버로 보내 Horizons·예보·Places를 조회합니다. 관측 계획에서 들어오면 그 계획의 장소·시각을 씁니다.
-
-하늘(별·행성·태양·달·대기·별자리선)은 천구 엔진이 그립니다. 발밑은 도시 보도블록 원판이고, 둘레에는 장소마다 다른 산줄기 세 겹이 있습니다. 드래그로 시선을 돌리고, 휠로 시야를 바꿉니다. 지평선은 수평을 유지합니다.
-
-| 조작 | 위치 | 내용 |
-|---|---|---|
-| 천체 탐색 | 위쪽 가운데 | 태양·달, 행성(명왕성 포함), 별, 별자리, 검색. 위성·왜소행성·소행성·혜성·탐사선은 Horizons 위치가 오면 분류에 붙습니다. |
-| 속도·표시 | 오른쪽 위 | 일시정지·실시간·1분/초·10분/초·1시간/초·1일/초. 라벨, 궤도, 별자리선, 구름, 적도 격자. 스페이스바로 멈춥니다. |
-| 조건 | 왼쪽 위 | 시선, 태양 고도(낮·박명·밤), 하루 시간, 시각·위도·경도·고도·장소 검색. |
-| 이름표 클릭 | 하늘 | 행성·달이면 **이 천체 관측하기**. 별·별자리·태양은 플래너 대상이 아닌 이유를 보여 줍니다. |
-
-궤도 토글을 켜면 황도선이 항상 보이고, 천체 궤도선은 그 천체를 클릭했을 때만 그 천체 것이 나옵니다. 별자리 이름표에 마우스를 올리면 그림이 희미하게 뜹니다. 이름표는 한국어입니다. 소천체 위치는 `GET /api/sky/bodies`(30일, 2시간 간격, 이후 캐시)이고, 못 받은 천체는 이유를 남기며 값을 만들지 않습니다.
-
-앞으로 7일의 "내 위치에서 보이는 일정"은 플래너에서 astronomy-engine으로 미리 보여 줍니다. 계획을 만들 때의 최종 적합 판정은 Horizons와 예보입니다. 일정에서 "이 시간으로 계획 요청 쓰기"와 "이 시간 천구에서 보기"로 이어집니다.
-
----
-
-<a id="planner"></a>
-## 🔭 관측 플래너
-
-"이번 토요일 서울숲에서 목성을 보고 싶어"처럼 말하면, Agent가 요청을 분석하고 Tool을 호출해 관측 장소와 시간대를 추천합니다. 충족하는 후보가 없으면 시간대나 장소를 바꿔 최대 3번 다시 계획하고, 못 구하면 이유를 사실대로 알립니다. 값을 만들어 채우지 않으며, 확인하지 못한 조건은 `UNVERIFIED`로 표시합니다.
-
-천구에서 행성·달을 고르고 **이 천체 관측하기**를 누르면 그 천체가 선택된 채로 플래너가 열립니다. 천체를 고른 채 들어오면 대화 옆에 앞으로 7일의 보이는 일정이 함께 열립니다. 천체 지식 질문(예: "목성은 얼마나 큰 행성이야?")은 같은 대화에서 RAG 검색 Tool로 처리하고 근거 문서 링크를 보여 줍니다. 머리말에서 태양계와 플라네타리움으로 돌아갈 수 있습니다.
-
-### Agent와 Tool
-
-| Tool | 외부 API | 키 | 상태 |
-|---|---|---|---|
-| `search_places`, `get_place_details` | Google Places API (New) | `GOOGLE_MAPS_API_KEY` | 실호출 검증 |
-| `get_ephemeris` | NASA JPL Horizons | 없음 | 실호출 검증. 천구의 소천체 위치·궤도도 같은 API |
-| `get_weather` | Open-Meteo | 없음 | 실호출 검증 |
-| `search_knowledge` | 자체 RAG 검색(8000) | `GMS_KEY` | 질문 임베딩은 `gemini-embedding-2`. 새 색인(`chroma_db_gemini`)을 만들기 전에는 근거 문서를 돌려주지 못함 |
-| `get_route` | Google Routes | 같은 키 | **제외.** 응답이 비어 `PLANNER_ROUTES_ENABLED=false` |
-
-메인 Agent(LangGraph)가 분석 → 계획 → Tool 호출 → 평가·재계획 → 응답을 맡고, 로깅 Agent는 이벤트를 구독해 저장합니다(LLM을 부르지 않음). 구조는 [`docs/AGENT_WORKFLOW.md`](docs/AGENT_WORKFLOW.md)에 있습니다.
+실행 순서는 **지식 검색 백엔드(8000) → 플래너 백엔드(8001) → 프론트엔드(5173)** 입니다. 
+<br>앞 서버가 응답해야 다음 서버를 켜고, 세 서버가 모두 준비되면 브라우저에서 `http://127.0.0.1:5173/Solar-Atlas/`를 열어주세요.
 
 ---
 
